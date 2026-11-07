@@ -1,0 +1,59 @@
+=== B5 trial 2026-11-06 14:31:00 CST ===
+--- help ---
+once_pipeline.sh — 选定选题后「一次成稿」总编排（最小可运行版）
+
+用法:
+  ./once_pipeline.sh --note-dir <notes期目录> [--skip-render]
+  ./once_pipeline.sh /workspace/xhs/notes/20261102-大号-产油国 --skip-render
+  ./once_pipeline.sh --help
+
+流水线顺序:
+  1) 检查目录存在，且有 data.json 或 框架.md
+     （都没有 → 建最小骨架 README/框架占位，exit 非0，说明需先核数据，不编数）
+  2) 若有可渲染 HTML（03-design/p*.html），调用 render_heijin.sh；
+     无 HTML 或 --skip-render → 跳过渲染并记 WARN
+  3) compliance_precheck.py --dir 该目录
+  4) 若存在 final/ 或定稿/archive 结构 → gate_archive.sh --auto；
+     否则对 notes 输出物做宽松检查，并说明定稿门禁在存档阶段跑
+  5) 汇总 PASS/FAIL 写入该目录 pipeline_log.md；任一硬失败 → exit 1
+
+退出码: 0=PASS；1=FAIL；2=用法/目录错误
+set -euo pipefail
+exit=0
+--- fake path ---
+FAIL: 目录不存在: /workspace/xhs/notes/不存在的期目录XYZ
+日志: /tmp/once_pipeline_fake_2378797.md
+exit=2
+--- ETF note (has final, skip-render for speed) ---
+OK: 目录存在: /workspace/xhs/notes/20261106-大号-宽基ETF吸金榜
+OK: 发现数据文件 (data.json/数据.json)
+OK: 发现 框架.md
+WARN: 跳过渲染 (--skip-render)
+COMPLIANCE: compliance_precheck.py --dir /workspace/xhs/notes/20261106-大号-宽基ETF吸金榜
+## 合规初筛结果
+- 检查对象数: 15
+- 命中数: 0
+- 结论: PASS（初筛通过；仍须最终合规/审查官）
+OK: 合规初筛 PASS
+GATE: gate_archive.sh --auto /workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final
+## 大号定稿门禁: /workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final
+- 配图张数(含01起): 3
+结论: PASS
+OK: 定稿门禁 PASS (/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final)
+OK: 流水线汇总 PASS (warn=1)
+日志: /workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/pipeline_log.md
+exit=0
+--- topic_candidates dry ---
+usage: topic_candidates.py [-h] [--lib LIB] [--notes NOTES] [--out OUT]
+                           [--date DATE] [--min MIN]
+
+从选题库待选段生成当日候选摘要（保留≥3 供 Fisher 挑）
+
+options:
+  -h, --help     show this help message and exit
+  --lib LIB      选题库路径
+  --notes NOTES  notes 目录
+  --out OUT      输出 md 路径
+  --date DATE    指定日期 YYYY-MM-DD；默认取库中最新每日选题段
+  --min MIN      最少候选数提醒阈值（默认 3）
+exit=0

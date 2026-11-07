@@ -1,0 +1,27 @@
+{
+  "export_status": "VISIBLE_ROUTINE_EXPORTED_FROM_LIVE_GET",
+  "visible_routine_ids": [
+    "5"
+  ],
+  "routines": [
+    {
+      "id": "5",
+      "name": "每日选题（保留3候选）",
+      "schedule": "CRON_TZ=Asia/Shanghai 0 9 * * *",
+      "enabled": true,
+      "flexible": {
+        "minutes": 15,
+        "meaning": "±15分钟"
+      },
+      "prompt": "每天给 Fisher 交 3 个选题候选让他挑（硬门槛 ≥3，不是 1 个，也不是 0 个；大号/小号可混，但标明账号）。省额度：先跑脚本再写消息。\n\n步骤：\n1. 读 /workspace/xhs/STATE.md 和 LESSONS.md。\n2. 按「小红书财经图文-选题」技能找候选（近 1–3 天热点；统计/排行榜向优先；不荐产品、不预测涨跌）。去重对照 /workspace/xhs/选题库.md 与 notes 目录；能读 Mac「新图文笔记」就对照存档。\n3. 跑 `python3 /workspace/xhs/tools/topic_candidates.py`（或等价）把当日待选写入选题库并生成 /workspace/xhs/tmp/今日候选.md；确保待交 Fisher 的列表正好 3 条高质量（可从更多候选里筛出 Top3，但发出去必须是 3 条）。\n4. 每个选题写清：标题、为什么现在做（1–2 个可点链接）、3–4 页讲什么、评分（满分 35）。数字有来源。\n5. 追加进选题库.md，标日期、「待选」。\n6. 交付给 Fisher（简体中文）：一条消息列 3 个候选 + 一张可多选卡片（允许自填）。文案写明「选好后我按一次成稿流水线做到成稿，中途不再逐步确认，除非踩红线」。\n7. 不要自己开工做图文。他选定后，主 bot 调 `/workspace/xhs/tools/once_pipeline.sh`（或等价总编排）一次跑到成稿：骨架→数据/框架→渲染→合规初筛→缺件门禁；仅 FAIL/缺数才停下问他。\n\n禁区：不大号代发；不编数；不荐具体金融产品；不承诺收益。",
+      "prompt_status": "原bot于2026-11-07北京时间20:06回合实时读取例程5后逐字补入；未修改服务器例程。",
+      "known_prompt_summary_not_verbatim": "每日3候选+卡片；选定后once_pipeline.sh一次成稿；不编数、不荐产品、不大号代发",
+      "source": "UpdateRoutine get id=5，2026-11-07北京时间20:06回合",
+      "timing": "flexible",
+      "earlyMinutes": 15,
+      "lateMinutes": 15
+    }
+  ],
+  "other_routines": "当前仅可见编号5的信息；不是已核定总共5条例程。其他例程未查。",
+  "firesAt": "不是用户schedule，未作为schedule导出"
+}

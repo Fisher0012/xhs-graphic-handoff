@@ -1,0 +1,709 @@
+{
+  "sources": [
+    {
+      "source": "/workspace/xhs/STATE.md",
+      "exists": true,
+      "bytes": 783,
+      "copy": "evidence/01_STATE.md",
+      "sha256": "527368a08da3cabf68378d7111404a6ebdfddeea141e247ba9034c9adef695cc"
+    },
+    {
+      "source": "/workspace/xhs/AGENTS.md",
+      "exists": true,
+      "bytes": 1426,
+      "copy": "evidence/02_AGENTS.md",
+      "sha256": "ed340552bcc967b813d31a63da0a7f6322161b0b233e6c25a622226a4fba1fe6"
+    },
+    {
+      "source": "/workspace/xhs/LESSONS.md",
+      "exists": true,
+      "bytes": 759,
+      "copy": "evidence/03_LESSONS.md",
+      "sha256": "306dd4284397b01007e9627d6888c259d476cacf6ad02b9735630d2f051b64ca"
+    },
+    {
+      "source": "/workspace/xhs/复盘.md",
+      "exists": true,
+      "bytes": 585,
+      "copy": "evidence/04_复盘.md",
+      "sha256": "b4f7c863cba8225acee2d376f4b96ed8c528083b63c5c4853cc985cd7265e781"
+    },
+    {
+      "source": "/workspace/xhs/tmp/20261107_重选候选.md",
+      "exists": true,
+      "bytes": 11387,
+      "copy": "evidence/05_20261107_重选候选.md",
+      "sha256": "f2328d81031ac67aa074824389fcbc49209e77892693c0380771d4a669a82e22"
+    },
+    {
+      "source": "/workspace/xhs/连接器自查_Lauren第2批_20261105.md",
+      "exists": true,
+      "bytes": 1073,
+      "copy": "evidence/06_连接器自查_Lauren第2批_20261105.md",
+      "sha256": "61e15e0b461b3e188f167bd4bf78d051c698ec4984baed1d85ccfe5693ebe0ec"
+    },
+    {
+      "source": "/workspace/xhs/tools/once_pipeline.sh",
+      "exists": true,
+      "bytes": 6669,
+      "copy": "evidence/07_once_pipeline.sh",
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "source": "/workspace/xhs/tools/render_heijin.sh",
+      "exists": true,
+      "bytes": 2456,
+      "copy": "evidence/08_render_heijin.sh",
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    },
+    {
+      "source": "/workspace/xhs/tools/gate_archive.sh",
+      "exists": true,
+      "bytes": 3648,
+      "copy": "evidence/09_gate_archive.sh",
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "source": "/workspace/xhs/tools/check_titles.py",
+      "exists": true,
+      "bytes": 1974,
+      "copy": "evidence/10_check_titles.py",
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "source": "/workspace/xhs/tools/measure_space.py",
+      "exists": true,
+      "bytes": 980,
+      "copy": "evidence/11_measure_space.py",
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "source": "/workspace/xhs/tools/compliance_precheck.py",
+      "exists": true,
+      "bytes": 4305,
+      "copy": "evidence/12_compliance_precheck.py",
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "source": "/workspace/xhs/tools/topic_candidates.py",
+      "exists": true,
+      "bytes": 8608,
+      "copy": "evidence/13_topic_candidates.py",
+      "sha256": "adf12ec0113ecd181b77c86fc9d50e2eee0dadd22f6bd5cb7bef3ffaf83ff3df"
+    },
+    {
+      "source": "/workspace/xhs/tools/dedup_topics.py",
+      "exists": true,
+      "bytes": 2519,
+      "copy": "evidence/14_dedup_topics.py",
+      "sha256": "35ce96c2dcc06344801ff1dbc4fdcc9efc6936b9462121f5e1358237136b24eb"
+    },
+    {
+      "source": "/workspace/xhs/tools/xhlib.py",
+      "exists": true,
+      "bytes": 6883,
+      "copy": "evidence/15_xhlib.py",
+      "sha256": "f9e57c442bea2eb79b4e088a41172775bbe066326b0e7cd31eff782792338d17"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/交付.md",
+      "exists": true,
+      "bytes": 1331,
+      "copy": "evidence/16_交付.md",
+      "sha256": "70f89644447ec61352bf68d8ed021b1117d4264d195ecadf16912561d02b8f15"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/送审摘要.md",
+      "exists": true,
+      "bytes": 1384,
+      "copy": "evidence/17_送审摘要.md",
+      "sha256": "42431b8ddedafb2dd8d7a62a455a69b3b0090f60c7312ccf7e121a9713c462b9"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/05-合规.md",
+      "exists": true,
+      "bytes": 1042,
+      "copy": "evidence/18_05-合规.md",
+      "sha256": "5afc5e92ea3fca90891ae4c56391067889dfa7024d743a219d8f357505a6c17a"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/pipeline_log.md",
+      "exists": true,
+      "bytes": 691,
+      "copy": "evidence/19_pipeline_log.md",
+      "sha256": "4802ee493b2efaa71623f1bb99f418c91bcaba2c9fd84b0bbb7236f5258f4b08"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/Fisher选定原话.md",
+      "exists": true,
+      "bytes": 501,
+      "copy": "evidence/20_Fisher选定原话.md",
+      "sha256": "1b29e3e5cf2d0f8bf561e7ffae59cca2f913cf76807e60a96f0bf4b85d85b24a"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/06_归档校验.json",
+      "exists": true,
+      "bytes": 1188,
+      "copy": "evidence/21_06_归档校验.json",
+      "sha256": "39d5f86c930d651b651d42a235819080f847ff789443d975b1c6408fb3ca745e"
+    },
+    {
+      "source": "/workspace/ops/usage/回执_xhs_一次成稿接线_20261106.md",
+      "exists": true,
+      "bytes": 2783,
+      "copy": "evidence/22_回执_xhs_一次成稿接线_20261106.md",
+      "sha256": "f94fd5c33fc48f78b1ba6b42edc93720b39dd4fb89307be1bc3b67bc93d57f4a"
+    },
+    {
+      "source": "/workspace/ops/usage/回执_xhs一次成稿接线_20261106.md",
+      "exists": true,
+      "bytes": 3335,
+      "copy": "evidence/23_回执_xhs一次成稿接线_20261106.md",
+      "sha256": "5f8e3cfbaf7d69d2da4ef4a31a9bdaa292f045d44df50ad7d620188c2916c005"
+    },
+    {
+      "source": "/workspace/ops/usage/evidence_xhs_20261106_b5_once_pipeline.txt",
+      "exists": true,
+      "bytes": 2583,
+      "copy": "evidence/24_evidence_xhs_20261106_b5_once_pipeline.txt",
+      "sha256": "4783d2c0bebabd74b6854c9f9bbd0469efc20d91af60abb3f84802e6867bdae9"
+    },
+    {
+      "source": "/workspace/review/xhs/20261106-大号-宽基ETF吸金榜/review-result.md",
+      "exists": true,
+      "bytes": 4535,
+      "copy": "evidence/25_review-result.md",
+      "sha256": "d17193c6665f0520812a2b51f994b8df0f3f2010b4ce727c9fb2c77881862c3a"
+    }
+  ],
+  "attachments_direct_only": [
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2W4ZP4F80NXTN27MQV036.png",
+      "bytes": 500331,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2W8Y0WYRDESQETR99Z9KY.png",
+      "bytes": 425332,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2WQE6K5NPRSYW2RFEGTHM.png",
+      "bytes": 6232332,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2WY02V53JBHMV0R80HA8S.png",
+      "bytes": 6232332,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2X1Z479R4Y1V5884Q4BEK.png",
+      "bytes": 6232332,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2X6ADW3YNX4KWAACTWVJZ.png",
+      "bytes": 4924474,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5C2XE387RKKS1Y9AAZT9015.png",
+      "bytes": 6232332,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5VZARX2FKSX80KZVCZF4KAQ.png",
+      "bytes": 222696,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5VZASZR2ZS7N8PZVAHPV12V.png",
+      "bytes": 188962,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M5VZAWNZHA3Z0ZTR6HB7DTXC.png",
+      "bytes": 213801,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/01M661Q056DJY18GRER0NB9ZCY.png",
+      "bytes": 307948,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/0b1a7b8f3f982d88708d44b8b8f6be22a30962249c8bbc9f98e4590ea3ba1e17.png",
+      "bytes": 452013,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/0f2e8a50b60633645320580fe6ce279f922c4e6aff0f6ef642d4fc709eba4fbb.png",
+      "bytes": 1052203,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/130e17e41696fc6131139a3f4c0cf912922f5f5df1f325586f10c0089d240df3.png",
+      "bytes": 533814,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/16cfc175f166ee3a6363ce2d75a6ae599031eb651896c201bb2864fb697b3826.png",
+      "bytes": 361217,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/1744c23ff9e48ed6b1f0028590bb5c292d4d362c2b9740b650b89844fe5fd4d9.png",
+      "bytes": 497274,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/1ab1bfe3cc2309911d6dce6ffe3cb1c61f1e140ad982729a51c53f4cd2dca9f1.png",
+      "bytes": 1009805,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/1f207ebcb18cd0006533167a1a8e4e8f949fb5285ca8db15042f4792632d0938.png",
+      "bytes": 430449,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/24484ea9e6eb17ce7263b7b9085fe65288b9b6e68150e8d798dedf28c49f7bb9.png",
+      "bytes": 1123906,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/2452ca54dce6dab4a1b212347f123698a99e9951a7d5f9b86b5f9afea825fb6b.png",
+      "bytes": 307559,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/3e9db2bf997e19d626fcd0e91f399aa2ab6bf4553d6659cd224d35e1cb75115a.png",
+      "bytes": 1145633,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/42d767f8902d7083826a3bdd44706a4ab2ed650186b9aff2311d2663cff7aa35.png",
+      "bytes": 430317,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/45ef9f9b659d01bd3cf9dc918810df6a00c587cdddae9041eda1a1d12efdda91.png",
+      "bytes": 1200348,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/4aaaed92016012dd92385b14f2f1150eb0539e1efdf300598ff9c2c74477d1b0.png",
+      "bytes": 453576,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/506eeb3297f3e9bb52fcbd89c8513b472dfc68aab3d4348d8cc08375f4adbac9.png",
+      "bytes": 304600,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/593a88a570ce9ba8e3bd214270c131f713de6caae2226ab7a5818e7ae7c588a0.png",
+      "bytes": 1326646,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/6c7332d70ea892e3fc739bdcb5b4ca5af13c6193901a06a283bbc1712a2db51e.png",
+      "bytes": 305795,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/6dac4223e78ed5509b73125cc765c1374424728313362028ebb82d323809ba0c.png",
+      "bytes": 1455225,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/70f30ac6ab8a70a35a336019b3d653330c5c791f28aec83fff68af0cd99ac2e9.png",
+      "bytes": 1228738,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/7381638282ab04406068684ad31041ab9e4c0b5eca4ea64d2177ec18bab626c4.png",
+      "bytes": 439851,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/780f56d7780e412d2864b47fd24c93f45d05473018dfb62d1662a2cffc1e9f7f.png",
+      "bytes": 1321980,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/7851619cd0e249d41984564b153e39b0995460383feecef112f3f6958f59bc29.png",
+      "bytes": 990677,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/7c9ab332e55a803f22a27368a3f2fd4acbf913ceb9431ced699b5b16aadbb58d.png",
+      "bytes": 1139799,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/80ce7037f8bb097ead0902ac483d896bed9acd56fa7218a64221e8f97c884243.png",
+      "bytes": 294743,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/81d70aa355da6b17553e2bfce38e8410231844256c3b076c91983b886fc3024c.png",
+      "bytes": 991921,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/82bfadb12009fd9ba64bfe028cd7490200ccdee441e8cc2794a1d503c060b25d.png",
+      "bytes": 347495,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/8efd517f156d521e51212a5dc22ffe0581605ad03cc4de45789afcac6707baf1.png",
+      "bytes": 388446,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/92bfb90a3c96450aadf86032fe49a064a9ba56509489953ef9a9efccd2906b2a.png",
+      "bytes": 323358,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/960955ff9dfa6ab7c898cdc7b648e7516657ecb9133bdfbb9ec2214acaebf640.png",
+      "bytes": 415478,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/984d1a829b7d0865c353ef01587ebe51718dec3b28d58646b7dd477b537aac4a.png",
+      "bytes": 1100269,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/9973cd24cd33ba37bbc481150aed52cd40746615dc7a16adb51dc660db2c0133.png",
+      "bytes": 350598,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/9a418edad34750af441fb85c8b116585e6df42bf2c0969b6c15b1f31bee4b812.png",
+      "bytes": 1157490,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/a3477de5afacaf91d4d3f64019611aad08374aad4db6130b79505b6f931e8a8f.png",
+      "bytes": 1111839,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/a6be4183c8da006c2c3d8ed1b947a5531a2fed79c82e5a5459222fd69d2bb7cd.png",
+      "bytes": 430890,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/a9e2c0f27b6fc9403247493a42c8300d736d5f9beb2d24b377b535791eb3ce99.png",
+      "bytes": 1218464,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/aca83cf1ebe6e7a128d488f8ec2d5b32431a290e4feaba257218a86081751f24.png",
+      "bytes": 324415,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/acf923c21292bebcd68ed24a151a7d1adf87b8ff8055f5ecff567dc169f388b9.png",
+      "bytes": 1120259,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/ad83b3db30ebc135ed7a7a421615070aa58414b3c69fe57d472d1a4adeb1400d.png",
+      "bytes": 326740,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/b476a66c31cc575567ff8db428c30e6008819873f9ad573790ca5f748a41bc6a.png",
+      "bytes": 492036,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/b53894387c9144fbd10f2b98c58de009ac4afeb62e4e7414610d893a21b10a81.png",
+      "bytes": 1048700,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/b8b5afa42d899bc2b873b63b78d001b00f3ff98524186421cd3fe9790199e2be.png",
+      "bytes": 357592,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/b931eb54ef983a911a86be03a6858ac9e97918b2f8a1ad9a8425d26c5417b6d5.png",
+      "bytes": 984234,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/c17ca34b33605a16060091f9294d4c6cab9c051faa04ca30820f5ed18ce70d5a.png",
+      "bytes": 1249927,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/c78242f329f93d49583742de3e3132d50560d915b49970053627fa8caf475ae5.png",
+      "bytes": 1101391,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/cd6400736d7e5820a96b2fbc72ce0d5c46a0aed0cdd62ec4b21b24314614ad1c.png",
+      "bytes": 1135415,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/cd76a4136ede4b64e6f95911a61770e74c897e598dca1762f43aa6dc7a003dc2.png",
+      "bytes": 1281012,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/cf45211ae6e69caca8a3d9a717eff81e4a08809caf12e32c71e60a8f0a16ea76.png",
+      "bytes": 318635,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/d8ec45e21a56f6af011ba648c0b06dd76f99266102dc166b54c8538977541610.png",
+      "bytes": 313991,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/db1087d4a8ea9f3348e05ef1ee72b22ccbc72b246e0ebef70a0c60da5f7d9e3a.png",
+      "bytes": 236344,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/dd3bc7fb1c697b268dc9a5f20ca6fe64ad6e86d4e331635251a18148acab9486.png",
+      "bytes": 1161039,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/e75d97d67c194de948ee0758778dc52744cd2690dc16228e4301735f2acb9471.png",
+      "bytes": 1042755,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/f4baeca7ce74933cf9c1514458bee5ce31f8fd8889ad0777fea59424f87b7e7e.png",
+      "bytes": 535376,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/f676b14ee0e068caa0f785d466fea00665d2c474106e11d4a98e82b24391d89b.png",
+      "bytes": 1082622,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/fb62cfe235270c522fa4f98602afa3d8257c638148746ee3006ea6af30315c28.png",
+      "bytes": 1044253,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/fbb02f67c9ca1f7148288ba3891a89404aea659a2641b85037e7677354e85153.png",
+      "bytes": 286011,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/fcd8861f8bea1536cc74e28e073203260940eefe989da333fc33b9a846fb79c0.png",
+      "bytes": 334674,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/fd59a1d8dcaf864d8a2b7f2fab140c189f6a6bb2779076a8fbcd601eba6e6ae1.png",
+      "bytes": 335721,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/fe01645f835bc4808c67b71c262bbba514de074eaa40ce358beaaa6dd352e4ce.png",
+      "bytes": 1012090,
+      "type": "file"
+    },
+    {
+      "path": "/cursor/stores/store-3c6cbb4d-9944-4f4d-a913-936a73491132/grok-bot/agents/28ab212d-7512-4d34-9e90-4ad338c81595/attachments/ff16a615fa53814808bc638a9005ba6ef564402bbe74e4597aaba358a725ed0a.png",
+      "bytes": 1196219,
+      "type": "file"
+    }
+  ],
+  "etf_files": [
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/01-选题.md",
+      "bytes": 2836
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/02-框架.md",
+      "bytes": 3353
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/00_封面.png",
+      "bytes": 1138843
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/01_钱进了哪一层.png",
+      "bytes": 1315715
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/02_宽基ETF是什么.png",
+      "bytes": 1249197
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/03_22天里发生了什么.png",
+      "bytes": 1224401
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/04_发布文案.txt",
+      "bytes": 1545
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/05_来源说明.txt",
+      "bytes": 1050
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/final/06_归档校验.json",
+      "bytes": 1677
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/gen.py",
+      "bytes": 4428
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p1.html",
+      "bytes": 6382
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p1.png",
+      "bytes": 1133381
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p2.html",
+      "bytes": 8348
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p2.png",
+      "bytes": 1315715
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p3.html",
+      "bytes": 7841
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p3.png",
+      "bytes": 1249197
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p4.html",
+      "bytes": 8168
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/p4.png",
+      "bytes": 1224401
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/thumb_p1.png",
+      "bytes": 188096
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/thumb_p2.png",
+      "bytes": 170023
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/thumb_p3.png",
+      "bytes": 216395
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/03-design/thumb_p4.png",
+      "bytes": 213276
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/04-文案.md",
+      "bytes": 1576
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/05-合规.md",
+      "bytes": 1042
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/00_封面.png",
+      "bytes": 1133381
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/01_钱进了哪一层.png",
+      "bytes": 1315715
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/02_宽基ETF是什么.png",
+      "bytes": 1249197
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/03_22天里发生了什么.png",
+      "bytes": 1224401
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/04_发布文案.txt",
+      "bytes": 1545
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/05_来源说明.txt",
+      "bytes": 1050
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/20261106_宽基ETF吸金榜_定稿/06_归档校验.json",
+      "bytes": 1188
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/Fisher选定原话.md",
+      "bytes": 501
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/data.json",
+      "bytes": 1880
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/00_封面.png",
+      "bytes": 1133381
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/01_钱进了哪一层.png",
+      "bytes": 1315715
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/02_宽基ETF是什么.png",
+      "bytes": 1249197
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/03_22天里发生了什么.png",
+      "bytes": 1224401
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/04_发布文案.txt",
+      "bytes": 1545
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/05_来源说明.txt",
+      "bytes": 1050
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/06_归档校验.json",
+      "bytes": 1188
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/pipeline_log.md",
+      "bytes": 691
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/交付.md",
+      "bytes": 1331
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/框架.md",
+      "bytes": 708
+    },
+    {
+      "path": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/送审摘要.md",
+      "bytes": 1384
+    }
+  ],
+  "known_mac_not_accessed": [
+    "/Users/donnie/Desktop/新图文笔记/阿信学财经/",
+    "/Users/donnie/Desktop/新图文笔记/阿信财读笔记/"
+  ],
+  "machineId_not_contacted": "1955f62c-ee17-45e0-9e5b-3d70dff2b5c5"
+}

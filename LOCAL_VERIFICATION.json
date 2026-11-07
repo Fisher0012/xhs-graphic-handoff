@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "source_bot_name": "xhs 图文创作",
+  "source_bot_id": "28ab212d-7512-4d34-9e90-4ad338c81595",
+  "archive_sha256": "6cdc868ed81432491212c8f8d7c89f25d1b87cf56905cceaf535da4dcd3ec134",
+  "files": 42,
+  "symlinks": 0,
+  "checksum_entries_verified": 41,
+  "common_secret_pattern_scan": "No matches; not an exhaustive security audit",
+  "complete_history_or_assets": false,
+  "safe_to_permanently_delete_old_bot": false
+}

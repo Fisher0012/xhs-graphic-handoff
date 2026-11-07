@@ -1,0 +1,46 @@
+# 本次小型交接文件清单
+
+共42文件（含本清单、manifest与SHA256SUMS；不含项目根ZIP）。仅小型导出，不含历史大资产。
+
+- `BASELINE-37-SHA256SUMS.txt`
+- `FILE_LIST.md`
+- `HANDOFF_PROMPT.md`
+- `README.md`
+- `SHA256SUMS`
+- `audit-result.md`
+- `baseline-37-result.json`
+- `dependencies-and-paths.md`
+- `evidence/01_STATE.md`
+- `evidence/02_AGENTS.md`
+- `evidence/03_LESSONS.md`
+- `evidence/04_复盘.md`
+- `evidence/05_20261107_重选候选.md`
+- `evidence/06_连接器自查_Lauren第2批_20261105.md`
+- `evidence/07_once_pipeline.sh`
+- `evidence/08_render_heijin.sh`
+- `evidence/09_gate_archive.sh`
+- `evidence/10_check_titles.py`
+- `evidence/11_measure_space.py`
+- `evidence/12_compliance_precheck.py`
+- `evidence/13_topic_candidates.py`
+- `evidence/14_dedup_topics.py`
+- `evidence/15_xhlib.py`
+- `evidence/16_交付.md`
+- `evidence/17_送审摘要.md`
+- `evidence/18_05-合规.md`
+- `evidence/19_pipeline_log.md`
+- `evidence/20_Fisher选定原话.md`
+- `evidence/21_06_归档校验.json`
+- `evidence/22_回执_xhs_一次成稿接线_20261106.md`
+- `evidence/23_回执_xhs一次成稿接线_20261106.md`
+- `evidence/24_evidence_xhs_20261106_b5_once_pipeline.txt`
+- `evidence/25_review-result.md`
+- `evidence/选题库_当前相关段.md`
+- `gaps.md`
+- `manifest.json`
+- `memory-available.md`
+- `path-inventory.json`
+- `receipt.md`
+- `routines.json`
+- `rules-current.md`
+- `tasks-and-evidence.md`

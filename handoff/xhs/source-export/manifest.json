@@ -1,0 +1,398 @@
+{
+  "generated_at": "2026-11-07T22:25:35.970994+08:00",
+  "zone": "Asia/Shanghai",
+  "scope": "自身项目受限业务导出完成；非全量历史/记忆/例程归档，不等于迁移或重建授权",
+  "complete": true,
+  "blocking_gaps": [],
+  "source_records": [
+    {
+      "source": "/workspace/xhs/STATE.md",
+      "exists": true,
+      "bytes": 783,
+      "copy": "evidence/01_STATE.md",
+      "sha256": "527368a08da3cabf68378d7111404a6ebdfddeea141e247ba9034c9adef695cc"
+    },
+    {
+      "source": "/workspace/xhs/AGENTS.md",
+      "exists": true,
+      "bytes": 1426,
+      "copy": "evidence/02_AGENTS.md",
+      "sha256": "ed340552bcc967b813d31a63da0a7f6322161b0b233e6c25a622226a4fba1fe6"
+    },
+    {
+      "source": "/workspace/xhs/LESSONS.md",
+      "exists": true,
+      "bytes": 759,
+      "copy": "evidence/03_LESSONS.md",
+      "sha256": "306dd4284397b01007e9627d6888c259d476cacf6ad02b9735630d2f051b64ca"
+    },
+    {
+      "source": "/workspace/xhs/复盘.md",
+      "exists": true,
+      "bytes": 585,
+      "copy": "evidence/04_复盘.md",
+      "sha256": "b4f7c863cba8225acee2d376f4b96ed8c528083b63c5c4853cc985cd7265e781"
+    },
+    {
+      "source": "/workspace/xhs/tmp/20261107_重选候选.md",
+      "exists": true,
+      "bytes": 11387,
+      "copy": "evidence/05_20261107_重选候选.md",
+      "sha256": "f2328d81031ac67aa074824389fcbc49209e77892693c0380771d4a669a82e22"
+    },
+    {
+      "source": "/workspace/xhs/连接器自查_Lauren第2批_20261105.md",
+      "exists": true,
+      "bytes": 1073,
+      "copy": "evidence/06_连接器自查_Lauren第2批_20261105.md",
+      "sha256": "61e15e0b461b3e188f167bd4bf78d051c698ec4984baed1d85ccfe5693ebe0ec"
+    },
+    {
+      "source": "/workspace/xhs/tools/once_pipeline.sh",
+      "exists": true,
+      "bytes": 6669,
+      "copy": "evidence/07_once_pipeline.sh",
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "source": "/workspace/xhs/tools/render_heijin.sh",
+      "exists": true,
+      "bytes": 2456,
+      "copy": "evidence/08_render_heijin.sh",
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    },
+    {
+      "source": "/workspace/xhs/tools/gate_archive.sh",
+      "exists": true,
+      "bytes": 3648,
+      "copy": "evidence/09_gate_archive.sh",
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "source": "/workspace/xhs/tools/check_titles.py",
+      "exists": true,
+      "bytes": 1974,
+      "copy": "evidence/10_check_titles.py",
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "source": "/workspace/xhs/tools/measure_space.py",
+      "exists": true,
+      "bytes": 980,
+      "copy": "evidence/11_measure_space.py",
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "source": "/workspace/xhs/tools/compliance_precheck.py",
+      "exists": true,
+      "bytes": 4305,
+      "copy": "evidence/12_compliance_precheck.py",
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "source": "/workspace/xhs/tools/topic_candidates.py",
+      "exists": true,
+      "bytes": 8608,
+      "copy": "evidence/13_topic_candidates.py",
+      "sha256": "adf12ec0113ecd181b77c86fc9d50e2eee0dadd22f6bd5cb7bef3ffaf83ff3df"
+    },
+    {
+      "source": "/workspace/xhs/tools/dedup_topics.py",
+      "exists": true,
+      "bytes": 2519,
+      "copy": "evidence/14_dedup_topics.py",
+      "sha256": "35ce96c2dcc06344801ff1dbc4fdcc9efc6936b9462121f5e1358237136b24eb"
+    },
+    {
+      "source": "/workspace/xhs/tools/xhlib.py",
+      "exists": true,
+      "bytes": 6883,
+      "copy": "evidence/15_xhlib.py",
+      "sha256": "f9e57c442bea2eb79b4e088a41172775bbe066326b0e7cd31eff782792338d17"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/交付.md",
+      "exists": true,
+      "bytes": 1331,
+      "copy": "evidence/16_交付.md",
+      "sha256": "70f89644447ec61352bf68d8ed021b1117d4264d195ecadf16912561d02b8f15"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/送审摘要.md",
+      "exists": true,
+      "bytes": 1384,
+      "copy": "evidence/17_送审摘要.md",
+      "sha256": "42431b8ddedafb2dd8d7a62a455a69b3b0090f60c7312ccf7e121a9713c462b9"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/05-合规.md",
+      "exists": true,
+      "bytes": 1042,
+      "copy": "evidence/18_05-合规.md",
+      "sha256": "5afc5e92ea3fca90891ae4c56391067889dfa7024d743a219d8f357505a6c17a"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/pipeline_log.md",
+      "exists": true,
+      "bytes": 691,
+      "copy": "evidence/19_pipeline_log.md",
+      "sha256": "4802ee493b2efaa71623f1bb99f418c91bcaba2c9fd84b0bbb7236f5258f4b08"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/Fisher选定原话.md",
+      "exists": true,
+      "bytes": 501,
+      "copy": "evidence/20_Fisher选定原话.md",
+      "sha256": "1b29e3e5cf2d0f8bf561e7ffae59cca2f913cf76807e60a96f0bf4b85d85b24a"
+    },
+    {
+      "source": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜/final/06_归档校验.json",
+      "exists": true,
+      "bytes": 1188,
+      "copy": "evidence/21_06_归档校验.json",
+      "sha256": "39d5f86c930d651b651d42a235819080f847ff789443d975b1c6408fb3ca745e"
+    },
+    {
+      "source": "/workspace/ops/usage/回执_xhs_一次成稿接线_20261106.md",
+      "exists": true,
+      "bytes": 2783,
+      "copy": "evidence/22_回执_xhs_一次成稿接线_20261106.md",
+      "sha256": "f94fd5c33fc48f78b1ba6b42edc93720b39dd4fb89307be1bc3b67bc93d57f4a"
+    },
+    {
+      "source": "/workspace/ops/usage/回执_xhs一次成稿接线_20261106.md",
+      "exists": true,
+      "bytes": 3335,
+      "copy": "evidence/23_回执_xhs一次成稿接线_20261106.md",
+      "sha256": "5f8e3cfbaf7d69d2da4ef4a31a9bdaa292f045d44df50ad7d620188c2916c005"
+    },
+    {
+      "source": "/workspace/ops/usage/evidence_xhs_20261106_b5_once_pipeline.txt",
+      "exists": true,
+      "bytes": 2583,
+      "copy": "evidence/24_evidence_xhs_20261106_b5_once_pipeline.txt",
+      "sha256": "4783d2c0bebabd74b6854c9f9bbd0469efc20d91af60abb3f84802e6867bdae9"
+    },
+    {
+      "source": "/workspace/review/xhs/20261106-大号-宽基ETF吸金榜/review-result.md",
+      "exists": true,
+      "bytes": 4535,
+      "copy": "evidence/25_review-result.md",
+      "sha256": "d17193c6665f0520812a2b51f994b8df0f3f2010b4ce727c9fb2c77881862c3a"
+    }
+  ],
+  "files": [
+    {
+      "path": "BASELINE-37-SHA256SUMS.txt",
+      "bytes": 3375,
+      "sha256": "7bd154a8dd94ba5b0a938504116f312af53810c46b32a3207aa4b49da2281b2e"
+    },
+    {
+      "path": "FILE_LIST.md",
+      "bytes": 1431,
+      "sha256": "425f5bbef1efcf0a6fee7ae85825430e321c2e4e4396a0433c31d9c4bc5321f0"
+    },
+    {
+      "path": "HANDOFF_PROMPT.md",
+      "bytes": 2173,
+      "sha256": "a1fe6d36f24267988cc52948c715f02aafd0ae75bfe2fb012d53c1984a71176f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1441,
+      "sha256": "47d4614dfec34d3f9d3b2cdfd9532585cacf11b32dfedfa67f3e724276305dd0"
+    },
+    {
+      "path": "audit-result.md",
+      "bytes": 3951,
+      "sha256": "0f3626ff2803e4ecb5bf1eba2d8c4b03a6be3c04f78c706bfefcebe643c0439b"
+    },
+    {
+      "path": "baseline-37-result.json",
+      "bytes": 6356,
+      "sha256": "14ed8b5c4e1359642fb0ae8b67e3635743dc9397b0f62408402f6bdb739f7806"
+    },
+    {
+      "path": "dependencies-and-paths.md",
+      "bytes": 2776,
+      "sha256": "f687173e8b35c244e25d258fec392f72c8f216d3c6e4054fdef77c473a582411"
+    },
+    {
+      "path": "evidence/01_STATE.md",
+      "bytes": 783,
+      "sha256": "527368a08da3cabf68378d7111404a6ebdfddeea141e247ba9034c9adef695cc"
+    },
+    {
+      "path": "evidence/02_AGENTS.md",
+      "bytes": 1426,
+      "sha256": "ed340552bcc967b813d31a63da0a7f6322161b0b233e6c25a622226a4fba1fe6"
+    },
+    {
+      "path": "evidence/03_LESSONS.md",
+      "bytes": 759,
+      "sha256": "306dd4284397b01007e9627d6888c259d476cacf6ad02b9735630d2f051b64ca"
+    },
+    {
+      "path": "evidence/04_复盘.md",
+      "bytes": 585,
+      "sha256": "b4f7c863cba8225acee2d376f4b96ed8c528083b63c5c4853cc985cd7265e781"
+    },
+    {
+      "path": "evidence/05_20261107_重选候选.md",
+      "bytes": 11387,
+      "sha256": "f2328d81031ac67aa074824389fcbc49209e77892693c0380771d4a669a82e22"
+    },
+    {
+      "path": "evidence/06_连接器自查_Lauren第2批_20261105.md",
+      "bytes": 1073,
+      "sha256": "61e15e0b461b3e188f167bd4bf78d051c698ec4984baed1d85ccfe5693ebe0ec"
+    },
+    {
+      "path": "evidence/07_once_pipeline.sh",
+      "bytes": 6669,
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "path": "evidence/08_render_heijin.sh",
+      "bytes": 2456,
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    },
+    {
+      "path": "evidence/09_gate_archive.sh",
+      "bytes": 3648,
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "path": "evidence/10_check_titles.py",
+      "bytes": 1974,
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "path": "evidence/11_measure_space.py",
+      "bytes": 980,
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "path": "evidence/12_compliance_precheck.py",
+      "bytes": 4305,
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "path": "evidence/13_topic_candidates.py",
+      "bytes": 8608,
+      "sha256": "adf12ec0113ecd181b77c86fc9d50e2eee0dadd22f6bd5cb7bef3ffaf83ff3df"
+    },
+    {
+      "path": "evidence/14_dedup_topics.py",
+      "bytes": 2519,
+      "sha256": "35ce96c2dcc06344801ff1dbc4fdcc9efc6936b9462121f5e1358237136b24eb"
+    },
+    {
+      "path": "evidence/15_xhlib.py",
+      "bytes": 6883,
+      "sha256": "f9e57c442bea2eb79b4e088a41172775bbe066326b0e7cd31eff782792338d17"
+    },
+    {
+      "path": "evidence/16_交付.md",
+      "bytes": 1331,
+      "sha256": "70f89644447ec61352bf68d8ed021b1117d4264d195ecadf16912561d02b8f15"
+    },
+    {
+      "path": "evidence/17_送审摘要.md",
+      "bytes": 1384,
+      "sha256": "42431b8ddedafb2dd8d7a62a455a69b3b0090f60c7312ccf7e121a9713c462b9"
+    },
+    {
+      "path": "evidence/18_05-合规.md",
+      "bytes": 1042,
+      "sha256": "5afc5e92ea3fca90891ae4c56391067889dfa7024d743a219d8f357505a6c17a"
+    },
+    {
+      "path": "evidence/19_pipeline_log.md",
+      "bytes": 691,
+      "sha256": "4802ee493b2efaa71623f1bb99f418c91bcaba2c9fd84b0bbb7236f5258f4b08"
+    },
+    {
+      "path": "evidence/20_Fisher选定原话.md",
+      "bytes": 501,
+      "sha256": "1b29e3e5cf2d0f8bf561e7ffae59cca2f913cf76807e60a96f0bf4b85d85b24a"
+    },
+    {
+      "path": "evidence/21_06_归档校验.json",
+      "bytes": 1188,
+      "sha256": "39d5f86c930d651b651d42a235819080f847ff789443d975b1c6408fb3ca745e"
+    },
+    {
+      "path": "evidence/22_回执_xhs_一次成稿接线_20261106.md",
+      "bytes": 2783,
+      "sha256": "f94fd5c33fc48f78b1ba6b42edc93720b39dd4fb89307be1bc3b67bc93d57f4a"
+    },
+    {
+      "path": "evidence/23_回执_xhs一次成稿接线_20261106.md",
+      "bytes": 3335,
+      "sha256": "5f8e3cfbaf7d69d2da4ef4a31a9bdaa292f045d44df50ad7d620188c2916c005"
+    },
+    {
+      "path": "evidence/24_evidence_xhs_20261106_b5_once_pipeline.txt",
+      "bytes": 2583,
+      "sha256": "4783d2c0bebabd74b6854c9f9bbd0469efc20d91af60abb3f84802e6867bdae9"
+    },
+    {
+      "path": "evidence/25_review-result.md",
+      "bytes": 4535,
+      "sha256": "d17193c6665f0520812a2b51f994b8df0f3f2010b4ce727c9fb2c77881862c3a"
+    },
+    {
+      "path": "evidence/选题库_当前相关段.md",
+      "bytes": 17957,
+      "sha256": "3ce8a964364117da49cd8e50485c98854ccd4eab667c6aca6dc08d96ff99be59"
+    },
+    {
+      "path": "gaps.md",
+      "bytes": 1442,
+      "sha256": "5483430ba96ed68358c31fbeb3ba167315da4ff3311f2830a43e642de4c192a5"
+    },
+    {
+      "path": "memory-available.md",
+      "bytes": 5738,
+      "sha256": "53a845665d9b5e2374bb737f47a6e9195bc0b55ddfcd8e12c5d950cb5106c33a"
+    },
+    {
+      "path": "path-inventory.json",
+      "bytes": 30663,
+      "sha256": "50dd3122e9ad848557c6cb87f7465353db68526271d51504fbbd60d8dc054d5c"
+    },
+    {
+      "path": "receipt.md",
+      "bytes": 2283,
+      "sha256": "fcaca3f8df787786137a92cef33a7430ecb0bf585fd7b8eaf08fab00d6234adb"
+    },
+    {
+      "path": "routines.json",
+      "bytes": 2533,
+      "sha256": "87e94bf95a2983217f24ae89ea824108eee08b4d1e60a3fe3993e975fe1ba5b3"
+    },
+    {
+      "path": "rules-current.md",
+      "bytes": 2933,
+      "sha256": "1cbfd76227377256244cf8ea031af1ac7e293289613a3ebf049f5f2448e2506c"
+    },
+    {
+      "path": "tasks-and-evidence.md",
+      "bytes": 2721,
+      "sha256": "483d5aa1a4ee0255ea9f16ef9fa20c8dd837ba518652c88043cdbf966e1078ed"
+    }
+  ],
+  "remaining_gaps": [
+    "非全量历史/记忆检索有截断",
+    "当前仅编号5例程可见，其他例程未查",
+    "Mac未在线核验，用户手动发布状态未知",
+    "无全系统后台任务清单",
+    "11-01遗留待对账、11-02框架待确认、新五题待选",
+    "部分共享规则仅转述来源，非本轮直接授权",
+    "连接器未实时鉴权，历史审查未重跑"
+  ],
+  "baseline_result": "baseline-37-result.json",
+  "audit_result": "audit-result.md",
+  "handoff_prompt": "HANDOFF_PROMPT.md"
+}
