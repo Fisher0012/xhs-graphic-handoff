@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>上市时营收增长12倍</title>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 12% 8%,rgba(70,160,255,.20),transparent 58%),
+  radial-gradient(640px 460px at 96% 48%,rgba(255,40,60,.10),transparent 60%),
+  radial-gradient(500px 380px at 40% 92%,rgba(232,195,106,.07),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 72px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:14px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:60px;font-family:NSM;font-size:32px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.rev{flex:none;margin-top:56px;border-radius:20px;padding:30px 28px 28px;background:rgba(14,18,26,.86);border:1px solid rgba(127,211,255,.28);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.rh{display:flex;align-items:baseline;justify-content:space-between}
+.rh h3{font-family:NSB;font-weight:normal;font-size:30px;color:#fff;white-space:nowrap}
+.rh .tag{font-family:NSB;font-size:22px;color:#7fd3ff;white-space:nowrap}
+.row{display:grid;grid-template-columns:150px 1fr 220px;align-items:center;gap:14px;margin-top:20px}
+.row .yr{font-family:NSB;font-size:26px;color:#c5d0db;white-space:nowrap}
+.bar{height:44px;border-radius:8px;position:relative;background:rgba(255,255,255,.04)}
+.bar i{display:block;height:100%;border-radius:8px}
+.bar.old i{width:7.66%;background:linear-gradient(90deg,#3a4a5c,#6c7c90)}
+.bar.new i{width:100%;background:linear-gradient(90deg,#1a6a9a,#7fd3ff);box-shadow:0 0 18px rgba(127,211,255,.25)}
+.amt{font-family:NSB;font-size:26px;color:#fff;white-space:nowrap;text-align:right}
+.amt em{font-style:normal;font-size:20px;color:#7fd3ff;margin-left:8px}
+
+.q3{flex:none;margin-top:24px;border-radius:16px;padding:20px 26px;display:flex;align-items:center;gap:22px;background:linear-gradient(100deg,#161d28,#0e121a);border:1px solid rgba(243,222,154,.32)}
+.q3 .k{font-family:NSB;font-size:22px;letter-spacing:1px;color:#f3de9a;white-space:nowrap}
+.q3 .v{font-family:NSB;font-size:44px;color:#fff;line-height:1;white-space:nowrap}
+.q3 .s{margin-left:auto;font-size:24px;color:#c5d0db;white-space:nowrap}
+.q3 .s b{font-family:NSB;font-size:28px;color:#f3de9a;font-weight:normal}
+
+.op{flex:none;margin-top:32px;border-radius:20px;padding:30px 28px 28px;background:rgba(14,18,26,.86);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.oh{display:flex;align-items:baseline;justify-content:space-between}
+.oh h3{font-family:NSB;font-weight:normal;font-size:30px;color:#fff;white-space:nowrap}
+.oh .tag{font-family:NSB;font-size:22px;color:#f3de9a;white-space:nowrap}
+.op .row{margin-top:18px}
+.bar.wide i{width:100%;background:linear-gradient(90deg,#8a1a28,#ff6b78)}
+.bar.thin i{width:24.12%;background:linear-gradient(90deg,#8a5a20,#f3de9a);box-shadow:0 0 16px rgba(243,222,154,.2)}
+.amt.down{color:#ff6b78}
+.amt.narrow{color:#f3de9a}
+
+.net{flex:none;margin-top:32px;border-radius:20px;padding:28px 28px 26px;background:rgba(14,18,26,.86);border:1px solid rgba(255,45,63,.28);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.nh{display:flex;align-items:baseline;justify-content:space-between;gap:16px}
+.nh h3{font-family:NSB;font-weight:normal;font-size:30px;color:#fff;white-space:nowrap}
+.nh .tot{font-family:NSB;font-size:36px;color:#ff6b78;white-space:nowrap}
+.stack{margin-top:16px;height:36px;border-radius:8px;overflow:hidden;display:flex}
+.stack .fv{width:90.66%;background:linear-gradient(90deg,#7a1e2a,#ff2d3f)}
+.stack .ot{width:9.34%;background:#3a4554}
+.leg{margin-top:14px;display:flex;gap:28px;align-items:center}
+.leg i{display:inline-block;width:14px;height:14px;border-radius:3px;margin-right:8px;vertical-align:-2px}
+.leg .a i{background:#ff2d3f}
+.leg .b i{background:#3a4554}
+.leg span{font-size:22px;color:#c5d0db;white-space:nowrap}
+.leg b{font-family:NSB;font-weight:normal;color:#fff}
+.why{margin-top:14px;font-size:22px;line-height:1.5;color:#c5d0db}
+.why b{font-family:NSB;font-size:22px;color:#7fd3ff;font-weight:normal}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>成绩单</span><span>上市时交出的数字，营收在跳，账面上仍在亏</span><span class=dt>2026.11.19</span></div>
+  <h1>上市时营收增长<em>12倍</em></h1>
+  <h2>2026 年前三季度收入 332.42 亿美元，同比 1,206%</h2>
+
+  <div class=rev>
+    <div class=rh>
+      <h3>前三季度营业收入</h3>
+      <div class=tag>同比 +1,206%</div>
+    </div>
+    <div class=row>
+      <div class=yr>上年同期</div>
+      <div class="bar old"><i></i></div>
+      <div class=amt>25.45 亿美元</div>
+    </div>
+    <div class=row>
+      <div class=yr>今年前三季</div>
+      <div class="bar new"><i></i></div>
+      <div class=amt>332.42 亿美元</div>
+    </div>
+  </div>
+
+  <div class=q3>
+    <div class=k>第三季单季</div>
+    <div class=v>170 亿美元</div>
+    <div class=s>截至 2026-09-30，同比 <b>+1,127%</b></div>
+  </div>
+
+  <div class=op>
+    <div class=oh>
+      <h3>前三季度经营亏损</h3>
+      <div class=tag>亏损在收窄</div>
+    </div>
+    <div class=row>
+      <div class=yr>上年同期</div>
+      <div class="bar wide"><i></i></div>
+      <div class="amt down">52.24 亿美元</div>
+    </div>
+    <div class=row>
+      <div class=yr>今年前三季</div>
+      <div class="bar thin"><i></i></div>
+      <div class="amt narrow">12.60 亿美元</div>
+    </div>
+  </div>
+
+  <div class=net>
+    <div class=nh>
+      <h3>但净亏损看起来很大</h3>
+      <div class=tot>1,040.39 亿美元</div>
+    </div>
+    <div class=stack><div class=fv></div><div class=ot></div></div>
+    <div class=leg>
+      <span class=a><i></i>公允价值变动 <b>943.24 亿</b>（约 91%）</span>
+      <span class=b><i></i>其余 <b>97.15 亿</b></span>
+    </div>
+    <div class=why><b>怎么读　</b>943.24 亿是可转债、衍生负债和 SAFE 的公允价值变动，属于非现金项目。其余 97.15 亿由作者用净亏损减该项得到。</div>
+  </div>
+
+<div class=foot>
+  财务数据：Anthropic 424B4 合并利润表及经营讨论，九个月及第三季均截至 2026-09-30。收入、经营亏损、净亏损与公允价值变动为招股书原数，已换算为亿美元。<br>
+  「约 91%」与「其余 97.15 亿」为作者计算。以上仅为知识分享，不构成投资建议。制图 2026/11/20。
+</div>
+</div>
+</body>
+</html>

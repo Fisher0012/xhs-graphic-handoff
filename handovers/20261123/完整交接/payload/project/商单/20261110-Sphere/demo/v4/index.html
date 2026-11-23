@@ -1,0 +1,186 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="style.css">
+<script src="node_modules/gsap/dist/gsap.min.js"></script>
+<script src="node_modules/gsap/dist/MotionPathPlugin.min.js"></script>
+</head><body><div id="stage">
+
+<!-- ===== S1/S2 dark hook ===== -->
+<section id="sDark">
+  <div class="grid"></div><div class="glow"></div>
+  <div id="slabs"></div>
+  <div id="hook" class="abs" style="left:0;top:0;width:1080px;height:1920px">
+    <div class="hk" id="L1" style="top:560px;font-size:156px"><span class="w">金融人做IP<span class="r">金融人做IP</span><span class="c">金融人做IP</span></span></div>
+    <div class="hk" id="L2clip" style="top:770px;height:190px"><div id="L2" style="font-size:156px"><span class="w">卡住你的</span></div></div>
+    <div class="hk" id="L3clip" style="top:975px;height:260px"><div id="L3" style="font-size:222px"><span class="w" id="L3w">不是剪辑</span></div></div>
+    <div class="strike" id="strike" style="left:555px;top:1070px;width:470px"></div>
+  </div>
+  <div id="kans" class="abs" style="left:0;top:880px;width:1080px;height:420px">
+    <div class="kan" id="k1" style="left:45px"><div class="n">1</div><div class="t">选题</div><div class="ring"></div></div>
+    <div class="kan" id="k2" style="left:390px"><div class="n">2</div><div class="t">合规</div><div class="ring"></div></div>
+    <div class="kan" id="k3" style="left:735px"><div class="n">3</div><div class="t">出镜</div><div class="ring"></div></div>
+  </div>
+  <div class="vig"></div>
+</section>
+
+<!-- ===== S19/S20 chalk ===== -->
+<section id="sChalk">
+  <div id="ch19" class="abs" style="inset:0">
+    <div class="abs chalk" id="prog" style="left:0;width:1080px;top:640px;display:flex;justify-content:center;gap:26px">
+      <div class="pg" style="font-weight:900;font-size:52px;color:rgba(240,240,235,.32);padding:10px 28px;border:4px solid rgba(240,240,235,.22);border-radius:20px">选题</div>
+      <div class="pg" style="font-weight:900;font-size:52px;color:rgba(240,240,235,.32);padding:10px 28px;border:4px solid rgba(240,240,235,.22);border-radius:20px">合规</div>
+      <div class="pg" id="pg3" style="font-weight:900;font-size:52px;color:#f6f6f2;padding:10px 28px;border:4px solid rgba(246,246,242,.9);border-radius:20px">出镜</div>
+    </div>
+    <div class="chTitle chalk" id="chT" style="top:930px;font-size:330px;letter-spacing:6px">3 出镜</div>
+  </div>
+  <div id="ch20" class="abs" style="inset:0">
+    <div class="chTitle chalk" id="pT" style="top:330px;font-size:92px">第三道坎 · 出镜</div>
+    <div class="panel chalk" id="pA" style="left:60px;top:560px;height:700px">
+      <svg viewBox="0 0 400 360" fill="none" stroke="#f2f2ee" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+        <path class="dr" d="M70 110 h170 a24 24 0 0 1 24 24 v110 a24 24 0 0 1 -24 24 h-170 a24 24 0 0 1 -24 -24 v-110 a24 24 0 0 1 24 -24 z"/>
+        <path class="dr" d="M264 168 l78 -44 v134 l-78 -44"/>
+        <circle class="dr" cx="112" cy="160" r="16"/>
+      </svg>
+      <div class="lab" id="labA">露脸出镜</div>
+      <svg class="x" id="xA" viewBox="0 0 400 360" fill="none" stroke="#E0000E" stroke-width="26" stroke-linecap="round" style="top:30px"><path id="xA1" d="M40 40 L360 320"/><path id="xA2" d="M360 40 L40 320"/></svg>
+    </div>
+    <div class="panel chalk" id="pB" style="left:570px;top:560px;height:700px">
+      <svg viewBox="0 0 400 360" fill="none" stroke="#f2f2ee" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
+        <circle class="dr" cx="200" cy="185" r="128"/>
+        <path class="dr" d="M200 105 v84 l58 40"/>
+        <path class="dr" d="M150 30 h100"/>
+      </svg>
+      <div class="lab" id="labB">拍摄时间</div>
+      <svg class="x" id="xB" viewBox="0 0 400 360" fill="none" stroke="#E0000E" stroke-width="26" stroke-linecap="round" style="top:30px"><path id="xB1" d="M40 40 L360 320"/><path id="xB2" d="M360 40 L40 320"/></svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== S21/S22 UI ===== -->
+<section id="sUI">
+  <div class="blob" id="b1" style="width:900px;height:900px;left:-300px;top:-200px;background:rgba(32,88,217,.20)"></div>
+  <div class="blob" id="b2" style="width:800px;height:800px;left:520px;top:1150px;background:rgba(110,90,230,.16)"></div>
+  <div class="blob" id="b3" style="width:600px;height:600px;left:600px;top:200px;background:rgba(255,255,255,.7)"></div>
+  <div class="dots"></div>
+  <div id="cam"><div id="page">
+    <div class="side">
+      <svg class="abs" style="left:23px;top:16px;width:38px;height:38px" viewBox="0 0 40 40" fill="none">
+        <defs><linearGradient id="lgN" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a3c9e"/><stop offset="1" stop-color="#7d8fe0"/></linearGradient></defs>
+        <circle cx="20" cy="20" r="15.5" stroke="url(#lgN)" stroke-width="2.6"/>
+        <ellipse cx="20" cy="20" rx="15" ry="9" stroke="#3449b0" stroke-width="2" transform="rotate(-40 20 20)"/>
+        <ellipse cx="21" cy="19" rx="11" ry="14" stroke="#5a70d0" stroke-width="1.6" transform="rotate(25 20 20)" opacity=".8"/>
+        <path d="M27 11 q5 9 -4 17" stroke="#e9a45c" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+      <div class="abs" style="left:20px;top:66px;width:42px;height:1.5px;background:#e3e6ea"></div>
+      <div class="nav" style="top:78px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.8" stroke-linejoin="round"><path d="M4 10.5 12 4l8 6.5V20H4z"/><path d="M10 20v-5h4v5"/></svg>首页</div>
+      <div class="nav" style="top:147px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.8"><path d="M12 3.5a8.5 8.5 0 1 1-4.6 15.6L4 20l1-3.3A8.5 8.5 0 0 1 12 3.5z"/><path d="M10 8.5l-1 7M15 8.5l-1 7M8 10.5h8M7.6 13.5h8"/></svg>选题</div>
+      <div class="nav" style="top:213px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.8"><rect x="4.5" y="4.5" width="15" height="15" rx="3"/><path d="M8.5 12.5l2.5 2.5 4.5-5"/></svg>项目</div>
+      <div class="nav on" style="top:278px"><svg viewBox="0 0 24 24" fill="#1d2126"><circle cx="12" cy="8.5" r="4" fill="none" stroke="#1d2126" stroke-width="1.8"/><path d="M4.5 20c.8-4 3.8-6 7.5-6s6.7 2 7.5 6z"/></svg>分身</div>
+      <div class="nav" style="top:344px;font-size:12.5px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.8"><path d="M4 5.5h16v11H9l-5 3.5z" stroke-linejoin="round"/><circle cx="9" cy="11" r=".6" fill="#1d2126"/><circle cx="12" cy="11" r=".6" fill="#1d2126"/><circle cx="15" cy="11" r=".6" fill="#1d2126"/></svg>AI助理</div>
+      <div class="abs" style="left:10px;top:1010px;width:62px;text-align:center;font-size:11px;color:#2058d9;line-height:1.5">✦ 230<br>立即升级</div>
+      <div class="abs" style="left:10px;top:1080px;width:62px;text-align:center;font-size:11px;color:#1d2126;line-height:1.6"><span style="display:inline-block;width:18px;height:16px;background:#2058d9;border-radius:3px"></span><br>邀请有礼</div>
+      <div class="abs" style="left:26px;top:1146px;width:30px;height:30px;border-radius:50%;background:#1a2f8f;color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center">D</div>
+    </div>
+    <div class="main">
+      <div class="pt">数字分身</div>
+      <div class="abs" style="left:25px;right:25px;top:72px;height:1.5px;background:#eceef1"></div>
+      <div class="sec" style="left:137px;top:110px">我的数字形象 (0)</div>
+      <div class="acard" id="cardA" style="left:137px;top:149px;width:244px;height:415px">
+        <div class="ptile" style="position:absolute;left:97px;top:154px"><i></i></div>
+        <div class="abs" style="left:0;right:0;top:217px;text-align:center;font-size:15.5px;font-weight:500">创建数字形象</div>
+        <div class="abs" style="left:0;right:0;top:243px;text-align:center;font-size:14.5px;color:#9ba1a8">上传本人照片</div>
+        <div class="pbox" id="pbA" style="inset:-12px"><svg viewBox="0 0 268 439" preserveAspectRatio="none"><rect x="3" y="3" width="262" height="433" rx="22" pathLength="1" fill="none" stroke="#E0000E" stroke-width="5" stroke-dasharray="1" stroke-dashoffset="1"/></svg></div>
+      </div>
+      <div class="sec" style="left:137px;top:600px">我的声音 (0)</div>
+      <div class="acard" id="cardV" style="left:137px;top:640px;width:413px;height:91px">
+        <div class="ptile" style="position:absolute;left:18px;top:20px"><i></i></div>
+        <div class="abs" style="left:84px;top:23px;font-size:15.5px;font-weight:500">创建声音</div>
+        <div class="abs" style="left:84px;top:50px;font-size:14.5px;color:#9ba1a8">录制15秒即可完成克隆</div>
+        <div class="pbox" id="pbV" style="inset:-12px"><svg viewBox="0 0 437 115" preserveAspectRatio="none"><rect x="3" y="3" width="431" height="109" rx="20" pathLength="1" fill="none" stroke="#E0000E" stroke-width="5" stroke-dasharray="1" stroke-dashoffset="1"/></svg></div>
+      </div>
+      <div class="sec" style="left:137px;top:776px">我的账号</div>
+      <div class="btnb" style="left:1572px;top:766px;width:118px;height:39px"><span style="font-size:17px">⊕</span>添加账号</div>
+      <div class="row" style="top:822px"><div class="av"></div><div class="nm">抖音</div><div class="st">未绑定</div><div class="bd">+ 去绑定</div></div>
+      <div class="row" style="top:916px"><div class="av"></div><div class="nm">小红书</div><div class="st">未绑定</div><div class="bd">+ 去绑定</div></div>
+      <div class="row" style="top:1012px"><div class="av"></div><div class="nm">视频号</div><div class="st">未绑定</div><div class="bd">+ 去绑定</div></div>
+      <div class="sec" style="left:137px;top:1120px">我的素材库 <span style="color:#555;font-weight:400;margin-left:18px">我的视频</span><span style="color:#555;font-weight:400;margin-left:18px">我的图片</span></div>
+      <div class="abs" style="left:1500px;top:1122px;font-size:13px;color:#333">0.0MB / 10GB <span style="color:#2058d9;margin-left:14px">♡ 升级</span></div>
+    </div>
+  </div></div>
+  <div id="shade" class="abs" style="inset:0;background:rgba(14,22,40,.42);opacity:0"></div>
+  <div id="morph" class="abs" style="background:#fff;border-radius:16px;opacity:0;box-shadow:0 50px 120px rgba(12,24,60,.35)"></div>
+
+  <!-- dialog A: 创建数字形象 (vertical re-flow of real components) -->
+  <div class="dlg" id="dA" style="top:300px;height:1740px;opacity:0">
+    <div class="hd st">创建数字形象</div>
+    <svg class="x st" viewBox="0 0 24 24" stroke="#30343a" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    <div class="up st" id="up1" style="top:140px;height:210px">
+      <div class="ic" style="top:51px"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#2b2f35" stroke-width="1.6"><rect x="6.5" y="3" width="11" height="18" rx="2.2"/><path d="M10.5 18h3"/></svg></div>
+      <div class="tt" style="top:54px">手机上传<span class="tag">推荐</span></div>
+      <div class="sb" style="top:122px">扫码拍摄或选取相册图片</div>
+      <div class="bbtn" id="scanBtn" style="right:34px;top:59px;width:236px;height:92px;font-size:40px">扫码上传</div>
+    </div>
+    <div class="up st" id="up2" style="top:374px;height:236px">
+      <div class="ic" style="top:66px"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#2b2f35" stroke-width="1.6"><rect x="3.5" y="4.5" width="17" height="12" rx="2"/><path d="M9 20h6M12 16.5V20"/></svg></div>
+      <div class="tt" style="top:50px">从电脑上传</div>
+      <div class="sb" style="top:108px;width:700px;font-size:36px">点击或拖放图片上传，格式：jpg或png 大小：不超过 10MB</div>
+    </div>
+    <div class="ppanel st" id="pp" style="top:634px;height:650px">
+      <div class="pl" style="left:50px">你的照片</div>
+      <div class="pl" id="plOut" style="left:482px">视频效果</div>
+      <div class="ph" style="left:50px"><img src="assets/photo_src.jpg"></div>
+      <div class="ph" id="phOut" style="left:482px"><img src="assets/photo_out.jpg"><div id="scan" class="abs" style="left:0;right:0;top:0;height:100%;background:linear-gradient(180deg,rgba(32,88,217,0) 0%,rgba(80,140,255,.0) 70%,rgba(120,170,255,.65) 96%,#fff 100%);mix-blend-mode:screen;opacity:0"></div><div id="veil" class="abs" style="inset:0;overflow:hidden;background:#dfe5ee"><img src="assets/photo_out.jpg" style="width:100%;height:100%;object-fit:cover;filter:blur(18px) saturate(.3) brightness(1.12);transform:scale(1.15);opacity:.75"><svg class="abs" style="left:140px;top:230px;width:80px;height:80px" viewBox="0 0 24 24" fill="#fff"><path d="M12 2l2.2 6.3L20.5 10.5l-6.3 2.2L12 19l-2.2-6.3L3.5 10.5l6.3-2.2z" opacity=".95"/><path d="M19 15l.9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9z" opacity=".8"/></svg></div></div>
+      <svg id="arrow" class="abs" style="left:420px;top:340px;width:52px;height:52px" viewBox="0 0 52 52"><defs><linearGradient id="ag" x1="0" x2="1"><stop offset="0" stop-color="#b9cdf7"/><stop offset="1" stop-color="#4d7fe8"/></linearGradient></defs><path d="M6 20h24l-8-10h6l14 16-14 16h-6l8-10H6z" fill="url(#ag)"/></svg>
+    </div>
+    <div class="tips st" id="tips" style="top:1308px;height:290px">
+      <div class="tip" style="left:40px;top:28px"><svg viewBox="0 0 24 24" fill="none" stroke="#2058d9" stroke-width="1.8"><circle cx="12" cy="8.5" r="3.8"/><path d="M5 20c1-3.6 3.6-5.4 7-5.4s6 1.8 7 5.4"/></svg>半身正面照，脸部清晰</div>
+      <div class="tip" style="left:40px;top:94px"><svg viewBox="0 0 24 24" fill="none" stroke="#2058d9" stroke-width="1.8"><circle cx="7.5" cy="13" r="3"/><circle cx="16.5" cy="13" r="3"/><path d="M10.5 13h3M4 5l16 15"/></svg>避免遮挡、帽子和墨镜</div>
+      <div class="tip" style="left:40px;top:160px"><svg viewBox="0 0 24 24" fill="none" stroke="#2058d9" stroke-width="1.8"><path d="M5 9a7 7 0 0 1 14 0v5a7 7 0 0 1-14 0z"/><path d="M9 13.5c1.6 1.4 4.4 1.4 6 0"/></svg>避免过度美颜或明显修图</div>
+      <div class="tip" style="left:40px;top:226px"><svg viewBox="0 0 24 24" fill="none" stroke="#2058d9" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></svg>光线自然，背景简洁</div>
+    </div>
+    <div class="abs st" style="left:52px;top:1622px;width:880px;font-size:27px;color:#9aa0a7;line-height:1.5;padding-left:52px"><span class="abs" style="left:0;top:6px;width:32px;height:32px;border:2.5px solid #c9ced4;border-radius:8px"></span>本人承诺：所上传照片及声音资料均属本人；本人不会上传任何侵害他人肖像权、隐私权或版权之内容……</div>
+  </div>
+
+  <!-- dialog B: 普通话 -->
+  <div class="dlg" id="dB" style="top:300px;height:1160px;opacity:0">
+    <div class="hd sb2">普通话</div>
+    <svg class="x sb2" viewBox="0 0 24 24" stroke="#30343a" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    <div class="tabs sb2" style="top:140px">
+      <div class="tab on" style="left:10px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.7"><rect x="3.5" y="4.5" width="17" height="11.5" rx="2"/><path d="M8 20h8"/><circle cx="8.5" cy="16.5" r="3.2" fill="#fff"/><path d="M8.5 15v2.5" /></svg>本机录制</div>
+      <div class="tab" style="left:446px"><svg viewBox="0 0 24 24" fill="none" stroke="#1d2126" stroke-width="1.7"><rect x="6.5" y="3" width="11" height="18" rx="2.2"/><path d="M10.5 18h3"/></svg>手机录制</div>
+    </div>
+    <div class="abs sb2" style="left:52px;top:296px;font-size:40px;font-weight:700">朗读以下文字</div>
+    <div class="abs sb2" style="right:52px;top:300px;font-size:36px;color:#9aa0a7">普通话 · 简体</div>
+    <div class="ta sb2" id="ta" style="top:370px;height:520px">
+      <div class="ln" style="top:64px;width:804px"><b></b></div>
+      <div class="ln" style="top:134px;width:770px"><b></b></div>
+      <div class="ln" style="top:204px;width:804px"><b></b></div>
+      <div class="ln" style="top:274px;width:690px"><b></b></div>
+      <div class="ln" style="top:344px;width:420px"><b></b></div>
+      <div id="wave" class="abs" style="left:44px;top:120px;width:804px;height:280px;opacity:0"></div>
+    </div>
+    <div class="bbtn sb2" id="recBtn" style="left:44px;top:920px;width:892px;height:124px;font-size:46px"><svg width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.9"><path d="M12 3.5a7.5 7.5 0 0 0-6.6 11l-1 4 4-1A7.5 7.5 0 1 0 12 3.5z" stroke-linejoin="round"/></svg>开始录制</div>
+    <div class="abs sb2" style="left:0;right:0;top:1074px;text-align:center;font-size:36px;color:#9aa0a7">请在安静环境依画面文字朗读，语速平稳、咬字清晰。</div>
+  </div>
+
+  <div id="ring" class="abs" style="left:350px;top:690px;width:380px;height:380px;opacity:0">
+    <svg viewBox="0 0 380 380" style="position:absolute;inset:0;overflow:visible"><circle cx="190" cy="190" r="172" fill="#fff" style="filter:drop-shadow(0 24px 40px rgba(12,24,60,.28))"/><circle cx="190" cy="190" r="150" fill="none" stroke="#f1d3d5" stroke-width="22"/><circle id="ringP" cx="190" cy="190" r="150" fill="none" stroke="#E0000E" stroke-width="22" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" transform="rotate(-90 190 190)"/></svg>
+    <div id="ringN" class="abs" style="left:0;right:0;top:108px;text-align:center;font-weight:900;color:#121418;line-height:1"><span id="ringNum" style="font-size:150px">0</span><span style="font-size:60px;margin-left:6px">秒</span></div>
+    <div id="ringOK" class="abs" style="left:262px;top:262px;width:96px;height:96px;border-radius:50%;background:#1fa463;box-shadow:0 10px 24px rgba(31,164,99,.45);opacity:0"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="position:absolute;inset:18px"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+  </div>
+
+  <div id="hudBg" class="abs" style="left:0;top:0;width:1080px;height:345px;background:linear-gradient(180deg,rgba(221,229,244,1) 0%,rgba(221,229,244,.98) 82%,rgba(221,229,244,0) 100%)"></div>
+  <div id="pills"></div>
+  <div class="rbox" id="rb" style="left:0;top:0;width:10px;height:10px;opacity:0"><svg id="rbS" style="position:absolute;overflow:visible" ><rect id="rbR" pathLength="1" fill="none" stroke="#E0000E" stroke-width="7" stroke-dasharray="1" stroke-dashoffset="1" rx="22"/></svg></div>
+  <div class="ripple" id="rip"></div>
+  <svg class="cursor" id="cur" viewBox="0 0 70 84" style="opacity:0"><path d="M6 4 L6 66 L22 51 L33 76 L45 71 L34 47 L56 47 Z" fill="#141518" stroke="#fff" stroke-width="5" stroke-linejoin="round"/></svg>
+</section>
+
+<div id="hud">
+  <div class="disc" id="disc">合作内容 · 工具演示，不构成投资建议</div>
+  <div class="mod" id="brand" style="opacity:0"><svg style="width:72px;height:72px" viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15.5" stroke="url(#lgN)" stroke-width="2.6"/><ellipse cx="20" cy="20" rx="15" ry="9" stroke="#3449b0" stroke-width="2" transform="rotate(-40 20 20)"/><ellipse cx="21" cy="19" rx="11" ry="14" stroke="#5a70d0" stroke-width="1.6" transform="rotate(25 20 20)" opacity=".8"/><path d="M27 11 q5 9 -4 17" stroke="#e9a45c" stroke-width="2.2" stroke-linecap="round"/></svg><div class="clip"><div class="t" id="brandT">Sphere<span style="color:#2058d9;margin:0 14px">·</span>数字分身</div></div></div>
+  <div class="mod" id="mod" style="opacity:0"><div class="p" id="modP">模块①</div><div class="clip"><div class="t" id="modT">创建数字分身</div></div></div>
+</div>
+<div id="subs"><div class="bar" id="sbar"></div><div class="tx" id="stx"></div></div>
+<div id="grain"></div>
+</div>
+<script src="anim.js"></script>
+</body></html>

@@ -1,0 +1,93 @@
+{
+  "receipt_version": "0.2",
+  "project": "小红书·阿信学财经·汽车出口",
+  "task_id": "20261113-auto-export",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T11:41:23.352013+08:00",
+  "executor": "图文执行子代理",
+  "verifier": "verify_receipt.py 独立重跑",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/00_封面.png",
+      "change": "add",
+      "after_sha256": "afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/01_国内销量与出口.png",
+      "change": "add",
+      "after_sha256": "57d40bcbaed8503f246a800820a5fa1712a0ee9edddf4e4c99ff7d21c365c18d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/02_新能源出口占比.png",
+      "change": "add",
+      "after_sha256": "68c5d340d81b2119239be59ed21a45a8f9ba11828bdd649d9aa2eca764458bd1"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/03_出口退税节点.png",
+      "change": "add",
+      "after_sha256": "3acc525974ea3cea0152304af07aeb845eb41e35ca6c5975f26cf3dea1f70f96"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/04_发布文案.txt",
+      "change": "add",
+      "after_sha256": "be5dd933aead73af949619abd576a9d478510cfe3a2cbba501e17129539c5073"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/05_来源说明.txt",
+      "change": "add",
+      "after_sha256": "164dd9b8ad9dd3d896fdb71375d5189874cf5afff9acf1326cedd3cdbd0fb0fc"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/06_归档校验.json",
+      "change": "add",
+      "after_sha256": "2cde6906135f8b410a81e6000448b5e8bab92d23640b7e3c4b720dd69aa3827b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/07_总览.png",
+      "change": "add",
+      "after_sha256": "9a2b067f42b78e78fcd51f718bd40901c0cfae99270308a7770079a911ff69ab"
+    }
+  ],
+  "gates": {
+    "gate1_syntax_and_py_compile": "N/A",
+    "gate2_invariants_and_tests": {
+      "total_tests": 5,
+      "passed": 5,
+      "failed": 0,
+      "exit_code": 0,
+      "command": [
+        "bash",
+        "/workspace/xhs/notes/20261113-大号-汽车出口榜/tools_local/verify_all.sh"
+      ],
+      "cwd": "/workspace/xhs/notes/20261113-大号-汽车出口榜",
+      "timeout_s": 180
+    },
+    "gate3_simulated_rollback": {
+      "restore_by_delete": true
+    },
+    "gate4_manifest_hash_check": "100%_MATCHED"
+  },
+  "gate4_evidence": {
+    "asset_register": "/workspace/xhs/notes/20261113-大号-汽车出口榜/ASSET_REGISTER.json"
+  },
+  "project_checks": [
+    {
+      "id": "内容与数据核验",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-汽车出口榜/交付.md"
+    }
+  ],
+  "overall_verdict": "PASS",
+  "user_confirmation": {
+    "message_id": "t54u",
+    "time_zone": "Asia/Shanghai",
+    "confirmed_at": "2026-11-13T15:58:33+08:00",
+    "summary": "Fisher 确认早上两篇笔记落实到本地：汽车出口封面通过，其余内容没问题。不重做汽车月度对照图。",
+    "approved_basis": "final/00_封面.png SHA afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916（与 03-design/p1.png 相同）。t54u 确认该封面通过。未采用 03-design/p_monthly.png（月度对照，非封面，且按指示不再重做）。内页三张及文案、来源以 final/ 与 receipt.json、06_归档校验.json 为准。",
+    "status": "USER_APPROVED，待手动发布，不代发"
+  }
+}

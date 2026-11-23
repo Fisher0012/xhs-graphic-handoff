@@ -1,0 +1,43 @@
+{
+  "title": "宽基ETF吸金榜",
+  "account": "阿信学财经",
+  "style": "大号黑金排行榜",
+  "period": "2026-09-28至2026-11-03",
+  "trading_days": 22,
+  "unit": "亿元",
+  "totals": {
+    "stock_etf_inflow": 5560,
+    "stock_etf_inflow_note": "约5560亿元（媒体转Wind）",
+    "broad_based_etf_inflow": 5389.04,
+    "core7_inflow": 4999.44
+  },
+  "single_day": {
+    "date": "2026-11-03",
+    "stock_etf_inflow": 837.59,
+    "note": "年内新高；正文/图只用837.59；单日峰值以Wind股票ETF合计口径837.59亿元为准（不用845.34）"
+  },
+  "ranking": [
+    {"rank": 1, "index": "沪深300", "en": "CSI 300", "inflow": 2088.22},
+    {"rank": 2, "index": "科创50", "en": "STAR 50", "inflow": 847.23},
+    {"rank": 3, "index": "创业板指", "en": "ChiNext", "inflow": 771.14},
+    {"rank": 4, "index": "中证A500", "en": "CSI A500", "inflow": 418.55},
+    {"rank": 5, "index": "中证1000", "en": "CSI 1000", "inflow": 360.02},
+    {"rank": 6, "index": "上证50", "en": "SSE 50", "inflow": 269.35},
+    {"rank": 7, "index": "中证500", "en": "CSI 500", "inflow": 244.93}
+  ],
+  "author_calcs": [
+    {"label": "宽基占股票型ETF", "formula": "5389.04/5560", "value_pct": 96.9},
+    {"label": "7大核心占宽基", "formula": "4999.44/5389.04", "value_pct": 92.8},
+    {"label": "沪深300占7大核心", "formula": "2088.22/4999.44", "value_pct": 41.8}
+  ],
+  "sources": [
+    {"name": "东方财富转券商中国", "url": "https://finance.eastmoney.com/a/202611043922300262.html", "checked": "2026-11-06"},
+    {"name": "第一财经转证券时报", "url": "https://www.yicai.com/news/103426447.html", "checked": "2026-11-06"}
+  ],
+  "rules": [
+    "不点名具体基金产品代码或公司名",
+    "不编造额外数字",
+    "不荐产品、不承诺收益、不做买卖方向暗示",
+    "大号仅存档不发布"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "receipt_version": "0.3",
+  "project": "创始人离职影响",
+  "task_id": "t56u-cover-v7-copy-mac",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T16:55:00+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "user_confirmation": {
+    "message_id": "t56u",
+    "time_zone": "Asia/Shanghai",
+    "quote": "这一版通过，另外把文案也调整一下，做适当的改动，然后覆盖到本地。",
+    "summary": "Fisher 确认封面 v7（含离任时→现在市值倍数）通过，要求适度调整文案并覆盖到 Mac 待送审目录。",
+    "approved_assets": {
+      "cover": {
+        "file": "cover/00_封面_v7.png",
+        "approved_snapshot": "cover/00_封面_v7_approved.png",
+        "version": "v7",
+        "sha256": "3366ed8e4c5394eb3532e465bd3cddc3473fe77cf7f0fc55b9c4b06f65a227a9",
+        "approved": "t56u",
+        "note": "在 v6 基础上增加市值倍数列。v6 历史通过版保留为 cover/00_封面_approved.png 与 cover/00_封面_v6.png（ae78c569…），不覆盖。"
+      },
+      "page01": {
+        "file": "pages/01_内页_v4.png",
+        "version": "v4",
+        "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+        "approved": "t52u",
+        "unchanged": true
+      },
+      "page02": {
+        "file": "pages/02_内页_v5.png",
+        "version": "v5",
+        "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+        "approved": "t53u",
+        "unchanged": true
+      }
+    }
+  },
+  "copy": {
+    "file": "03-文案.md",
+    "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "backup": "03-文案_t56前.md",
+    "previous_sha256": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "note": "以 t53 润色定稿为基础做适度修改：开头补英伟达当前市值、第③点补五家倍数与口径，强调不能归因、不预测、过往市值变化不代表未来。"
+  },
+  "sources_and_compliance": {
+    "05-来源说明.md": "已并入第8节市值对照；原市值草稿文件保留为 05-来源说明_市值草稿.md",
+    "04-合规自查.md": "已按封面 v7 与新文案重签，去掉「无市值变化」表述"
+  },
+  "overall_verdict": "USER_APPROVED：封面v7（t56u）、内页01 v4（t52u）、内页02 v5（t53u）。文案已调整。按t56u覆盖Mac待送审目录。不代为发布。",
+  "mac_delivery": {
+    "machineId": "1955f62c-ee17-45e0-9e5b-3d70dff2b5c5",
+    "path": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261113_创始人离职影响_待送审",
+    "backup": "/Users/donnie/Desktop/新图文笔记/_历史备份/20261113_创始人离职影响_待送审_t56前",
+    "replace_cover": "00_封面.png = v7；旧 v6 封面不留在发布目录",
+    "pages_unchanged": true,
+    "published": false,
+    "verified": "9/9 SHA256 match",
+    "tgz": "20261113_founder_handover_v7.tgz copied to Desktop then deleted after verify",
+    "export_tgz_untouched": true,
+    "completed_at": "2026-11-13T16:53:00+08:00"
+  },
+  "file_sha256": {
+    "00_封面.png": "3366ed8e4c5394eb3532e465bd3cddc3473fe77cf7f0fc55b9c4b06f65a227a9",
+    "01_离职不等于退出.png": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+    "02_黄仁勋这次关键看三点.png": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+    "04_发布文案.md": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "04_发布文案.txt": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "05_来源说明.md": "63cd7ff3c53da18edf65b98e75aba54e6bb6db595f3359b2bf92c4ad1a32df7c",
+    "06_合规自查.md": "5767688557ba3a3a6cacd4a51b32766f6c2ac074ab452784030bf014cb425a7a",
+    "07_归档校验.json": "02e884f3407ac3f72468b078d11f0a853622e139bf25e03cb6c1e3371c07704d",
+    "SHA256.txt": "587674d7f9851813c0abc7072984b19df1ec6512d46bccf5b362c8417f61be1e"
+  }
+}

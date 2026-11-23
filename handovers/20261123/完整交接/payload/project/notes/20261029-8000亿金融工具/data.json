@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-10-28",
+  "total_yi": 8000,
+  "use": "全部用于补充项目资本金",
+  "banks": [
+    {"key":"cdb","name":"国开行","full":"国家开发银行","amount_yi":3650,"invest_wan_yi":5.5,"invest_word":"涉及项目总投资","qual":"",
+     "dirs":[["新兴领域","<b>1790.1亿元</b>，占<b>49%</b>"],["民间投资","<b>1279.9亿元</b>，占<b>35.1%</b>"],["11个经济大省","<b>2778.6亿元</b>，占<b>76.1%</b>"]]},
+    {"key":"eximbank","name":"进出口银行","full":"中国进出口银行","amount_yi":1200,"invest_wan_yi":1.7,"invest_word":"拉动总投资","qual":"逾",
+     "dirs":[["新兴产业","<b>220余个</b>项目，放款占比<b>近五成</b>"],["民间投资","<b>210余个</b>项目，放款占比<b>近四成</b>"],["11个经济大省","<b>330余个</b>项目，放款占比<b>超七成</b>"]]},
+    {"key":"adbc","name":"农发行","full":"中国农业发展银行","amount_yi":3150,"invest_wan_yi":4.39,"invest_word":"涉及项目总投资","qual":"约",
+     "dirs":[["新兴领域","<b>近2000个</b>项目，投资金额<b>近2000亿元</b>"],["民间投资","<b>近400个</b>项目，<b>超650亿元</b>，占比<b>超20%</b>"],["11个经济大省","<b>超2100个</b>项目，<b>近2200亿元</b>，占比<b>约七成</b>"]]}
+  ],
+  "y2025": {"total_yi":5000,"projects":"2300多个","invest_wan_yi":7,"qual":"约","source":"国家发展改革委 2025-10-31 新闻发布会"},
+  "sources": ["中国政府网转新华社 2026-10-28 https://www.gov.cn/yaowen/liebiao/202610/content_7084409.htm",
+              "新华社 2026-10-27（国开行 49%） https://www.news.cn/20261027/d9f7db75cdd64fd2a104b95a29bc49d4/c.html",
+              "国家发展改革委 2025-10-31 https://www.ndrc.gov.cn/xwdt/wszb/10yxwfbh1/wzsl/202510/t20251031_1401292.html",
+              "国发〔2019〕26号 https://www.gov.cn/zhengce/zhengceku/2019-11/27/content_5456170.htm"]
+}

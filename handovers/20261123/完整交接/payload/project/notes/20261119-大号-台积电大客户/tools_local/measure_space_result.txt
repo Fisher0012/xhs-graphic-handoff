@@ -1,0 +1,5 @@
+p1.png                     最大空白  5.7% @y  786  内容底→页脚  0.7%  PASS
+p2.png                     最大空白  4.9% @y 1144  内容底→页脚  0.7%  PASS
+p3.png                     最大空白  4.9% @y 1132  内容底→页脚  0.7%  PASS
+p4.png                     最大空白  5.0% @y  684  内容底→页脚  4.9%  PASS
+measure_space: PASS

@@ -1,0 +1,5 @@
+p1 封面 h1='Anthropic上市⏎7位创始人身价盘点' fs=108px lines=4 top=72 right=1040 h2fs=34px h2lines=1 -> PASS
+p2 内页 h1='上市首日值1.20万亿' fs=86px lines=1 right=829 h2='发行价 83 美元，收盘 97.17 美元，涨 17.07%' -> PASS
+p3 内页 h1='上市时营收增长12倍' fs=86px lines=1 right=833 h2='2026 年前三季度收入 332.42 亿美元，同比 1,206%' -> PASS
+p4 内页 h1='上市后谁说了算' fs=86px lines=1 right=642 h2='投票权和经济权益是分开的，持股多不等于能拍板' -> PASS
+check_titles: PASS

@@ -1,0 +1,40 @@
+四大行市值破10万亿，红利股是什么｜定稿来源说明（2026-10-30 归档）
+查阅日期：2026-10-29；创业板指、建行公告于 2026-10-30 补核（北京时间）。【自算】为本笔记根据公开数据计算。
+图文只用指数口径，不写任何个股的股价或股息率，不推荐基金或股票。工行、建行只作为分红比例的公告来源出现。
+
+一、10-29 行情（封面，正文①）
+1. 四大行 A+H 总市值收盘约 10.03 万亿元，历史首次破 10 万亿（媒体统计，没有交易所一手合计数）：新华财经 2026-10-29。
+https://www.cnfin.com/yw-lb/detail/20261029/4488211_1.html
+华尔街见闻：https://wallstreetcn.com/articles/3784738
+2. 创业板指 10-29 收 2517.59，-4.45%：国证指数公司行情数据（10-30 核对；原始数据存于 notes/…/src/cnindex_399006_20261027-29.json）。
+https://www.cnindex.com.cn/module/index-detail.html?act_menu=1&indexCode=399006
+3. 中证银行指数 10-29 +2.00%、10-28 -0.62%：中证指数公司。
+https://www.csindex.com.cn/csindex-home/perf/index-perf?indexCode=399986&startDate=20261026&endDate=20261029
+
+二、分红比例 31%（封面、P4，正文④）
+4. 工商银行 2026-08-28 中期利润分配方案公告：派息占归属于母公司股东净利润 31.0%，需股东会审议。
+https://v.icbc.com.cn/userfiles/resources/icbcltd/download/2026/Announce20260828_3.pdf
+5. 建设银行 2026-08-28 中期利润分配方案公告：每 10 股 2.010 元，分红比例 31.0%，尚需提交股东会审议（10-30 下载全文核对）。
+https://www.hkexnews.hk/listedco/listconews/sehk/2026/0828/2026082801643_c.pdf
+其他大行没有逐家核对，图文只写「两家大行／工行、建行」。
+
+三、股息率（P2、P3，正文②③）
+6. 中证指数公司指标数据：中证银行指数股息率 10-28 4.58%、10-29 4.49%；中证红利指数 10-29 4.19%。均为「计算用股本」口径（按总股本口径分别为 4.00%、3.92%、4.01%，未用）。
+https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/indicator/399986indicator.xls
+https://oss-ch.csindex.com.cn/static/html/csindex/public/uploads/file/autofile/indicator/000922indicator.xls
+【自算】4.58% ÷ 1.02 ≈ 4.49%，和 10-29 公布值一致。P2「0.4元／10元／12元」为虚构举例，图上已标「举例」。
+7. 中证红利指数编制方案：选 100 只现金股息率高、分红较稳定的上市公司。
+https://www.csindex.com.cn/csindex-home/indexInfo/index-basic-info/000922
+
+四、存款和国债（P3，正文③）
+8. 中国银行人民币存款挂牌利率（2025-05-20 起执行）：1 年 0.95%、3 年 1.25%。
+https://www.bankofchina.com/fimarkets/lilv/fd31/202505/t20250520_25356440.html
+9. 中央结算公司中债国债曲线 10-29：10 年期 1.6233%。
+https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/more
+
+五、净息差（P3、P4，正文③）
+10. 国家金融监督管理总局 2026-08-14 主要监管指标：2026 年二季度商业银行净息差 1.414%，大型商业银行 1.309%。
+https://www.nfra.gov.cn/chinese/docfile/2026/5579694456f34cd6aa629b17898fbc35.xls
+
+未用：个股股息率；六大行「全部」31%；「净息差 2022 年以来首次回升」；第三方银行板块股息率 4.56%、4.66%。
+完整资料见 notes/20261029-红利股/01-选题.md；合规见 05-合规.md。

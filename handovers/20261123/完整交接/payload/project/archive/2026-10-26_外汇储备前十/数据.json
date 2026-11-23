@@ -1,0 +1,362 @@
+{
+  "title": "全球外汇储备前十，中国3.4万亿美元怎么排",
+  "status": "已定稿 2026-10-26（图、文案、合规完成；未发布）",
+  "compiled": "2026-10-26（北京时间）",
+  "unit": "亿美元（官方美元数÷1e8，四舍五入到整数；换算单位不算自算）",
+  "metric": {
+    "name": "外汇储备（IMF国际储备与外币流动性数据模板 IRFCL 第I.A.(1)项「外币储备（可兑换外币）」）",
+    "includes": "外币证券＋外币存款",
+    "excludes": "黄金、SDR、IMF储备头寸、其他储备资产",
+    "check": "中国外汇局「外汇储备」8月末34383.25＝IMF I.A.1 3,438,325百万美元；日本财务省 I.A.1 外貨 976,913＝IMF；台湾6月末模板I.A.(1)=外汇存底；香港按金管局模板(1)项",
+    "no_conversion": "所有数均为官方公布的美元值；瑞士、沙特、新加坡9月只有本币数，不换算，改用8月末美元数"
+  },
+  "ranking": [
+    {
+      "rank": 1,
+      "name": "中国",
+      "type": "国家",
+      "value_yi_usd": 34003,
+      "value_exact": "34002.51亿美元（官方储备资产表；新闻稿取整34003）",
+      "as_of": "2026-09-30",
+      "mom": -381,
+      "mom_note": "外汇局新闻稿：较8月末下降381亿美元，降幅1.11%",
+      "yoy": 616,
+      "yoy_base": "2025-09-30 33386.6（IMF IRFCL，与外汇局同口径）",
+      "source": "国家外汇管理局",
+      "source_ids": [
+        "SAFE",
+        "SAFE_ORA"
+      ],
+      "gold_same_month": 3235.17,
+      "total_reserve_same_month": 37894.25
+    },
+    {
+      "rank": 2,
+      "name": "日本",
+      "type": "国家",
+      "value_yi_usd": 9769,
+      "value_exact": "976,913百万美元（Ⅰ.A.1 外貨）",
+      "as_of": "2026-09-30",
+      "mom": -181,
+      "mom_note": "8月末 994,976百万美元（IMF IRFCL）→【自算】",
+      "yoy": -1718,
+      "yoy_base": "2025-09 11487.3（IMF IRFCL）",
+      "source": "日本财务省",
+      "source_ids": [
+        "MOF",
+        "IMF"
+      ],
+      "gold_same_month": 1135.92,
+      "total_reserve_same_month": 11783.96,
+      "extra": "2026-02末 11799.0 为今年最高（IMF IRFCL），至9月末少2030亿【自算】"
+    },
+    {
+      "rank": 3,
+      "name": "瑞士",
+      "type": "国家",
+      "value_yi_usd": 9525,
+      "value_exact": "952,542.96百万美元（SNB snbimfra，A.(1)，in USD）",
+      "as_of": "2026-08-31",
+      "mom": 67,
+      "mom_note": "7月末 945,813.94→【自算】",
+      "yoy": 598,
+      "yoy_base": "2025-08 8927.7（IMF IRFCL）",
+      "source": "瑞士央行（同IMF IRFCL）",
+      "source_ids": [
+        "SNB",
+        "IMF"
+      ],
+      "gold_same_month": 1478.23,
+      "total_reserve_same_month": 11152.62,
+      "extra": "9月末仅有瑞郎数：外汇储备7710亿瑞郎（SNB月度公布，媒体转述），美元模板数据未出，不换算"
+    },
+    {
+      "rank": 4,
+      "name": "印度",
+      "type": "国家",
+      "value_yi_usd": 6118,
+      "value_exact": "611,824.3百万美元（IMF IRFCL I.A.1）",
+      "as_of": "2026-08-31",
+      "mom": 471,
+      "mom_note": "7月末 5646.8→【自算】",
+      "yoy": 273,
+      "yoy_base": "2025-08 5845.3",
+      "source": "IMF IRFCL（印度储备银行报送）",
+      "source_ids": [
+        "IMF"
+      ],
+      "gold_same_month": 1162.52,
+      "total_reserve_same_month": 7517.96,
+      "extra": "RBI 周报「外币资产FCA」是另一口径：2026-08-28 6006.7亿、09-25 6154.1亿、10-16 5918.5亿；9月IRFCL模板按RBI日程10-30发布"
+    },
+    {
+      "rank": 5,
+      "name": "中国台湾",
+      "type": "经济体",
+      "value_yi_usd": 6007,
+      "value_exact": "6,007.45亿美元（外汇存底）",
+      "as_of": "2026-09-30",
+      "mom": -11.59,
+      "mom_note": "台湾央行新闻稿：较上月底减少11.59亿美元",
+      "yoy": -22,
+      "yoy_base": "2025-09 602.94十亿美元（台湾央行序列）→【自算】-21.95",
+      "source": "台湾地区央行",
+      "source_ids": [
+        "CBC",
+        "CBC_SERIES",
+        "CBC_IRFCL"
+      ],
+      "gold_same_month": null,
+      "total_reserve_same_month": null,
+      "extra": "非IMF成员，不在IMF数据库；台湾央行自编IRFCL模板（2026-06-30）I.A.(1)=597,152百万美元，与同月外汇存底597.15十亿美元一致，口径相同；其黄金按账面价（6月末4,861百万美元/1363万盎司），不可比"
+    },
+    {
+      "rank": 6,
+      "name": "沙特",
+      "type": "国家",
+      "value_yi_usd": 4622,
+      "value_exact": "462,153.7百万美元（IMF IRFCL I.A.1）",
+      "as_of": "2026-08-31",
+      "mom": -15,
+      "mom_note": "7月末 4636.5→【自算】",
+      "yoy": 310,
+      "yoy_base": "2025-08 4311.1",
+      "source": "IMF IRFCL（沙特央行SAMA报送）",
+      "source_ids": [
+        "IMF"
+      ],
+      "gold_same_month": 4.33,
+      "total_reserve_same_month": 4873.09,
+      "extra": "SAMA 9月数只有里亚尔（媒体转述外币储备1.6525万亿里亚尔），不换算"
+    },
+    {
+      "rank": 7,
+      "name": "中国香港",
+      "type": "经济体",
+      "value_yi_usd": 4296,
+      "value_exact": "429,560百万美元（金管局IRFCL模板 (1)）",
+      "as_of": "2026-08-31",
+      "mom": -57,
+      "mom_note": "7月末 4353.0（IMF IRFCL）→【自算】",
+      "yoy": 218,
+      "yoy_base": "2025-08 4077.8",
+      "source": "香港金管局",
+      "source_ids": [
+        "HKMA_IRFCL",
+        "IMF"
+      ],
+      "gold_same_month": 2.96,
+      "total_reserve_same_month": 4428.05,
+      "extra": "金管局新闻稿「官方外汇储备资产」9月末4330亿、8月末4428亿，是A.官方储备资产总额（含其他储备资产，8月末129.49亿）；9月同口径模板约10月底出"
+    },
+    {
+      "rank": 8,
+      "name": "新加坡",
+      "type": "国家",
+      "value_yi_usd": 4188,
+      "value_exact": "418,821.4百万美元（IMF IRFCL I.A.1）",
+      "as_of": "2026-08-31",
+      "mom": 51,
+      "mom_note": "7月末 4136.8→【自算】",
+      "yoy": 409,
+      "yoy_base": "2025-08 3779.6",
+      "source": "IMF IRFCL（新加坡金管局MAS报送）",
+      "source_ids": [
+        "IMF"
+      ],
+      "gold_same_month": 58.28,
+      "total_reserve_same_month": 4329.69,
+      "extra": "MAS 9月官方外汇储备只有新元数（5535.73亿新元，含黄金等），不换算"
+    },
+    {
+      "rank": 9,
+      "name": "韩国",
+      "type": "国家",
+      "value_yi_usd": 4161,
+      "value_exact": "416,122百万美元（IMF IRFCL I.A.1）",
+      "as_of": "2026-08-31",
+      "mom": 143,
+      "mom_note": "7月末 4018.4→【自算】",
+      "yoy": 260,
+      "yoy_base": "2025-08 3901.6",
+      "source": "IMF IRFCL（韩国央行报送）",
+      "source_ids": [
+        "IMF",
+        "BOK"
+      ],
+      "gold_same_month": 47.95,
+      "total_reserve_same_month": 4422.81,
+      "extra": "韩国央行9月新闻稿只有分项：外汇储备总额4405.6亿、有价证券3860.3亿、存款299.5亿；8月「证券+存款」4173.7亿≠IMF I.A.1 4161.2亿，分类不完全对应，故不用新闻稿相加"
+    },
+    {
+      "rank": 10,
+      "name": "俄罗斯",
+      "type": "国家",
+      "value_yi_usd": 4004,
+      "value_exact": "400,407.2百万美元（IMF IRFCL I.A.1）",
+      "as_of": "2026-09-30",
+      "mom": -52,
+      "mom_note": "8月末 4056.5→【自算】",
+      "yoy": -8,
+      "yoy_base": "2025-09 4012.0",
+      "source": "IMF IRFCL（俄罗斯央行报送）",
+      "source_ids": [
+        "IMF",
+        "CBR"
+      ],
+      "gold_same_month": 3016.07,
+      "total_reserve_same_month": 7317.6,
+      "extra": "俄罗斯央行网页「иностранная валюта」10-01为400,981百万美元＝I.A.1 400,407＋其他储备资产574；本表按IMF I.A.1"
+    }
+  ],
+  "next_after_10": [
+    {
+      "rank": 11,
+      "name": "巴西",
+      "value_yi_usd": 3054,
+      "as_of": "2026-09-30",
+      "source": "IMF IRFCL"
+    },
+    {
+      "rank": 12,
+      "name": "泰国",
+      "value_yi_usd": 2414,
+      "as_of": "2026-06-30",
+      "source": "IMF IRFCL（最新为6月）"
+    },
+    {
+      "rank": 13,
+      "name": "以色列",
+      "value_yi_usd": 2322,
+      "as_of": "2026-09-30",
+      "source": "IMF IRFCL"
+    },
+    {
+      "rank": 14,
+      "name": "墨西哥",
+      "value_yi_usd": 2287,
+      "as_of": "2026-08-31",
+      "source": "IMF IRFCL"
+    }
+  ],
+  "coverage_note": "排名范围：IMF IRFCL 2026-10-25版中按月报送的经济体＋台湾地区（非IMF成员）。不按月公布的经济体未纳入。",
+  "derived": {
+    "china_vs_japan": {
+      "value": 3.48,
+      "formula": "34002.51÷9769.13（均为9月末）",
+      "self_computed": true,
+      "on_image": "3.5倍"
+    },
+    "china_share_global": {
+      "value": 25.8,
+      "unit": "%",
+      "formula": "中国6月末34162.62÷IMF COFER 2026Q2全球外汇储备132,167.9亿",
+      "self_computed": true,
+      "on_image": "约1/4（6月末）"
+    },
+    "global_fx_q2": {
+      "value_yi": 132168,
+      "source": "IMF COFER 2026Q2（TFXRA）"
+    },
+    "japan_since_feb": {
+      "value": -2030,
+      "formula": "9769.13−11799.0（2026-02末，IMF IRFCL）",
+      "self_computed": true
+    },
+    "japan_swiss_gap_aug": {
+      "value": 424,
+      "formula": "日本8月末9949.76−瑞士8月末9525.43",
+      "self_computed": true,
+      "year_ago": 2497
+    },
+    "china_2026_monthly": {
+      "source": "外汇局官方储备资产表（2026）",
+      "values": {
+        "01": 33990.78,
+        "02": 34278.07,
+        "03": 33421.23,
+        "04": 34105.47,
+        "05": 34422.38,
+        "06": 34162.62,
+        "07": 34187.76,
+        "08": 34383.25,
+        "09": 34002.51
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "SAFE",
+      "url": "https://www.safe.gov.cn/safe/2026/1006/27959.html"
+    },
+    {
+      "id": "SAFE_ORA",
+      "url": "https://www.safe.gov.cn/safe/file/file/20261007/82b013e9d3e24ece853a4583f5e34909.pdf"
+    },
+    {
+      "id": "MOF",
+      "url": "https://www.mof.go.jp/policy/international_policy/reference/official_reserve_assets/data/0809.html"
+    },
+    {
+      "id": "SNB",
+      "url": "https://data.snb.ch/en/topics/snb/cube/snbimfra"
+    },
+    {
+      "id": "SNB_API",
+      "url": "https://data.snb.ch/api/cube/snbimfra/data/csv/en"
+    },
+    {
+      "id": "IMF",
+      "url": "https://data.imf.org/en/datasets/IMF.STA:IRFCL"
+    },
+    {
+      "id": "IMF_API",
+      "url": "https://api.imf.org/external/sdmx/2.1/data/IMF.STA,IRFCL/.IRFCLDT1_IRFCLCDCFC_USD..M"
+    },
+    {
+      "id": "CBC",
+      "url": "https://www.cbc.gov.tw/tw/cp-302-192976-352ee-1.html"
+    },
+    {
+      "id": "CBC_SERIES",
+      "url": "https://www.cbc.gov.tw/tw/lp-644-1-1-60.html"
+    },
+    {
+      "id": "CBC_IRFCL",
+      "url": "https://www.cbc.gov.tw/en/cp-5250-146407-9f21d-2.html"
+    },
+    {
+      "id": "HKMA",
+      "url": "https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/10/20261007-3/"
+    },
+    {
+      "id": "HKMA_IRFCL",
+      "url": "https://www.hkma.gov.hk/media/eng/doc/key-information/press-release/2026/20260930e7a1.pdf"
+    },
+    {
+      "id": "CBR",
+      "url": "https://www.cbr.ru/hd_base/mrrf/mrrf_m/"
+    },
+    {
+      "id": "BOK",
+      "url": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?menuNo=201265&nttId=11065307"
+    },
+    {
+      "id": "RBI_WSS",
+      "url": "https://www.rbi.org.in/Scripts/WSSView.aspx?Id=28789"
+    },
+    {
+      "id": "COFER",
+      "url": "https://data.imf.org/en/datasets/IMF.STA:COFER"
+    },
+    {
+      "id": "MAS_OFR",
+      "url": "https://data.gov.sg/datasets/d_92afecf58ad03196ff6a7abb7a03d631/view"
+    }
+  ],
+  "local_copies": "notes/20261026-外汇储备前十/src/",
+  "risk_notice_image": "风险提示：本文信息仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。",
+  "self_computed_rule": "加总、相减、相除得到的数标【自算】；单位换算（百万美元→亿美元）不算自算",
+  "final_title": "全球外汇储备前十，中国3.4万亿怎么排",
+  "wording_note": "上图/正文对台湾地区数据来源表述为「中国台湾地区货币当局」「当地货币当局」；本文件 source 字段为内部记录"
+}

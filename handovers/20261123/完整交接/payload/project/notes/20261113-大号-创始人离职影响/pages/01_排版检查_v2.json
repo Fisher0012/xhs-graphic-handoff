@@ -1,0 +1,37 @@
+{
+  "page": "01_内页_v2",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 14:52:54 北京时间",
+  "title": {
+    "text": "离职不等于退出",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 602,
+    "content_width_px": 1000,
+    "fits_one_line": true,
+    "note": "未采用封面108px两行。参考前两期黄仁勋内页：恋情篇主标题86–94px，持股篇一行94px。本标题7字，86px一行有余，未缩小。"
+  },
+  "subtitle": {
+    "text": "经营职务、董事会席位、股权，是三种不同关系",
+    "font_px": 30,
+    "gap_after_title_px": 18,
+    "one_line": true,
+    "width_px": 630
+  },
+  "form": "关系图（中心节点+三条关系+治理链条），无人物表、无封面案例人名",
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v2.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v2_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "footer_bottom_px": 16,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "none",
+    "edge_text": "20px边缘无正文像素，仅网格/光晕",
+    "spacing": "主副标题间距18px有呼吸；主体区块由space-evenly均匀分布，区块间距约90–120px，空白不再堆在底部。关系图内容量轻于人物表，未为填满追加解释卡。"
+  },
+  "facts": "只写公司治理关系定义与连接，不写新数据，不把持股写成直接管理",
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

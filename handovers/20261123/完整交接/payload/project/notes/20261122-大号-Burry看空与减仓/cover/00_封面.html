@@ -1,0 +1,93 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 78%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:30px 44px 0;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:138px;line-height:.94;margin-top:16px;letter-spacing:1px;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 6px 0 rgba(0,0,0,.6)}
+h1 em{font-style:normal;background:linear-gradient(180deg,#ff6b6b 0%,#ff1f3a 70%,#c80f28 100%);-webkit-background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 0 26px rgba(255,40,60,.55))}
+h2{font-family:NSB;font-size:44px;margin-top:12px;color:#e9f3ff;letter-spacing:.5px;white-space:nowrap}
+h2 .pct{color:#7fd3ff;background:none;padding:0;border-radius:0;margin:0 2px;filter:drop-shadow(0 0 12px rgba(127,211,255,.45))}
+h2 .hl{color:#0b0f16;background:#7fd3ff;padding:0 10px;border-radius:6px;margin:0 2px}
+
+.hero{margin-top:18px;height:232px;display:flex;flex:none;border-radius:20px;overflow:hidden;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(127,211,255,.35);box-shadow:0 0 0 1px rgba(255,45,63,.15),0 18px 50px rgba(0,0,0,.55),inset 0 0 60px rgba(127,211,255,.06);position:relative}
+.hp{width:228px;flex:none;background:url(file:///workspace/xhs/notes/20261112-大号-科技大佬恋情翻车/photos/huang.jpg) 50% 18%/cover no-repeat;position:relative;filter:contrast(1.05) saturate(.9)}
+.hp:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 50%,#141b26 100%),linear-gradient(0deg,rgba(7,9,13,.45),transparent 38%)}
+.htag{position:absolute;left:14px;top:14px;z-index:2;font-family:NSB;font-size:22px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:5px 12px;border-radius:8px;box-shadow:0 0 24px rgba(255,45,63,.5);letter-spacing:1px}
+.ht{padding:16px 26px 0 8px;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.eyebrow{font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.pctrow{display:flex;align-items:flex-end;gap:16px;margin-top:2px}
+.hpct{font-family:NSB;font-size:148px;line-height:.88;letter-spacing:-4px;color:#fff;text-shadow:0 0 48px rgba(127,211,255,.45)}
+.hpct em{font-style:normal;font-size:50px;letter-spacing:0;margin-left:4px;background:linear-gradient(180deg,#7fd3ff,#3aa7e0);-webkit-background-clip:text;color:transparent}
+.pright{padding-bottom:10px}
+.share b{font-family:NSB;font-size:32px;color:#7fd3ff;letter-spacing:.4px}
+.share{font-size:22px;color:#dfe6ee}
+.mv{margin-top:4px;font-family:NSB;font-size:28px;color:#fff;letter-spacing:.3px}
+.mv i{font-style:normal;font-family:NSM;font-size:20px;color:#9fb3c8;margin-right:4px}
+.subh{margin-top:4px;font-size:18px;color:#8b97a6}
+
+.sec{display:flex;align-items:center;gap:14px;margin:20px 0 12px;font-family:NSB;font-size:36px;color:#e9f3ff;letter-spacing:3px;white-space:nowrap;flex:none}
+.sec i{font-style:normal;font-family:NSM;font-size:22px;color:#8b97a6;letter-spacing:0;white-space:nowrap}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.5),transparent)}
+
+.row{flex:none;height:120px;background:linear-gradient(160deg,rgba(18,24,35,.92),rgba(12,16,23,.92));border:1px solid rgba(159,179,200,.10);border-radius:14px;padding:10px 18px 10px 12px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.row:before{content:'';position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 2px 2px 0}
+.foot{position:absolute;left:44px;right:44px;bottom:18px;padding:0;font-size:16px;line-height:1.55;color:#6c7684}
+
+h1{font-size:138px;line-height:1.02;margin-top:20px;letter-spacing:0}
+h1 span{display:block;white-space:nowrap} h1 span+span{margin-top:20px}
+h2{font-size:42px;margin-top:24px;line-height:1.3}
+.hero{margin-top:30px;height:438px}
+.hp{width:380px;background-image:url(file:////workspace/xhs/notes/20261122-大号-Burry看空与减仓/sources/burry_front_portrait.jpg);background-position:50% 0%;filter:contrast(1.04) saturate(.8)}
+.hp:after{background:linear-gradient(90deg,transparent 72%,#141b26 100%),linear-gradient(0deg,rgba(7,9,13,.6),transparent 30%)}
+.htag{font-size:24px;left:18px;top:18px;padding:6px 12px}
+.ht{padding:28px 30px 28px 26px;justify-content:flex-start}
+.person{font-family:NSB;font-size:35px;line-height:1.3;color:#fff;display:flex;align-items:center;gap:12px;white-space:nowrap}
+.person span{font-family:NSM;font-size:20px;color:#9fb3c8;border:1px solid #435465;padding:3px 8px;border-radius:5px}
+.report{align-self:flex-start;margin-top:20px;font-size:23px;color:#7fd3ff;letter-spacing:1px}
+.targets{margin-top:6px;font-family:NSB;font-size:29px;color:#e9f3ff;letter-spacing:1px}
+.pctrow{margin-top:17px;gap:16px;align-items:baseline}
+.hpct{font-size:174px;line-height:.94;letter-spacing:-6px}
+.hpct em{font-size:58px;margin-left:7px}
+.action{font-size:28px;font-family:NSB;color:#7fd3ff}
+.unit{margin-top:12px;font-size:27px;line-height:1.35;color:#e9f3ff;white-space:nowrap}
+.unit b{color:#7fd3ff;font-family:NSB}
+.scope{font-size:21px;color:#8b97a6;margin-top:10px;white-space:nowrap}
+.sec{margin-top:30px;margin-bottom:16px;font-size:34px;letter-spacing:1px}
+.reasons{display:flex;flex-direction:column;gap:13px}
+.row{height:76px;flex-direction:row;justify-content:flex-start;align-items:center;padding:0 24px;gap:20px;border-color:rgba(127,211,255,.2)}
+.row:before{background:#7fd3ff}
+.label{font-family:NSB;font-size:30px;color:#e9f3ff;min-width:264px;white-space:nowrap}
+.desc{font-size:24px;color:#9fb3c8;white-space:nowrap}
+.dot{height:8px;width:8px;border-radius:50%;background:#7fd3ff;box-shadow:0 0 10px #3aa7e0;flex:none}
+.foot{font-size:15px;line-height:1.65;bottom:20px}
+</style></head><body><div class=bg></div><div class=grid></div><div class=wrap>
+<div class=top><span class=brk>人物</span><span>一图看懂｜伯里的看空逻辑与调仓</span><span class=dt>2026.11.22</span></div>
+<h1><span>伯里做空英伟达</span><span><em>为何又减仓一半</em></span></h1>
+<h2><span class=hl>减空仓 ≠ 转看多</span><span style="font-family:NSM;font-size:30px;color:#9fb3c8;margin-left:18px">先看理由，再看操作</span></h2>
+<div class=hero><div class=hp><div class=htag>《大空头》原型</div></div><div class=ht>
+<div class=person>Michael Burry<span>投资人</span></div>
+<div class=report>据媒体报道</div><div class=targets>英伟达 NVDA · 半导体ETF SMH</div>
+<div class=pctrow><div class=hpct>50<em>%</em></div><div class=action>各卖出</div></div>
+<div class=unit>占各自<b>原有看跌期权</b>的一半</div>
+
+</div></div>
+<div class=sec>他原先担心什么<i>从这三个问题讲起</i></div>
+<div class=reasons>
+<div class=row><span class=dot></span><span class=label>需求能否持续</span><span class=desc>大客户会一直这样买吗？</span></div>
+<div class=row><span class=dot></span><span class=label>采购依赖融资？</span><span class=desc>订单背后的钱从哪来？</span></div>
+<div class=row><span class=dot></span><span class=label>设备折旧争议</span><span class=desc>芯片赚钱期，有多长？</span></div>
+</div>
+<div class=foot>调仓来源：Stocktwits（Yahoo分发）、Benzinga，2026-11-21（北京时间）；媒体转述，原始交易正文付费不可读。<br>看空理由为伯里此前公开观点；照片：Astrid Stawiarz / Getty Images，经 Investopedia。信息截至2026-11-22。<br>仅为知识分享，不构成投资建议。照片仅作身份识别。</div></div>
+<script>document.fonts.ready.then(()=>{const sels=['.top','h1 span:first-child','h1 span:nth-child(2)','h2','.hero','.sec','.reasons','.foot','.person','.targets','.unit'];let out={};for(const s of sels){let e=document.querySelector(s),r=e.getBoundingClientRect();out[s]={x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom,scrollWidth:e.scrollWidth,clientWidth:e.clientWidth};}out.fonts=document.fonts.check('138px NSB');let t=document.createElement('script');t.type='application/json';t.id='layout-check';t.textContent=JSON.stringify(out);document.body.appendChild(t);});</script></body></html>

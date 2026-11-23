@@ -1,0 +1,45 @@
+{
+  "note": "中国十大贸易伙伴",
+  "archive_date": "2026-10-31",
+  "image_count": 5,
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 538,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "sha256": "8dc85dc23eb0eed3e8f29660e3310cd3f519259d2b4505f079a836aac70a6254",
+      "bytes": 1178553
+    },
+    {
+      "name": "01_东盟欧盟算一家.png",
+      "sha256": "38f4f2a33f573b6c4ea71d92a2e21e91b5df2260ecae72f0022c97c375d9c4cc",
+      "bytes": 1145750
+    },
+    {
+      "name": "02_顺差逆差.png",
+      "sha256": "937727cf19d72b729179a596d80b447a0fad27d3bf44ca130c7703e06d7302de",
+      "bytes": 1097452
+    },
+    {
+      "name": "03_谁增长最快.png",
+      "sha256": "eed6c24e1d97f9cd66cabc44049cbb1c84e9a74f8b19f06a71817ac5932274e8",
+      "bytes": 1070344
+    },
+    {
+      "name": "04_四个口径.png",
+      "sha256": "77b8b93dedc32a1a7f1621e3889a059756b72ea82702c5509f51c50674aa47ca",
+      "bytes": 1122979
+    },
+    {
+      "name": "05_发布文案.txt",
+      "sha256": "b52fd191dc1543fc18d17e0f86077174597de762817cbd1f8fca010075358983",
+      "bytes": 1441
+    },
+    {
+      "name": "06_来源说明.txt",
+      "sha256": "a3fe6b86fda24b988d114d03e3503ea54a9ccf36943a81e7b2f289499da45fcb",
+      "bytes": 1347
+    }
+  ],
+  "updated": "2026-10-31 21:45 (Asia/Shanghai) 审查有条件通过后修订"
+}

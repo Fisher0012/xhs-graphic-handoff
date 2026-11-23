@@ -1,0 +1,64 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响",
+  "task_id": "t53u-approved-archive",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T15:43:08+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "user_confirmation": {
+    "message_id": "t53u",
+    "time_zone": "Asia/Shanghai",
+    "summary": "Fisher 确认第二张配图（02_内页_v5）可以通过，并要求输出文案、把本篇与英伟达股权篇全部落到本地。",
+    "approved_assets": {
+      "cover": {
+        "file": "cover/00_封面_approved.png",
+        "version": "v6",
+        "sha256": "ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767",
+        "approved": "t50u"
+      },
+      "page01": {
+        "file": "pages/01_内页_v4.png",
+        "version": "v4",
+        "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+        "approved": "t52u"
+      },
+      "page02": {
+        "file": "pages/02_内页_v5.png",
+        "version": "v5",
+        "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+        "approved": "t53u"
+      }
+    }
+  },
+  "copy": {
+    "file": "03-文案.md",
+    "sha256": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "note": "已同步为 t53 发给用户的润色定稿；旧稿备份为 03-文案_t53前原稿.md",
+    "synced_at": "2026-11-13T15:46:00+08:00"
+  },
+  "overall_verdict": "USER_APPROVED：封面v6、内页01 v4、内页02 v5均已获Fisher确认。按t53u归档并准备落到Mac「阿信学财经」待送审目录。不代为发布。",
+  "mac_delivery": {
+    "machineId": "1955f62c-ee17-45e0-9e5b-3d70dff2b5c5",
+    "path": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261113_创始人离职影响_待送审",
+    "verified": "9/9 SHA256 match",
+    "tgz": "20261113_founder_handover.tgz copied to Desktop then deleted after verify",
+    "export_tgz_untouched": true,
+    "published": false,
+    "completed_at": "2026-11-13T15:45:03+08:00"
+  },
+  "equity_article": {
+    "path": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261113_英伟达持股_待送审",
+    "source": "final_v2（封面 cover_v2/00_封面.png，内页 pages_v2），与目录内 07_归档校验.json 一致",
+    "verified": "5/5 内容文件 SHA256 与 final_v2 一致；目录已存在，未覆盖、未再拷",
+    "idempotent": true
+  },
+  "copy_sync": {
+    "03-文案.md": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "04_发布文案.md": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "04_发布文案.txt": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "images_unchanged": true
+  }
+}

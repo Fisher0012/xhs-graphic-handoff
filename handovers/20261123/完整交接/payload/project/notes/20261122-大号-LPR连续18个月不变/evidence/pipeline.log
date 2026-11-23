@@ -1,0 +1,23 @@
+OK: 目录存在: /workspace/xhs/notes/20261122-大号-LPR连续18个月不变
+OK: 发现数据文件 (data.json/数据.json)
+OK: 发现 框架.md
+RENDER: 调用 render_heijin.sh (4 页)
+OK  p1 -> /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p1.png (1341056 bytes)
+OK  p2 -> /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p2.png (1004967 bytes)
+OK  p3 -> /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p3.png (1083560 bytes)
+OK  p4 -> /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p4.png (1242562 bytes)
+合计: ok=4 fail=0 design=/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design
+OK: render_heijin.sh 完成
+COMPLIANCE: compliance_precheck.py --dir /workspace/xhs/notes/20261122-大号-LPR连续18个月不变
+## 合规初筛结果
+- 检查对象数: 14
+- 命中数: 0
+- 结论: PASS（初筛通过；仍须最终合规/审查官）
+OK: 合规初筛 PASS
+GATE: gate_archive.sh --auto /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final
+## 大号定稿门禁: /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final
+- 配图张数(含01起): 4
+结论: PASS
+OK: 定稿门禁 PASS (/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final)
+OK: 流水线汇总 PASS (warn=0)
+日志: /workspace/xhs/notes/20261122-大号-LPR连续18个月不变/pipeline_log.md

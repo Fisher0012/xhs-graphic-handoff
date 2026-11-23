@@ -1,0 +1,48 @@
+{
+  "scan_time_Asia_Shanghai": "2026-11-23T20:23:18.831033+08:00",
+  "rules": [
+    "private-key",
+    "github-pat",
+    "aws-access-key",
+    "slack-token",
+    "google-api-key",
+    "live-sk-key",
+    "jwt",
+    "hardcoded-secret"
+  ],
+  "findings": [
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/amzn_q2_pr.html",
+      "type": "jwt",
+      "line": 720
+    },
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/amzn_q2_pr.html",
+      "type": "hardcoded-secret",
+      "line": 117
+    },
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/goog_q2_call.html",
+      "type": "jwt",
+      "line": 1667
+    },
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/meta_pr.html",
+      "type": "jwt",
+      "line": 4589
+    }
+  ],
+  "excluded_without_reading": [],
+  "text_files_and_archive_members_scanned": 1696,
+  "archive_text_members_scanned": 60,
+  "limits": [
+    "No account/credential directories read.",
+    "Images, videos, PDF and audio not visually/OCR reviewed for secrets.",
+    "No entropy-based, paid-service or exhaustive malware scan.",
+    "Nested archives not recursively expanded.",
+    "Remote existing historical ZIP is not downloaded or re-scanned."
+  ],
+  "missing": [],
+  "disposition": "3 historical public-news HTML files contain JWT/API-key-like strings. Raw originals excluded; local archive derivatives redact the exact matched strings. No value decoded or used; no original altered. See SANITIZED_FILES.tsv.",
+  "added_reference_files": 25
+}

@@ -1,0 +1,19 @@
+[Script Info]
+Title: Sphere demo shots 21–22 (timing reference; subs are baked into the clips)
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans SC Black,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.6,0,1,9,0,2,40,40,320,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.90,0:00:09.30,Default,,0,0,0,,{\fad(100,0)}Sphere的数字分身
+Dialogue: 0,0:00:09.30,0:00:11.80,Default,,0,0,0,,{\fad(100,0)}传1张照片 生成形象
+Dialogue: 0,0:00:11.80,0:00:12.88,Default,,0,0,0,,{\fad(100,0)}读一段文字
+Dialogue: 0,0:00:12.88,0:00:14.40,Default,,0,0,0,,{\fad(100,0)}录15秒 克隆声音

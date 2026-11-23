@@ -1,0 +1,56 @@
+{
+  "title": "新能源车零售榜",
+  "topic": "10月新能源车品牌零售TOP10",
+  "date": "2026-11-10",
+  "account": "阿信学财经",
+  "status": "成稿待审·待 Fisher 手动发布·未发布",
+  "note_dir": "/workspace/xhs/notes/20261110-大号-新能源品牌零售TOP10",
+  "mac_path": "未同步（本轮按指示不复制到 Mac）",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1219399,
+      "sha256": "2e89ded423bb9cb3ee4f625e5e1205abec3c402ca8986efa3116d2d9feea4d47"
+    },
+    {
+      "name": "01_先看10月车市大盘.png",
+      "bytes": 1334058,
+      "sha256": "80324f77719857f4a5afd45e13c8e7188d143fca0bd50ee74bfb6fffa0a40e76"
+    },
+    {
+      "name": "02_燃油车同比少了45%.png",
+      "bytes": 1266687,
+      "sha256": "ca07f79514491087753e484a44ba8a989fb76431bb045771be3d3fa36a80c41d"
+    },
+    {
+      "name": "03_新势力与传统车企.png",
+      "bytes": 1241419,
+      "sha256": "534c1ba06872267f3c766e2e40f27219c7c81a0dfc8cf33d44aacd462ce6e075"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1780,
+      "sha256": "c968a8954b7fe04b70b55a031040b27b12dd5de099205ad2e905d6d98ddac852"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 1660,
+      "sha256": "de78acd4c634a5f3544ac01997f655c6c12f0a8f40eda422e99f3b0f31334768"
+    }
+  ],
+  "sources": [
+    "https://www.ithome.com/1/024/211.htm",
+    "https://original.ifeng.com/c/8xucWxHNjMB",
+    "https://feng.ifeng.com/c/8xuYwpFc4SU",
+    "https://www.chinanews.com.cn/cj/2026/11-09/10728822.shtml",
+    "https://www.antutu.com/doc/138353"
+  ],
+  "checks": {
+    "check_titles_local": "PASS (封面112px 1行 占可用宽81.2%; 内页64px 1行渐变, 副26px #9b9b9e 1行)",
+    "measure_space_local": "PASS (最大空白≤3.6%, 内容底→页脚≤2.8%)",
+    "visual_read": "PASS（逐张 Read，修过封面进度条压字、p4数字单位跨行）",
+    "compliance_selfcheck": "10/10 通过（第10条不适用）",
+    "once_pipeline": "见 pipeline_log.md",
+    "reviewer": "未送审查官（本轮不联系其他 bot），待人工/审查官看图"
+  }
+}

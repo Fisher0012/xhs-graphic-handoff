@@ -1,0 +1,5 @@
+p1 {"bad": [], "gap": 1.421875}
+p2 {"bad": [], "gap": 71.8125}
+p3 {"bad": [], "gap": 71.8125}
+p4 {"bad": [], "gap": 71.8125}
+check_layout: PASS

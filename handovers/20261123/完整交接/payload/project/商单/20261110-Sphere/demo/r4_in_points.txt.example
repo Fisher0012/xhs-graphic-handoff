@@ -1,0 +1,11 @@
+# Copy to r4_in_points.txt and fill in seconds once the R4 screen-recording
+# has been cut into "创建数字形象" and "创建声音" segments.
+# raw file: /workspace/xhs/商单/20261110-Sphere/rec/raw_R4.mp4
+# The file currently exists and is valid, but in-points are not chosen here
+# (the raw take is a long continuous session; using the first 6.5s blindly
+# would likely show the wrong UI).
+#
+# shot21_start=12.0
+# shot21_dur=3.9
+# shot22_start=48.0
+# shot22_dur=2.6

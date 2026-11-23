@@ -1,0 +1,189 @@
+{
+  "topic": "前10个月钱去哪了",
+  "account": "阿信学财经（大号）",
+  "period": "2026年1–10月（前十个月）",
+  "checked_at": "2026-11-14 Asia/Shanghai",
+  "official_status": "当期数据为初步数（央行报告注1）",
+  "newer_release_check": "2026-11-14 打开中国人民银行调查统计司「数据解读」https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html ，最新一条为《2026年10月金融统计数据报告》（2026-11-13 17:00）。候选数字已全部对照该原文；10月当月贷款增量原文未单列，由前十个月累计减去前三季度累计得出。",
+  "sources": {
+    "S1": {
+      "name": "中国人民银行《2026年10月金融统计数据报告》",
+      "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026111317040354319/index.html",
+      "published": "2026-11-13 17:00:00",
+      "accessed": "2026-11-14",
+      "local": "sources/pbc_2026-10_金融统计数据报告.html"
+    },
+    "S2": {
+      "name": "中国人民银行《2026年前三季度金融统计数据报告》",
+      "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026101417073743604/index.html",
+      "published": "2026-10-14 17:00:04",
+      "accessed": "2026-11-14",
+      "local": "sources/pbc_2026-Q3_金融统计数据报告.html"
+    },
+    "S3": {
+      "name": "中国人民银行调查统计司「数据解读」索引（用于确认10月报告为最新一期）",
+      "url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html",
+      "accessed": "2026-11-14",
+      "local": "sources/pbc_数据解读索引.html"
+    }
+  },
+  "units": "除另行注明外，均为人民币、万亿元；外币及本外币口径不与人民币口径混加。",
+  "deposits_rmb": {
+    "period": "2026年前十个月",
+    "increase_yi": 21.97,
+    "end_balance_yi": 350.65,
+    "end_yoy": "7.7%",
+    "fx_and_rmb_end_balance_yi": 358.81,
+    "fx_and_rmb_end_yoy": "7.8%",
+    "components_official": [
+      {
+        "name": "住户存款",
+        "increase_yi": 8.47
+      },
+      {
+        "name": "非银行业金融机构存款",
+        "increase_yi": 5.99
+      },
+      {
+        "name": "财政性存款",
+        "increase_yi": 3.03
+      },
+      {
+        "name": "非金融企业存款",
+        "increase_yi": 1.91
+      }
+    ],
+    "components_sum_yi": 19.4,
+    "residual_unlisted_yi": 2.57,
+    "residual_note": "21.97-8.47-5.99-3.03-1.91=2.57，作者按公布数计算；报告用「其中」列出四项，未称这四项加总等于全部，故标注为其余（报告未分列）。"
+  },
+  "loans_rmb": {
+    "period": "2026年前十个月",
+    "increase_yi": 11.42,
+    "end_yoy": "4.7%",
+    "fx_and_rmb_end_balance_yi": 287.25,
+    "fx_and_rmb_end_yoy": "4.6%",
+    "by_sector": [
+      {
+        "name": "住户贷款",
+        "increase_yi": -1.46,
+        "of_which": [
+          {
+            "name": "短期贷款",
+            "increase_yi": -1.41
+          },
+          {
+            "name": "中长期贷款",
+            "increase_yi": -0.0501,
+            "as_published": "减少501亿元"
+          }
+        ]
+      },
+      {
+        "name": "企（事）业单位贷款",
+        "increase_yi": 12.39,
+        "definition": "非金融企业及机关团体贷款（报告注3）",
+        "of_which": [
+          {
+            "name": "短期贷款",
+            "increase_yi": 4.65
+          },
+          {
+            "name": "中长期贷款",
+            "increase_yi": 6.69
+          },
+          {
+            "name": "票据融资",
+            "increase_yi": 0.9283,
+            "as_published": "增加9283亿元"
+          }
+        ],
+        "of_which_sum_yi": 12.2683,
+        "of_which_gap_yi": 0.1217,
+        "of_which_note": "三项公布数相加约12.27万亿元，与12.39万亿元相差约0.12万亿元，报告未列其余分项。"
+      },
+      {
+        "name": "非银行业金融机构贷款",
+        "increase_yi": -0.2395,
+        "as_published": "减少2395亿元"
+      }
+    ],
+    "end_balance_yi": 283.33
+  },
+  "october_monthly_loan_derived": {
+    "value_yi": -0.1,
+    "as_stated": "减少1000亿元",
+    "method": "前十个月人民币贷款增加11.42万亿元（S1）减去前三季度人民币贷款增加11.52万亿元（S2）",
+    "not_in_october_report": true,
+    "balance_path": {
+      "sep_end_yi": 283.44,
+      "oct_end_yi": 283.33,
+      "change_yi": -0.11,
+      "note": "余额相减为减少0.11万亿元，与累计增量相减的1000亿元因公布值精确到0.01万亿元而不完全相同；不以余额差替代新增贷款口径。"
+    }
+  },
+  "money_supply": {
+    "M2": {
+      "balance_yi": 359.06,
+      "yoy": "7.1%"
+    },
+    "M1": {
+      "balance_yi": 116.9,
+      "yoy": "4.4%",
+      "note": "自统计2025年1月数据起启用新修订口径，含流通中货币、单位活期存款、个人活期存款、非银行支付机构客户备付金（报告注5）"
+    },
+    "M0": {
+      "balance_yi": 15,
+      "yoy": "10.7%"
+    },
+    "net_cash_injection_1to10_yi_yuan": 9023
+  },
+  "afre_do_not_mix": {
+    "stock_end_yi": 469.16,
+    "stock_yoy": "7.2%",
+    "flow_1to10_yi": 28.61,
+    "flow_yoy_less_yi": 2.29,
+    "rmb_loans_to_real_economy_1to10_yi": 10.91,
+    "note": "社融中「对实体经济发放的人民币贷款」前十个月增加10.91万亿元，与金融机构人民币贷款增加11.42万亿元不是同一个数，禁止混用。"
+  },
+  "candidate_check": {
+    "deposits_21_97_and_four_items": "与S1原文一致",
+    "household_loans_-1.46_and_short_-1.41": "与S1原文一致；中长期减少501亿元原文有，候选摘要未强调但应写入",
+    "enterprise_loans_+12.39": "与S1原文一致；正式名称是企（事）业单位贷款，含机关团体",
+    "M0_M1_M2_yoy": "与S1原文一致",
+    "oct_monthly_-1000yi": "S1未单列；由S1与S2累计相减得到，与财新等转述一致，但必须标注作者计算和算法",
+    "missing_in_candidate": "候选未突出前十个月人民币贷款合计增加11.42万亿元，成稿补上，避免读者误以为贷款整体在下降"
+  },
+  "wording_bans": [
+    "不以存款增加解释收入增加",
+    "不把贷款余额或增量减少当成资金流向或借款意愿的直接证据",
+    "不下提前还贷潮结论",
+    "不预测降息降准",
+    "不推荐具体存款或理财产品",
+    "不混年、不混前10个月累计与10月当月、不混本外币与人民币、不混社融贷款与金融机构贷款"
+  ],
+  "cover_pct_annotation": {
+    "updated_at": "2026-11-14",
+    "deposits_rmb": {
+      "label_on_cover": "余额同比 +7.7%",
+      "official_wording": "月末人民币存款余额350.65万亿元，同比增长7.7%。",
+      "source": "S1",
+      "caliber": "10月末人民币存款余额同比，不是前十个月21.97万亿元增量的同比增速，也不是占比"
+    },
+    "loans_rmb": {
+      "label_on_cover": "余额同比 +4.7%",
+      "official_wording": "月末人民币贷款余额283.33万亿元，同比增长4.7%。",
+      "source": "S1",
+      "caliber": "10月末人民币贷款余额同比，不是前十个月11.42万亿元增量的同比增速，也不是占比"
+    },
+    "not_used": {
+      "fx_and_rmb_deposit_yoy": "7.8%",
+      "fx_and_rmb_loan_yoy": "4.6%",
+      "reason": "封面主数字是人民币存款/贷款增量，对应余额同比用人民币口径7.7%/4.7%，不用本外币口径"
+    },
+    "four_deposit_components": {
+      "added": false,
+      "reason": "S1原文只公布住户、非银行业金融机构、财政性存款、非金融企业四项的前十个月增加额，未公布同比、占比或其他百分比；不加，也不自行计算占比。"
+    }
+  }
+}

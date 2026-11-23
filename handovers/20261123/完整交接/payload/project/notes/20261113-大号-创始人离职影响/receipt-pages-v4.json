@@ -1,0 +1,77 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响",
+  "task_id": "t51u-pages-v4",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T15:07:00+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "note": "内页v4重做，待用户验收。v2、v3文件全部保留。未改已通过封面，未改03文案，未拷贝Mac，未发布。v3因卡片被flex撑出内部大空白未能交审。",
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v4.html",
+      "change": "add",
+      "after_sha256": "4dd5bf44265870ae2486ce0032aff8a92345bef764d88806ddf87ba205cf0487"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v4.png",
+      "change": "add",
+      "after_sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v4_400.png",
+      "change": "add",
+      "after_sha256": "7a4a20c71f0fb273b5084710fbc500c3c0fea86f26fb9fce117aa98f4dc986b3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v4.html",
+      "change": "add",
+      "after_sha256": "af4e4276e2a334d4a29002f4639d11ec4d4c518bc9833f4fe7303336c84dd0b2"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v4.png",
+      "change": "add",
+      "after_sha256": "b6e4e4652ea66abd5eccc965177e6e6989a1f80e4f7c09e72c958cdd879eb82b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v4_400.png",
+      "change": "add",
+      "after_sha256": "b4e6a5c378ecf9f34d41aa959948eecf24dd1d5eeedfcc6781c89b2788ae2678"
+    }
+  ],
+  "project_checks": [
+    {
+      "id": "layout",
+      "status": "SELF_CHECK",
+      "evidence": "pages/0x_排版检查_v4.json：卡片内容高度、无flex撑卡；已Read原图与400px缩略图，无溢出无拆词、无卡内大空白、无重复信息；待用户验收"
+    },
+    {
+      "id": "visual",
+      "status": "SELF_CHECK",
+      "evidence": "已Read两张v4原图与400px缩略图"
+    },
+    {
+      "id": "compliance",
+      "status": "SELF_CHECK",
+      "evidence": "04-合规自查.md已按v4正文重查，待用户验收"
+    },
+    {
+      "id": "v3_retained",
+      "status": "PASS",
+      "evidence": "01/02_内页_v3.png SHA仍为 80fe446bee3f652b670e3b8b0484522e068ad796c5bbaf558248bfaddf554f98 / b45972d93dc6091373d65db37b8242a85777fa9cc1e48da99e32471142722317"
+    },
+    {
+      "id": "cover_untouched",
+      "status": "PASS",
+      "evidence": "cover/00_封面_approved.png SHA仍为 ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767"
+    },
+    {
+      "id": "copy_untouched",
+      "status": "PASS",
+      "evidence": "03-文案.md SHA仍为 d9e1ca53de42b599d6e572c92b83c40c98ded20686a884cfb4ac2eff5e5a5a80"
+    }
+  ],
+  "overall_verdict": "HOLD_FOR_USER：内页v4已自查可交审，尚未经用户验收。未发布、未拷贝Mac。"
+}

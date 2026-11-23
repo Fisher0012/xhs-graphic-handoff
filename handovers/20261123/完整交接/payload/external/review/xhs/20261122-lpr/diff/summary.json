@@ -1,0 +1,48 @@
+[
+  {
+    "file": "00_封面.png",
+    "identical": true,
+    "old_sha": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb",
+    "new_sha": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb",
+    "changed_pixels": 0,
+    "changed_pct": 0.0,
+    "bbox": null
+  },
+  {
+    "file": "01_房贷利率怎么定.png",
+    "identical": false,
+    "old_sha": "aa0bb2cbc87cee234cda19258f96ae2b09e3c179984dae59af5ab8950a805a0c",
+    "new_sha": "fdca62d538a0fc1b2ede01d9a56f2dc0f4073d08b4719808e83c03d376a4ae68",
+    "changed_pixels": 83123,
+    "changed_pct": 1.3362,
+    "bbox": [
+      133,
+      2218,
+      2014,
+      2614
+    ]
+  },
+  {
+    "file": "02_存量房贷看重定价日.png",
+    "identical": false,
+    "old_sha": "726b50c92cd3008613fb72fb666c9db2539ec38fbfdb7b23e88acc5589d00f7d",
+    "new_sha": "fa1e2dbc1ece5f4f31e300ddf2db3ce65708c2cdf2823c2bb1bedd5a61612bca",
+    "changed_pixels": 31103,
+    "changed_pct": 0.5,
+    "bbox": [
+      133,
+      1862,
+      2019,
+      2012
+    ]
+  },
+  {
+    "file": "03_新发放利率对照.png",
+    "identical": true,
+    "old_sha": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c",
+    "new_sha": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c",
+    "changed_pixels": 0,
+    "changed_pct": 0.0,
+    "bbox": null
+  }
+]

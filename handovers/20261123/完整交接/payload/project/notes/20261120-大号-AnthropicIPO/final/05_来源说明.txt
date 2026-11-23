@@ -1,0 +1,13 @@
+# 来源说明｜Anthropic上市　7位创始人身价盘点
+
+1. Anthropic, PBC Form 424B4，2026-11-19 提交，accession 0001628280-26-074944。资本化表、受益所有权、汇总财务报表、治理结构、募集资金用途、Prospectus Summary「Certain stockholders」。本地：sources/424B4_anthropicpbc.htm
+2. 定价 FWP：发行价 83.00 美元，公开发行总额 81,340,000,000 美元，代码 ANT，交易日 2026-11-19。https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm
+3. 公司新闻稿，2026-11-18：https://www.anthropic.com/news/anthropic-prices-initial-public-offering
+4. Nasdaq DTN2026-28：https://www.nasdaqtrader.com/TraderNews.aspx?id=DTN2026-28
+5. 首日收盘价 97.17 美元、较发行价 +17.07%：CNBC live updates（Updated Thu, Nov 19 2026 4:51 PM EST，closed at $97.17）；Yahoo Finance ANT regularMarketPrice 97.17、regularMarketChangePercent 17.072287。制图时 Nasdaq.com 行情页返回 Data is currently not available，未作为独立来源。
+6. 七人身价为作者按首日收盘价 97.17 美元 × 售后受益所有 A 类股数测算，四舍五入到亿美元。Dario 封面主卡按其 CEO 身份，不是按身价排名第一。
+7. 市值 1,202,265,103,681.38 美元 = 12,372,801,314 × 97.17，口径为招股书资本化表 pro forma as adjusted、不含绿鞋的已发行在外 A 类 + N 类。约 1.20 万亿为作者四舍五入，不是招股书原句。
+8. 亚马逊 14.6%、谷歌 13.4% 为 424B4 原文，口径是完成本次发行及同步定向增发后占 outstanding capital stock；对应股数为 1,936,452,353 与 1,774,959,745 股 N 类。该分母不是资本化表 A+N 合计 12,372,801,314，不能用后一个总数重算成约 15.7% / 14.3%。
+9. 七人照片取自 https://www.anthropic.com/company/leadership 官网领导团队页（页面含明确人像说明）。原图见 photos/PHOTO_SOURCES.txt。非自由许可，仅作身份识别，不声称已获授权。
+
+未采用：媒体约 1.5 万亿美元或完全稀释约 1.8 万亿美元估值（招股书无此原文）；未对上原报告的市场份额数字；盘后约 96.55 美元（不作为身价或市值口径）。

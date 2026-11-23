@@ -1,0 +1,57 @@
+{
+  "note": "四大行市值破10万亿，红利股是什么",
+  "archive_date": "2026-10-30",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_chars": 17,
+  "body_char_count_no_whitespace": 812,
+  "tags": [
+    "#理财",
+    "#财经",
+    "#理财知识",
+    "#红利股",
+    "#股息率是什么",
+    "#存款利率",
+    "#理财新手"
+  ],
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 314600,
+      "sha256": "a90fe49511e92710df6f6794899ac837758c347e3079215ef287d824b11ada1a",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_股息率怎么算.png",
+      "bytes": 375273,
+      "sha256": "02f3af964d36621b9a4f56996875eabf7e21ed49adfc727abddb16f36a7d4093",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_4%能和存款比吗.png",
+      "bytes": 361325,
+      "sha256": "142728e33217d1ddb7d9f14d7603602b5ee4a0e49d1fcd112512b845e4b11421",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_高股息不等于稳稳的.png",
+      "bytes": 362057,
+      "sha256": "2fc8e9a50302d7f08854f3d48b54a5f8d4e9a42c6771423802decee1c5bf0a4e",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2388,
+      "sha256": "758a018414fae14f90e20c29f4b178f1ce3d5ee77d70d2d32df788f218bc763e"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 3400,
+      "sha256": "5d2b74b6505c976e1bffb72380b33ecf49ab7ed2dfc62ea3551779c898b5cb42"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）；P3表头「收益率」→「利率／股息率」、「收益固定吗」→「派息固定吗」、来源去掉「收益率」字样；P1「大行中期分红」→「两家大行中期分红」、创业板指来源改为国证指数公司；已重渲染；详见 notes/20261029-红利股/05-合规.md",
+  "published": false,
+  "publish_by": "Fisher 本人手动发布"
+}

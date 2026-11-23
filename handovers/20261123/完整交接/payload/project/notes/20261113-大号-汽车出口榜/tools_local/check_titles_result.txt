@@ -1,0 +1,5 @@
+p1 封面 h1=汽车出口新数据 fs=112px lines=1 占可用宽=81.2% 渐变=True | sub fs=26px color=rgb(155, 155, 158) -> PASS
+p2 内页 h1=国内销量与出口 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p3 内页 h1=新能源出口占多少 fs=64px lines=1 right=594 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p4 内页 h1=出口退税何时调整 fs=64px lines=1 right=594 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+check_titles: PASS

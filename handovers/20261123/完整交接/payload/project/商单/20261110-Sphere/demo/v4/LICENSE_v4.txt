@@ -1,0 +1,7 @@
+v4 素材与工具许可
+- 音频：沿用 ../audio/（vo.wav 云希 edge-tts；Mixkit BGM「Stylz」与 glitch/whoosh/click/tick 音效，Mixkit 免费可商用许可，详见 ../audio/LICENSE.txt）。v4 未新增音频文件。
+- GSAP 3.15.1（npm gsap）：GreenSock 标准免署名许可，现对所有用户免费、可商用（含插件）。puppeteer-core：Apache-2.0。
+- 字体：Noto Sans SC / Noto Sans CJK SC（SIL OFL 1.1）。
+- 界面：按 Sphere 真实界面用 HTML/CSS 矢量重建；唯一位图是产品弹窗自带的示例照片（咖啡馆女生，抠自 rec/raw_A.mp4 第 216 秒帧）。
+- 黑板纹理、颗粒：程序生成（assets/）。
+- bench/ 下的 Linear / Notion / Figma 公开视频仅用于分析，不进成片，不外传。

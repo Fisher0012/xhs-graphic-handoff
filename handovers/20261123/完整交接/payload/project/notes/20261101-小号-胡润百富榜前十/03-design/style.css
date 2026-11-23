@@ -1,0 +1,49 @@
+@import url("base.css");
+
+.it1{position:absolute;top:140px;font-size:76px;line-height:1.15}
+.isub{position:absolute;top:248px;font-size:26px;color:var(--sub);white-space:nowrap}
+.ibody{position:absolute;left:0;right:0;top:318px;bottom:150px;display:flex;flex-direction:column;justify-content:space-between}
+.ibody > *{position:relative!important;top:auto!important}
+.hd{font-size:40px;font-weight:700;display:flex;align-items:center;white-space:nowrap}
+.hd i{display:inline-block;width:8px;height:36px;border-radius:4px;background:var(--teal);margin-right:18px}
+.hd span{font-size:24px;color:var(--note);font-weight:400;margin-left:16px}
+.hr2{display:flex;align-items:flex-end;padding:10px 0 14px;position:relative}
+.hr2 .n{font-size:34px;font-weight:700;white-space:nowrap}
+.hr2 .s{font-size:22px;color:var(--note);margin-left:14px;white-space:nowrap;padding-bottom:4px}
+.hr2 .v{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:42px;white-space:nowrap;line-height:1}
+.hr2 .v small{font-size:22px;color:var(--note);font-weight:500;margin-left:4px}
+.hr2 .b{position:absolute;left:0;right:0;bottom:0;height:8px;border-radius:4px;background:var(--track)}
+.hr2 .b i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#3fd9bb,var(--teal) 60%,#15806d)}
+.hr2.neg .v{color:var(--negnum)} .hr2.neg .b i{background:#4a5256}
+.hr2.hi .v{color:var(--teal-hi)}
+.kg{display:grid;gap:22px}
+.kc{background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:24px 26px;position:relative;overflow:hidden}
+.kc:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--teal)}
+.kc .k{font-family:"Noto Sans SC";font-weight:900;font-size:56px;line-height:1.1;white-space:nowrap}
+.kc .k small{font-size:26px;font-weight:700;margin-left:4px}
+.kc .l{font-size:25px;color:var(--sub);margin-top:8px;white-space:nowrap}
+.co{background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:24px 28px 24px 34px;overflow:hidden}
+.co:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--teal)}
+.co p{font-size:32px;line-height:1.5;color:#dde2e4}
+.co b{color:var(--teal-hi)}
+.dual{padding:8px 0}
+.dual .top{display:flex;align-items:baseline}
+.dual .n{font-size:32px;font-weight:700;width:150px;white-space:nowrap}
+.dual .t{font-size:22px;color:var(--note);white-space:nowrap}
+.dual .v{margin-left:auto;font-size:26px;color:var(--sub);white-space:nowrap}
+.dual .v b{color:#fff;font-family:"Noto Sans SC";font-weight:900;font-size:32px}
+.dual .bb{height:12px;border-radius:4px;margin-top:8px;background:var(--track);position:relative}
+.dual .bb i{position:absolute;left:0;top:0;bottom:0;border-radius:4px}
+.dual .bb i.u{background:var(--teal)} .dual .bb i.r{background:#8ff2dd;opacity:.55}
+.leg{font-size:24px;color:var(--note);white-space:nowrap}
+.leg i{display:inline-block;width:22px;height:12px;border-radius:3px;margin:0 8px 0 18px;vertical-align:middle}
+.stk{display:flex;height:64px;border-radius:10px;overflow:hidden}
+.stk div{display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:700;color:#041010;white-space:nowrap}
+.kl{list-style:none}
+.kl li{position:relative;padding-left:40px;font-size:31px;line-height:1.5;color:#c9cfd2}
+.kl li:before{content:"";position:absolute;left:6px;top:19px;width:10px;height:10px;border-radius:50%;background:var(--teal)}
+.kl li b{color:#fff}
+.kblk .hd{margin-bottom:14px}
+.srcl{font-size:21px;line-height:1.55;color:var(--note)}
+.csum{position:absolute;left:0;right:0;font-size:32px;color:var(--sum);white-space:nowrap}
+.csum b{color:var(--teal)}

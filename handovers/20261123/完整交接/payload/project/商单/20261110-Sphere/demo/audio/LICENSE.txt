@@ -1,0 +1,82 @@
+Mixkit audio for the Sphere 商单 14.4s style demo
+================================================
+
+All tracks below are published under the Mixkit Stock License
+(https://mixkit.co/license/#musicFree for music,
+ https://mixkit.co/license/#sfxFree for sound effects).
+Commercial use is allowed; attribution is not required, but is recorded
+here for the "含 AI 生成内容" delivery trail. No vocals on the BGM pick.
+
+Pixabay was the original brief source, but pixabay.com / cdn.pixabay.com
+returned Cloudflare 403 pages in this environment. Mixkit assets were
+substituted because they allow commercial use and can be fetched with
+plain curl from assets.mixkit.co.
+
+--------------------------------------------------
+BGM
+  Title : Stylz
+  Artist: Ahjay Stelino
+  Genre : Corporate Music
+  Duration: 1:40
+  Page  : https://mixkit.co/free-stock-music/discover/stylz-102/
+          (listed on https://mixkit.co/free-stock-music/tag/technology/)
+  Asset : https://assets.mixkit.co/music/102/102.mp3
+  Notes : upbeat corporate / tech instrumental, no vocals. In the mix the
+          demo uses an 8.0s in-point, where the groove is already going,
+          rather than the quieter opening bar.
+  Save as: bgm.mp3
+
+--------------------------------------------------
+SFX
+  1) Glitch (hook, once, at 0:00)
+     Title : Digital glitch break
+     Page  : https://mixkit.co/free-sound-effects/discover/digital-glitch-break-2951/
+             (listed on https://mixkit.co/free-sound-effects/glitch/)
+     Asset : https://assets.mixkit.co/active_storage/sfx/2951/2951-preview.mp3
+     Notes : short (~1.1s, energy in the first 0.55s) digital break, good
+             for the hook title glitch.
+     Save as: sfx_glitch.mp3
+
+  2) Whoosh (chapter-card hit, zoom-blur entry into shot 21, 3D flip into shot 22)
+     Title : Fast whoosh transition
+     Page  : https://mixkit.co/free-sound-effects/discover/fast-whoosh-transition-1490/
+             (listed on https://mixkit.co/free-sound-effects/whoosh/)
+     Asset : https://assets.mixkit.co/active_storage/sfx/1490/1490-preview.mp3
+     Notes : short transition whoosh; the audible peak sits about 0.40–0.75s
+             into the file, so the mixer trims the leading pad.
+     Save as: sfx_whoosh.mp3
+
+--------------------------------------------------
+SFX added for v3 (sphere_style_demo_v3.mp4), same Mixkit Sound Effects Free License
+  3) Click (cursor presses at 9.24s, 12.19s, 13.42s)
+     Title : Cool interface click tone   (Mixkit sfx #2568)
+     Page  : https://mixkit.co/free-sound-effects/discover/cool-interface-click-tone-2568/
+             (listed on https://mixkit.co/free-sound-effects/click/)
+     Asset : https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3
+     Save as: sfx_click.mp3
+  4) Tick / check (counter lands on 「15秒」 at 13.75s)
+     Title : Modern click box check      (Mixkit sfx #1120)
+     Page  : https://mixkit.co/free-sound-effects/discover/modern-click-box-check-1120/
+             (listed on https://mixkit.co/free-sound-effects/click/)
+     Asset : https://assets.mixkit.co/active_storage/sfx/1120/1120-preview.mp3
+     Save as: sfx_tick.mp3
+  License: https://mixkit.co/license/#sfxFree — free for commercial and
+  non-commercial use, no attribution required; not to be redistributed as
+  standalone audio. Downloaded 2026-11-10 with plain curl, no account.
+
+--------------------------------------------------
+Voice
+  demo/audio/vo.wav is assembled from Microsoft Edge neural TTS
+  (zh-CN-YunxiNeural). Most lines use rate +12%. Shot 20 uses +35% so
+  the two clauses fit the existing 2.8s graphic (and its 1.30s subtitle
+  cut). Leading/trailing silence is trimmed; shot 1 is given a very
+  slight atempo (~1.044) so 2.82s of speech sits inside the 2.8s hook.
+  This replaced the earlier 剪映 AI 配音 plan after Fisher said not to
+  use 剪映 and to pick another scheme. The 云希 voice was the one
+  already preferred in the demo/audio/voice_test/ listen.
+
+Mixkit license (summary, not a substitute for the official text):
+  Free to use in commercial and non-commercial projects, including
+  monetized videos and client work, without requiring attribution.
+  You may not redistribute the files as a stock library or as
+  standalone audio. See https://mixkit.co/license/.

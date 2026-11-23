@@ -1,0 +1,61 @@
+{
+  "note": "2025年各省GDP：3个省过10万亿",
+  "archive_date": "2026-10-26",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 623,
+  "title_character_count": 19,
+  "hashtags": [
+    "#各省GDP",
+    "#GDP排名",
+    "#2025年GDP",
+    "#经济数据",
+    "#一图看懂",
+    "#宏观经济",
+    "#财经知识"
+  ],
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1111839,
+      "sha256": "a3477de5afacaf91d4d3f64019611aad08374aad4db6130b79505b6f931e8a8f",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_第11到31名.png",
+      "bytes": 1249927,
+      "sha256": "c17ca34b33605a16060091f9294d4c6cab9c051faa04ca30820f5ed18ce70d5a",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_门槛与换位.png",
+      "bytes": 1196219,
+      "sha256": "ff16a615fa53814808bc638a9005ba6ef564402bbe74e4597aaba358a725ed0a",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_这几个数要说明.png",
+      "bytes": 1009805,
+      "sha256": "1ab1bfe3cc2309911d6dce6ffe3cb1c61f1e140ad982729a51c53f4cd2dca9f1",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1723,
+      "sha256": "d54a860393e379a430e6c5e777c6531f24414e1ad4d401f4a2be3ed8d0a33897"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 5685,
+      "sha256": "8d2a3da6c13d148f38f40493ab2d73fb12a3ba2cea53916b774cda7dbd1d94c9"
+    }
+  ],
+  "compliance": "见 notes/20261026-2025各省GDP/05-合规.md：10条逐条通过；改「唯一一处换位」为「只有一处换位」",
+  "published": false,
+  "publish_by": "Fisher 本人手动发布",
+  "routing": "本期临时调整改发大号，不改变原有执行策略（2026-10-26 19:27 Fisher 指示）",
+  "copied_to_other_computers": "无（按指示未拷到 Mac 或任何其他电脑，仅存 box）",
+  "cover_revision": "2026-10-26 20:08（北京时间）按 Fisher 反馈再改封面：主标题一行「各省GDP前十」140px（设计尺寸），左上标签「一图看懂｜2025年各省GDP」，副标题保留「2025年初步核算」；榜单行高90px；数字未改"
+}

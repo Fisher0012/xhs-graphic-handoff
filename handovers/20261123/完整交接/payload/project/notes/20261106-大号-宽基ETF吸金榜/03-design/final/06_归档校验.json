@@ -1,0 +1,52 @@
+{
+  "title": "宽基ETF吸金榜",
+  "date": "2026-11-06",
+  "account": "阿信学财经",
+  "status": "定稿存档·未发布",
+  "note_dir": "/workspace/xhs/notes/20261106-大号-宽基ETF吸金榜",
+  "mac_path": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261106_宽基ETF吸金榜_定稿/",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1138843,
+      "sha256": "5afc8e3584188edc232b9a8e86a3ea404bc5bdbb41bf1155306f055c0ea49aaa"
+    },
+    {
+      "name": "01_钱进了哪一层.png",
+      "bytes": 1315715,
+      "sha256": "f0defc53e6944f26f98035fce03ebf9ea493996bf30976ec798aa36dbb454714"
+    },
+    {
+      "name": "02_宽基ETF是什么.png",
+      "bytes": 1249197,
+      "sha256": "bc54c596478088a0483c14602e8a48ad9aa55cb89b2ee438323a4338aa47c660"
+    },
+    {
+      "name": "03_22天里发生了什么.png",
+      "bytes": 1224401,
+      "sha256": "b46aca6b2cc7185eee3a6762cab7cc783526a22cf1898bd9451d377ff8a73d49"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1545,
+      "sha256": "c1bf6fddc6a87ce2c4a90056015c2ea74ebb96cebf9d8d94c00ff5a7c16249c5"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 1050,
+      "sha256": "57e94f8138d72c6c888d12180a49d849ba934225d39657adfa198aa6acc4c554"
+    }
+  ],
+  "sources": [
+    "https://finance.eastmoney.com/a/202611043922300262.html",
+    "https://www.yicai.com/news/103426447.html"
+  ],
+  "checks": {
+    "compliance_precheck": "PASS",
+    "heijin_titles": "PASS (cover 122px 1行; inner 64px/26px #9b9b9e)",
+    "measure_space": "PASS (blank≤5%, foot≤3.2%)",
+    "visual_read": "PASS",
+    "gate_archive": "PASS",
+    "once_pipeline": "PASS"
+  }
+}

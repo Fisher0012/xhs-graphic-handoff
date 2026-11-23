@@ -1,0 +1,5 @@
+p1 封面 h1=前10月钱去哪了 fs=108px lines=1 占可用宽=81.2% 渐变=True | sub fs=26px color=rgb(155, 155, 158) -> PASS
+p2 内页 h1=存款加在哪几块 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p3 内页 h1=贷款谁增谁在减 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p4 内页 h1=当月和统计口径 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+check_titles: PASS

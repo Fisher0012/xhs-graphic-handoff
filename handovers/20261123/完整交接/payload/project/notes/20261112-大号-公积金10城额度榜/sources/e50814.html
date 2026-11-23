@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8"/>
+<title>中央国家机关住房资金管理中心欢迎您！</title>
+<link href="/css/style2023.css" rel=stylesheet />
+<link href="/css/list2023.css" rel=stylesheet />
+<link rel="shortcut icon" href="/images/logo.ico" type="image/x-icon">
+<script src="/js/jquery-1.10.2.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/visit_count.js"></script>
+</head>
+<body>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0, minimum-scale=1.0">
+   <script type="application/javascript">
+		// 监听页面上的点击事件、表单提交事件等
+		document.addEventListener('click', function(event) {
+			// 确保只捕获页面中的重要操作
+			let eventData = {
+				eventType: event.type,
+				elementId: event.target.id,
+				elementClass: event.target.className,
+				timestamp: new Date().toISOString(),
+				userAgent: navigator.userAgent,
+				pageUrl: window.location.href
+			};
+
+			sendAuditData(eventData);
+		});
+
+		document.addEventListener('submit', function(event) {
+			let formData = new FormData(event.target);
+			let data = {
+				eventType: 'submit',
+				formData: Array.from(formData.entries()),  // 将FormData转换为普通的键值对
+				timestamp: new Date().toISOString(),
+				userAgent: navigator.userAgent,
+				pageUrl: window.location.href
+			};
+
+			sendAuditData(data);
+		});
+
+		// 发送审计数据的函数
+		function sendAuditData(data) {
+			fetch('/ggzxBusiness/audit/log', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json',
+				},
+				body: JSON.stringify(data)
+			})
+					.then(response => response.json())
+					.then(data => {
+						console.log('Audit data sent:', data);
+					})
+					.catch(error => {
+						console.error('Error sending audit data:', error);
+					});
+		}
+
+	</script>
+</head>
+<div class="head">
+    <div class="logoar">
+        <ul>
+            <li class="logo"><a href="#"><img src="/guoguan/images/logo.png"></a></li>
+            <li class="right">
+                <ul>
+                    <li class="search">
+                        <form id="myForm" onsubmit="return false;" method="get" target="_blank" action="">
+                            <div class="top_search">
+                                <input value="请输入搜索关键词" id="word" name="q" onclick="if(value==defaultValue){value='';this.style.color='#666'}" onblur="if(!value){value=defaultValue;this.style.color='#b5b5b5'}" onkeydown="if(event.keyCode==13){search();}" type="text">
+                                <input type="hidden" id="cc" name="cc" value="zzz.gov.cn"/>
+                                <input type="hidden" id="ie" name="ie" value="UTF-8"/>
+				<input type="hidden" name="exclude" value="/html/ywzn/tqywzn/qttq/12899.html">
+                            </div>
+                            <div class="top_search_btn">
+                                <input id="submitbuttom" type="button" onclick="searchInfo()">
+                            </div>
+                        </form>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="nav">
+    <ul class="menu boxed clearfix">
+        <li><a href="/index.html">首页</a></li>
+        <li>
+            <a href="#">组织机构</a>
+            <ul>
+                <li><a href="/html/jgsz/glfw/index.html">管理范围</a></li>
+                <li><a href="/html/jgsz/zyzn/index.html">主要职能</a></li>
+                <li><a href="/html/jgsz/nsjg/index.html">内设机构</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">通知公告</a>
+            <ul>
+                <li><a href="/html/xwzx/tzgg/index.html">通知公告</a></li>
+                <li><a href="/html/xwzx/dtyw/index.html">动态要闻</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">政策法规</a>
+            <ul>
+                <li><a href="/html/zcfg/zhl">政策法规</a></li>
+                <li><a href="/html/zcfg/zcjd/index.html">政策解读</a></li>
+                <li><a href="/html/zctj1/jc/">政策图解</a></li>
+                <li><a href="/html/zcfg/spjd/">视频解读</a></li>
+
+            </ul>
+        </li>
+        <li>
+            <a href="#">信息公开</a>
+            <ul>
+                <li><a href="/html/xxgk/gjjndbg/index.html">住房公积金年度报告</a></li>
+                <li><a href="/html/xxgk/ggfwsx/index.html">公共服务</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">网上大厅</a>
+            <ul>
+                <li><a href="/wtgrgjj/index.html">住房公积金个人业务</a></li>
+                <li><a href="https://dwb.zzz.gov.cn/dwbnew/web/index.html">住房公积金单位业务</a></li>
+		<li><a href="/ggzxUnitKh/index">住房公积金单位开户申请</a></li>
+                <li><a href="https://hfund.zzz.gov.cn/hfund">房改资金业务</a></li>
+            </ul>
+        </li>
+		 <li>
+            <a href="#">便民工具</a>
+            <ul>
+                <li><a href="/map.html">网点地图</a></li>
+				<li><a href="/html/xzzx/jczlxz1/">下载中心</a></li>
+                <li><a href="/dkjsq/dkll/">贷款利率表</a></li>
+                <li><a href="/dkjsq/yhke/">月还款额表</a></li>
+                <li><a href="/dkjsq/calculator.html">贷款计算器</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">业务指南</a>
+            <ul>
+                <li><a href="/html/ywzn/grwsyw/tqlc/">住房公积金个人业务</a></li>
+                <li><a href="/html/ywzn/jcyw/">住房公积金缴存业务</a></li>
+                <li><a href="/html/ywzn/tqyw/">住房公积金提取业务</a></li>
+                <li><a href="/html/ywzn/zyyw/">住房公积金转移业务</a></li>
+                <li><a href="/html/ywzn/dkyw1/">住房公积金贷款业务</a></li>
+                <li><a href="/html/ywzn/wxzj/">维修资金业务</a></li>
+                <li><a href="/html/ywzn/sfk/">售房款业务</a></li>
+                <li><a href="/html/ywzn/dwb/">住房公积金单位版软件</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">服务专区</a>
+            <ul>
+                <li><a href="/ggzxBusiness/autoConsultation/entry">在线咨询</a></li>
+                <li><a href="/ggzxBusiness/login/user">投诉及建议</a></li>
+                <li><a href="/ggzxComplain/index">维权投诉申请</a></li>
+                <li><a href="/html/cjwt/cjwt/index.html">常见问题</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript">
+    function searchInfo(){
+        const word = document.getElementById("word").value;
+        document.getElementById("word").value = word;
+        document.getElementById("myForm").action = "https://zhannei.baidu.com/cse/site";
+        document.getElementById("myForm").submit();
+        document.getElementById("word").value = word;
+    }
+</script>
+
+<div class=main-ce>
+<div class=breadti><a href="/index.html" class=home>首页</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href='/html/hdzq/index.html'>服务专区</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href='/html/cjwt/cjwt/index.html'>常见问题</a></div>
+<div class=" artcile block">
+<div class=title>
+<p>个人住房公积金贷款利率是多少？</p>
+<p class=document></p>
+<div><span>发布日期：2026-06-12</span><span>来源：本站</span>
+点击：<span id=visitCount></span></div>
+</div>
+<div class=paragraph>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;答：目前，1-5年（含5年）和6-30年（含30年）首套个人住房公积金贷款利率分别为2.1%和2.6%，1-5年（含5年）和6-30年（含30年）第二套个人住房公积金贷款利率分别为2.525%和3.075%。</p>
+</div>
+</div>
+</div>
+	<!-- <div class="foot">
+		<div class="neir">
+    		<div style="margin-top:30px; float:left; width:100%;">
+    			<div>
+                	<ul><li style="border-right:1px solid #d2d2d2; padding-left:0;"><a target="_blank" href="/wzdt.html">网站地图</a></li><li><a target="_blank" href="/html/12579.html">关于我们</a></li></ul>
+															
+                	<p style="text-align:center;"><a href="//bszs.conac.cn/sitename?method=show&amp;id=2E0CEB394EF415F6E053012819AC3D5B" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue_error.png" data-bd-imgshare-binded="1"></a></p>
+					<p style="text-align:center;">住房公积金服务热线：65990000 人工电话接听时间：每周一至周五的8:00至18:00（中午不休息）</p>
+                	<p style="text-align:center;">办公地址：北京市朝阳区广渠门外大街甲28号院16号楼（地铁7号线广渠门外D口向东150米）&nbsp;&nbsp;&nbsp;&nbsp;邮编：100022
+</p>
+                	<p style="text-align:center;">@2016  <a href="http://beian.miit.gov.cn">京ICP备18012621号</a>  <a href="http://www.zzz.gov.cn" target="_blank">www.zzz.gov.cn</a></p>
+                    <p style="text-align:center;">&nbsp;</p>
+            	</div>
+				
+        	</div>
+    	</div>
+	</div> -->
+	<div class="foot">
+		<div class="neir">
+    		<div >
+                	<ul><li style="border-right:1px solid #d2d2d2; padding-left:0;"><a target="_blank" href="/wzdt.html">网站地图</a></li><li><a target="_blank" href="/html/12579.html">关于我们</a></li></ul>
+						<!-- <a href="https://bszs.conac.cn/sitename?method=show&id=2E0CEB394EF415F6E053012819AC3D5B" target="_blank" style="margin-top:20px;"><img src="/images/sydw.png"></a> -->
+						<a href="https://bszs.conac.cn/sitename?method=show&id=2E0CEB394EF415F6E053012819AC3D5B" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="//dcs.conac.cn/image/blue_error.png" data-bd-imgshare-binded="1"></a>
+					
+                	<p>住房公积金服务热线：65990000 　　　人工电话接听时间：每周一至周五的8:00至18:00（中午不休息）</p>
+                	<p>办公地址：北京市朝阳区广渠门外大街甲28号院16号楼（地铁7号线广渠门外D口向东150米）　　邮编：100022</p>
+                	<p>@2016　　　<a href="http://beian.miit.gov.cn" target="_blank">京ICP备18012621号</a>　　　<a href="https://www.zzz.gov.cn" target="_blank">www.zzz.gov.cn</a></p>
+					</div>          
+            </div>           	
+    </div>
+
+</body>
+</html>

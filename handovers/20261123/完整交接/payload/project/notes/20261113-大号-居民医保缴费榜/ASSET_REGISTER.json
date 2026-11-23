@@ -1,0 +1,49 @@
+{
+  "assets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/00_封面.png",
+      "bytes": 1138552,
+      "sha256": "7e4495a14c291690a4d21de1124d6d2d19191668e9d2a9654423eeca65a659a3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/01_个人缴费与财政补助.png",
+      "bytes": 1326631,
+      "sha256": "d20ae91eaba4411524d8b81331e5c4398eb53da69d88690db6cac5c7220c969a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/02_断保待遇等待期.png",
+      "bytes": 1330085,
+      "sha256": "d4d99d14dc34e1cf7ffe58bd75deb5c307d21f68e9beddcd5ee2eb4ac698b645"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/03_连续参保激励.png",
+      "bytes": 1359921,
+      "sha256": "13cb4926fa7a1662cf451a449da461b9d5518ced5ea19ee9b8d5778931513d86"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/04_各地集中缴费截止日.png",
+      "bytes": 1355499,
+      "sha256": "cfd2f23be9fff7f7ab9d5eab9a53c3b5d01bd392ce691abef68bdcb53d96c553"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/05_发布文案.txt",
+      "bytes": 1689,
+      "sha256": "dfb7c60ef383e933e4e4176f58303ca892fb89eb02db80a7207fd81c6978e858"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/06_来源说明.txt",
+      "bytes": 4831,
+      "sha256": "cc0090f52e34939bd2201dfa1f36def306f9482d82b3fbf0fe2f530fa5b1939e"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/07_归档校验.json",
+      "bytes": 2608,
+      "sha256": "059d325bc116b0cb3ff9f864b146413c1cbcd6c803285ce0cd980681c309f8f5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/08_全套总览.png",
+      "bytes": 468562,
+      "sha256": "adada62e868b9debe4c955cdf26ed4568d6d76a78f5eeb40d1fbc9053dac6ece"
+    }
+  ]
+}

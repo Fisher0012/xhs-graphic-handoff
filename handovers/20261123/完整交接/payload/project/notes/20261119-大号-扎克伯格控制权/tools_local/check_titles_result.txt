@@ -1,0 +1,9 @@
+p1 封面 h1='扎克伯格⏎为啥能掌权' fs=108px lines=4 top=72 right=1040 h2fs=34px h2lines=1 -> PASS
+    h2=截至 2026-10-01，官方披露的两个约数 fs=34px top=365 right=1040
+p2 内页 h1='同样一股，票数差十倍' fs=86px lines=1 top=74 right=900 h2='差别写在公司章程里，不是口头约定' h2fs=32px -> PASS
+    h2=差别写在公司章程里，不是口头约定 fs=32px top=227 right=1040
+p3 内页 h1='两个比例怎么来的' fs=86px lines=1 top=74 right=728 h2='只写公司原文，不另算新的百分比' h2fs=32px -> PASS
+    h2=只写公司原文，不另算新的百分比 fs=32px top=227 right=1040
+p4 内页 h1='掌权也有边界' fs=86px lines=1 top=74 right=556 h2='投票权高，不等于不受约束' h2fs=32px -> PASS
+    h2=投票权高，不等于不受约束 fs=32px top=227 right=1040
+check_titles: PASS

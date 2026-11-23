@@ -1,0 +1,84 @@
+/* 阿信财读笔记·小号 统计类 —— 1080x1440 CSS，@2x 渲染为 2160x2880 */
+:root{
+  --bg0:#0b1111; --bg1:#030505;
+  --teal:#22c7a9; --teal-hi:#8ff2dd; --teal-dk:#1d6e60;
+  --white:#ffffff; --sub:#9ba1a8; --note:#7e858d; --sum:#aeb4bb; --risk:#536468;
+  --track:#0a0f11; --sep:#1a2224; --card:#0e1517; --card-bd:#1b2427;
+  --neg:#55595c; --negnum:#8a9096;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden}
+body{
+  font-family:"Noto Sans CJK SC","Noto Sans SC",sans-serif;color:var(--white);
+  background:
+    radial-gradient(ellipse 900px 700px at 78% 6%, rgba(34,199,169,.085), rgba(34,199,169,0) 70%),
+    linear-gradient(170deg,var(--bg0) 0%,#060a0a 45%,var(--bg1) 100%);
+  position:relative;
+}
+.page{position:absolute;left:64px;right:64px;top:0;bottom:0}
+.label{position:absolute;top:90px;font-size:25px;font-weight:700;color:var(--teal);letter-spacing:1px}
+.title{font-family:"Noto Sans SC";font-weight:900;line-height:1.12;white-space:nowrap;letter-spacing:2px}
+.w{background:linear-gradient(180deg,#ffffff 0%,#d9dee1 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.t{background:linear-gradient(160deg,var(--teal-hi) 0%,#4fdcc0 45%,var(--teal) 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cover-title{position:absolute;top:150px;font-size:124px}
+.inner-title{position:absolute;top:146px;font-size:88px}
+.gline{position:absolute;top:322px;width:93px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--teal-hi),var(--teal))}
+.subtitle{position:absolute;font-size:23px;color:var(--sub);white-space:nowrap}
+.cover-sub{top:350px}
+.inner-sub{top:262px}
+/* 排名行 */
+.rows{position:absolute;left:0;right:0}
+.row{position:relative;display:flex;align-items:center}
+.row .idx{width:76px;font-family:"Noto Sans SC";font-weight:500;font-size:24px;color:#4d5357}
+.row.first .idx{color:var(--teal)}
+.row .name{width:240px;font-weight:700;font-size:35px;white-space:nowrap}
+.row .note{flex:1;font-size:19px;color:var(--note);white-space:nowrap}
+.row .num{font-family:"Noto Sans SC";font-weight:900;font-size:41px;text-align:right;white-space:nowrap;letter-spacing:.5px}
+.row.first .num{font-size:54px}
+.row .bar{position:absolute;left:0;right:0;bottom:0;height:3px;background:var(--track)}
+.row .bar i{display:block;height:100%;border-radius:2px;background:linear-gradient(90deg,#3fd9bb 0%,var(--teal) 55%,#15806d 100%)}
+.row.first .bar i{background:linear-gradient(90deg,#e9fbf7 0%,#8ff2dd 25%,var(--teal) 100%)}
+.hr{position:absolute;left:0;right:0;height:1px;background:var(--sep)}
+.summary{position:absolute;left:0;right:0;font-size:25px;line-height:1.7;color:var(--sum)}
+.summary b{color:var(--teal);font-weight:700}
+.risk{position:absolute;left:0;right:0;top:1388px;text-align:center;font-size:15px;color:var(--risk)}
+/* P2 数字卡 */
+.stats{position:absolute;left:0;right:0;display:flex;gap:16px}
+.stat{flex:1;background:var(--card);border:1px solid var(--card-bd);border-radius:14px;padding:22px 22px 20px;position:relative;overflow:hidden}
+.stat:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--teal)}
+.stat .big{font-family:"Noto Sans SC";font-weight:900;font-size:44px;white-space:nowrap}
+.stat .lab{font-size:21px;font-weight:700;color:var(--white);margin-top:4px}
+.stat .sm{font-size:16px;color:var(--note);margin-top:6px;line-height:1.45}
+/* P3 增减条 */
+.drow{position:relative;height:60px}
+.drow .top{display:flex;align-items:baseline;height:38px}
+.drow .name{font-weight:700;font-size:29px;white-space:nowrap}
+.drow .tag{font-size:16px;color:var(--note);margin-left:12px}
+.drow .num{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:31px}
+.drow.neg .num{color:var(--negnum)}
+.drow .track{position:absolute;left:0;right:0;top:44px;height:14px;border-radius:3px;background:#10171a}
+.drow .track i{display:block;height:100%;border-radius:3px;background:var(--teal-dk)}
+.drow.max .track i{background:var(--teal)}
+.drow.neg .track i{background:var(--neg)}
+.callout{position:absolute;left:0;right:0;background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:24px 28px 24px 30px;overflow:hidden}
+.callout:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--teal)}
+.callout h3{font-size:27px;color:var(--teal);font-weight:700;margin-bottom:10px}
+.callout p{font-size:21px;line-height:1.65;color:#d5dadd}
+.small-sum{font-size:21px;line-height:1.65}
+/* P4 说明卡 */
+.cards{position:absolute;left:0;right:0;top:330px}
+.card{position:relative;background:linear-gradient(180deg,#111a1c,#0c1214);border:1px solid var(--card-bd);border-radius:16px;padding:24px 28px 22px 32px;margin-bottom:18px;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--teal-hi),var(--teal))}
+.card .head{display:flex;align-items:baseline}
+.card h3{font-size:40px;font-weight:900;font-family:"Noto Sans SC"}
+.card .paren{font-size:18px;color:var(--sub);margin-left:14px}
+.card .key{position:absolute;right:28px;top:20px;text-align:right}
+.card .key small{display:block;font-size:15px;color:var(--teal)}
+.card .key span{font-family:"Noto Sans SC";font-weight:900;font-size:40px;white-space:nowrap}
+.card .fields{display:flex;gap:30px;margin-top:16px}
+.card .f small{display:block;font-size:15px;color:var(--note);min-height:20px}
+.card .f span{font-size:21px;font-weight:700;white-space:nowrap}
+.card .desc{font-size:18.5px;color:#c3c9cd;margin-top:12px;line-height:1.55}
+.src{position:absolute;left:0;right:0;font-size:19px;line-height:1.6;color:var(--sum)}
+
+.nw{white-space:nowrap}

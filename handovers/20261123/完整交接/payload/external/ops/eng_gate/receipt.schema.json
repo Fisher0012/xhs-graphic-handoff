@@ -1,0 +1,377 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "file:///workspace/ops/eng_gate/receipt.schema.json",
+  "title": "工程门禁回执（v0.2，ADR-EG1，2026-11-10 14:35 起全项目执行）",
+  "description": "兼容 Fisher 协议第五节模板字段；带 x- 前缀说明的是本地扩展，用于让总协调零额度独立复算。结构合格≠通过，结论以 verify_receipt.py 重算为准。",
+  "type": "object",
+  "required": [
+    "task_id",
+    "executed_at",
+    "executor",
+    "verifier",
+    "targets",
+    "gates",
+    "overall_verdict"
+  ],
+  "properties": {
+    "receipt_version": {
+      "type": "string",
+      "enum": [
+        "0.1",
+        "0.2"
+      ]
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "risk_tier": {
+      "description": "扩展：T0 本机文件级补丁/脚本；T1 本机服务/例程/配置；T2 服务器部署/线上配置；T3 数据库/数据迁移；T4 对外发布/小程序上线等不可回滚；C 内容类成品制作（视频、图文，add 可不附 diff，gate2.command 写产物门/合规门脚本，gate3 写 restore_by_delete）。缺省按 T0。",
+      "enum": [
+        "T0",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "C"
+      ]
+    },
+    "executed_at": {
+      "type": "string",
+      "description": "ISO 8601，必须带时区偏移（如 +08:00），不得晚于校验时刻 120 秒以上。",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$"
+    },
+    "executor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "verifier": {
+      "type": "string",
+      "minLength": 1,
+      "description": "必须与 executor 不同。"
+    },
+    "environment": {
+      "description": "扩展（协议正文要求含环境信息，模板未列）：缺失时校验器给 WARN。",
+      "type": "object",
+      "properties": {
+        "host": {
+          "type": "string"
+        },
+        "python": {
+          "type": "string"
+        },
+        "tz": {
+          "type": "string"
+        },
+        "git_commit": {
+          "type": "string"
+        }
+      }
+    },
+    "targets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "path"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "change": {
+            "enum": [
+              "modify",
+              "add",
+              "delete"
+            ],
+            "default": "modify"
+          },
+          "before_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "add 时可为 null。"
+          },
+          "after_sha256": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "delete 时可为 null。"
+          },
+          "diff_path": {
+            "type": "string",
+            "pattern": "^/",
+            "description": "统一 diff；modify 时校验器会在临时目录 patch -R 复算回滚。"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "change": {
+                  "const": "add"
+                }
+              },
+              "required": [
+                "change"
+              ]
+            },
+            "then": {
+              "required": [
+                "after_sha256"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "change": {
+                  "const": "delete"
+                }
+              },
+              "required": [
+                "change"
+              ]
+            },
+            "then": {
+              "required": [
+                "before_sha256"
+              ]
+            }
+          },
+          {
+            "if": {
+              "not": {
+                "required": [
+                  "change"
+                ]
+              }
+            },
+            "then": {
+              "required": [
+                "before_sha256",
+                "after_sha256",
+                "diff_path"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "change": {
+                  "const": "modify"
+                }
+              },
+              "required": [
+                "change"
+              ]
+            },
+            "then": {
+              "required": [
+                "before_sha256",
+                "after_sha256",
+                "diff_path"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "protected": {
+      "description": "扩展：未授权修改的文件及其改动前哈希，校验器重算必须不变。",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "required": [
+        "gate1_syntax_and_py_compile",
+        "gate2_invariants_and_tests",
+        "gate3_simulated_rollback",
+        "gate4_manifest_hash_check"
+      ],
+      "properties": {
+        "gate1_syntax_and_py_compile": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "N/A"
+          ]
+        },
+        "gate2_invariants_and_tests": {
+          "type": "object",
+          "required": [
+            "total_tests",
+            "passed",
+            "failed",
+            "exit_code"
+          ],
+          "properties": {
+            "total_tests": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "passed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "failed": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "exit_code": {
+              "type": "integer"
+            },
+            "command": {
+              "description": "扩展：测试命令 argv 列表（不走 shell），总协调默认重跑。缺失则自报不采信。",
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "cwd": {
+              "type": "string",
+              "pattern": "^/"
+            },
+            "timeout_s": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 900
+            },
+            "redteam_cases": {
+              "description": "扩展：红队恶意用例文件路径（3~5 个）。",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "gate3_simulated_rollback": {
+          "type": "object",
+          "properties": {
+            "rollback_executed": {
+              "type": "boolean"
+            },
+            "restored_sha256_match": {
+              "type": "boolean"
+            },
+            "rollback_latency_seconds": {
+              "type": "number",
+              "minimum": 0
+            },
+            "rollback_plan": {
+              "type": "string",
+              "description": "扩展：T2/T3 必填，回滚方案文件路径。"
+            },
+            "not_rollbackable": {
+              "type": "boolean",
+              "description": "扩展：T4 必须为 true。"
+            },
+            "restore_by_delete": {
+              "type": "boolean",
+              "description": "扩展：内容类 C 制作阶段，回滚=删除新增成品。"
+            },
+            "approval_ref": {
+              "type": "string",
+              "description": "扩展：T4 的 Fisher 批准出处。"
+            }
+          }
+        },
+        "gate4_manifest_hash_check": {
+          "enum": [
+            "100%_MATCHED",
+            "MISMATCH",
+            "N/A",
+            "NOT_APPLICABLE"
+          ]
+        }
+      }
+    },
+    "gate4_evidence": {
+      "description": "扩展：让总协调能复核 G4。至少给一项；标 N/A 时必须写 na_reason。",
+      "type": "object",
+      "properties": {
+        "manifest_path": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "git_repo": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "asset_register": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "na_reason": {
+          "type": "string"
+        }
+      }
+    },
+    "overall_verdict": {
+      "enum": [
+        "APPROVE_READY_FOR_DEPLOY",
+        "PASS",
+        "FAIL",
+        "REJECT"
+      ],
+      "description": "自报，仅参考。"
+    },
+    "project_checks": {
+      "description": "扩展：项目专属检查（见 /workspace/ops/eng_gate/PROJECT_CHECKS.md），逐条写结果和证据路径。能跑的必须同时进 gate2.command。",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "UNKNOWN",
+              "N/A"
+            ]
+          },
+          "evidence": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "project": {
+      "type": "string",
+      "description": "扩展：项目名（与 post.sh 收件名一致）。"
+    }
+  }
+}

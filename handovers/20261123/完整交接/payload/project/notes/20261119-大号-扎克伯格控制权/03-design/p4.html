@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>掌权也有边界</title>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 72px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:14px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:60px;font-family:NSM;font-size:32px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.pt{flex:none;margin-top:56px;border-radius:16px;padding:44px 32px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.pt + .pt{margin-top:48px}
+.ph{display:flex;align-items:center;gap:14px}
+.num{flex:none;font-family:NSB;font-size:22px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);border-radius:8px;padding:0 10px;line-height:38px;box-shadow:0 0 16px rgba(255,45,63,.35)}
+.ph h3{font-family:NSB;font-weight:normal;font-size:32px;color:#fff;white-space:nowrap;line-height:1.15}
+.rw{display:flex;align-items:flex-start;gap:16px;margin-top:26px}
+.lb{flex:none;font-family:NSB;font-size:22px;line-height:38px;width:72px;text-align:center;border-radius:8px}
+.lb.a{color:#7fd3ff;background:rgba(127,211,255,.12);border:1px solid rgba(127,211,255,.35)}
+.lb.b{color:#ff6b78;background:rgba(255,45,63,.12);border:1px solid rgba(255,45,63,.45)}
+.tx{flex:1;min-width:0;font-size:28px;line-height:1.65;color:#dfe6ee}
+.tx span{display:block;white-space:nowrap}
+.tx b{font-family:NSB;font-weight:normal;color:#fff}
+.tx em{font-style:normal;font-family:NSB;color:#f3de9a}
+.tx i{font-style:normal;font-family:NSB;color:#ff6b78}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>边界</span><span>投票权高，也不等于无限权力</span><span class=dt>2026.11.19</span></div>
+  <h1>掌权也有<em>边界</em></h1>
+  <h2>投票权高，不等于不受约束</h2>
+
+  <div class=pt>
+    <div class=ph><span class=num>01</span><h3>官方怎么写</h3></div>
+    <div class=rw><span class="lb a">原文</span><div class=tx><span>他目前有能力<b>选举全部董事</b>，</span><span>并决定提交股东表决的<b>多数事项</b>。</span></div></div>
+    <div class=rw><span class="lb b">读法</span><div class=tx><span>官方写：资本重组和 C 类分红后，这一点<i>不会改变</i>。</span></div></div>
+  </div>
+
+  <div class=pt>
+    <div class=ph><span class=num>02</span><h3>不是无限权力</h3></div>
+    <div class=rw><span class="lb a">原文</span><div class=tx><span>控制权通过信托和相关主体持有，不是都放在个人名下。</span></div></div>
+    <div class=rw><span class="lb b">读法</span><div class=tx><span>要遵守法律和董事义务，不能读成<i>不受任何约束</i>。</span></div></div>
+  </div>
+
+  <div class=pt>
+    <div class=ph><span class=num>03</span><h3>C 类尚未生效</h3></div>
+    <div class=rw><span class="lb a">原文</span><div class=tx><span>重述章程生效日是 <b>2027 年 1 月 19 日</b>，现在不能当成已发行。</span></div></div>
+    <div class=rw><span class="lb b">读法</span><div class=tx><span>分红所得 C 类约 <em>20%</em> 可自由出售，约 <em>80%</em> 受捆绑。</span></div></div>
+  </div>
+
+  <div class=foot>来源：Meta 8-K、PRE 14C。制图 2026/11/19。以上仅为知识分享，不构成投资建议。投资有风险，入市需谨慎。</div>
+</div>
+</body>
+</html>

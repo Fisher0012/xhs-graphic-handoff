@@ -1,0 +1,41 @@
+内存9个月翻两番，电脑手机为啥跟着贵｜定稿来源说明（2026-10-29 归档）
+查阅日期：2026-10-26（北京时间）；卢伟冰原文 10-26 重新打开核对。【自算】为本笔记根据公开数据计算。
+图文不点名任何原厂、机型或股票；下列来源中如含公司名，仅作核实依据。合约价＝原厂与大客户之间的批发价，不等于零售价。
+
+一、内存/闪存合约价季度环比涨幅（P1、P2、P4，正文①④）
+1. TrendForce（2026-01-05）：4Q25 一般型DRAM合约价 +45～50%、NAND +33～38%（表中4Q25栏）；当时对1Q26一般型DRAM的预估为 +55～60%（P4「1月预估」）。
+https://www.trendforce.com/presscenter/news/20260105-12860.html
+2. TrendForce（2026-02-26）：复核4Q25一般型DRAM +45～50%；1Q26预估上调到 +90～95%。
+https://www.trendforce.com/presscenter/news/20260226-12937.html
+3. TrendForce（2026-03-31）：1Q26 NAND +85～90%（季末估值，图中已注明）。
+https://www.trendforce.com.tw/presscenter/news/20260331-12994.html
+4. TrendForce（2026-06-01）：1Q26 一般型DRAM合约价实际 +93～98%；增量优先给AI服务器，PC、手机拿货受限。
+https://www.trendforce.com/presscenter/news/20260601-13070.html
+5. TrendForce（2026-07-03）：2Q26 一般型DRAM +58～63%、NAND +55～60%（表中2Q26栏）。
+https://www.trendforce.com/presscenter/news/20260703-13134.html
+6. TrendForce（2026-09-30，原文已核对）：3Q26E 一般型DRAM +13～18%、NAND +18～23%（上修）；4Q26F 一般型DRAM +10～15%、NAND +15～20%；品牌调降主流机种SSD容量以压成本（P4「同价先看配置」）。
+https://www.trendforce.com.tw/presscenter/news/20260930-13256.html
+7. TrendForce（2026-06-22）：部分品牌和ODM下修DRAM规格换取配额（P4「同价先看配置」）。
+https://www.trendforce.com.tw/presscenter/news/20260622-13111.html
+【自算】4.4～4.8倍＝2025Q3末→2026Q2末三个季度涨幅连乘：1.45×1.93×1.58≈4.42；1.50×1.98×1.63≈4.84。
+「翻两番」＝涨到约4倍以上，依据即此自算。
+
+二、80%/40%/20%（P2 注释，正文①）
+8. TrendForce新闻页（2026-10-20）：「Q4约20%，较Q2约80%、Q3约40%放缓」——转述《工商时报》引机构投资者说法，不是TrendForce价格调查数据，本文不采用。
+https://www.trendforce.com/news/2026/10/20/news-dram-prices-seen-rising-20-qoq-in-4q26-despite-slower-gains-ai-demand-tight-supply-support-outlook/
+
+三、为什么涨（P3 上半，正文②）
+9. TrendForce（2023-10-13）：2023年DRAM负毛利，原厂坚持减产，三星9月起扩大减产（P3「2023年行业亏损减产」）。
+https://www.trendforce.com.tw/presscenter/news/20231013-11878.html
+10. IT之家（2024-03-21）转述美光CEO财报电话会：同一节点、同等容量下，HBM3E消耗晶圆约为标准DDR5的3倍（图文写作「存储原厂2024年财报会」，不点名）。
+https://www.ithome.com/0/757/296.htm
+
+四、传导到整机（P1、P3 下半，正文③）
+11. IT之家（2026-04-03）：小米集团合伙人、总裁卢伟冰：今年一季度存储报价约为去年一季度近4倍，12GB+256GB存储低点约30美元，4倍到120美元左右。
+https://www.ithome.com/0/935/628.htm
+12. Omdia（2026-10-09）：DRAM和SSD占PC成本从通常约15%升到近40%。
+https://omdia.tech.informa.com/pr/2026/oct/global-pc-shipments-fall-21percent-in-3q26-as-pull-forward-demand-subsides
+13. Counterpoint（2026-10-12）：厂商转嫁成本，2026年以来全球手机零售价涨约20%。
+https://counterpointresearch.com/en/insights/global-smartphone-shipments-hit-a-new-low-with-20-percent-yoy-decline-lowest-in-14-years
+
+完整资料与未上图数据见 notes/20261026-内存涨价/01-选题.md；合规见 05-合规.md。

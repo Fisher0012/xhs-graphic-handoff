@@ -1,0 +1,14 @@
+Sphere 商单 v7 横版素材 — 来源与许可（2026-11-11 Asia/Shanghai）
+全部来自 Mixkit 免费库（Mixkit Stock Video Free License, https://mixkit.co/license/#videoFree），可商用、无需署名、不得原样转售。720p 版本，未登录下载。
+mk_45706  investor-checking-stock-charts-on-a-tablet-at-the-office-45706
+mk_41267  vlogger-working-on-his-script-41267
+mk_41271  video-blogger-working-on-a-script-41271
+mk_41283  teaching-recording-studio-lighting-41283
+mk_41281  placing-a-camera-on-a-tripod-41281
+mk_41289  youtuber-recording-himself-41289 (未用)
+mk_41290  face-of-a-vlogger-speaking-to-the-camera-41290 (未用)
+mk_41276  editing-a-video-on-an-audiovisual-workstation-41276
+mk_41275  man-editing-a-video-at-a-workstation-41275 (未用)
+mk_50605  cursor-working-on-a-video-editing-software-close-up-shot-50605
+mk_100069 smartphone-with-a-green-screen-on-a-desk-setup-100069（绿幕手机，合成 Sphere 成片）
+另用 v5/stock 的 01_tripod_phone_setup、03_phone_stand_recording（Pexels/Mixkit，见 v5/stock/LICENSE.txt）。

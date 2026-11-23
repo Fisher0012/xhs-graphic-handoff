@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>扎克伯格为啥能掌权</title>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 92px;display:block}
+
+.top{display:flex;align-items:center;gap:14px;height:34px;font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:108px;line-height:1.04;margin-top:12px;letter-spacing:0;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55)}
+h1 span{display:block;white-space:nowrap}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+.h2box{margin-top:68px}
+h2{font-family:NSM;font-size:34px;color:#bdcddd;letter-spacing:0;line-height:1.15;white-space:nowrap}
+
+.hero{margin-top:56px;height:166px;display:flex;border-radius:18px;overflow:hidden;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(255,45,63,.52);box-shadow:0 0 0 1px rgba(255,45,63,.12),0 14px 40px rgba(0,0,0,.5),inset 0 0 50px rgba(255,45,63,.05);position:relative}
+.hero:before{content:'';position:absolute;left:0;top:16px;bottom:16px;width:4px;background:linear-gradient(180deg,#ff6b78,#c80f28);box-shadow:0 0 12px rgba(255,45,63,.6);border-radius:0 2px 2px 0;z-index:2}
+.hp{width:164px;flex:none;background:url(file:///workspace/xhs/notes/20261119-大号-扎克伯格控制权/photos/zuckerberg.jpg) 50% 18%/cover no-repeat;position:relative;filter:contrast(1.05) saturate(.9)}
+.hp:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 42%,#141b26 100%)}
+.ht{padding:12px 22px 12px 12px;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.htag{font-family:NSB;font-size:18px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:3px 10px;border-radius:6px;letter-spacing:1px;box-shadow:0 0 16px rgba(255,45,63,.45);display:inline-block;width:fit-content}
+.hn{font-family:NSB;font-size:32px;color:#fff;margin-top:7px;line-height:1.15;white-space:nowrap}
+.hn em{font-style:normal;color:#ff6b78}
+.hd{margin-top:7px;font-size:22px;color:#c5d0db;line-height:1.4}
+.hd b{font-family:NSB;color:#7fd3ff;font-weight:normal}
+
+.rows{margin-top:80px;display:flex;flex-direction:column;gap:36px}
+.row{display:flex;align-items:center;gap:22px;border-radius:16px;padding:36px 28px 36px 30px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28);position:relative}
+.row:before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:4px;border-radius:0 2px 2px 0;background:linear-gradient(180deg,#ff6b78,#c80f28)}
+.row.hold:before{background:linear-gradient(180deg,#f3de9a,#c4a45a)}
+.lab{flex:none;width:160px;font-family:NSB;font-size:32px;color:#fff;line-height:1.2;white-space:nowrap}
+.det{flex:1;min-width:0;font-size:28px;color:#dfe6ee;line-height:1.55}
+.det span{display:block;white-space:nowrap}
+.det em{font-style:normal;font-family:NSB;color:#f3de9a;text-shadow:0 0 12px rgba(232,195,106,.35)}
+
+.note{margin-top:52px;border-radius:14px;padding:32px 28px;background:rgba(18,24,35,.85);border:1px solid rgba(159,179,200,.14);font-size:24px;line-height:1.65;color:#c5d0db}
+.note b{font-family:NSB;font-size:24px;color:#7fd3ff;font-weight:normal}
+
+.foot{position:absolute;left:40px;right:40px;bottom:12px;font-size:15px;line-height:1.45;color:#6c7684}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>对照</span><span>持股比例不是投票权</span><span class=dt>2026.11.19</span></div>
+  <h1><span>扎克伯格</span><span>为啥<em>能掌权</em></span></h1>
+  <div class=h2box><h2>截至 2026-10-01，官方披露的两个约数</h2></div>
+
+  <div class=hero>
+    <div class=hp></div>
+    <div class=ht>
+      <div class=htag>官方约数</div>
+      <div class=hn>经济权益约 13.4%，投票权约 <em>60.6%</em></div>
+      <div class=hd>Meta 董事长兼 CEO · 受益所有口径，截至 2026-10-01<br>A 类一股一票，B 类一股十票。</div>
+    </div>
+  </div>
+
+  <div class=rows>
+    <div class=row>
+      <div class=lab>A 类</div>
+      <div class=det><span>他名下受益所有的 A 类，由 Biohub 登记持有。</span><span>他对这些股份没有金钱利益。</span></div>
+    </div>
+    <div class="row hold">
+      <div class=lab>B 类</div>
+      <div class=det>截至 2026-10-01，他约占已发行 B 类的 <em>99.8%</em>。</div>
+    </div>
+  </div>
+
+  <div class=note><b>怎么读　</b>13.4% 是受益所有口径，不是口袋里的现金。持股按股数、投票权按票数，所以两个约数会拉开。</div>
+
+  <div class=foot>来源：Meta PRE 14C，2026-10-21 提交，受益所有权截至 2026-10-01。13.4%、60.6%、99.8% 为官方约数。制图 2026/11/19。<br>照片：© European Union 2020 / EC，Xavier Lejeune，CC BY 4.0。仅作身份识别。<br>以上仅为知识分享，不构成投资建议。投资有风险，入市需谨慎。</div>
+</div>
+</body>
+</html>

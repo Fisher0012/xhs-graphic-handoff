@@ -1,0 +1,32 @@
+《伯里做空英伟达，为何又减仓一半》四图待审稿
+
+1. 伯里原始看空理由
+本人2026-05-23公开文章摘要，承认当时需求强，质疑训练采购持续性、客户集中与资金结构：
+https://michaeljburry.substack.com/p/abridged-the-heretics-guide-to-ais
+Moneywise，Becky Robertson，2026-08-13，转述此前融资担忧，Yahoo分发：
+https://finance.yahoo.com/markets/stocks/articles/michael-burry-doubles-down-nvidia-160000531.html
+CNBC，Yun Li，2025-11-11，直接引述伯里折旧年限观点。是历史论点，不是2026年最新发言；CNBC当时未独立证实指控：
+https://www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html
+2. 财报
+公司页面日期2026-11-17。2027财年第三季度，截至2026-10-25：营收1158亿美元，同比+103%；GAAP净利润653亿美元，同比+105%。本轮再次直接读取公司表格，未混用非GAAP净利润649亿美元/+109%。
+https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/default.aspx
+3. 调查背景
+Reuters，Chris Prentice、Alexandra Alper，北京时间2026-11-21 03:13，引两名知情人士。调查不等于违法认定，具体范围未确认，不能反推为伯里减仓原因。
+https://www.reuters.com/3fec1b0a85a0/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/
+4. 调仓
+Stocktwits，Shashank Nayar，Yahoo分发，北京时间2026-11-21 02:32：NVDA与SMH看跌各卖原有一半，另一半保留；纳指100的2027年4月看跌据报道未减。报道转述其称获利，但无完整成本、成交价和净收益。
+https://finance.yahoo.com/markets/stocks/articles/michael-burry-locks-gains-nvidia-183241854.html
+Benzinga，Chandrima Sanyal，北京时间2026-11-21 04:15，引用追踪账号，不能把它当本人交易凭据：
+https://www.benzinga.com/etfs/sector-etfs/26/11/63506413/michael-burry-halves-smh-nvidia-puts-but-keeps-nasdaq-100-bet
+Newsquawk，北京时间2026-11-21 01:02，NVDA看跌卖半快讯，早于上述Reuters调查报道：
+https://www.newsquawk.com/headlines/michael-burry-says-he-has-sold-half-of-his-nvidia-nvda-puts
+原始调仓文：页面标记2026-11-20/Paid，交易正文付费不可读，未越过付费墙：
+https://michaeljburry.substack.com/p/trading-post-november-20-2026-turn
+5. 新照片
+Astrid Stawiarz / Getty Images，2015-11-23首映活动，编号498541178，经Investopedia图注确认。近正面真人，不是原侧脸图。
+照片页：https://www.gettyimages.co.uk/detail/news-photo/michael-burry-attends-the-big-short-new-york-screening-news-photo/498541178
+报道：https://www.investopedia.com/short-sellers-now-betting-big-against-ai-11842994
+重要：该图不是CC，独立公开再使用许可未取得。本轮仅待审排版，不宣称版权已清，不视作直接可发布素材。
+
+日期：已知精确报道时刻统一为北京时间；公司公告只有页面日期时按原文标注，不编造时刻。
+本轮未发布、未传Mac；未生成成品正文；未取得Fisher审稿通过。

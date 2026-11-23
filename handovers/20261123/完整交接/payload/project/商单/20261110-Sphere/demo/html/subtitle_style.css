@@ -1,0 +1,75 @@
+/* Sphere 商单 · reusable 9:16 subtitle style
+   Spec: plan/script_v3.md §3.1 and refs2/laomai_breakdown.md §7.3,
+   with the one intentional 9:16 change: text lower edge at y≈1600
+   (the landscape reference sat 80–110px from the bottom; Xiaohongshu's
+   title/author bar would cover that, so the bar is moved up).
+*/
+
+@font-face {
+  font-family: "Noto Sans SC Black";
+  src: url("/home/box/.fonts/NotoSansSC-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.xhs-stage {
+  position: relative;
+  width: 1080px;
+  height: 1920px;
+  overflow: hidden;
+}
+
+.xhs-sub {
+  position: absolute;
+  left: 50%;
+  /* text lower edge ≈ y=1600; 80px glyphs + 9px stroke hanging below
+     are accounted for by translating from the box's bottom. */
+  top: 1600px;
+  transform: translate(-50%, -100%);
+  font-family: "Noto Sans SC Black", "Noto Sans SC", "Source Han Sans SC Heavy", sans-serif;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 1.0;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  -webkit-text-stroke: 9px #000000; /* 11.25% of 80px, inside the 11–13% band */
+  paint-order: stroke fill;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 1000px;
+  /* fade in 100ms, optional 6px rise — set --sub-fade (0..1) from JS/CSS */
+  opacity: var(--sub-fade, 1);
+  /* no grey bar on dark chalkboard / hook grid; add .on-light for UI shots */
+}
+
+.xhs-sub.on-light {
+  background: rgba(0, 0, 0, 0.20);
+  border-radius: 12px;
+  padding: 14px 24px;
+}
+
+.xhs-badge {
+  position: absolute;
+  right: 48px;
+  top: 200px;
+  transform: translateY(-50%);
+  font-family: "Noto Sans SC Black", "Noto Sans SC", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.55);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.xhs-chapter-tag {
+  position: absolute;
+  left: 48px;
+  top: 200px;
+  transform: translateY(-50%);
+  font-family: "Noto Sans SC Black", "Noto Sans SC", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  color: rgba(255, 255, 255, 0.70);
+  white-space: nowrap;
+  pointer-events: none;
+}

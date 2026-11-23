@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "title_cover": "台积电有多靠大客户",
+    "account": "阿信学财经",
+    "date_on_page": "2026.11.19",
+    "consulted": "2026-11-19",
+    "period": "2025-12-31",
+    "filing_date": "2026-04-16",
+    "currency": "TWD",
+    "unit_official": "百万新台币",
+    "scope": "合并报表净收入",
+    "calendar": "日历年，截至 12 月 31 日",
+    "source_20f": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/tsm-20251231.htm",
+    "source_r168": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R168.htm",
+    "source_r44": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R44.htm",
+    "source_r28": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R28.htm",
+    "source_r4": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R4.htm",
+    "source_r123": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R123.htm",
+    "source_r124": "https://www.sec.gov/Archives/edgar/data/1046179/000162828026025362/R124.htm",
+    "accession": "0001628280-26-025362",
+    "note_customers": "年报未公布客户名称；只披露达到或超过净收入 10% 的客户。未达门槛的年份标注 NA，含义为不足 10%，不是没有业务。",
+    "geo_basis": "The Company categorized the net revenue mainly based on the countries where the customers are headquartered."
+  },
+  "net_revenue_mn": {
+    "2023": 2161735.8,
+    "2024": 2894307.7,
+    "2025": 3809054.3,
+    "2025_usd": 121423.5
+  },
+  "customers": {
+    "A": {
+      "2023": {
+        "amount_mn": null,
+        "pct_official": null,
+        "status": "NA_lt_10"
+      },
+      "2024": {
+        "amount_mn": 352271.2,
+        "pct_official": 12
+      },
+      "2025": {
+        "amount_mn": 726974.3,
+        "pct_official": 19
+      }
+    },
+    "B": {
+      "2023": {
+        "amount_mn": 546550.9,
+        "pct_official": 25
+      },
+      "2024": {
+        "amount_mn": 624345.5,
+        "pct_official": 22
+      },
+      "2025": {
+        "amount_mn": 645178.7,
+        "pct_official": 17
+      }
+    },
+    "C": {
+      "2023": {
+        "amount_mn": 241152.4,
+        "pct_official": 11
+      },
+      "2024": {
+        "amount_mn": null,
+        "pct_official": null,
+        "status": "NA_lt_10"
+      },
+      "2025": {
+        "amount_mn": null,
+        "pct_official": null,
+        "status": "NA_lt_10"
+      }
+    }
+  },
+  "platform_mn_2025": {
+    "High Performance Computing": 2192931.0,
+    "Smartphone": 1110816.4,
+    "Internet of Things": 191046.8,
+    "Automotive": 186667.0,
+    "Digital Consumer Electronics": 47996.5,
+    "Others": 79596.6
+  },
+  "platform_mn_2024": {
+    "High Performance Computing": 1476890.6,
+    "Smartphone": 1005130.5,
+    "Internet of Things": 165516.2,
+    "Automotive": 139323.1,
+    "Digital Consumer Electronics": 47960.4,
+    "Others": 59486.9
+  },
+  "platform_mn_2023": {
+    "High Performance Computing": 934768.6,
+    "Smartphone": 814914.3,
+    "Internet of Things": 161916.5,
+    "Automotive": 133654.3,
+    "Digital Consumer Electronics": 46999.8,
+    "Others": 69482.3
+  },
+  "geo_mn_2025": {
+    "United States": 2834692.1,
+    "China": 327502.8,
+    "Taiwan": 299445.8,
+    "Japan": 150427.9,
+    "Europe, the Middle East and Africa": 126584.1,
+    "Others": 70401.6
+  },
+  "product_mn_2025": {
+    "Wafer": 3272553.5,
+    "Others": 536500.8
+  },
+  "segments": 1
+}

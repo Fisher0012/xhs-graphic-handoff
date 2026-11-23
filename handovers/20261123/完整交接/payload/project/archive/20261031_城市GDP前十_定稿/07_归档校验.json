@@ -1,0 +1,45 @@
+{
+  "note": "前三季度城市GDP前十",
+  "archive_date": "2026-10-31",
+  "image_count": 5,
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 621,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "sha256": "d73d5854fa23a46765cc558a8eee053560ff247e0b3fd035814ff4a264d95f74",
+      "bytes": 1198346
+    },
+    {
+      "name": "01_名义和可比增速.png",
+      "sha256": "ff707a1208d996757ac756f88ffa13859b1f38bc9f9293994bf5b69dfea045f7",
+      "bytes": 1110262
+    },
+    {
+      "name": "02_一年多出多少.png",
+      "sha256": "735d7f1e255ecb7fe5eecc2ce7480802e7deef9d206b343930b69fc1efe6f744",
+      "bytes": 1236625
+    },
+    {
+      "name": "03_为什么快慢.png",
+      "sha256": "ffc5cd85d46fdff010247a8c5877874bf40806292a1654faa397d8aa71de47e9",
+      "bytes": 1112161
+    },
+    {
+      "name": "04_和各省榜区别.png",
+      "sha256": "cefce58b6e135c254e8d2342b91e262755b2d839855ff7deb170676320b16763",
+      "bytes": 1077690
+    },
+    {
+      "name": "05_发布文案.txt",
+      "sha256": "abfe997e5e2c43e0452742e782f764aa7074198085c2a206b4311dde84f741a8",
+      "bytes": 1439
+    },
+    {
+      "name": "06_来源说明.txt",
+      "sha256": "d8c890ee419eed3c6b6270e5202417e79000c8c3fd1d4b5a3d9852c172605c6e",
+      "bytes": 2860
+    }
+  ],
+  "updated": "2026-10-31 21:44 (Asia/Shanghai) 封面标题加「全国」"
+}

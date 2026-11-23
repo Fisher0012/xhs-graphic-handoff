@@ -1,0 +1,200 @@
+{
+  "title": "汽车出口新数据",
+  "topic": "国内销量与出口、新能源出口占比、退税调整",
+  "date": "2026-11-13",
+  "account": "阿信学财经（大号）",
+  "access_date": "2026-11-13 Asia/Shanghai",
+  "cover_mode": "中汽协总量；未采用企业排名",
+  "enterprise_original_table_url": null,
+  "policy": {
+    "doc": "财政部 税务总局公告2026年第29号",
+    "published": "2026-10-12",
+    "effective": "2027-04-01",
+    "url": "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm",
+    "accessed": "2026-11-13 Asia/Shanghai"
+  },
+  "facts": [
+    {
+      "id": "oct_export",
+      "value": 106.6,
+      "unit": "万辆",
+      "period": "2026年10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "oct_export_yoy",
+      "value": 60.2,
+      "unit": "%",
+      "period": "2026年10月同比",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "ytd_export",
+      "value": 927.1,
+      "unit": "万辆",
+      "period": "2026年1—10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "ytd_export_yoy",
+      "value": 65.1,
+      "unit": "%",
+      "period": "2026年1—10月同比",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "consecutive",
+      "value": 5,
+      "unit": "个月",
+      "period": "截至2026年10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "monthly_threshold",
+      "value": 100,
+      "unit": "万辆",
+      "period": "连续5个月的月出口量均超过",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "oct_total_sales",
+      "value": 301.6,
+      "unit": "万辆",
+      "period": "2026年10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "oct_nev_export",
+      "value": 60.6,
+      "unit": "万辆",
+      "period": "2026年10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "ytd_nev_export",
+      "value": 461.2,
+      "unit": "万辆",
+      "period": "2026年1—10月",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "oct_domestic",
+      "value": 195,
+      "unit": "万辆",
+      "period": "2026年10月",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "oct_domestic_yoy",
+      "value": -26.6,
+      "unit": "%",
+      "period": "2026年10月同比",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "ytd_domestic",
+      "value": 1701.4,
+      "unit": "万辆",
+      "period": "2026年1—10月",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "ytd_domestic_yoy",
+      "value": -22.9,
+      "unit": "%",
+      "period": "2026年1—10月同比",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "中汽协，全部汽车（含乘用车、商用车）；媒体转述"
+    },
+    {
+      "id": "old_vat_export_rebate",
+      "value": 13,
+      "unit": "%",
+      "period": "2027-04-01起调整",
+      "url": "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm",
+      "published": "2026-10-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "财政部 税务总局公告2026年第29号；附件1所列新能源汽车产品；按报关单出口日期界定"
+    },
+    {
+      "id": "new_vat_export_rebate",
+      "value": 9,
+      "unit": "%",
+      "period": "2027-04-01起调整",
+      "url": "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm",
+      "published": "2026-10-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "note": "财政部 税务总局公告2026年第29号；附件1所列新能源汽车产品；按报关单出口日期界定"
+    }
+  ],
+  "author_calc": [
+    {
+      "id": "oct_nev_share",
+      "value": 56.8,
+      "unit": "%",
+      "period": "2026年10月",
+      "formula": "60.6/106.6*100",
+      "label": "作者计算",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "scope": "新能源（含商用车）出口/全部汽车出口"
+    },
+    {
+      "id": "ytd_nev_share",
+      "value": 49.7,
+      "unit": "%",
+      "period": "2026年1—10月",
+      "formula": "461.2/927.1*100",
+      "label": "作者计算",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+      "published": "2026-11-12",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "scope": "新能源（含商用车）出口/全部汽车出口"
+    }
+  ],
+  "discarded": [
+    "企业原表未获得，因此全部车企排名及奇瑞20.06万、比亚迪近17万、吉利10.71万、小鹏1.33万、长城6.3万均未上图；不判断其错误，只认定本轮未满足企业榜原表核验条件。",
+    "乘联会92.8万辆、出口占厂商销量35%及去年19%未采用；与中汽协全部汽车不是同一口径。",
+    "比亚迪境外收入52.57%未采用，与本篇总量角度无关。",
+    "前10个月新能源占出口一半以上的说法不成立；作者计算49.7%，改为接近一半。"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "title": "主要税种增速榜",
+  "topic": "前三季度主要税种增速榜",
+  "date": "2026-11-12",
+  "account": "阿信学财经",
+  "status": "成稿待审·待 Fisher 手动发布·未发布",
+  "note_dir": "/workspace/xhs/notes/20261112-大号-税种增速榜",
+  "data_period": "2026年前三季度（1–10月截至2026-11-12未发布）",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1237623,
+      "sha256": "b32c09d3b0cfdfec87745497588cb3fdcda8c40e8d0926b10f12b95505259795"
+    },
+    {
+      "name": "01_哪些收入在下降.png",
+      "bytes": 1282989,
+      "sha256": "a191c09c225224f826f7ac020153aaf78a064e1368a8b78e3efb36467b6431e5"
+    },
+    {
+      "name": "02_个税涨14.1%官方说法.png",
+      "bytes": 1323466,
+      "sha256": "c52fbaf326017b2acbf042eb2cbf87204dda12d476194cea26381a5a796cefaa"
+    },
+    {
+      "name": "03_和你有关的3个税.png",
+      "bytes": 1464144,
+      "sha256": "96357459c336a49774633daff61ba2ba32b7981e6056264dc6fad7d9b66eaa98"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1923,
+      "sha256": "677a2af52d8ab06fa217083dc3f12702976333ae77e99cf31439af442f0bcdbf"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 2580,
+      "sha256": "addaf068c1c6be92b0344f3de63d9d865823001529178349297c293899b79864"
+    }
+  ],
+  "sources": [
+    "https://gks.mof.gov.cn/tongjishuju/202610/t20261023_4003380.htm",
+    "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202610/t20261023_4003429.htm",
+    "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5250324/content.html",
+    "https://www.gov.cn/zhengce/zhengceku/202411/content_6986750.htm",
+    "https://www.gov.cn/zhengce/zhengceku/202306/content_6887734.htm",
+    "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c5206960/content.html",
+    "https://www.chinatax.gov.cn/chinatax/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+    "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/202008/t20200812_3566278.htm",
+    "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201901/t20190102_3112026.htm"
+  ],
+  "checks": {
+    "check_titles_local": "PASS (封面112px 1行 占可用宽81.2%; 内页64px 1行渐变, 副26px #9b9b9e 1行)",
+    "measure_space_local": "PASS (最大空白≤4.4%, 内容底→页脚≤2.9%)",
+    "shared_check_titles/measure_space": "运行 rc=0，但脚本写死检查 20261031 期，不覆盖本期；以本期 tools_local 适配版为准",
+    "visual_read": "PASS（逐张 Read；修过 p3 卡片孤字换行）",
+    "compliance_precheck": "PASS",
+    "compliance_selfcheck": "10/10 通过（第10条不适用）",
+    "once_pipeline": "PASS (warn=0，见 pipeline_log.md；含 render、compliance_precheck、gate_archive)",
+    "reviewer": "未送审查官（本轮不联系其他 bot），待 Fisher 看图"
+  }
+}

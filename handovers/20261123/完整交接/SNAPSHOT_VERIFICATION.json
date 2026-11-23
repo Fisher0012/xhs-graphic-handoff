@@ -1,0 +1,65 @@
+{
+  "verified_Asia_Shanghai": "2026-11-23T20:29:22.653380+08:00",
+  "payload_files_verified": 3042,
+  "sha256_mismatches": [],
+  "unmodified_source_copies": 3039,
+  "sanitized_source_copies": 3,
+  "burry_existing_final_sha_items": [
+    {
+      "file": "00_封面.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "01_原先为何做空.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "02_财报与看空逻辑.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "03_减仓不等于转多.png",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "05_来源说明.txt",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "06_交付证据.md",
+      "exists": true,
+      "matches": true
+    },
+    {
+      "file": "07_总览.png",
+      "exists": true,
+      "matches": true
+    }
+  ],
+  "burry_four_dimensions": {
+    "02_财报与看空逻辑.png": [
+      2160,
+      2880
+    ],
+    "01_原先为何做空.png": [
+      2160,
+      2880
+    ],
+    "03_减仓不等于转多.png": [
+      2160,
+      2880
+    ],
+    "00_封面.png": [
+      2160,
+      2880
+    ]
+  },
+  "new_renderings": 0,
+  "remote_writes": 0,
+  "note": "Local copy/hash verification only; not user approval, media privacy clearance or completed GitHub update."
+}

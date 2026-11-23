@@ -1,0 +1,522 @@
+{
+  "receipt_version": "0.2",
+  "project": "xhs 图文创作",
+  "task_id": "20261122-lpr",
+  "risk_tier": "C",
+  "executed_at": "2026-11-22T11:31:42.923340+08:00",
+  "executor": "小红书图文执行子代理",
+  "verifier": "verify_receipt.py independent recomputation",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/01-选题.md",
+      "change": "add",
+      "after_sha256": "45b9c8ad3c87eba7ff6660eb7b653dee24af010c4260b4a80b6947f9407adc4f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/02-框架.md",
+      "change": "add",
+      "after_sha256": "473bfb859c7d932bab9e3640b9e4ec81d6986351129fe3c77522f6aa23835206"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/gen.py",
+      "change": "add",
+      "after_sha256": "24402ba118593f6469b964ec292dd86d9f0027a25856e0234ae32a0c566a4554"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p1.html",
+      "change": "add",
+      "after_sha256": "b84b7fa415f71f484952fadd3aed3095683c7fff7c82844ef852d77c9f1c8678"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p1.png",
+      "change": "add",
+      "after_sha256": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p2.html",
+      "change": "add",
+      "after_sha256": "1b9611e9bc6a787eca501ea10303e2c8ee2aab65836cd577b04f8ae2305b1ecb"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p2.png",
+      "change": "add",
+      "after_sha256": "aa0bb2cbc87cee234cda19258f96ae2b09e3c179984dae59af5ab8950a805a0c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p3.html",
+      "change": "add",
+      "after_sha256": "cb2a205332d2c47ee222254831ec1fb6de56f1720d7f1468cfb1fca1544e15c8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p3.png",
+      "change": "add",
+      "after_sha256": "726b50c92cd3008613fb72fb666c9db2539ec38fbfdb7b23e88acc5589d00f7d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p4.html",
+      "change": "add",
+      "after_sha256": "f3f77f1e2f2630b99a1aea172a2cfceb10ac8497acc548270ac1098453d2fa5b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p4.png",
+      "change": "add",
+      "after_sha256": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/04-文案.md",
+      "change": "add",
+      "after_sha256": "f4c8f61364d612ede9158dc64151b354b0dcdc0ffab87e2a0be365fb1f9132a7"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/05-合规.md",
+      "change": "add",
+      "after_sha256": "43424edfcbfdcd4b4c3fc872e60a486ecd37fe2ce7ac8014bc207b38643ac600"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/baseline_ref.txt",
+      "change": "add",
+      "after_sha256": "d90cba8d4794058716fe803e5cc87f2ad6c919457cf678eb7564c10f20b8cb16"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/data.json",
+      "change": "add",
+      "after_sha256": "718c2b257bf92d5aa7ff9bd8ef0cc7e0d505133a68999cd1c53839b6c4dbe1cd"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/compliance.log",
+      "change": "add",
+      "after_sha256": "f21a9de40d4331d282229dc651367d27575ff8c5e68f665e948f9ccc8301b11b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/data_check.json",
+      "change": "add",
+      "after_sha256": "db3a4d86e8a58e2c39bf839116bf6bd07bedd045c50211351d606cc0058bc909"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/pipeline.log",
+      "change": "add",
+      "after_sha256": "0140d49f438d9ae68e60545fa8b333ad845f2f97c6ba896a9bced21966073e78"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/source_reverse_check.json",
+      "change": "add",
+      "after_sha256": "1ac7bfe161250937e509aa40f9ded1d6adb570b95990b431058b6066f7cf73e4"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/space.log",
+      "change": "add",
+      "after_sha256": "17198de95a8bdf72d937f4f77421fbe39edc8f1e576d476c53f013391b1b8d75"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/titles.log",
+      "change": "add",
+      "after_sha256": "42740d4057490c2f64aee06aca2fb4176c73f7a833096e458a4bea08f846f96a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/visual.md",
+      "change": "add",
+      "after_sha256": "4589e6314863ba3f7bd3bb56602992a75a6a1ba68acf3bd91542743ed28cc341"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/00_封面.png",
+      "change": "add",
+      "after_sha256": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/01_房贷利率怎么定.png",
+      "change": "add",
+      "after_sha256": "aa0bb2cbc87cee234cda19258f96ae2b09e3c179984dae59af5ab8950a805a0c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/02_存量房贷看重定价日.png",
+      "change": "add",
+      "after_sha256": "726b50c92cd3008613fb72fb666c9db2539ec38fbfdb7b23e88acc5589d00f7d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/03_新发放利率对照.png",
+      "change": "add",
+      "after_sha256": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/04_发布文案.txt",
+      "change": "add",
+      "after_sha256": "f40dd76123aa18fc711d2b689c518af8a042c5e0894e9ddf04f7f9e6a316c2a9"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/05_来源说明.txt",
+      "change": "add",
+      "after_sha256": "b1a237563e4ed511900d4a0797086372925b4e476760fab4d15f32a815f7666a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/06_归档校验.json",
+      "change": "add",
+      "after_sha256": "0524752a9d89abb8043990fed850f2a94422060febc2453cb729e689ed2c7978"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/07_总览.png",
+      "change": "add",
+      "after_sha256": "ca83f611f354464794e659c1310b64d815bed3c6e4c469ffe9a4fef43e9441ba"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/SHA256.txt",
+      "change": "add",
+      "after_sha256": "c17506a9823a397f47e5935f6686cfc79ac88d4d6fb86d6ea9d1e2fa6ec2f6d0"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/pipeline_log.md",
+      "change": "add",
+      "after_sha256": "78e766b9ca3405e57341778e7b48c980f017b3e5234f77116c5007f8a4ff42a2"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/README.md",
+      "change": "add",
+      "after_sha256": "9dba1a48567ae88ceaf141e17f80c078a6498a0c32afb4d04d06733eddc69b43"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/finstat_202610.html",
+      "change": "add",
+      "after_sha256": "48461c69ab2b86e9cc69ae6f691263b472bdc5ee95c9f81f99df2cf88a604341"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2024-12-20.html",
+      "change": "add",
+      "after_sha256": "df69115f5ddcbc54d38f1774dd9a1f144a59011de73ea6fedd0f733eaf5beec6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-04-21.html",
+      "change": "add",
+      "after_sha256": "776a0426e7fec8c1f8f611737efc32ea3c01aec87d2525ac1a4cded8ee7348a3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-05-20.html",
+      "change": "add",
+      "after_sha256": "5189bbfafb87bd5a1c17855ec6e2842010fea33c1df74b5d83ab7f6fb3f3f2aa"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-06-20.html",
+      "change": "add",
+      "after_sha256": "360b9f9ffa6cadc9c13814d57b38437c2de97e06ca74d66044d20227058103b8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-07-21.html",
+      "change": "add",
+      "after_sha256": "bebecd5ae557e85daab9bb9b235e4d2e7eda88263edc80d2734153e4d4a17235"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-08-20.html",
+      "change": "add",
+      "after_sha256": "449ef6bb8068328d78ed2eb9782ba3a1024ebfae66d2bd8be60329e3bbb3e21f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-09-22.html",
+      "change": "add",
+      "after_sha256": "b2c7e09eb9bd4fd77e561620852aff20863a31d8b9207deb2e83f0635eb70589"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-10-20.html",
+      "change": "add",
+      "after_sha256": "3cff7c149b25fb4c251de69178fe023772c9bd308d8e2a3b26a77c31fc392ed5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-11-20.html",
+      "change": "add",
+      "after_sha256": "22f4fe1297b91a497c3fb52e77fc1bb2237e4e468148c8cb44982887fad02cd5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-12-22.html",
+      "change": "add",
+      "after_sha256": "b2c26ddad8e526fef1229a252a4e3355538dbce36b70ba79c2426d28e08c1d66"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-01-20.html",
+      "change": "add",
+      "after_sha256": "fcff6dfedcf1d4638c13ee1147ae32f5fdca3be2066f25fe1953a925ed065f76"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-02-24.html",
+      "change": "add",
+      "after_sha256": "fb8535b394d3a05c5600d856d519d0b887b565db33ed5f7bc39cd3419387b166"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-03-20.html",
+      "change": "add",
+      "after_sha256": "22c9bb42f13cbcca95b17ffd5217539129d429e02408fd9b805bd83e340b9736"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-04-20.html",
+      "change": "add",
+      "after_sha256": "d2b541ddadc124bb10c694c6fea10a1c0f47d76836103683991a0c6b8d426d79"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-05-20.html",
+      "change": "add",
+      "after_sha256": "3ff008fe1dbcf74105c0b42b17c82cc13b86560f9b055b94eb050d1faa931ce1"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-06-22.html",
+      "change": "add",
+      "after_sha256": "e7d55c20b77a779d72c0ff6cbbdf46d2930ccc961138f24ea54a6f8d0295816e"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-07-20.html",
+      "change": "add",
+      "after_sha256": "e230289da3557ccf53b802d63a10131e22ba1586eaabdb8a2f01faf914c99154"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-08-20.html",
+      "change": "add",
+      "after_sha256": "016da42c5dd988845284c3a02bf35bfa3865ea56f627b538c1f7d47daa8081ed"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-09-20.html",
+      "change": "add",
+      "after_sha256": "b0714a9dc9aac77674b0cbe89b85651713c715837443924dd2409e4a6c796c51"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-10-20.html",
+      "change": "add",
+      "after_sha256": "e831acf7fb6797f486a831f2205ef1472a1647ae6d27c0ba153e6af7f2ac2386"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-11-20.html",
+      "change": "add",
+      "after_sha256": "41ba16013188a98788ab0a7419285e7b69badcf2bfab910d594aecfc1790ef4d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_list.html",
+      "change": "add",
+      "after_sha256": "9e1487745ae25e351b0dff01061b88d712b166be8edc8942bc26432263154395"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/metadata.json",
+      "change": "add",
+      "after_sha256": "d61f60db04a67ff354b16a4df5859b08c32c5ff122b78501dd8a9c155e332dc4"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3.pdf",
+      "change": "add",
+      "after_sha256": "ef9dfdf0ec7fb32164bd171343a7f32cb23f6e610b5edd64c7767ebfa260327b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3.txt",
+      "change": "add",
+      "after_sha256": "3eee97c6efd36c22bbb0a2639e5bf38dea93378b56250ee20b523274f75925cc"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3_page.html",
+      "change": "add",
+      "after_sha256": "4de46f86e888efee1c12f966041ec33ffd5e0de11fd0866950044b7309a3c42d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_16.html",
+      "change": "add",
+      "after_sha256": "a955d8e158ae3956ec89ff51cdc7a8ba8ea0cfbb278d7b8c509c1800419d3a59"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_30.html",
+      "change": "add",
+      "after_sha256": "b2ce69063d0f3b3fd3caf3b46d46fed79f4903ef3d77deac2c9859301043d02a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_30_qa.html",
+      "change": "add",
+      "after_sha256": "c7c6441782e432e3425c000c57381da74f64d7d7b0f00be5d27a905dc9ed1323"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2024_11.html",
+      "change": "add",
+      "after_sha256": "bbd2a85a42ef8b86c787fa28c132d762ef1911f6047a7251715432ccfa1b33b8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2024_11_qa.html",
+      "change": "add",
+      "after_sha256": "8d08845ad937d3d1e6119513bbadeb7d52defc12989b122ee2c20c66eeab79b5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/verify_content.py",
+      "change": "add",
+      "after_sha256": "fafb634809342d6230b09407f705b1542c624bf75b016a41318af8890021d341"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/交付.md",
+      "change": "add",
+      "after_sha256": "1f0ac959902897ead053e513683760944365efcdeafe0b7de7ff165482b5ecb3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/框架.md",
+      "change": "add",
+      "after_sha256": "473bfb859c7d932bab9e3640b9e4ec81d6986351129fe3c77522f6aa23835206"
+    },
+    {
+      "path": "/workspace/xhs/选题库.md",
+      "change": "modify",
+      "before_sha256": "d3ea6bfe5ae8a53e88857c048de27c1e28ab211cffeed68f3d592a611ea8f72f",
+      "after_sha256": "dac43d1d2ea354e95b869d0fea41cf491112933b416eaadf1f04a1d5cda4bd4f",
+      "diff_path": "/workspace/review/xhs/20261122-lpr/选题库.diff"
+    }
+  ],
+  "protected": [
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/gen.py",
+      "sha256": "8d69224a02b8b1020f43fbe75d5d12898aab1419e183f54f66fd9f39f8028d91"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p1.html",
+      "sha256": "3df6c2300fa1eafcfe7b20d4f3bfd80ffef710b9a051bbf89b9ac7fc44ea812a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p1.png",
+      "sha256": "b32c09d3b0cfdfec87745497588cb3fdcda8c40e8d0926b10f12b95505259795"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p2.html",
+      "sha256": "e46e0d40ee6f8a91dc217cb6a5b86e88a9808a6680c5384dc8d70412f94bc8bd"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p2.png",
+      "sha256": "a191c09c225224f826f7ac020153aaf78a064e1368a8b78e3efb36467b6431e5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p3.html",
+      "sha256": "7e312d5f65c4119a93ee031f729a618bc20e8ab6cce8cae3af3defd3d3195b5c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p3.png",
+      "sha256": "c52fbaf326017b2acbf042eb2cbf87204dda12d476194cea26381a5a796cefaa"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p4.html",
+      "sha256": "5766e99a01a864a3caef4229bc46a0c86e488715dc1b9863277d47645573008c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p4.png",
+      "sha256": "96357459c336a49774633daff61ba2ba32b7981e6056264dc6fad7d9b66eaa98"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/gen.py",
+      "sha256": "f409e66a853abcbadcaa68d74e4427c47143450711140af1e6eadc5630b44bb6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/original_gen.py",
+      "sha256": "8d69224a02b8b1020f43fbe75d5d12898aab1419e183f54f66fd9f39f8028d91"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p1.html",
+      "sha256": "6c18271503cdea5c153d167aab88e0eeebd735281e98beaf7603830753553734"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p1.png",
+      "sha256": "082fd3387b75821ece8f81f624febe79d8b4b50bfdf0fccf55559074c51f305b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p2.html",
+      "sha256": "709ce5847e2c51b1ff2de213e75f9a79a3e7f879a433552af7c7bf40338c458c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p2.png",
+      "sha256": "e3dbb40b3b15725f9d3f2f1c7849537f56f6d44e2f16775998c9626786050e7c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p3.html",
+      "sha256": "ec955d65b8e26d038fb93d3f531c9f9318e99652bfaaddcbf2503a83d1048348"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p3.png",
+      "sha256": "6a5886119a77b14aab15f94ff77546591f3414ffa3709c41e3c00773b7c7a8f0"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p4.html",
+      "sha256": "688f177713b8aa246a927323ccd6dfedebfad98cf3ef53f4b7836753dadf10d6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p4.png",
+      "sha256": "0886010c0b7dcc0d66889056c9f7c5330ac871d7f66f386d9ec9a511b0e39109"
+    },
+    {
+      "path": "/workspace/xhs/notes/cover_gen.py",
+      "sha256": "2c203a1a76113ed169a858db7751bf3a75f3b6d26274bb59d27e215bbeb14e6f"
+    },
+    {
+      "path": "/workspace/xhs/notes/heijin.py",
+      "sha256": "a0c880e62539d9224bc944a4da2e9e2c3555f1917ced6b25ca001d59dd915703"
+    },
+    {
+      "path": "/workspace/xhs/tools/check_titles.py",
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "path": "/workspace/xhs/tools/compliance_precheck.py",
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "path": "/workspace/xhs/tools/gate_archive.sh",
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "path": "/workspace/xhs/tools/measure_space.py",
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "path": "/workspace/xhs/tools/once_pipeline.sh",
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "path": "/workspace/xhs/tools/render_heijin.sh",
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    },
+    {
+      "path": "/workspace/xhs/tools/xhlib.py",
+      "sha256": "f9e57c442bea2eb79b4e088a41172775bbe066326b0e7cd31eff782792338d17"
+    }
+  ],
+  "gates": {
+    "gate1_syntax_and_py_compile": "PASS",
+    "gate2_invariants_and_tests": {
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "exit_code": 0,
+      "command": [
+        "python3",
+        "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/verify_content.py"
+      ],
+      "cwd": "/workspace/xhs",
+      "timeout_s": 180
+    },
+    "gate3_simulated_rollback": {
+      "restore_by_delete": true
+    },
+    "gate4_manifest_hash_check": "100%_MATCHED"
+  },
+  "gate4_evidence": {
+    "asset_register": "/workspace/review/xhs/20261122-lpr/ASSET_REGISTER.json"
+  },
+  "project_checks": [
+    {
+      "id": "H1",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/titles.log"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/compliance.log"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/data_check.json"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/pipeline.log"
+    }
+  ],
+  "overall_verdict": "PASS",
+  "unresolved": []
+}

@@ -1,0 +1,22 @@
+# Exact in-points into rec/raw_R4.mp4 (1920x1200, 231.27s, ended 18:47:47).
+# Video start ≈ 18:43:56.05 (box time, Asia/Shanghai). Found by frame-diff
+# plus 1fps sampling; stills saved in demo/grabs/r4_stills/.
+#
+# Overview (分身页, includes「录制15秒即可完成克隆」card):
+#   settled 82.5–105.36, 139.21–162.13, 203.35–end. Still used: 100.00s.
+# 创建数字形象 dialog:
+#   opens 105.37–105.59, settled 105.60–139.11. Still used: 110.00s.
+# 选择声音语言 dialog:
+#   opens 162.13–162.23, settled 162.23–179.10. Still used: 169.00s.
+# 普通话朗读 dialog (passage contains「香港」— blur the passage):
+#   hard-cut in at 179.20, settled 179.20–203.25. Still used: 180.00s.
+#
+# Shots 21/22 are composed from these stills (the dialogs are static once
+# settled) rather than playing the raw take, so the hook times below are
+# documentary. See tools/render_shots_21_22.py.
+shot21_start=110.00
+shot21_dur=3.9
+shot22_lang_start=169.00
+shot22_read_start=180.00
+shot22_dur=2.6
+overview_start=100.00

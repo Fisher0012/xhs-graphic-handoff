@@ -1,0 +1,48 @@
+{
+  "note": "四巨头AI账：约7350亿美元花哪了",
+  "archive_date": "2026-10-24",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 658,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 388446,
+      "sha256": "8efd517f156d521e51212a5dc22ffe0581605ad03cc4de45789afcac6707baf1",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_钱花在哪.png",
+      "bytes": 430449,
+      "sha256": "1f207ebcb18cd0006533167a1a8e4e8f949fb5285ca8db15042f4792632d0938",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_从自己掏钱到借钱.png",
+      "bytes": 535376,
+      "sha256": "f4baeca7ce74933cf9c1514458bee5ce31f8fd8889ad0777fea59424f87b7e7e",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_传到A股光模块.png",
+      "bytes": 497274,
+      "sha256": "1744c23ff9e48ed6b1f0028590bb5c292d4d362c2b9740b650b89844fe5fd4d9",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1809,
+      "sha256": "c23c49d3f4dcd4e8707cc73212b27fe6fb169c310eb41f8e8fd09e1f2b3db553"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 6691,
+      "sha256": "7d99e86e9febe248e78f2d34f8ae04a5cca8087e7be268b47792993d5805ea19"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）；改动6处措辞+正文精简，数字未改，详见 05-合规.md",
+  "original_versions_preserved": true,
+  "destination": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261024_四巨头AI账_定稿"
+}

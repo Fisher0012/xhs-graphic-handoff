@@ -1,0 +1,59 @@
+@import url("base.css");
+/* 8000亿金融工具（小号·解读类）追加样式 —— 在小号统计类模板 base.css 之上 */
+.cover-title{position:absolute;top:128px;font-size:104px;line-height:1.25}
+.cover-title div{white-space:nowrap}
+.inner-title{position:absolute;top:140px;font-size:84px}
+/* P1 三家条形 */
+.brow{position:absolute;left:0;right:0;height:132px}
+.brow .top{display:flex;align-items:baseline;height:76px}
+.brow .name{font-weight:900;font-size:44px;white-space:nowrap}
+.brow .tag{font-size:24px;color:var(--note);white-space:nowrap;margin-left:22px}
+.brow .num{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:68px;white-space:nowrap;line-height:1}
+.brow .num small{font-size:26px;font-weight:500;color:var(--sub);margin-left:6px}
+.brow .bar{position:absolute;left:0;right:0;top:92px;height:20px;border-radius:5px;background:var(--track)}
+.brow .bar i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,#8ff2dd 0%,var(--teal) 60%,#15806d 100%)}
+.kbox{position:absolute;left:0;right:0;background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:26px 30px 26px 36px;overflow:hidden}
+.kbox:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--teal)}
+.kbox .kl{font-size:28px;color:#b9c0c4;line-height:1.5;white-space:nowrap}
+.kbox .kv{font-family:"Noto Sans SC";font-weight:900;font-size:60px;line-height:1.25;white-space:nowrap}
+.kbox .kv em{font-style:normal;color:var(--teal)}
+.kbox .kv small{font-size:30px;font-weight:700;color:#e8ecee}
+.calc{font-size:22px;color:var(--note);font-weight:400;white-space:nowrap}
+/* P2 银行卡 */
+.bcard{position:absolute;left:0;right:0;background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:18px 30px 14px 36px;overflow:hidden}
+.bcard:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--teal)}
+.bcard .hd{display:flex;align-items:baseline;height:62px;border-bottom:1px solid #1f2a2c;margin-bottom:6px}
+.bcard .bn{font-size:44px;font-weight:900;white-space:nowrap}
+.bcard .ba{margin-left:auto;font-size:26px;color:var(--sub);white-space:nowrap}
+.bcard .ba b{font-family:"Noto Sans SC";font-weight:900;font-size:44px;color:var(--teal);margin:0 4px}
+.bcard .r{display:flex;align-items:center;height:58px}
+.bcard .rl{width:206px;font-size:26px;color:var(--note);white-space:nowrap;flex:none}
+.bcard .rv{font-size:30px;color:#b9c0c4;white-space:nowrap}
+.bcard .rv b{color:#fff;font-weight:700}
+.fn{position:absolute;left:0;right:0;font-size:22px;line-height:1.6;color:var(--note)}
+/* P3 对比表 */
+.ctab{position:absolute;left:0;right:0;border:1px solid var(--card-bd);border-radius:16px;overflow:hidden;background:var(--card)}
+.ctab .tr{display:flex;border-top:1px solid #1f2a2c}
+.ctab .tr:first-child{border-top:none}
+.ctab .c0{width:170px;flex:none;padding:16px 0 16px 26px;font-size:24px;white-space:nowrap;color:var(--note);display:flex;align-items:center}
+.ctab .c1,.ctab .c2{flex:1;padding:16px 22px;font-size:26px;line-height:1.5;color:#b9c0c4;white-space:nowrap;display:flex;align-items:center}
+.ctab .c1{border-left:1px solid #1f2a2c;border-right:1px solid #1f2a2c}
+.ctab .th .c1,.ctab .th .c2{font-size:36px;font-weight:900;color:#fff;padding:18px 22px}
+.ctab .th .c1{color:var(--teal)}
+.ctab .th{background:#101a1c}
+.ccl{position:absolute;left:0;right:0;font-size:34px;font-weight:700;line-height:1.4;color:#e8ecee;white-space:nowrap}
+.ccl b{color:var(--teal)}
+.mrow{position:absolute;left:0;right:0;height:66px}
+.mrow .top{display:flex;align-items:baseline;height:40px}
+.mrow .name{font-weight:700;font-size:32px;white-space:nowrap;width:196px}
+.mrow .tag{font-size:22px;color:var(--note);white-space:nowrap}
+.mrow .num{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:40px;line-height:1;white-space:nowrap}
+.mrow .num small{font-size:22px;font-weight:500;color:var(--sub);margin-left:4px}
+.mrow.sum .name,.mrow.sum .num{color:var(--teal)}
+.mrow.old .name,.mrow.old .num{color:var(--negnum)}
+.mrow .bar{position:absolute;left:0;right:0;top:48px;height:8px;border-radius:3px;background:var(--track)}
+.mrow .bar i{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,#3fd9bb,var(--teal))}
+.mrow.old .bar i{background:#3a4448}
+
+.ctab .c0{width:160px}.ctab .c1{flex:none;width:412px}.ctab .c2{flex:1;min-width:0;padding-left:18px;padding-right:12px}
+.ctab .c0{padding-left:16px}

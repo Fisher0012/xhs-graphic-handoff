@@ -1,0 +1,106 @@
+{
+  "note": "汽车出口新数据",
+  "checked_at": "2026-11-13T11:40:39.420032+08:00",
+  "access_date": "2026-11-13 Asia/Shanghai",
+  "source_urls": [
+    "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html",
+    "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml",
+    "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm",
+    "https://www.jwview.com/jingwei/html/11-11/696575.shtml"
+  ],
+  "checks": {
+    "check_titles": "PASS",
+    "measure_space": "PASS",
+    "check_layout": "PASS",
+    "visual": "Read逐张检查完成",
+    "compliance": "PASS",
+    "sha256": "每项可独立重算",
+    "once_pipeline": "PASS warn=0（已实际执行）"
+  },
+  "files": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/00_封面.png",
+      "bytes": 1089032,
+      "sha256": "afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/01_国内销量与出口.png",
+      "bytes": 1324025,
+      "sha256": "57d40bcbaed8503f246a800820a5fa1712a0ee9edddf4e4c99ff7d21c365c18d",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/02_新能源出口占比.png",
+      "bytes": 1339562,
+      "sha256": "68c5d340d81b2119239be59ed21a45a8f9ba11828bdd649d9aa2eca764458bd1",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/03_出口退税节点.png",
+      "bytes": 1341818,
+      "sha256": "3acc525974ea3cea0152304af07aeb845eb41e35ca6c5975f26cf3dea1f70f96",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/04_发布文案.txt",
+      "bytes": 1503,
+      "sha256": "be5dd933aead73af949619abd576a9d478510cfe3a2cbba501e17129539c5073",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/05_来源说明.txt",
+      "bytes": 1800,
+      "sha256": "164dd9b8ad9dd3d896fdb71375d5189874cf5afff9acf1326cedd3cdbd0fb0fc",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/07_总览.png",
+      "bytes": 524260,
+      "sha256": "9a2b067f42b78e78fcd51f718bd40901c0cfae99270308a7770079a911ff69ab",
+      "url": null
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/中新经纬_交叉核对摘录.md",
+      "bytes": 460,
+      "sha256": "ba6e0d1d38764e439e0c88766f54e3d6c468998618ddeca435bd3369b9b4dff6",
+      "url": "https://www.jwview.com/jingwei/html/11-11/696575.shtml"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/新华网_原文可读快照.md",
+      "bytes": 2492,
+      "sha256": "35073c39aab094048f42eb4c0c03360813c01328c036a163b109c65f6dea8236",
+      "url": "http://www.news.cn/tech/20261112/9de71237f09c436d9ab6ab86a06a9fed/c.html"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/新浪智通_中汽协国内销量.html",
+      "bytes": 100422,
+      "sha256": "88dbcdc24a620417af5243e99b266d83b50b8dde6750a81be1f93d3c98104547",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/新浪智通_中汽协国内销量.txt",
+      "bytes": 8108,
+      "sha256": "6ff185fa0d36d97ce4b81e5f965ffc2461156b2a53cb944661d0e3d4e409cbad",
+      "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-11-12/doc-iniynpnv1154484.shtml"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/财政部_2026第29号.html",
+      "bytes": 17378,
+      "sha256": "9a96d7f87f710b5904c304306a2b90942f043cbb49f7fee0557667ed36cf6b9d",
+      "url": "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/sources/财政部_2026第29号.txt",
+      "bytes": 1710,
+      "sha256": "de07017630eecfa40fdec425995d5927f15d50d82eeee0225a71c7fc366b99a0",
+      "url": "https://szs.mof.gov.cn/zhengcefabu/202610/t20261012_4002592.htm"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/data.json",
+      "bytes": 7826,
+      "sha256": "7d1473ddb1b9ebb4a7ff131fc4b445088ac695098a0183395bc4d6fb2b800033",
+      "url": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/00_封面.png",
+      "sha256": "afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916",
+      "bytes": 1089032
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/01_国内销量与出口.png",
+      "sha256": "57d40bcbaed8503f246a800820a5fa1712a0ee9edddf4e4c99ff7d21c365c18d",
+      "bytes": 1324025
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/02_新能源出口占比.png",
+      "sha256": "68c5d340d81b2119239be59ed21a45a8f9ba11828bdd649d9aa2eca764458bd1",
+      "bytes": 1339562
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/03_出口退税节点.png",
+      "sha256": "3acc525974ea3cea0152304af07aeb845eb41e35ca6c5975f26cf3dea1f70f96",
+      "bytes": 1341818
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/04_发布文案.txt",
+      "sha256": "be5dd933aead73af949619abd576a9d478510cfe3a2cbba501e17129539c5073",
+      "bytes": 1503
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/05_来源说明.txt",
+      "sha256": "164dd9b8ad9dd3d896fdb71375d5189874cf5afff9acf1326cedd3cdbd0fb0fc",
+      "bytes": 1800
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/06_归档校验.json",
+      "sha256": "2cde6906135f8b410a81e6000448b5e8bab92d23640b7e3c4b720dd69aa3827b",
+      "bytes": 4508
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-汽车出口榜/final/07_总览.png",
+      "sha256": "9a2b067f42b78e78fcd51f718bd40901c0cfae99270308a7770079a911ff69ab",
+      "bytes": 524260
+    }
+  ]
+}

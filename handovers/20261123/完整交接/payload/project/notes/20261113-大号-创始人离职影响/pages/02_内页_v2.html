@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 52px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:16px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:18px;font-family:NSM;font-size:30px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.body{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly}
+
+.legend{flex:none;display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:12px;background:rgba(14,18,26,.7);border:1px solid rgba(159,179,200,.14);font-size:22px;color:#c5d0db;white-space:nowrap}
+.lg{font-family:NSB;font-size:18px;letter-spacing:1px;padding:2px 10px;border-radius:6px;line-height:28px}
+.lg.a{color:#7fd3ff;background:rgba(127,211,255,.12);border:1px solid rgba(127,211,255,.4)}
+.lg.b{color:#f3de9a;background:rgba(243,222,154,.1);border:1px solid rgba(243,222,154,.4)}
+.legend i{font-style:normal;color:#8b97a6}
+
+.layer{flex:none;border-radius:16px;padding:20px 20px 22px;background:rgba(14,18,26,.78);border:1px solid rgba(159,179,200,.14)}
+.hd{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.num{font-family:NSB;font-size:22px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);border-radius:8px;padding:0 10px;line-height:36px;box-shadow:0 0 16px rgba(255,45,63,.4)}
+.hd h3{font-family:NSB;font-weight:normal;font-size:30px;color:#fff;letter-spacing:1px;white-space:nowrap}
+.cols{display:grid;grid-template-columns:1.15fr .85fr;gap:14px;align-items:stretch}
+.col{border-radius:12px;padding:14px 16px 16px}
+.col.a{background:rgba(127,211,255,.07);border:1px solid rgba(127,211,255,.28)}
+.col.b{background:rgba(243,222,154,.06);border:1px solid rgba(243,222,154,.28)}
+.col .k{font-family:NSB;font-size:20px;letter-spacing:2px;line-height:1.2}
+.col.a .k{color:#7fd3ff}
+.col.b .k{color:#f3de9a}
+.col p{margin-top:8px;font-size:24px;line-height:1.5;color:#dfe6ee}
+.col p span{display:block;white-space:nowrap}
+
+.bar{flex:none;border-radius:14px;padding:18px 22px;font-size:26px;line-height:1.45;color:#dfe6ee;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(255,45,63,.52);white-space:nowrap}
+.bar b{font-family:NSB;font-weight:normal;color:#ff6b78}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>观察</span><span>已知与待观察｜不预测走向</span><span class=dt>2026.11.13</span></div>
+  <h1>交班后看<em>什么</em></h1>
+  <h2>先分清已经公开的事实，和还需要观察的变化</h2>
+
+  <div class=body>
+    <div class=legend>
+      <span class="lg a">已知</span>已有公开信息
+      <span class="lg b">待观察</span>现在还没有结论，也不做预测
+      <i>不是对走向的判断</i>
+    </div>
+
+    <div class=layer>
+      <div class=hd><span class=num>01</span><h3>接班安排</h3></div>
+      <div class=cols>
+        <div class="col a"><div class=k>已知</div>
+          <p>
+            <span>董事会11月11日接受辞职，即刻生效。</span>
+            <span>CFO科莱特·克雷斯任临时CEO并续任CFO。</span>
+            <span>哈维·琼斯任董事长。</span>
+            <span>董事会正在寻找正式继任者。</span>
+          </p>
+        </div>
+        <div class="col b"><div class=k>待观察</div>
+          <p>
+            <span>正式继任者何时确定、</span>
+            <span>从哪里产生，目前没有官方结论。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class=layer>
+      <div class=hd><span class=num>02</span><h3>团队与制度</h3></div>
+      <div class=cols>
+        <div class="col a"><div class=k>已知</div>
+          <p>
+            <span>当前是临时CEO加董事长的过渡安排，</span>
+            <span>经营职务已经交出。</span>
+          </p>
+        </div>
+        <div class="col b"><div class=k>待观察</div>
+          <p>
+            <span>过渡期内团队如何分工，</span>
+            <span>制度如何运转，</span>
+            <span>要看后续公开信息。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class=layer>
+      <div class=hd><span class=num>03</span><h3>业务与行业</h3></div>
+      <div class=cols>
+        <div class="col a"><div class=k>已知</div>
+          <p>
+            <span>创始人离开，并不能单独决定</span>
+            <span>一家公司后来的业务结果。</span>
+          </p>
+        </div>
+        <div class="col b"><div class=k>待观察</div>
+          <p>
+            <span>业务和行业还会受多种因素影响，</span>
+            <span>现在不下结论，也不预测走向。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class=bar><b>这是观察清单，</b>只整理公开事实，不预测英伟达走向。</div>
+  </div>
+
+  <div class=foot>根据公司公告和权威报道整理，不构成投资建议。投资有风险，入市需谨慎。制图 2026/11/13。官方用词为辞职。</div>
+</div>
+</body>
+</html>

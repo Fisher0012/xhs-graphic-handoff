@@ -1,0 +1,106 @@
+{
+ "期号": "20261102-大号-资管公司",
+ "查阅日期": "2026-11-02",
+ "新榜状态": "截至2026-11-02查阅，TAI官网新闻页与研究页未见2026版《全球最大500家资管》，上一版发布于2025-11-10；本期用2025版（截至2024年末）并标年份。2026版预计11月发布，发布后须换数",
+ "新榜检查来源": [
+  "https://www.thinkingaheadinstitute.org/news/",
+  "https://www.thinkingaheadinstitute.org/research-activities-2026/"
+ ],
+ "榜单": {
+  "口径": "TAI × Pensions & Investments《全球最大500家资管》2025版，截至2024年末全权委托管理资产（AUM），百万美元",
+  "来源": [
+   "https://www.thinkingaheadinstitute.org/news/article/worlds-largest-asset-managers-aum-surges-to-record-140-trillion-driven-by-north-america-and-passives/",
+   "https://www.thinkingaheadinstitute.org/content/uploads/2025/11/PI-500-2025_key-findings.pdf"
+  ],
+  "rows": [
+   [
+    1,
+    "贝莱德",
+    "美国",
+    11551251
+   ],
+   [
+    2,
+    "先锋领航",
+    "美国",
+    10105443
+   ],
+   [
+    3,
+    "富达",
+    "美国",
+    5520234
+   ],
+   [
+    4,
+    "道富投资管理",
+    "美国",
+    4715442
+   ],
+   [
+    5,
+    "摩根大通",
+    "美国",
+    4045000
+   ],
+   [
+    6,
+    "高盛",
+    "美国",
+    3137000
+   ],
+   [
+    7,
+    "瑞银",
+    "瑞士",
+    2860700
+   ],
+   [
+    8,
+    "资本集团",
+    "美国",
+    2842451
+   ],
+   [
+    9,
+    "安联",
+    "德国",
+    2549739
+   ],
+   [
+    10,
+    "东方汇理",
+    "法国",
+    2319589
+   ]
+  ],
+  "前十合计_百万美元": 49646849,
+  "前十占500家%": 35.5,
+  "前三合计_万亿美元": 27.18
+ },
+ "行业": {
+  "500家合计": "139.9万亿美元，+9.4%",
+  "前20占比": "47.0%（2023年45.5%）",
+  "前20中美国": "15家，占前20资产83.9%，其余为欧洲",
+  "被动占比": "39.0%",
+  "北美": "88.2万亿美元，占63.0%，+13.3%",
+  "日本": "-9.5%",
+  "布鲁克菲尔德": "2017年2400亿→2024年1.061万亿美元，年化20%",
+  "中国机构": "前20名中没有中国机构（前20=15家美国+5家欧洲）",
+  "来源": [
+   "https://www.thinkingaheadinstitute.org/news/article/worlds-largest-asset-managers-aum-surges-to-record-140-trillion-driven-by-north-america-and-passives/",
+   "https://www.thinkingaheadinstitute.org/content/uploads/2025/11/PI-500-2025_key-findings.pdf"
+  ]
+ },
+ "对照": {
+  "IPE Top 500 2026": "榜单前五与上年相同，高盛超资本集团升第7，PIMCO升第9；IPE口径为欧元、机构自报，与TAI不同，不混用",
+  "来源": "https://www.ipe.com/top-500-asset-managers/top-500-asset-managers-global-rankings-2026/10137273.article"
+ },
+ "存疑": [
+  "选题库「前十里有几家中国的」：答案是0家，且前20也没有；不要暗示有",
+  "数据截至2024年末，距今近2年；贝莱德等公司自己披露的最新AUM更高（自媒体称2025年末14.04万亿美元，未核），不得与TAI榜混用",
+  "TAI 2026版可能本月发布，发布后排名可能变（如IPE 2026已显示高盛、PIMCO位次变化）",
+  "「先锋领航」「东方汇理」等中文名用各公司常用中文名，口径页注英文原名",
+  "不推荐任何基金产品"
+ ]
+}

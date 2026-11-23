@@ -1,0 +1,9 @@
+p1 封面 h1=台积电有多靠大客户 fs=108px lines=1 right=1012 -> PASS
+    sub=年报只点出两家达到一成的客户，没有公布名字 fs=32px color=rgb(189, 205, 221)
+p2 内页 h1=三年里大客户在换位置 fs=64px lines=1 right=680 sub_lines=1 -> PASS
+    sub=份额在变，能上榜的客户也不完全一样 fs=32px color=rgb(189, 205, 221)
+p3 内页 h1=收入主要靠哪类平台 fs=64px lines=1 right=616 sub_lines=1 -> PASS
+    sub=占比为作者计算，用官方金额除以当年净收入 fs=32px color=rgb(189, 205, 221)
+p4 内页 h1=读年报别踩这些坑 fs=64px lines=1 right=552 sub_lines=1 -> PASS
+    sub=这些数字能说明什么，不能说明什么 fs=32px color=rgb(189, 205, 221)
+check_titles: PASS

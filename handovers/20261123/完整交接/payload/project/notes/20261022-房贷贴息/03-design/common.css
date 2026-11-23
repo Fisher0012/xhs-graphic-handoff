@@ -1,0 +1,32 @@
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf);}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf);}
+@font-face{font-family:NSBold;src:local("Noto Sans CJK SC Bold");}
+@font-face{font-family:NSR;src:local("Noto Sans CJK SC");}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden}
+body{background:#F7F2E8;font-family:NSR,NSM;color:#1A1A1A;position:relative;-webkit-font-smoothing:antialiased;line-break:strict}
+.wrap{position:absolute;left:76px;right:76px;top:0;bottom:0}
+.hdr{position:absolute;top:78px;display:flex;align-items:center;font-size:26px;line-height:1}
+.dot{width:11px;height:11px;border-radius:50%;background:#C8102E;margin-right:18px}
+.brand{font-family:NSB;font-weight:900;color:#1A1A1A;letter-spacing:.5px}
+.div{width:2px;height:26px;background:#BDB6AC;margin:0 16px}
+.cat{color:#7A746C;font-family:NSM}
+.pill{position:absolute;top:160px;height:66px;padding:0 32px;border:2.5px solid #C8102E;border-radius:33px;display:flex;align-items:center;color:#C8102E;font-family:NSM;font-weight:500;font-size:28px;letter-spacing:1px}
+.pill i{display:inline-block;width:9px;height:9px;border-radius:50%;background:#C8102E;margin:0 14px}
+.pill i.first{margin-left:0;margin-right:16px}
+.red{color:#C8102E}.navy{color:#1E3A5F}
+.h1{position:absolute;top:160px;font-family:NSB;font-weight:900;font-size:76px;line-height:1.2;letter-spacing:-1px}
+.lead{font-family:NSM;font-size:38px;line-height:1.5;color:#1E3A5F}
+.foot{position:absolute;bottom:56px;left:0;right:0}
+.foot .ln{width:90px;height:5px;background:#C8102E;margin-bottom:20px}
+.foot p{font-size:21px;line-height:1.6;color:#8A847B;padding-right:90px}
+.pg{position:absolute;right:0;bottom:0;font-family:NSM;font-size:24px;color:#A9A196}
+/* numbered rows */
+.rows{display:flex;flex-direction:column;gap:16px}
+.row{position:relative;display:flex;align-items:center;padding:24px 36px 24px 36px;border-radius:14px}
+.row .num{font-family:NSB;font-size:54px;color:#A9A196;width:112px;flex:none;line-height:1}
+.row h3{font-family:NSB;font-weight:900;font-size:44px;line-height:1.25;color:#1A1A1A}
+.row p{font-family:NSR;font-size:34px;line-height:1.4;color:#6E685F;margin-top:6px}
+.r1,.r3{background:#EAE3D7}.r2{background:#E1D9CB}
+.rn{background:#1E3A5F}.rn .num{color:#8C9BB0}.rn h3{color:#fff}.rn p{color:#C9D2DE}
+.tag{position:absolute;left:26px;top:-22px;background:#C8102E;color:#fff;font-family:NSM;font-size:24px;padding:3px 22px;border-radius:22px}

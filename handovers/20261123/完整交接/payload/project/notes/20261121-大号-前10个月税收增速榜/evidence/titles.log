@@ -1,0 +1,13 @@
+## 合规初筛结果
+- 检查对象数: 12
+- 命中数: 0
+- 结论: PASS（初筛通过；仍须最终合规/审查官）
+DATA PASS: 17 official amount/growth pairs; source→JSON→HTML→source; complete sorted ranking; child excluded; tax/refund and revenue identities; negative invariants
+SYNTAX PASS: all project Python compiled in memory
+TITLES PASS: original check_titles.check called on all 4 current pages; 122px cover, 64px inner titles, 26px subtitles, one-line and right bounds
+[{"page": 1, "title": {"fs": "122px", "ff": "NSB", "ls": "4px", "color": "rgba(0, 0, 0, 0)", "bg": "linear-gradient(165deg, rgb(247, 230, 174) 0%, rgb(242, 205, 82) 40%, rgb(226, 171, 18) 75", "lines": 1, "top": 142, "right": 796, "text": "税收增速分化"}, "subtitle": {"fs": "26px", "ff": "NSM", "ls": "normal", "color": "rgb(155, 155, 158)", "bg": "none", "lines": 1, "top": 324, "right": 584, "text": "印花税 +24.6%领跑 · 土地增值税 −16.6%垫底"}}, {"page": 2, "title": {"fs": "64px", "ff": "NSB", "ls": "2px", "color": "rgba(0, 0, 0, 0)", "bg": "linear-gradient(165deg, rgb(247, 230, 174) 0%, rgb(242, 205, 82) 40%, rgb(226, 171, 18) 75", "lines": 1, "top": 136, "right": 726, "text": "个税涨，不等于工资涨"}, "subtitle": {"fs": "26px", "ff": "NSM", "ls": "normal", "color": "rgb(155, 155, 158)", "bg": "none", "lines": 1, "top": 251, "right": 612, "text": "个税收入是多种所得的税款，不是居民工资增速"}}, {"page": 3, "title": {"fs": "64px", "ff": "NSB", "ls": "2px", "color": "rgba(0, 0, 0, 0)", "bg": "linear-gradient(165deg, rgb(247, 230, 174) 0%, rgb(242, 205, 82) 40%, rgb(226, 171, 18) 75", "lines": 1, "top": 136, "right": 726, "text": "地产相关税，有涨有跌"}, "subtitle": {"fs": "26px", "ff": "NSM", "ls": "normal", "color": "rgb(155, 155, 158)", "bg": "none", "lines": 1, "top": 251, "right": 591, "text": "接封面：主榜第11—17项；没有把母子项混排"}}, {"page": 4, "title": {"fs": "64px", "ff": "NSB", "ls": "2px", "color": "rgba(0, 0, 0, 0)", "bg": "linear-gradient(165deg, rgb(247, 230, 174) 0%, rgb(242, 205, 82) 40%, rgb(226, 171, 18) 75", "lines": 1, "top": 136, "right": 660, "text": "财政收入，不全是税"}, "subtitle": {"fs": "26px", "ff": "NSM", "ls": "normal", "color": "rgb(155, 155, 158)", "bg": "none", "lines": 1, "top": 251, "right": 531, "text": "全国一般公共预算｜2026年1—10月累计"}}]
+ARTIFACT PASS: 4 images at 2160×2880; body 660 characters excluding newline
+            01_个税增长怎么看.png         最大空白  4.2% @y  910  内容底→页脚  0.7%
+            02_后7项与地产税.png         最大空白  4.7% @y  904  内容底→页脚  0.7%
+            03_财政总账.png            最大空白  6.0% @y  830  内容底→页脚  4.6%
+CHECKS PASS. Measurement metrics above are reported, not silently converted into approval; visual review required.

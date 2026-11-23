@@ -1,0 +1,68 @@
+{
+  "note": "20261119-大号-扎克伯格控制权",
+  "title": "扎克伯格为啥能掌权",
+  "account": "阿信学财经",
+  "created": "2026-11-19T23:26:30+08:00",
+  "version": "v3.1",
+  "fisher_topic_selected": true,
+  "fisher_design_approved": false,
+  "published": false,
+  "placed_on_mac": false,
+  "title_check": "PASS；标题区间距与 v3 相同（封面 41.3/51.1，内页 40.9/52.4）",
+  "measure_space": "本地脚本放宽后的留白检查；以墨迹实测和看图为准",
+  "compliance_precheck": "PASS",
+  "numbers_verify": "PASS",
+  "notes": [
+    "v3 已存档 rejected-v3，未删除。v3.1 修正 Biohub 歧义，并拉开标题区以下模块间距。",
+    "Biohub：原文是他受益所有的 1,220,703 股 A 类由 CZ Biohub 登记持有，不是公司全部已发行 A 类。",
+    "未发布、未落 Mac。设计尚未经 Fisher 批准。"
+  ],
+  "files": [
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/00_封面.png",
+      "sha256": "47d5ca6ae0583caa59223682399a68180802dce539ecfb016f12086b2a72e5d2",
+      "bytes": 1692674
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/01_同样一股票数能差十倍.png",
+      "sha256": "0dc7d009ef93f42861c3dba7eea642fbb066e2a5bbc2b493fe73af8dc69c4415",
+      "bytes": 1314193
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/02_这两个百分比是怎么来的.png",
+      "sha256": "6ed8a2317581980feb3002293e9987e805e485a37194a331d13ae64ec743d775",
+      "bytes": 1250180
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/03_掌权也有边界.png",
+      "sha256": "544b071ff0e50a65ca0bd7b03bbc538d13a89783a16e4b1377af625cdefe6e7d",
+      "bytes": 1198980
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/04_发布文案.md",
+      "sha256": "4b69ee7e626a8bba6fd3eaacf5a889be24fc0108eae5cd878d121400b67813ed",
+      "bytes": 2884
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/04_发布文案.txt",
+      "sha256": "4b69ee7e626a8bba6fd3eaacf5a889be24fc0108eae5cd878d121400b67813ed",
+      "bytes": 2884
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/05_来源说明.txt",
+      "sha256": "3eb6dde66443a7e5b956a4363810c5d17e803ed834605b280119d43f14a7f389",
+      "bytes": 2129
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/07_总览.png",
+      "sha256": "b9428266856123f587cde8ef737eff57cfb6f5bfe2914a6e087440b4cb9e40ce",
+      "bytes": 2198551
+    },
+    {
+      "path": "/workspace/xhs/notes/20261119-大号-扎克伯格控制权/final/SHA256.txt",
+      "sha256": "ad83643259b79e3f73fa1a48d40310a85e8b100567dc34a7a259ada06b00cb1b",
+      "bytes": 720
+    }
+  ],
+  "once_pipeline": "PASS (real render, no --skip-render)"
+}

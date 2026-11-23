@@ -1,0 +1,49 @@
+{
+  "note": "首批18只主动ETF来了：4个风险要知道",
+  "archive_date": "2026-10-25",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 684,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 282063,
+      "sha256": "13ad7b996db282837477b5fd63b5c3bcdeccab080e5b83f3e31979f2f7fd7ad7",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_三种基金差在哪.png",
+      "bytes": 324415,
+      "sha256": "aca83cf1ebe6e7a128d488f8ec2d5b32431a290e4feaba257218a86081751f24",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_交易所4条规矩.png",
+      "bytes": 335721,
+      "sha256": "fd59a1d8dcaf864d8a2b7f2fab140c189f6a6bb2779076a8fbcd601eba6e6ae1",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_招募书4个风险.png",
+      "bytes": 326740,
+      "sha256": "ad83b3db30ebc135ed7a7a421615070aa58414b3c69fe57d472d1a4adeb1400d",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1797,
+      "sha256": "339ed6b585ff47c50e82ac4ac082e2dabf62ea4df383ff44cad4e35ebcea27b1"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 5127,
+      "sha256": "f8c6fa2a77f1c846841b25cb742755cc256ff71aee27e0979c16d97378e83e87"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）；改动 P1 两处、正文 4 处措辞，数字未改，详见 05-合规.md",
+  "published": false,
+  "publish_by": "Fisher 本人手动发布",
+  "destination": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261025_首批18只主动ETF_定稿"
+}

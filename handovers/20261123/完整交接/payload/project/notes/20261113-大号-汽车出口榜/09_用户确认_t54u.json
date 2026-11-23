@@ -1,0 +1,74 @@
+{
+  "receipt_version": "0.2",
+  "article": "汽车出口榜",
+  "task_id": "t54u-local-archive",
+  "confirmed_at": "2026-11-13T15:58:33+08:00",
+  "timezone": "Asia/Shanghai",
+  "user_confirmation": "t54u：早上做的那两篇笔记，汽车那个封面通过，然后其他的都没问题，也落实到本地。不重做汽车月度对照图。",
+  "approved_basis": "定稿依据：receipt.json（2026-11-13 11:41，overall_verdict PASS）与 final/06_归档校验.json。封面现行通过版为 final/00_封面.png，SHA afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916，与 03-design/p1.png 相同；t54u 确认该封面通过。内页 01–03 与文案、来源均在 final/，04-文案.md 与 04_发布文案.txt 字节一致。未采用 03-design/p_monthly.png（11:53 月度对照稿，非封面，按 t54u 不再重做）。发布图为封面+3内页；07_总览.png 为总览，不作第5页。",
+  "mac_dir": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261113_汽车出口榜_待送审",
+  "note": "不覆盖已有同名文件。本文件与 SHA256.txt、文案md、合规自查为补件。原 06/07 归档校验保持不动。未纳入 p_monthly 等非定稿图。待手动发布，不代发。",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1089032,
+      "sha256": "afc44f0613cc5134dda2150ca0459e0bf68b37cb82875bcbb6268cff56427916",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "01_国内销量与出口.png",
+      "bytes": 1324025,
+      "sha256": "57d40bcbaed8503f246a800820a5fa1712a0ee9edddf4e4c99ff7d21c365c18d",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "02_新能源出口占比.png",
+      "bytes": 1339562,
+      "sha256": "68c5d340d81b2119239be59ed21a45a8f9ba11828bdd649d9aa2eca764458bd1",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "03_出口退税节点.png",
+      "bytes": 1341818,
+      "sha256": "3acc525974ea3cea0152304af07aeb845eb41e35ca6c5975f26cf3dea1f70f96",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1503,
+      "sha256": "be5dd933aead73af949619abd576a9d478510cfe3a2cbba501e17129539c5073",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "04_发布文案.md",
+      "bytes": 1503,
+      "sha256": "be5dd933aead73af949619abd576a9d478510cfe3a2cbba501e17129539c5073",
+      "role": "supplement"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 1800,
+      "sha256": "164dd9b8ad9dd3d896fdb71375d5189874cf5afff9acf1326cedd3cdbd0fb0fc",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "06_归档校验.json",
+      "bytes": 4508,
+      "sha256": "2cde6906135f8b410a81e6000448b5e8bab92d23640b7e3c4b720dd69aa3827b",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "07_总览.png",
+      "bytes": 524260,
+      "sha256": "9a2b067f42b78e78fcd51f718bd40901c0cfae99270308a7770079a911ff69ab",
+      "role": "already_on_mac"
+    },
+    {
+      "name": "08_合规自查.md",
+      "bytes": 1242,
+      "sha256": "a37050157a77b5924ce64d17bf8ad233026b4ba453f8608ae9fa16fd8ded93df",
+      "role": "supplement"
+    }
+  ],
+  "status": "USER_APPROVED"
+}

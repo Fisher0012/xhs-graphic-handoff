@@ -1,0 +1,120 @@
+{
+  "sample_rate": 48000,
+  "duration": 14.4,
+  "places": [
+    {
+      "file": "s1.mp3",
+      "start": 0.05,
+      "end": 2.823,
+      "dur": 2.773,
+      "trim_dur": 2.9,
+      "atempo": 1.0444444444444443
+    },
+    {
+      "file": "s2.mp3",
+      "start": 2.85,
+      "end": 3.65,
+      "dur": 0.8,
+      "trim_dur": 0.8,
+      "atempo": null
+    },
+    {
+      "file": "s20a_35.mp3",
+      "start": 5.15,
+      "end": 6.49,
+      "dur": 1.34,
+      "trim_dur": 1.34,
+      "atempo": null
+    },
+    {
+      "file": "s20b_35.mp3",
+      "start": 6.52,
+      "end": 7.92,
+      "dur": 1.4,
+      "trim_dur": 1.4,
+      "atempo": null
+    },
+    {
+      "file": "s21a.mp3",
+      "start": 8.05,
+      "end": 9.17,
+      "dur": 1.12,
+      "trim_dur": 1.12,
+      "atempo": null
+    },
+    {
+      "file": "s21b.mp3",
+      "start": 9.3,
+      "end": 11.12,
+      "dur": 1.82,
+      "trim_dur": 1.82,
+      "atempo": null
+    },
+    {
+      "file": "s22a.mp3",
+      "start": 11.85,
+      "end": 12.63,
+      "dur": 0.78,
+      "trim_dur": 0.78,
+      "atempo": null
+    },
+    {
+      "file": "s22b.mp3",
+      "start": 12.88,
+      "end": 14.42,
+      "dur": 1.54,
+      "trim_dur": 1.54,
+      "atempo": null
+    }
+  ],
+  "subtitle_cues": [
+    {
+      "start": 0.0,
+      "end": 2.8,
+      "shot": 1,
+      "text": "(hook title, no bottom bar)"
+    },
+    {
+      "start": 2.8,
+      "end": 3.9,
+      "shot": 2,
+      "text": "是这三道坎"
+    },
+    {
+      "start": 5.1,
+      "end": 6.4,
+      "shot": 20,
+      "text": "第三道坎 出镜"
+    },
+    {
+      "start": 6.4,
+      "end": 7.9,
+      "shot": 20,
+      "text": "不想露脸 也没空拍"
+    },
+    {
+      "start": 7.9,
+      "end": 9.3,
+      "shot": 21,
+      "text": "Sphere的数字分身"
+    },
+    {
+      "start": 9.3,
+      "end": 11.8,
+      "shot": 21,
+      "text": "传1张照片 生成形象"
+    },
+    {
+      "start": 11.8,
+      "end": 12.88,
+      "shot": 22,
+      "text": "读一段文字"
+    },
+    {
+      "start": 12.88,
+      "end": 14.4,
+      "shot": 22,
+      "text": "录15秒 克隆声音"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Mac归档校验记录（传输校验，不等于独立回执）
+时间：2026-11-21 15:50（北京时间）
+机器：Mac mini  1955f62c-ee17-45e0-9e5b-3d70dff2b5c5
+目标目录：/Users/donnie/Desktop/新图文笔记/阿信学财经/20261121_前10个月税收增速榜_待送审
+命名：按既有「YYYYMMDD_短名_待送审」风格，目录原先不存在，无覆盖。
+方式：box打包zip（仅本篇final+新增08_归档说明），CopyFromBox后在目标目录unzip -n解包，再删除仅用于传输的zip。未删除任何原有用户文件，未改其他项目。
+压缩包SHA256：a99078e394891142bb8e28b46afab37a80a6edf7c679efba7d04ce62f4e326f2（box与Mac一致）
+逐文件比对（Mac重算 vs box）：10/10 PASS
+082fd3387b75821ece8f81f624febe79d8b4b50bfdf0fccf55559074c51f305b  00_封面.png
+e3dbb40b3b15725f9d3f2f1c7849537f56f6d44e2f16775998c9626786050e7c  01_个税增长怎么看.png
+6a5886119a77b14aab15f94ff77546591f3414ffa3709c41e3c00773b7c7a8f0  02_后7项与地产税.png
+0886010c0b7dcc0d66889056c9f7c5330ac871d7f66f386d9ec9a511b0e39109  03_财政总账.png
+593930867d28bfef1d4d51cf1551298882c3838c18d647c83b65b4239d59c445  04_发布文案.txt
+8ef8b0934cb31ada9981b210a44b222d410dbef267cd5af92d285e5d7f29025f  05_来源说明.txt
+9690fee3e540f116d639e77d8c8ab623bc1bc4c7d1cce224bfc86c52a927cab1  06_归档校验.json
+9d909521d88d39806a872e7e752e95cb27abecf1a8ff5929351e29ee38c962ce  07_总览.png
+79f331060bd828f3a06f38dec12b657b7ada60ace4f3cce531098077972a69a8  SHA256.txt
+de4b86322911da67a555ec5f3df7073294ae73ba35c851f7229034873eaa67c8  08_归档说明.txt
+文件数：10（含新增归档说明；图片、发布文案、来源说明、归档校验、总览、SHA均在）
+独立回执仍为FAIL（C06），传输通过未改写为PASS。未发布。

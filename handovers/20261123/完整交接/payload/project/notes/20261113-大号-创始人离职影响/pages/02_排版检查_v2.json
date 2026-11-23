@@ -1,0 +1,37 @@
+{
+  "page": "02_内页_v2",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 14:52:54 北京时间",
+  "title": {
+    "text": "交班后看什么",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 516,
+    "content_width_px": 1000,
+    "fits_one_line": true,
+    "note": "6字短标题，86px一行有余，未两行、未缩小。"
+  },
+  "subtitle": {
+    "text": "先分清已经公开的事实，和还需要观察的变化",
+    "font_px": 30,
+    "gap_after_title_px": 18,
+    "one_line": true,
+    "width_px": 600
+  },
+  "form": "分层观察清单（接班安排/团队与制度/业务与行业），每层已知|待观察，与第一张关系图结构不同",
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v2.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v2_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "footer_bottom_px": 16,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "已消除v1稿中哈维·琼斯/经营职务/业务/产生等拆词，全部改为完整短语换行",
+    "edge_text": "20px边缘无正文像素",
+    "spacing": "层与层之间约40px，底栏距页脚约58–76px，节奏均衡"
+  },
+  "facts": "已知项只采用已核实的8-K/新闻稿：11月11日接受辞职即刻生效、CFO科莱特·克雷斯任临时CEO并续任CFO、哈维·琼斯任董事长、董事会正在寻找正式继任者。待观察只写尚无官方结论，不预测走向。不复述第一张三种关系定义，不列封面人物案例，不写3.58%。",
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

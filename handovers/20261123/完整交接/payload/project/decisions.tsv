@@ -1,0 +1,10 @@
+ts	phase	decision	why	evidence	result
+2026-11-22T03:37:50Z	start	开始本轮：在LPR孤字微修中正式按pstack原机制执行	Fisher于2026-11-22 11:34（北京时间）t151u批准应用到小红书图文；本线程已有未提交成稿，不重建	/workspace/ops/comm/materials/pstack_xhs_start_20261122/切入授权与任务.md	open
+2026-11-22T03:37:50Z	frame	选用bug-fix playbook，并借用visual-parity中不改CSS/模板的约束	本任务是改文案消除孤字和核实文号，不是像素级迁移；整图零差异会否定这次必要改动。宿主不能派poteto-agent或指定跨厂商模型，由本线程直接改	/home/box/agent-data/plugins/cache/cursor-public/pstack/7a583913eb1b8d1a0ee76753d1a2cf072e7b54f9/skills/poteto-mode/playbooks/bug-fix.md	open
+2026-11-22T03:44:24Z	typography	01第②段改为「合同期内利率保持不变，LPR变不变都不影响。」并同步文案	去掉孤字「它。」且再精炼几个字，避免句号仍落在下一行；意思不变，不改字号和CSS	/workspace/review/xhs/20261122-lpr/diff/side_01.png	orphan gone, paragraph is one line
+2026-11-22T03:44:24Z	typography	01脚注改为只列〔2024〕第11号	第16号确有留档且是央行2019年第16号，但是房贷定价文件且已被第11号废止；页上现行规则都出自第11号	/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_16.html	footnote cites 11 only
+2026-11-22T03:44:24Z	typography	02曾把「可与银行协商重定价周期」收成「可与银行协商调整。」变成两行	想消掉孤字「期。」	/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/space.log	superseded: footer gap hit 11.9%
+2026-11-22T03:44:24Z	typography	02改为「自2024年11月1日起，可与银行协商调整重定价周期。」保留三行	实测收成两行后内容底到页脚11.9%，超过6%；加长末行既消孤字又保住间距。末行现为「定价周期。」	/workspace/review/xhs/20261122-lpr/diff/side_02.png	orphan gone, footer gap 0.7%, pixel-diff 0.50%
+2026-11-22T03:44:24Z	verify	亲看修改后四张原图，并做改前改后像素差分与对照图	prove-it-works：不以脚本自报代替看图。封面和03与改前逐字节相同	/workspace/review/xhs/20261122-lpr/diff/summary.json	H1/H2/pipeline PASS; 01/02 orphans fixed
+2026-11-22T03:44:24Z	verify	跑 once_pipeline.sh、verify_content.py 与 compliance_precheck.py，不重跑 verify_receipt 作为新门	冲突对照表第13条：H1/H2是完成谓词，回执额外签核已取消。旧回执保留为成稿当时的历史证据，不伪称作废，也不为新机制重生产	/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/pipeline.log	pipeline PASS warn=0; verify RESULT PASS 0; compliance 0 hits
+2026-11-22T03:44:24Z	limits	不声称完整模型栈、跨模型审计或 /loop 已生效，也不派出另一厂商模型审 trail	宿主 Task 只有 executor 等公开类型，没有 poteto-agent，也不暴露 model 或 run_in_background；未运行全局 setup-pstack	/workspace/xhs/PSTACK.md	limitation recorded, no fabricated review

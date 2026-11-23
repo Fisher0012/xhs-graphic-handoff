@@ -1,0 +1,70 @@
+四巨头AI账｜定稿来源说明（2026-10-24 归档）
+金额单位均为美元；查阅日期均为 2026-10-24。【自算】为本笔记根据官方数字计算。
+
+一、Meta
+1. Q3 2026 财报（2026-10-21 美东盘后，北京 10-22）：营收646.0亿（+26%）；资本开支（含融资租赁本金）349.1亿；经营现金流327.9亿；自由现金流−21.2亿；现金及有价证券824.5亿；2026全年资本开支指引1350–1450亿。
+https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx
+2. Q3 2026 10-Q（2026-10-22）：未起租租约约3557.3亿；不可撤销承诺4545.2亿；或有云算力采购最多147.2亿；票据840亿（2025年末590亿）；2026年5月发行250亿票据；Q3票据利息8.82亿（去年同期2.05亿）。
+https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm
+3. Q4 2025 财报（2026-01-28）：2025全年资本开支（含融资租赁本金）722.2亿。
+https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm
+4. CNBC（2026-10-22）：财报后股价跌近7%，5年期信用违约互换（CDS）创历史新高。
+https://www.cnbc.com/2026/10/22/meta-stock-q3-earnings-free-cash-flow.html
+
+二、微软（财年截至6月）
+5. FY26 Q4 财报（2026-07-29）：长期债务311亿（上年402亿）；财年无新发债。
+https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast
+6. FY26 Q4 电话会（2026-07-29）：约2/3资本开支为CPU、GPU等；融资租赁56亿主要用于大型数据中心、现金购置358亿；2026自然年资本开支约1750亿；本季新增约1吉瓦容量；Q4自由现金流196亿。
+https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q4
+7. 财报日期（2026-10-07）：10月28日美股盘后，北京10月29日凌晨。
+https://news.microsoft.com/source/2026/10/07/microsoft-announces-quarterly-earnings-release-date-69/
+
+三、谷歌母公司 Alphabet
+8. Q2 2026 财报（2026-07-22）：Q2自由现金流−58.6亿；长期债务982亿（2025年末465亿）；6月股权融资净额496亿。
+https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm
+9. Q2 电话会（2026-07-22）：技术基础设施投入约60%为服务器、40%为数据中心和网络设备；2026资本开支指引1950–2050亿。
+https://abc.xyz/investor/events/event-details/2026/2026-Q2-Earnings-Call-2026-GgTAq7Is0z/default.aspx
+10. 8-K（2026-08）：8月10日完成250亿票据。
+https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm
+11. Q4 2025 财报（2026-02-04）：2025全年购置物业设备914.5亿。
+https://www.sec.gov/Archives/edgar/data/1652044/000165204426000012/googexhibit991q42025.htm
+12. 电话会日期（2026-10-06）：北京10月29日凌晨。
+https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Date-of-Third-Quarter-2026-Financial-Results-Conference-Call-2026-8tpGZsLS6v/default.aspx
+
+四、亚马逊
+13. Q2 2026 财报（2026-07-30）：近12个月自由现金流−76亿。
+https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results/default.aspx
+14. Q2 10-Q（2026-07-31）：长期债务面值1330亿（2025年末688亿）；3月美元、欧元票据，5月瑞郎，6月加元。
+https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm
+15. 8-K（2026-09-14）：英镑票据。
+https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm
+16. Q2 电话会文字稿（Motley Fool，2026-08-07；电话会07-30）：2026现金资本开支约2200亿（原约2000亿），内存涨价是原因之一；2027年底电力容量为2025年的两倍。
+https://www.fool.com/earnings/call-transcripts/2026/08/07/amazon-amzn-q2-2026-earnings-call-transcript/
+17. Q4 2025 财报（2026-02-05）：2025全年现金资本开支1283.2亿。
+https://www.sec.gov/Archives/edgar/data/1018724/000101872426000002/amzn-20251231xex991.htm
+18. 电话会日期（2026-10）：北京10月30日凌晨。
+https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-to-Webcast-Third-Quarter-2026-Financial-Results-Conference-Call/default.aspx
+
+五、市场
+19. 21经济网（2026-10-23）：10/22美东，纳斯达克综合指数（图上写「科技股为主的指数」）跌2.60%；费城半导体指数（图上写「半导体指数」）跌6.7%。
+https://www.21jingji.com/article/20261023/herald/918c77b8b915e9d829f87659512bb3bd.html
+20. 新浪财经（2026-10-23 10:05）：沪指盘中跌破3600点，CPO板块重挫。
+https://finance.sina.com.cn/tob/2026-10-23/doc-iniweqhs8047167.shtml
+21. 金融投资报（东方财富转载，2026-10-23）：沪指盘中最低3574.27点后反弹。
+https://finance.eastmoney.com/a/202610233906303697.html
+22. 潮新闻（凤凰网转载）／新浪收评（2026-10-23）：沪指收涨0.89%；午间多家光通信公司公告经营正常，光模块率先反攻。
+https://feng.ifeng.com/c/8xSWH1zr7Bj
+https://finance.sina.com.cn/stock/bxjj/2026-10-23/doc-iniweyws1927556.shtml
+23. 路透（BNN Bloomberg 转载，2026-10-07）：科技巨头今年资本开支合计将超7300亿（用于核对自算合计）。
+https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/10/07/tech-companies-tap-debt-equity-to-fund-ai-and-cloud-expansion/
+
+六、自算
+- 2026计划合计约7350亿【自算】：1350–1450＋1950–2050＋约2200＋约1750＝7250–7450亿，取中值。口径不同：Meta、微软含融资租赁；谷歌为购置物业设备；亚马逊为现金资本开支；微软按自然年。只看量级。
+- 比2025年多七成到一倍多【自算】：亚马逊2200÷1283.2＝1.71倍；谷歌2000÷914.5＝2.19倍；Meta 1400÷722.2＝1.94倍。微软财年和自然年不一致，不计算。
+- Meta承诺约8250亿【自算】：3557.3＋4545.2＋147.2＝8249.7亿。
+- 约是手上现金的10倍【自算】：8249.7÷824.5≈10，承诺分多年支付。
+- 利息4倍多【自算】：8.82÷2.05≈4.3。
+- 北京时间：美国11月1日前为夏令时，太平洋时间＋15小时。
+
+未使用：「Meta自由现金流上市以来首次为负」（只有媒体说法）；「7月承诺约7000亿」（未回到10-Q核实）；电力投入金额（各家未披露）；板块涨跌幅；任何个股名。
+归档约定：仅含合规自查后的四张定稿图（2160×2880），图片按原始PNG字节复制。完整资料与核对记录见机器人工作目录 /workspace/xhs/notes/20261024-Meta与AI投入/（01-选题.md～05-合规.md）。

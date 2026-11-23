@@ -1,0 +1,71 @@
+{
+  "receipt_version": "0.4",
+  "project": "创始人离职影响",
+  "task_id": "t58u-cover-v8-mac",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T17:05:00+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "user_confirmation": {
+    "message_id": "t58u",
+    "time_zone": "Asia/Shanghai",
+    "quote": "没问题 立刻更新到本地",
+    "summary": "Fisher 确认封面 v8 没问题，要求立刻更新到 Mac 待送审目录。只替换封面，文案、来源、合规正文和两张内页不改。",
+    "approved_assets": {
+      "cover": {
+        "file": "cover/00_封面_v8.png",
+        "approved_snapshot": "cover/00_封面_v8_approved.png",
+        "version": "v8",
+        "sha256": "3b2362d370bcc2f0fe95f28377d923021daf7bae00be9f22c2da393344cc77f9",
+        "approved": "t58u",
+        "note": "以 v7 为底，中列恢复 v6 原文。v7 历史 SHA 3366ed8e…，v6 历史 SHA ae78c569…，均不覆盖。"
+      },
+      "page01": {
+        "file": "pages/01_内页_v4.png",
+        "version": "v4",
+        "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+        "approved": "t52u",
+        "unchanged": true
+      },
+      "page02": {
+        "file": "pages/02_内页_v5.png",
+        "version": "v5",
+        "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+        "approved": "t53u",
+        "unchanged": true
+      }
+    }
+  },
+  "copy": {
+    "file": "03-文案.md",
+    "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "unchanged_this_round": true
+  },
+  "compliance_note": "04-合规自查.md 正文未改（仍为 t56 重签稿，SHA 57676885…）。本回执将现行封面版本更新为 v8（t58u）。",
+  "overall_verdict": "USER_APPROVED：封面v8（t58u）、内页01 v4（t52u）、内页02 v5（t53u）。按t58u只替换Mac封面并更新校验。不代为发布。",
+  "mac_delivery": {
+    "machineId": "1955f62c-ee17-45e0-9e5b-3d70dff2b5c5",
+    "path": "/Users/donnie/Desktop/新图文笔记/阿信学财经/20261113_创始人离职影响_待送审",
+    "backup": "/Users/donnie/Desktop/新图文笔记/_历史备份/20261113_创始人离职影响_待送审_t58前",
+    "replace": "仅 00_封面.png、07_归档校验.json、SHA256.txt",
+    "pages_copy_sources_compliance_unchanged": true,
+    "published": false,
+    "verified": "9/9 SHA256 match; 6/6 unchanged; 3/3 replaced",
+    "tgz": "20261113_founder_handover_v8.tgz copied to Desktop then deleted after verify",
+    "export_tgz_untouched": true,
+    "completed_at": "2026-11-13T17:04:00+08:00"
+  },
+  "file_sha256": {
+    "00_封面.png": "3b2362d370bcc2f0fe95f28377d923021daf7bae00be9f22c2da393344cc77f9",
+    "01_离职不等于退出.png": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+    "02_黄仁勋这次关键看三点.png": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+    "04_发布文案.md": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "04_发布文案.txt": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "05_来源说明.md": "63cd7ff3c53da18edf65b98e75aba54e6bb6db595f3359b2bf92c4ad1a32df7c",
+    "06_合规自查.md": "5767688557ba3a3a6cacd4a51b32766f6c2ac074ab452784030bf014cb425a7a",
+    "07_归档校验.json": "9c2d17e26dcda9b7433001820e39032ebb7711db7660a1e0779af55124dcbe46",
+    "SHA256.txt": "f3608f60a5f07522d52a0899dfba85970190001a29abc967453f0e7bcd03f8c0"
+  }
+}

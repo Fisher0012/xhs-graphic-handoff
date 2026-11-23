@@ -1,0 +1,62 @@
+{
+  "note": "前10个月钱去哪了",
+  "checked_at": "2026-11-14T10:04:39+08:00",
+  "access_date": "2026-11-14 Asia/Shanghai",
+  "source_urls": [
+    "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026111317040354319/index.html",
+    "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026101417073743604/index.html"
+  ],
+  "checks": {
+    "check_titles": "PASS",
+    "measure_space": "PASS",
+    "visual": "Read逐张原图及400px/540px缩略图，并检查封面标题、p3表格换行、页脚间隙",
+    "compliance_precheck": "PASS",
+    "once_pipeline": "PASS warn=0",
+    "gate_archive": "PASS",
+    "sha256": "每项可独立重算"
+  },
+  "fisher_design_approved": false,
+  "note_status": "待审成稿，用户只选定选题，未批准设计，不得标成Fisher已通过",
+  "files": [
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/00_封面.png",
+      "bytes": 1247923,
+      "sha256": "696331824dd22cd5e2aaaa082d6ee9e86cc63f91d882776d83e15816dab81cef"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/01_存款加在哪几块.png",
+      "bytes": 1466966,
+      "sha256": "c2311a59359e96e51cc828bb7c99ca04ade7d4329b234688091e64a97d229da5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/02_贷款谁增谁在减.png",
+      "bytes": 1487777,
+      "sha256": "891e49a6263f6a04ae231927e75ca6a979bf8c0b07aebe8bc1aa129aadd3929f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/03_当月和统计口径.png",
+      "bytes": 1430663,
+      "sha256": "b75bf2c4b804606405e1cf969f872301fd568817f84eba96ee870b0eab100813"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/04_发布文案.txt",
+      "bytes": 1792,
+      "sha256": "ae5f0120d62899def0ebd6e66972ec7a2fa51e8f3cb54daf6deb036e4c1cba80"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/05_来源说明.txt",
+      "bytes": 2880,
+      "sha256": "9edc102473499cbc091a277d6a9668debdf3d986467121ec008c0ea01df1ea28"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/07_总览.png",
+      "bytes": 835065,
+      "sha256": "2b05f5313b102c9c5071465caf94ca434c47358c5efd0c6b793576acf236d536"
+    }
+  ],
+  "archive_self": {
+    "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/06_归档校验.json",
+    "bytes": 2394,
+    "sha256": "21d689e2b0c744846e04780bf3361fb123ca403f31850df952010e08eeaba8d0"
+  }
+}

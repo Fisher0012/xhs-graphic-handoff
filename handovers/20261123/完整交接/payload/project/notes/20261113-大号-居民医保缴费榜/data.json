@@ -1,0 +1,264 @@
+{
+  "account": "阿信学财经",
+  "date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "year": 2027,
+  "ranking_scope": "成年一般居民所列档次；个人居民医保费，不含长护；8城样本非全国完整榜；同额并列；非待遇优劣榜",
+  "cities": [
+    {
+      "city": "天津",
+      "scope": "高档",
+      "personal": 1130,
+      "other": "低档450元",
+      "source": "S02"
+    },
+    {
+      "city": "佛山",
+      "scope": "一般居民",
+      "personal": 596,
+      "source": "S16"
+    },
+    {
+      "city": "江门",
+      "scope": "一般居民",
+      "personal": 430,
+      "source": "S04"
+    },
+    {
+      "city": "哈尔滨",
+      "scope": "一般居民",
+      "personal": 400,
+      "source": "S06"
+    },
+    {
+      "city": "西安",
+      "scope": "按陕西标准",
+      "personal": 400,
+      "source": "S09"
+    },
+    {
+      "city": "长沙",
+      "scope": "按湖南标准",
+      "personal": 400,
+      "source": "S13"
+    },
+    {
+      "city": "海口",
+      "scope": "另长护26元",
+      "personal": 400,
+      "source": "S07"
+    },
+    {
+      "city": "伊春",
+      "scope": "暂定标准*",
+      "personal": 400,
+      "source": "S05"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "url": "http://jjckb.xinhuanet.com/20261014/9d92f1147dfa4335ba676c7ed4398722/c.html",
+      "name": "新华社经济参考报（引述国家医保局副局长）",
+      "file": "sources/S01_可读摘录.html",
+      "archive_method": "WebFetch可读原文摘录，原始HTTP下载不可用",
+      "published": "2026-10-14",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "quote": "2027年个人缴费最低400元，人均财政补助724元，个人标准连续三年不变。"
+    },
+    {
+      "id": "S02",
+      "name": "天津",
+      "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030004/03000419/20260907165858609.shtml",
+      "published": "2026-09-07",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "file": "sources/S02.html",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027年个人低档450元、高档1130元；集中期2026-09-01至12-31；本通知财政数属于2026年，不混加。"
+    },
+    {
+      "id": "S04",
+      "url": "http://www.jiangmen.gov.cn/home/bmdt/content/post_3545804.html",
+      "file": "sources/S04.html",
+      "name": "江门",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "published": "2026-09-02",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027年度个人缴费每人430元，12月31日前完成参保登记和缴费。"
+    },
+    {
+      "id": "S05",
+      "url": "https://ybj.hlj.gov.cn/ybj/c105383/202609/c00_31973341.shtml",
+      "file": "sources/S05.html",
+      "name": "伊春",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "published": "2026-09-08",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027年个人400元、财政724元；集中期2026-09-01至12-31；原文另提示400元暂定。"
+    },
+    {
+      "id": "S06",
+      "url": "https://www.hlj.gov.cn/hlj/c107858/202609/c00_31976797.shtml",
+      "file": "sources/S06.html",
+      "name": "哈尔滨",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "published": "2026-09-18",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027年度个人400元、财政724元，筹资1124元；集中期2026-09-01至12-31。"
+    },
+    {
+      "id": "S07",
+      "name": "海口",
+      "url": "https://hksbyb.haikou.gov.cn/xxgk/fdzdgknr/ywgz/202610/t1548653.shtml",
+      "published": "2026-10-09",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "file": "sources/S07.html",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027医保个人400元，成年居民另缴长护26元，合计426元；集中期至2027-01-31。"
+    },
+    {
+      "id": "S09",
+      "url": "https://ybj.xa.gov.cn/zcfg/zcjd/2117807306092625921.html",
+      "file": "sources/S09.html",
+      "name": "西安",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "published": "2026-11-04",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027陕西居民医保个人每年400元；集中期至12月25日。只引用个人标准和截止日，不引用该页财政年份表述。"
+    },
+    {
+      "id": "S10",
+      "name": "国务院参保长效机制",
+      "url": "https://www.nhsa.gov.cn/art/2024/8/1/art_53_13428.html",
+      "published": "2024-08-01",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "file": "sources/S10.html",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2025年起，固定等待期3个月；每多断保1年原则上增加变动等待期1个月；断缴4年及以上修复后合计原则上不少于6个月；连续满4年之后每续1年提高大病限额，每次原则上不低于1000元，累计不超过原封顶线20%。"
+    },
+    {
+      "id": "S13",
+      "name": "湖南（长沙）",
+      "url": "https://ybj.hunan.gov.cn/ybj/first113541/f4113601/202610/t20261008_34076722.html",
+      "published": "2026-10-08",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "file": "sources/S13.html",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027湖南居民个人400元；集中期至2027-01-31。长沙适用省标准。"
+    },
+    {
+      "id": "S16",
+      "name": "佛山市医保局、税务局联合通知（税务局官网）",
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2026-09/30/content_4c8f451e53af42548f11b44d063db6d2.shtml",
+      "published": "2026-09-30",
+      "accessed": "2026-11-13 Asia/Shanghai",
+      "file": "sources/S16.html",
+      "archive_method": "官网HTTP原始HTML，另附纯文本提取",
+      "quote": "2027年度佛山居民医保个人596元/人/年；参保申报2026-10-16至12-21；缴费截止2026-12-31。"
+    }
+  ],
+  "national": {
+    "personal_min": {
+      "value": 400,
+      "source": "S01"
+    },
+    "fiscal_per_capita": {
+      "value": 724,
+      "source": "S01"
+    },
+    "total_example": {
+      "value": 1124,
+      "source": [
+        "S01"
+      ],
+      "calculation": "400+724=1124，作者计算，全国最低个人费与人均财政标准示意，不代表各市实补"
+    }
+  },
+  "waiting": {
+    "fixed_months": {
+      "value": 3,
+      "source": "S10"
+    },
+    "variable_months_per_year": {
+      "value": 1,
+      "source": "S10"
+    },
+    "long_break_years": {
+      "value": 4,
+      "source": "S10"
+    },
+    "min_after_repair_months": {
+      "value": 6,
+      "source": "S10"
+    }
+  },
+  "reward": {
+    "continuous_years": {
+      "value": 4,
+      "source": "S10"
+    },
+    "each_additional_year": {
+      "value": 1,
+      "source": "S10"
+    },
+    "increment_min_yuan": {
+      "value": 1000,
+      "source": "S10"
+    },
+    "cumulative_cap_percent": {
+      "value": 20,
+      "source": "S10"
+    }
+  },
+  "deadlines": [
+    {
+      "cities": "西安",
+      "date": "2026-12-25",
+      "source": [
+        "S09"
+      ]
+    },
+    {
+      "cities": "天津、佛山、江门、哈尔滨、伊春",
+      "date": "2026-12-31",
+      "source": [
+        "S02",
+        "S16",
+        "S04",
+        "S06",
+        "S05"
+      ],
+      "note": "佛山参保申报须在2026-12-21前办理"
+    },
+    {
+      "cities": "海口、长沙",
+      "date": "2027-01-31",
+      "source": [
+        "S07",
+        "S13"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "clue": "深圳成人594.62、少儿509.67",
+      "reason": "官方网页工具与HTTP访问未取得可归档原文；不只凭搜索摘要上图"
+    },
+    {
+      "clue": "温州成人660/少儿630",
+      "reason": "未取得2027年当地官方原文；旧年份不能替代"
+    },
+    {
+      "clue": "重庆400/775",
+      "reason": "已检索到的当地官网文件是2026年度，不能用于2027年"
+    },
+    {
+      "clue": "韶关400",
+      "reason": "官方可读原文已打开，但HTTP原文下载失败；已有8城原始HTML，未纳入"
+    },
+    {
+      "clue": "杭州一档810/二档710（均含长护30）",
+      "reason": "已核到当地政协网转载杭州发布，但为严格遵守当地医保局或政府原文要求，改用佛山两部门联合通知，不纳入杭州。"
+    }
+  ]
+}

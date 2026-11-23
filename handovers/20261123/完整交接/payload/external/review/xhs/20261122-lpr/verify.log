@@ -1,0 +1,222 @@
+[PASS] C01 回执是合法 JSON 对象
+[PASS] C02 必填字段与类型齐全
+[PASS] C15 targets/protected 全部位于项目根目录 /workspace/xhs 之内
+[PASS] C14 target[0] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[1] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[2] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[3] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[4] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[5] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[6] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[7] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[8] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[9] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[10] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[11] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[12] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[13] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[14] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[15] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[16] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[17] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[18] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[19] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[20] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[21] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[22] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[23] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[24] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[25] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[26] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[27] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[28] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[29] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[30] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[31] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[32] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[33] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[34] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[35] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[36] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[37] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[38] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[39] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[40] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[41] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[42] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[43] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[44] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[45] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[46] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[47] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[48] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[49] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[50] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[51] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[52] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[53] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[54] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[55] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[56] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[57] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[58] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[59] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[60] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[61] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[62] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[63] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[64] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[65] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[66] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[67] 新增文件在基线里登记为 ABSENT
+[PASS] C14 target[68] before_sha256 与总协调基线一致
+[PASS] C14 基线中非目标文件 29 个哈希全部不变
+[PASS] C03 executed_at 带时区且不在未来（2026-11-22T11:31:42.923340+08:00）
+[PASS] C04 target[0] 重算 SHA-256 与自报一致（840 字节）
+[PASS] C05 target[0] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[1] 重算 SHA-256 与自报一致（904 字节）
+[PASS] C05 target[1] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[2] 重算 SHA-256 与自报一致（20534 字节）
+[PASS] C05 target[2] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C06 target[2] ast + py_compile 通过，顶层导入 2 个均可找到
+[PASS] C04 target[3] 重算 SHA-256 与自报一致（9851 字节）
+[PASS] C05 target[3] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[4] 重算 SHA-256 与自报一致（1341056 字节）
+[PASS] C05 target[4] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[5] 重算 SHA-256 与自报一致（5565 字节）
+[PASS] C05 target[5] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[6] 重算 SHA-256 与自报一致（1015789 字节）
+[PASS] C05 target[6] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[7] 重算 SHA-256 与自报一致（6159 字节）
+[PASS] C05 target[7] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[8] 重算 SHA-256 与自报一致（1079572 字节）
+[PASS] C05 target[8] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[9] 重算 SHA-256 与自报一致（6521 字节）
+[PASS] C05 target[9] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[10] 重算 SHA-256 与自报一致（1242562 字节）
+[PASS] C05 target[10] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[11] 重算 SHA-256 与自报一致（2015 字节）
+[PASS] C05 target[11] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[12] 重算 SHA-256 与自报一致（958 字节）
+[PASS] C05 target[12] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[13] 重算 SHA-256 与自报一致（79 字节）
+[PASS] C05 target[13] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[14] 重算 SHA-256 与自报一致（4162 字节）
+[PASS] C05 target[14] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[15] 重算 SHA-256 与自报一致（123 字节）
+[PASS] C05 target[15] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[16] 重算 SHA-256 与自报一致（4793 字节）
+[PASS] C05 target[16] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[17] 重算 SHA-256 与自报一致（1413 字节）
+[PASS] C05 target[17] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[18] 重算 SHA-256 与自报一致（3849 字节）
+[PASS] C05 target[18] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[19] 重算 SHA-256 与自报一致（345 字节）
+[PASS] C05 target[19] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[20] 重算 SHA-256 与自报一致（6021 字节）
+[PASS] C05 target[20] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[21] 重算 SHA-256 与自报一致（1150 字节）
+[PASS] C05 target[21] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[22] 重算 SHA-256 与自报一致（1341056 字节）
+[PASS] C05 target[22] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[23] 重算 SHA-256 与自报一致（1015789 字节）
+[PASS] C05 target[23] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[24] 重算 SHA-256 与自报一致（1079572 字节）
+[PASS] C05 target[24] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[25] 重算 SHA-256 与自报一致（1242562 字节）
+[PASS] C05 target[25] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[26] 重算 SHA-256 与自报一致（1895 字节）
+[PASS] C05 target[26] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[27] 重算 SHA-256 与自报一致（1743 字节）
+[PASS] C05 target[27] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[28] 重算 SHA-256 与自报一致（1525 字节）
+[PASS] C05 target[28] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[29] 重算 SHA-256 与自报一致（457572 字节）
+[PASS] C05 target[29] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[30] 重算 SHA-256 与自报一致（710 字节）
+[PASS] C05 target[30] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[31] 重算 SHA-256 与自报一致（751 字节）
+[PASS] C05 target[31] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[32] 重算 SHA-256 与自报一致（302 字节）
+[PASS] C05 target[32] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[33] 重算 SHA-256 与自报一致（41478 字节）
+[PASS] C05 target[33] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[34] 重算 SHA-256 与自报一致（27040 字节）
+[PASS] C05 target[34] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[35] 重算 SHA-256 与自报一致（27026 字节）
+[PASS] C05 target[35] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[36] 重算 SHA-256 与自报一致（27026 字节）
+[PASS] C05 target[36] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[37] 重算 SHA-256 与自报一致（27026 字节）
+[PASS] C05 target[37] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[38] 重算 SHA-256 与自报一致（27052 字节）
+[PASS] C05 target[38] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[39] 重算 SHA-256 与自报一致（27035 字节）
+[PASS] C05 target[39] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[40] 重算 SHA-256 与自报一致（27047 字节）
+[PASS] C05 target[40] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[41] 重算 SHA-256 与自报一致（27052 字节）
+[PASS] C05 target[41] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[42] 重算 SHA-256 与自报一致（27107 字节）
+[PASS] C05 target[42] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[43] 重算 SHA-256 与自报一致（27405 字节）
+[PASS] C05 target[43] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[44] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[44] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[45] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[45] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[46] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[46] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[47] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[47] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[48] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[48] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[49] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[49] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[50] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[50] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[51] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[51] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[52] 重算 SHA-256 与自报一致（27398 字节）
+[PASS] C05 target[52] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[53] 重算 SHA-256 与自报一致（27405 字节）
+[PASS] C05 target[53] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[54] 重算 SHA-256 与自报一致（27405 字节）
+[PASS] C05 target[54] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[55] 重算 SHA-256 与自报一致（42383 字节）
+[PASS] C05 target[55] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[56] 重算 SHA-256 与自报一致（11632 字节）
+[PASS] C05 target[56] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[57] 重算 SHA-256 与自报一致（4426332 字节）
+[PASS] C05 target[57] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[58] 重算 SHA-256 与自报一致（113295 字节）
+[PASS] C05 target[58] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[59] 重算 SHA-256 与自报一致（33865 字节）
+[PASS] C05 target[59] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[60] 重算 SHA-256 与自报一致（25647 字节）
+[PASS] C05 target[60] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[61] 重算 SHA-256 与自报一致（25841 字节）
+[PASS] C05 target[61] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[62] 重算 SHA-256 与自报一致（26800 字节）
+[PASS] C05 target[62] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[63] 重算 SHA-256 与自报一致（30385 字节）
+[PASS] C05 target[63] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[64] 重算 SHA-256 与自报一致（27827 字节）
+[PASS] C05 target[64] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[65] 重算 SHA-256 与自报一致（7098 字节）
+[PASS] C05 target[65] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C06 target[65] ast + py_compile 通过，顶层导入 9 个均可找到
+[PASS] C04 target[66] 重算 SHA-256 与自报一致（1658 字节）
+[PASS] C05 target[66] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[67] 重算 SHA-256 与自报一致（904 字节）
+[PASS] C05 target[67] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[68] 重算 SHA-256 与自报一致（97382 字节）
+[PASS] C05 target[68] diff 存在且为统一 diff 格式
+[PASS] C09 target[68] 临时目录反向应用 diff 复算回滚：反向应用后哈希与 before_sha256 逐字节一致，耗时 0.0019s
+[PASS] C07 自报 1/1 通过、failed 0、exit 0，数量守恒
+[PASS] C08 重跑退出码 0 与自报一致，耗时 3.34s
+[PASS] C10 内容类回滚方式已声明（删除新增成品或附回滚方案）；发布须另按 T4 交回执
+[PASS] C11 所有 target 已在资产登记且哈希一致
+[PASS] C12 28 个未授权文件哈希不变
+回执 sha256=b311ec8a8354893cbf8e66c4a32168e79f0637fed05ef13ecd8ba8cd4b2d4ee3 校验时刻 2026-11-22T11:31:46+08:00
+VERDICT: PASS

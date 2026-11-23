@@ -1,0 +1,28 @@
+[Script Info]
+Title: Sphere demo 14.4s subtitles (timing reference; graphic shots and 21–22 have baked-in subs)
+ScriptType: v4.00+
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans SC Black,80,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1.6,0,1,9,0,2,40,40,320,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+; Shot 1 (0:00.00–0:02.80) — no bottom subtitle; the hook title IS the line.
+; Shot 2
+Dialogue: 0,0:00:02.80,0:00:03.90,Default,,0,0,0,,{\fad(100,0)}是这三道坎
+; Shot 19 (0:03.90–0:05.10) — chapter card, no subtitle.
+; Shot 20 (baked into shot20.mp4; cut at 1.30s)
+Dialogue: 0,0:00:05.10,0:00:06.40,Default,,0,0,0,,{\fad(100,0)}第三道坎 出镜
+Dialogue: 0,0:00:06.40,0:00:07.90,Default,,0,0,0,,{\fad(100,0)}不想露脸 也没空拍
+; Shot 21
+Dialogue: 0,0:00:07.90,0:00:09.30,Default,,0,0,0,,{\fad(100,0)}Sphere的数字分身
+Dialogue: 0,0:00:09.30,0:00:11.80,Default,,0,0,0,,{\fad(100,0)}传1张照片 生成形象
+; Shot 22
+Dialogue: 0,0:00:11.80,0:00:12.88,Default,,0,0,0,,{\fad(100,0)}读一段文字
+Dialogue: 0,0:00:12.88,0:00:14.40,Default,,0,0,0,,{\fad(100,0)}录15秒 克隆声音

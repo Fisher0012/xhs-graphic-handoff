@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>同样一股，票数差十倍</title>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 72px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:14px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:60px;font-family:NSM;font-size:32px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.diagram{flex:none;margin-top:56px}
+.hub{margin:0 auto;width:fit-content;text-align:center}
+.hub .box{display:inline-block;padding:18px 42px;border-radius:16px;background:linear-gradient(180deg,#182232,#101620);border:1px solid rgba(127,211,255,.4);box-shadow:0 0 28px rgba(70,160,255,.16),inset 0 0 24px rgba(127,211,255,.05)}
+.hub .k{font-family:NSB;font-size:36px;color:#fff;letter-spacing:2px;line-height:1.2;white-space:nowrap}
+.hub .s{margin-top:12px;font-size:26px;color:#9fb3c8;white-space:nowrap}
+
+.links{position:relative;height:80px;margin-top:6px}
+.links svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+
+.nodes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;align-items:start}
+.node{border-radius:16px;padding:32px 22px 32px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.node .tag{font-family:NSB;font-size:18px;letter-spacing:2px;color:#7fd3ff}
+.node:nth-child(2) .tag{color:#f3de9a}
+.node:nth-child(3) .tag{color:#ff6b78}
+.node h3{font-family:NSB;font-weight:normal;font-size:38px;color:#fff;margin-top:10px;line-height:1.15;white-space:nowrap}
+.node .role{margin-top:8px;font-family:NSB;font-size:28px;color:#7fd3ff;white-space:nowrap}
+.node p{margin-top:14px;font-size:30px;line-height:1.5;color:#dfe6ee}
+.node p span{display:block;white-space:nowrap}
+
+.compare{flex:none;margin-top:88px}
+.st{display:flex;flex-direction:column;gap:36px}
+.row{display:flex;align-items:center;gap:18px;border-radius:14px;padding:36px 24px 36px 26px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);position:relative}
+.row:before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:4px;border-radius:0 2px 2px 0;background:linear-gradient(180deg,#ff6b78,#c80f28)}
+.row.hold:before{background:linear-gradient(180deg,#f3de9a,#c4a45a)}
+.lab{flex:none;width:100px;font-family:NSB;font-size:32px;color:#fff;line-height:1.2;white-space:nowrap}
+.det{flex:1;min-width:0;font-size:28px;color:#dfe6ee;line-height:1.5}
+.det span{display:block;white-space:nowrap}
+.det em{font-style:normal;font-family:NSB;color:#f3de9a}
+.badge{flex:none;font-family:NSB;font-size:24px;letter-spacing:1px;line-height:44px;padding:0 16px;border-radius:8px;white-space:nowrap}
+.badge.gone{color:#ff6b78;background:rgba(255,45,63,.12);border:1px solid rgba(255,45,63,.45)}
+.badge.keep{color:#f3de9a;background:rgba(243,222,154,.1);border:1px solid rgba(243,222,154,.4)}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>分清</span><span>一股的票数可以不同</span><span class=dt>2026.11.19</span></div>
+  <h1>同样一股，票数差<em>十倍</em></h1>
+  <h2>差别写在公司章程里，不是口头约定</h2>
+
+  <div class=diagram>
+    <div class=hub>
+      <div class=box><div class=k>一股的权利</div></div>
+      <div class=s>三类股票，票数可以不同</div>
+    </div>
+    <div class=links>
+      <svg viewBox="0 0 1000 80" preserveAspectRatio="none">
+        <path d="M500 0 C500 40, 166 40, 166 80" fill="none" stroke="#7fd3ff" stroke-width="2" opacity="0.7"/>
+        <path d="M500 0 C500 40, 500 40, 500 80" fill="none" stroke="#f3de9a" stroke-width="2" opacity="0.7"/>
+        <path d="M500 0 C500 40, 834 40, 834 80" fill="none" stroke="#ff6b78" stroke-width="2" opacity="0.7"/>
+      </svg>
+    </div>
+    <div class=nodes>
+      <div class=node>
+        <div class=tag>类别一</div>
+        <h3>A 类普通股</h3>
+        <div class=role>一股一票</div>
+        <p><span>每股享有一票。</span><span>投票权按一倍计。</span></p>
+      </div>
+      <div class=node>
+        <div class=tag>类别二</div>
+        <h3>B 类普通股</h3>
+        <div class=role>一股十票</div>
+        <p><span>每股享有十票。</span><span>投票权按十倍计。</span></p>
+      </div>
+      <div class=node>
+        <div class=tag>类别三</div>
+        <h3>C 类普通股</h3>
+        <div class=role>一般无投票权</div>
+        <p><span>已批准，未生效。</span><span>明年一月生效。</span></p>
+      </div>
+    </div>
+  </div>
+
+  <div class=compare>
+    <div class=st>
+      <div class="row hold">
+        <div class=lab>B 类</div>
+        <div class=det>截至 2026-10-01，他约占已发行 B 类的 <em>99.8%</em>。</div>
+        <div class="badge keep">官方表</div>
+      </div>
+      <div class=row>
+        <div class=lab>C 类</div>
+        <div class=det><span>已批准，2027 年 1 月 19 日才生效。</span><span>现在不能当成已发行。</span></div>
+        <div class="badge gone">尚未生效</div>
+      </div>
+    </div>
+  </div>
+
+  <div class=foot>来源：Meta PRE 14C，2026-10-21 提交。制图 2026/11/19。以上仅为知识分享，不构成投资建议。投资有风险，入市需谨慎。</div>
+</div>
+</body>
+</html>

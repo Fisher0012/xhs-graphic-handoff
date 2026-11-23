@@ -1,0 +1,140 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 92px;display:block}
+
+.top{display:flex;align-items:center;gap:14px;height:34px;font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:108px;line-height:1.04;margin-top:12px;letter-spacing:0;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55)}
+h1 span{display:block;white-space:nowrap}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+.h2box{margin-top:26px}
+h2{font-family:NSM;font-size:34px;color:#bdcddd;letter-spacing:0;line-height:1.15;white-space:nowrap}
+
+.hero{margin-top:18px;height:166px;display:flex;border-radius:18px;overflow:hidden;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(255,45,63,.52);box-shadow:0 0 0 1px rgba(255,45,63,.12),0 14px 40px rgba(0,0,0,.5),inset 0 0 50px rgba(255,45,63,.05);position:relative}
+.hero:before{content:'';position:absolute;left:0;top:16px;bottom:16px;width:4px;background:linear-gradient(180deg,#ff6b78,#c80f28);box-shadow:0 0 12px rgba(255,45,63,.6);border-radius:0 2px 2px 0;z-index:2}
+.hp{width:164px;flex:none;background:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/huang.jpg) 50% 18%/cover no-repeat;position:relative;filter:contrast(1.05) saturate(.9)}
+.hp:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 42%,#141b26 100%)}
+.ht{padding:12px 22px 12px 12px;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.htag{font-family:NSB;font-size:18px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:3px 10px;border-radius:6px;letter-spacing:1px;box-shadow:0 0 16px rgba(255,45,63,.45);display:inline-block;width:fit-content}
+.hn{font-family:NSB;font-size:32px;color:#fff;margin-top:7px;line-height:1.15;white-space:nowrap}
+.hn em{font-style:normal;color:#ff6b78}
+.hd{margin-top:7px;font-size:22px;color:#c5d0db;line-height:1.4}
+.hd b{font-family:NSB;color:#7fd3ff;font-weight:normal}
+
+.ref{margin-top:10px;height:52px;border-radius:12px;padding:0 18px;display:flex;align-items:center;gap:16px;background:rgba(18,24,35,.9);border:1px solid rgba(243,222,154,.28);box-shadow:inset 0 0 24px rgba(243,222,154,.04)}
+.ref .k{font-size:22px;color:#c5d0db;white-space:nowrap}
+.ref .v{font-family:NSB;font-size:34px;color:#f3de9a;line-height:1;text-shadow:0 0 16px rgba(232,195,106,.35);white-space:nowrap;letter-spacing:0}
+.ref .u{font-family:NSB;font-size:22px;color:#f3de9a;margin-left:2px;white-space:nowrap}
+.ref .why{margin-left:auto;font-size:20px;color:#9baabb;white-space:nowrap}
+
+.sec{display:flex;align-items:center;gap:14px;margin:12px 0 8px;font-family:NSB;font-size:27px;line-height:32px;color:#e9f3ff;letter-spacing:0;white-space:nowrap}
+.sec span{font-size:20px;color:#8b97a6;font-family:NSM}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.5),transparent)}
+
+.shell{border:1px solid rgba(159,179,200,.14);border-radius:12px;overflow:hidden;background:rgba(10,14,20,.6)}
+table{width:100%;border-collapse:separate;border-spacing:0;table-layout:fixed;font-size:23px}
+thead{height:36px}
+thead th{font-family:NSB;font-size:20px;color:#7fd3ff;letter-spacing:1px;text-align:left;padding:0 12px;font-weight:normal;border-bottom:1px solid rgba(127,211,255,.28);height:36px;vertical-align:middle;background:rgba(12,16,24,.8)}
+thead th.p{width:280px}
+thead th.c{width:450px}
+thead th.m{width:270px;text-align:right;padding-right:16px}
+tbody tr td{padding:8px 12px;border-bottom:1px solid rgba(159,179,200,.10);vertical-align:middle;background:rgba(14,18,26,.55)}
+tbody tr:nth-child(odd) td{background:rgba(18,24,35,.72)}
+tbody tr td:first-child{padding-left:8px;padding-right:6px}
+tbody tr td:last-child{padding-left:8px;padding-right:16px}
+tbody tr:last-child td{border-bottom:0}
+.person{display:flex;align-items:center;gap:10px}
+.av{width:72px;height:72px;border-radius:50%;background-size:cover;background-position:50% 18%;border:2px solid rgba(127,211,255,.45);box-shadow:0 0 12px rgba(0,0,0,.4);flex:none}
+.avs{display:flex;align-items:center;flex:none}
+.avs .av{margin-left:-52px}
+.avs .av:first-child{margin-left:0;z-index:2;border-color:rgba(127,211,255,.6)}
+.avs .av:last-child{z-index:1;border-color:rgba(232,195,106,.45)}
+.nm{font-family:NSB;font-size:28px;color:#fff;line-height:1.2;white-space:nowrap}
+.co{font-family:NSM;font-size:22px;color:#7fd3ff;white-space:nowrap;margin-top:6px;line-height:1.2}
+.co span{color:#aebdcd}
+.chg{font-size:18px;line-height:1.4;color:#dfe6ee}
+.chg b{font-family:NSB;color:#fff;font-weight:normal}
+.chg i{font-style:normal;font-family:NSB;color:#ff6b78}
+.chg em{font-style:normal;font-family:NSB;color:#f3de9a;text-shadow:0 0 12px rgba(232,195,106,.35)}
+.nw{white-space:nowrap}
+
+.mv{display:flex;flex-direction:column;align-items:flex-end;justify-content:center;gap:2px}
+.path{font-size:20px;color:#c5d0db;line-height:1.15;white-space:nowrap}
+.path b{font-family:NSB;color:#e9f3ff;font-weight:normal}
+.cap{margin-top:1px;font-size:15px;color:#8b97a6;line-height:1.15;white-space:nowrap}
+.mult{font-family:NSB;font-size:44px;line-height:1;color:#f3de9a;text-shadow:0 0 18px rgba(232,195,106,.4);letter-spacing:-1px;white-space:nowrap;order:-1;margin-bottom:2px}
+.mult.down{color:#ff6b78;text-shadow:0 0 18px rgba(255,45,63,.4)}
+
+.note{margin-top:8px;border-radius:12px;padding:10px 16px;display:flex;align-items:center;gap:16px;background:rgba(18,24,35,.85);border:1px solid rgba(159,179,200,.14);font-size:20px;line-height:1.3;color:#c5d0db}
+.note b{font-family:NSB;font-size:21px;white-space:nowrap;color:#7fd3ff;font-weight:normal}
+.note span{display:block}
+.foot{position:absolute;left:40px;right:40px;bottom:12px;font-size:15px;line-height:1.4;color:#6c7684}
+</style></head><body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>对照</span><span>公开交棒案例｜不预测走向</span><span class=dt>2026.11.13</span></div>
+  <h1><span>黄仁勋离职</span><span>英伟达<em>会怎样？</em></span></h1>
+  <div class=h2box><h2>顶级创始人交棒后，公司市值怎么变</h2></div>
+
+  <div class=hero>
+    <div class=hp></div>
+    <div class=ht>
+      <div class=htag>已辞职（官方）</div>
+      <div class=hn>即刻生效，已离开董事会，<em>股份还在</em></div>
+      <div class=hd>临时 CEO 科莱特·克雷斯 · 董事长 哈维·琼斯 · 按代理声明仍持股 <b>3.58%</b><br><b>官方 8-K 没有要求卖出股份。</b></div>
+    </div>
+  </div>
+
+  <div class=ref>
+    <div class=k>英伟达当前市值</div>
+    <div class=v>4.01</div>
+    <div class=u>万亿美元</div>
+    <div class=why>截至 11 月 12 日收盘 · 刚卸任，周期过短，不作倍数</div>
+  </div>
+
+  <div class=sec>交棒后市值对照<span>离任时 → 2026.11.12 收盘，不把涨跌归因</span></div>
+  <div class=shell><table>
+    <thead><tr><th class=p>人物 / 交棒年份</th><th class=c>关键影响</th><th class=m>离任时市值 → 现在</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/jobs.jpg)"></div><div><div class=nm>乔布斯</div><div class=co>苹果 · <span>1985/2011</span></div></div></div></td>
+        <td><div class=chg><span class=nw>1985年离开后，苹果后来陷入<em>经营困境</em>；</span><br><span class=nw><em>1997年回归</em>，2011年交棒库克后继续发展。</span></div></td>
+        <td><div class=mv><div class=path><b>3480亿</b> → <b>5.16万亿</b></div><div class=cap>按 2011 年交棒库克起算</div><div class=mult>×14.8</div></div></td>
+      </tr>
+      <tr>
+        <td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/gates.jpg)"></div><div><div class=nm>比尔·盖茨</div><div class=co>微软 · <span>2000</span></div></div></div></td>
+        <td><div class=chg><span class=nw>鲍尔默接任CEO，盖茨<b>留任董事长</b>及<b class=nw>首席软件架构师</b>，</span><br><span class=nw>经营与产品权力分工。</span></div></td>
+        <td><div class=mv><div class=path><b>5610亿</b> → <b>3.88万亿</b></div><div class=cap>2000 年卸任 CEO 起算</div><div class=mult>×6.9</div></div></td>
+      </tr>
+      <tr>
+        <td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/bezos.jpg)"></div><div><div class=nm>贝索斯</div><div class=co>亚马逊 · <span>2021</span></div></div></div></td>
+        <td><div class=chg><span class=nw>提前约五个月宣布，贾西接任CEO；</span><br><span class=nw>贝索斯<b>改任执行董事长</b>，与日常经营分工。</span></div></td>
+        <td><div class=mv><div class=path><b>1.78万亿</b> → <b>2.89万亿</b></div><div class=cap>生效日休市，用 7 月 2 日收盘</div><div class=mult>×1.6</div></div></td>
+      </tr>
+      <tr>
+        <td><div class=person><div class=avs><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/page.jpg)"></div><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/brin.jpg)"></div></div><div><div class=nm>佩奇、布林</div><div class=co>Alphabet · <span>2019</span></div></div></div></td>
+        <td><div class=chg><span class=nw>交出经营职务，两人<b>留任董事并持有高投票权</b>，</span><br><span class=nw>经营权与控制权分离。</span></div></td>
+        <td><div class=mv><div class=path><b>8930亿</b> → <b>3.65万亿</b></div><div class=cap>2019 年卸任 CEO 起算</div><div class=mult>×4.1</div></div></td>
+      </tr>
+      <tr>
+        <td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/ma.jpg)"></div><div><div class=nm>马云</div><div class=co>阿里巴巴 · <span>2019</span></div></div></div></td>
+        <td><div class=chg><span class=nw>提前一年宣布卸任董事局主席，张勇接任；</span><br><i class=nw>变化由多种因素叠加，不能简单归因于卸任。</i></div></td>
+        <td><div class=mv><div class=path><b>4560亿</b> → <b>2345亿</b></div><div class=cap>按 2019 年卸任主席起算</div><div class=mult down>×0.51</div></div></td>
+      </tr>
+    </tbody>
+  </table></div>
+  <div class=note><b>戴尔也有回归先例</b><span>2004 年交出 CEO，2007 年重新出任。有过回归先例，但不是规律。<br>此后私有化再上市，市值路径不连续，未列入倍数对照。</span></div>
+  <div class=foot>市值均为美元。离任时取卸任生效日或最近交易日收盘市值；最新为 2026-11-12 美股收盘。倍数＝最新÷离任时。涨跌由行业、周期、监管和接班等多重因素叠加，不能归因于创始人离开，也不预测英伟达走向。苹果 1985 年离开后曾于 1997 年回归，市值按 2011 年卸任 CEO 起算；马云 2013 年卸任 CEO 时阿里尚未上市，故按 2019 年卸任主席起算。根据公开报道和公司公告整理，不构成投资建议。投资有风险，入市需谨慎。制图 2026/11/13。官方用词为辞职。头像仅作身份识别。</div>
+</div>
+</body></html>

@@ -1,5 +1,7 @@
 # 小红书图文创作交接入口
 
+**最新入口是 2026-11-23 完整交接，已经写入本仓库：** [handovers/20261123/README.md](handovers/20261123/README.md)。克隆后先运行 `python3 handovers/20261123/reconstruct_media.py`，再按冻结 `SHA256SUMS` 验收。快照文件 `handovers/20261123/完整交接/README.md` 里的「GitHub尚未更新」是 11 月 23 日打包当时的原文，不是仓库现在的状态。Getty 再使用许可未确认；Burry 四图待审；未发布；未传 Mac；11 月 23 日三个候选未选。
+
 本仓库保存 2026-11-07 从 Grok Bot「xhs 图文创作」导出的受限业务交接包。
 
 - [开始接手](handoff/xhs/START_HERE.md)
@@ -20,3 +22,13 @@
 ## 新机器人验证
 
 「小红书图文 接手验证 1107」已在固定提交 2e48686076e62f8102208cc75e23224eb178867f 完成五份核心文件的最简文字理解验证。[查看验证回执](handoff/xhs/READBACK_VERIFICATION.md)。这不改变上述未迁移范围和禁止删除结论。
+
+## 2026-11-23 完整交接
+
+11 月 7 日的文字包仍然保留在 `handoff/` 和 `archive/`。2026-11-23 的全量交接追加在 [handovers/20261123/README.md](handovers/20261123/README.md)，状态摘要在 [handovers/20261123/STATUS.md](handovers/20261123/STATUS.md)，冻结实体在 `handovers/20261123/完整交接/`。
+
+- 冻结 `SHA256SUMS` 文件摘要：`e15c342f97ce480aef0c5ad69144752ca0cd4ac13a9db99bf4dc0ee15fda38a6`
+- 重建后的验收：3072 个文件，2,618,814,122 字节，`sha256sum -c SHA256SUMS` 为 3071 项 OK
+- 大于 50 MiB 的 7 个视频按原始字节切成小于 45 MiB 的分片，放在 `handovers/20261123/storage/shards/`。没有使用 Git LFS
+- 这次更新从 `06ad3ee5b098d7fae1741d8d30bef57bbb716c9f` 另起分支，不合并、不改写已有历史
+

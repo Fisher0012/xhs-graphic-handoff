@@ -1,0 +1,47 @@
+黄仁勋辞职加更 · 来源说明（2026-11-12 制图，阿信学财经）
+
+封面 00_封面.png 来源说明（2026-11-12 制图）
+
+【照片】全部为真实照片，8张取自 Wikimedia Commons、2张为公司官方肖像，未做 AI 生成/换脸，仅裁切为头像并加轻微对比。
+- 黄仁勋 photos/huang.jpg：File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg ｜ CC BY-SA 4.0 ｜ 作者 Anderseidesvik ｜ https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg
+- 布莱恩·科再奇 photos/krzanich.jpg：File:Brian_Krzanich.jpg ｜ CC BY 4.0 ｜ Intel ｜ https://commons.wikimedia.org/wiki/File:Brian_Krzanich.jpg
+- 马克·赫德 photos/hurd.jpg：File:Mark_Hurd_(cropped2).jpg ｜ CC BY 2.0 ｜ Oracle PR ｜ https://commons.wikimedia.org/wiki/File:Mark_Hurd_(cropped2).jpg
+- 比尔·盖茨 photos/gates.jpg：File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg ｜ CC BY 4.0 ｜ Bogdan Hoyaux / European Union ｜ https://commons.wikimedia.org/wiki/File:Bill_Gates_at_the_European_Commission_-_P067383-987995_(cropped)_5.jpg
+- 安迪·鲁宾 photos/rubin.jpg：File:2008_Google_Developer_Day_in_Japan_-_Andy_Rubin_(cropped).jpg ｜ CC BY-SA 2.0 ｜ Yoichiro Akiyama ｜ https://commons.wikimedia.org/wiki/File:2008_Google_Developer_Day_in_Japan_-_Andy_Rubin_(cropped).jpg
+- 杰夫·贝佐斯 photos/bezos.jpg：File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg ｜ 公有领域（美国国防部） ｜ https://commons.wikimedia.org/wiki/File:260202-D-PM193-2205_SECWAR_Arsenal_of_Freedom_Tour_-_Florida_(3x4_cropped_on_Bezos_and_rotated).jpg
+- 杰夫·扎克（CNN，非扎克伯格）photos/zucker.jpg：File:Jeff_Zucker_-_David_Shankbone_2010.jpg ｜ CC BY 2.0 ｜ David Shankbone ｜ https://commons.wikimedia.org/wiki/File:Jeff_Zucker_-_David_Shankbone_2010.jpg （英文维基 Jeff Zucker 词条主图）
+- 洛朗·弗雷克斯 photos/freixe.jpg：File:Laurent_François_Charles_Freixe_(born_1962)_at_World_Economic_Forum_Annual_Meeting_2025.png ｜ CC BY 3.0 ｜ World Economic Forum ｜ https://commons.wikimedia.org/wiki/File:Laurent_Fran%C3%A7ois_Charles_Freixe_(born_1962)_at_World_Economic_Forum_Annual_Meeting_2025.png
+（以下两张不是 Commons 授权图，为公司官方身份识别肖像，注明出处、仅作识别用；封面与内页2使用。）
+哈里·斯通西弗 photos/stonecipher.jpg
+来源：波音公司官网公开文件《The Boeing Company Aerospace Leaders / Founders and Executives》第10页官方人物肖像（Harry C. Stonecipher 执行传记页）。
+URL: https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/boeing-founders-and-executives.pdf
+（文件创建日期标注 2025-09-23；该页为波音官方历史人物介绍，非 Getty/路透社新闻图。）
+用途：仅裁切头像用于身份识别，未做 AI 生成或换脸。版权归波音公司，注明出处。
+
+史蒂夫·伊斯布鲁克 photos/easterbrook.jpg
+来源：麦当劳公司 2019 年向美国证券交易委员会（SEC）提交的 definitive proxy statement（DEF 14A，accession 0001206774-19-001299）中「STEPHEN EASTERBROOK / President and Chief Executive Officer」董事官方肖像。
+HTML: https://www.sec.gov/Archives/edgar/data/63908/000120677419001299/mcd3477431-def14a.htm
+图片文件：mcd3477431-pre14a4x3x3.jpg；更高像素取自同次申报的 courtesy PDF（mcd_courtesy-pdf.pdf）第15页提取的 m-019.jpg（157×239，已用 Lanczos 放大三倍，未上色、未换脸）。
+已对照该页姓名与职务，确认是麦当劳前CEO，不是气候科学家 Steve M. Easterbrook。
+版权归麦当劳公司，注明出处。官方监管申报中的董事识别肖像。
+（注：Commons 上同名照片为气候科学家 Steve M. Easterbrook，未使用。）
+
+【事实】
+1 黄仁勋：英伟达官网新闻稿 2026-11-12 https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition （辞去总裁、CEO和董事，即刻生效；CFO科莱特·克雷斯任临时CEO）。「向员工承认对妻子不忠」及小字注（美方认定、未经法庭判决；《纽约时报》报道、本人未公开承认）沿用上游框架口径，本次未再核对原文。
+2 科再奇：英特尔 2018-06-21 公告，与员工的双方自愿关系违反公司针对管理者的禁止办公室恋情政策，辞去CEO。
+3 赫德：惠普 2010-08-06 公告，承包商Jodie Fisher的性骚扰投诉调查未认定骚扰，但发现其违反商业行为准则（含报销不实），辞职。
+4 盖茨：2020-03 辞去微软董事；《华尔街日报》2021-05 报道，董事会此前在调查其与员工的旧关系；盖茨发言人称辞职与此无关。
+5 鲁宾：2014-10 离开谷歌；《纽约时报》2018-10-25 报道，谷歌调查认为对其的性不当行为指控可信并支付离职补偿；鲁宾否认。
+6 贝佐斯：2019-01 宣布离婚、恋情被曝光；继续任亚马逊CEO，2021-07-05 交棒贾西。
+7 斯通西弗：波音 2005-03-07 公告，董事会要求其辞职，因与女高管的关系违反公司行为准则。
+8 伊斯布鲁克：麦当劳 2019-11-03 公告，与员工的双方自愿关系违反公司政策，董事会解除其职务（公司称"separated"，媒体普遍报道为被解雇/被免职）。
+9 扎克：2022-02-02 辞去CNN全球总裁，因未申报与首席营销官Allison Gollust的恋情。
+10 弗雷克斯：雀巢 2025-09-01 公告，因未申报与直属下属的恋情、违反商业行为准则，将其免职。
+
+【内页】
+- pages/01_黄仁勋辞职始末.png：事实同第1条；口径标签：本人向员工承认／媒体报道·本人未公开承认／美方认定·未经法庭判决／官方 2026-11-12。照片 huang.jpg（同上）。
+- pages/02_九个先例结局对照.png：事实同第2–10条；照片同上（含 stonecipher.jpg、easterbrook.jpg）。
+
+
+【文案】与图口径一致；未新增未在图上出现的细节；未写入股价或市值数字。
+访问/制图日期：2026-11-12（Asia/Shanghai）。

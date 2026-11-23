@@ -1,0 +1,60 @@
+<!doctype html><html><head><meta charset=utf-8><style>@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:radial-gradient(900px 520px at 85% 8%,rgba(70,160,255,.22),transparent 60%),radial-gradient(700px 500px at 0% 45%,rgba(255,40,60,.09),transparent 60%),linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 45%)}
+.wrap{position:absolute;inset:0;padding:38px 46px 0}
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.brk.b{background:#7fd3ff;color:#0b0f16;box-shadow:0 0 24px rgba(127,211,255,.5)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+.k{font-family:NSB;color:#7fd3ff} .red{color:#ff3b4e}
+h1{font-family:NSB;color:#fff;line-height:1.08;white-space:nowrap;text-shadow:0 0 40px rgba(120,200,255,.3),0 5px 0 rgba(0,0,0,.6)}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,40,60,.55)}
+.foot{position:absolute;left:46px;right:46px;bottom:24px;font-size:16.5px;line-height:1.5;color:#6c7684}
+.av{border-radius:50%;background-repeat:no-repeat;border:2px solid rgba(127,211,255,.55);box-shadow:0 0 16px rgba(127,211,255,.25);flex:none}
+h1.a{font-size:60px;margin-top:22px;color:#cfe6ff}
+h1.b{font-size:94px;margin-top:2px}
+.hero{margin-top:26px;display:flex;gap:18px;height:470px}
+.ph{width:360px;flex:none;border-radius:20px;background:url(../photos/huang.jpg) 50% 15%/cover no-repeat;position:relative;overflow:hidden;border:1px solid rgba(127,211,255,.35)}
+.ph:after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(7,9,13,.92) 0%,transparent 42%)}
+.ph .cap{position:absolute;left:22px;bottom:18px;z-index:2}
+.ph .cap b{font-family:NSB;font-size:46px;color:#fff;display:block;line-height:1.1}
+.ph .cap span{font-size:19px;color:#9fb3c8}
+.res{flex:1;border-radius:20px;background:linear-gradient(160deg,#151c28,#0d1118);border:1px solid rgba(255,45,63,.45);box-shadow:0 0 40px rgba(255,45,63,.12);padding:24px 28px;display:flex;flex-direction:column}
+.res .lab{font-family:NSB;font-size:20px;color:#ff6b78;letter-spacing:3px}
+.res .row{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid rgba(159,179,200,.14);padding:15px 0 13px}
+.res .row:last-child{border:none}
+.res .row span{font-size:21px;color:#9fb3c8}
+.res .row b{font-family:NSB;font-size:32px;color:#fff}
+.res .row b.r{color:#ff3b4e}
+.sec{display:flex;align-items:center;gap:14px;margin:30px 0 14px;font-family:NSB;font-size:28px;color:#e9f3ff;letter-spacing:2px}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.6),transparent)}
+.sec i{font-style:normal;font-family:NSM;font-size:18px;color:#7d8794;letter-spacing:0}
+.bt{display:flex;gap:16px;margin-bottom:14px;align-items:stretch}
+.bn{width:62px;flex:none;font-family:NSB;font-size:30px;color:#7fd3ff;display:flex;align-items:center;justify-content:center;border-radius:14px;background:rgba(127,211,255,.08);border:1px solid rgba(127,211,255,.3)}
+.bx{flex:1;border-radius:14px;background:linear-gradient(100deg,#131a25,#0d1118);border:1px solid rgba(159,179,200,.16);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:86px}
+.btx{font-size:25px;line-height:1.4;color:#fff;white-space:nowrap}
+.bdg{flex:none;font-family:NSB;font-size:17px;padding:3px 12px;border-radius:6px;white-space:nowrap}
+.c .bdg{color:#7fd3ff;border:1px solid #7fd3ff;background:rgba(127,211,255,.1)}
+.y .bdg{color:#ffc857;border:1px solid #ffc857;background:rgba(255,200,87,.1)}
+.r .bdg{color:#fff;background:#ff2d3f}
+.r .bx{border-color:rgba(255,45,63,.55);background:linear-gradient(100deg,#221319,#0d1118)}
+.r .bn{color:#ff3b4e;background:rgba(255,45,63,.1);border-color:rgba(255,45,63,.45)}
+.tip{margin-top:6px;font-size:19px;line-height:1.55;color:#9fb3c8;padding:12px 18px;border-left:3px solid #ffc857;background:rgba(255,200,87,.05);border-radius:0 10px 10px 0}
+.tip b{font-family:NSB;color:#ffc857}</style></head><body><div class=bg></div><div class=grid></div><div class=wrap>
+<div class=top><span class=brk>突发</span><span>英伟达一把手变动｜事件梳理</span><span class=dt>2026.11.12</span></div>
+<h1 class=a>英伟达官网宣布：</h1>
+<h1 class=b>黄仁勋<em>辞职</em>，即刻生效</h1>
+<div class=hero><div class=ph><div class=cap><b>黄仁勋</b><span>英伟达创始人、总裁兼CEO</span></div></div>
+<div class=res><div class=lab>官方结果｜英伟达官网新闻稿</div>
+<div class=row><span>辞去职务</span><b class=r>总裁、CEO、董事</b></div>
+<div class=row><span>生效时间</span><b>即刻生效</b></div>
+<div class=row><span>临时CEO</span><b>CFO 克雷斯</b></div>
+<div class=row><span>发布日期</span><b>2026-11-12</b></div>
+<div class=row><span>官方用词</span><b>辞职</b></div></div></div>
+<div class=sec>四个关键信息<i>按口径标注：官方 / 本人 / 媒体 / 美方</i></div>
+<div class="bt c"><div class=bn>01</div><div class=bx><div class=btx>向员工承认对妻子不忠</div><span class=bdg>本人向员工承认</span></div></div><div class="bt y"><div class=bn>02</div><div class=bx><div class=btx>《纽约时报》报道其与直属下属的关系</div><span class=bdg>媒体报道 · 本人未公开承认</span></div></div><div class="bt y"><div class=bn>03</div><div class=bx><div class=btx>美方认定相关女子为中国间谍</div><span class=bdg>美方认定 · 未经法庭判决</span></div></div><div class="bt r"><div class=bn>04</div><div class=bx><div class=btx>英伟达官网新闻稿：辞去总裁、CEO和董事，即刻生效；<br>CFO克雷斯任临时CEO</div><span class=bdg>官方 · 2026-11-12</span></div></div>
+<div class=tip><b>看清口径：</b>只有第04条是英伟达官方公告；「媒体报道」「美方认定」不等于公司或法院的结论。</div>
+<div class=foot>来源：英伟达官网新闻稿 2026-11-12；其余按公开报道整理，口径见标签。制图 2026/11/12。本文不构成任何投资建议。<br>照片：Wikimedia Commons（CC BY-SA 4.0，Anderseidesvik）。</div></div></body></html>

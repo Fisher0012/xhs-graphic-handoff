@@ -1,0 +1,123 @@
+{
+  ".top": {
+    "x": 44,
+    "y": 30,
+    "width": 992,
+    "height": 38,
+    "right": 1036,
+    "bottom": 68,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  "h1 span:first-child": {
+    "x": 44,
+    "y": 88,
+    "width": 992,
+    "height": 140.75,
+    "right": 1036,
+    "bottom": 228.75,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  "h1 span:nth-child(2)": {
+    "x": 44,
+    "y": 248.75,
+    "width": 992,
+    "height": 140.75,
+    "right": 1036,
+    "bottom": 389.5,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  "h2": {
+    "x": 44,
+    "y": 413.5,
+    "width": 992,
+    "height": 54.59375,
+    "right": 1036,
+    "bottom": 468.09375,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  ".hero": {
+    "x": 44,
+    "y": 498.09375,
+    "width": 992,
+    "height": 438,
+    "right": 1036,
+    "bottom": 936.09375,
+    "scrollWidth": 990,
+    "clientWidth": 990
+  },
+  ".sec": {
+    "x": 44,
+    "y": 966.09375,
+    "width": 992,
+    "height": 49,
+    "right": 1036,
+    "bottom": 1015.09375,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  ".reasons": {
+    "x": 44,
+    "y": 1031.09375,
+    "width": 992,
+    "height": 260,
+    "right": 1036,
+    "bottom": 1291.09375,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  ".foot": {
+    "x": 44,
+    "y": 1345.75,
+    "width": 992,
+    "height": 74.25,
+    "right": 1036,
+    "bottom": 1420,
+    "scrollWidth": 992,
+    "clientWidth": 992
+  },
+  ".person": {
+    "x": 451,
+    "y": 527.09375,
+    "width": 554,
+    "height": 45.5,
+    "right": 1005,
+    "bottom": 572.59375,
+    "scrollWidth": 554,
+    "clientWidth": 554
+  },
+  ".targets": {
+    "x": 451,
+    "y": 632.59375,
+    "width": 554,
+    "height": 42,
+    "right": 1005,
+    "bottom": 674.59375,
+    "scrollWidth": 554,
+    "clientWidth": 554
+  },
+  ".unit": {
+    "x": 451,
+    "y": 868.59375,
+    "width": 554,
+    "height": 36.4375,
+    "right": 1005,
+    "bottom": 905.03125,
+    "scrollWidth": 554,
+    "clientWidth": 554
+  },
+  ".scope": {
+    "x": 451,
+    "y": 915.03125,
+    "width": 554,
+    "height": 30,
+    "right": 1005,
+    "bottom": 945.03125,
+    "scrollWidth": 554,
+    "clientWidth": 554
+  },
+  "fonts": true
+}

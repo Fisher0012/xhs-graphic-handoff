@@ -1,0 +1,71 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:radial-gradient(900px 520px at 85% 8%,rgba(70,160,255,.22),transparent 60%),radial-gradient(700px 500px at 0% 40%,rgba(255,40,60,.10),transparent 60%),linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 45%)}
+.wrap{position:absolute;inset:0;padding:38px 46px 0}
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+h1{font-family:NSB;font-size:164px;line-height:1;margin-top:14px;letter-spacing:2px;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 6px 0 rgba(0,0,0,.6)}
+h1 em{font-style:normal;background:linear-gradient(180deg,#ff6b6b 0%,#ff1f3a 70%,#c80f28 100%);-webkit-background-clip:text;color:transparent;text-shadow:none;filter:drop-shadow(0 0 26px rgba(255,40,60,.55))}
+h2{font-family:NSB;font-size:56px;margin-top:10px;color:#e9f3ff;letter-spacing:1px;white-space:nowrap}
+h2 span{color:#0b0f16;background:#7fd3ff;padding:0 6px;border-radius:6px;margin:0 2px}
+.hero{margin-top:20px;height:304px;display:flex;border-radius:20px;overflow:hidden;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(127,211,255,.35);box-shadow:0 0 0 1px rgba(255,45,63,.15),0 20px 60px rgba(0,0,0,.6),inset 0 0 60px rgba(127,211,255,.06);position:relative}
+.hp{width:300px;flex:none;background:url(../photos/huang.jpg) 50% 18%/cover no-repeat;position:relative;filter:contrast(1.05) saturate(.9)}
+.hp:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,#141b26 100%),linear-gradient(0deg,rgba(7,9,13,.55),transparent 35%)}
+.hp .no{position:absolute;left:16px;top:14px;z-index:2;font-family:NSB;font-size:20px;background:#ff2d3f;color:#fff;padding:2px 12px;border-radius:5px;letter-spacing:2px}
+.ht{padding:18px 28px 0 18px;flex:1;min-width:0}
+.hn{display:flex;align-items:baseline;gap:16px}
+.hn b{font-family:NSB;font-size:58px;color:#fff;line-height:1.05}
+.hn span{font-size:23px;color:#7fd3ff}
+.hr{font-size:22px;color:#9fb3c8;margin-top:4px}
+.hl{margin-top:8px;font-size:24px;line-height:1.5;color:#e8edf3}
+.hl div{padding-left:20px;position:relative;white-space:nowrap}
+.hl div:before{content:'';position:absolute;left:2px;top:15px;width:8px;height:8px;background:#7fd3ff;border-radius:2px}
+.hl b{font-family:NSB;color:#fff}
+.htag{position:absolute;right:22px;top:22px;font-family:NSB;font-size:30px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:6px 18px;border-radius:10px;box-shadow:0 0 30px rgba(255,45,63,.55);letter-spacing:1px}
+.note{margin-top:10px;font-size:16.5px;line-height:1.45;color:#7d8794;border-top:1px dashed rgba(159,179,200,.25);padding-top:8px}
+.sec{display:flex;align-items:center;gap:14px;margin:16px 0 10px;font-family:NSB;font-size:24px;color:#e9f3ff;letter-spacing:2px}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.6),transparent)}
+.sec i{font-style:normal;font-family:NSM;font-size:18px;color:#7d8794;letter-spacing:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{height:200px;background:linear-gradient(160deg,#121823,#0c1017);border:1px solid rgba(159,179,200,.16);border-radius:16px;padding:14px 16px 0;position:relative}
+.hd{display:flex;gap:10px;align-items:center}
+.av{width:60px;height:60px;border-radius:50%;flex:none;background-repeat:no-repeat;border:2px solid rgba(127,211,255,.55);box-shadow:0 0 14px rgba(127,211,255,.25)}
+.mono{background:linear-gradient(145deg,#26303e,#151b24);display:flex;flex-direction:column;align-items:center;justify-content:center;border-style:dashed}
+.mono b{font-family:NSB;font-size:24px;color:#cfe6ff;line-height:1;letter-spacing:1px}
+.mono i{font-style:normal;font-size:8.5px;color:#7d8794;margin-top:3px;white-space:nowrap;transform:scale(.95)}
+.nm{min-width:0}.n{font-family:NSB;font-size:24px;color:#fff;white-space:nowrap;line-height:1.2}
+.yr{position:absolute;right:16px;bottom:12px;font-family:NSB;font-size:24px;color:#7fd3ff;letter-spacing:1px;line-height:30px}
+.role{margin-top:2px;font-size:16px;color:#9fb3c8;white-space:nowrap}
+.ev{margin-top:10px;font-size:19px;line-height:1.38;white-space:nowrap;color:#dfe6ee}
+.tag{position:absolute;left:16px;bottom:12px;font-family:NSB;font-size:19px;line-height:28px;padding:0 12px;border-radius:6px}
+.tag.r{color:#fff;background:rgba(255,45,63,.18);border:1px solid #ff2d3f;color:#ff6b78}
+.tag.g{background:rgba(61,220,151,.14);border:1px solid #3ddc97;color:#5df0ae}
+.foot{position:absolute;left:46px;right:46px;bottom:22px;font-size:16.5px;line-height:1.5;color:#6c7684}
+</style></head><body><div class=bg></div><div class=grid></div><div class=wrap>
+<div class=top><span class=brk>突发</span><span>一图看懂｜科技一把手恋情与职务变故</span><span class=dt>2026.11.12</span></div>
+<h1>黄仁勋<em>辞职了</em></h1>
+<h2>这些科技大佬也因<span>「恋情」</span>翻车</h2>
+<div class=hero><div class=hp><span class=no>01</span></div><div class=ht>
+<div class=hn><b>黄仁勋</b><span>2026</span></div>
+<div class=hr>英伟达创始人、总裁兼CEO</div>
+<div class=hl><div>向员工承认对妻子不忠</div><div>英伟达官网宣布：辞去<b>总裁、CEO和董事</b>，即刻生效</div><div>CFO克雷斯任临时CEO</div></div>
+<div class=note>注：美方认定相关女子为中国间谍（未经法庭判决）；与直属下属的关系为《纽约时报》报道、本人未公开承认。</div>
+</div><div class=htag>已辞职（官方）</div></div>
+<div class=sec>前车之鉴｜9位大佬的恋情代价<i>按此前公开报道整理</i></div>
+<div class=cards><div class=card><div class=hd><div class=av style="background-image:url(../photos/krzanich.jpg);background-position:50% 22%;background-size:190%"></div><div class=nm><div class=n>布莱恩·科再奇</div><div class=role>英特尔CEO</div></div></div>
+<div class=ev>与员工交往，<br>违反禁止办公室恋情政策</div><div class="tag r">辞职</div><div class=yr>2018</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/hurd.jpg);background-position:52% 18%;background-size:200%"></div><div class=nm><div class=n>马克·赫德</div><div class=role>惠普CEO</div></div></div>
+<div class=ev>与承包商关系被查，<br>涉及报销问题</div><div class="tag r">辞职</div><div class=yr>2010</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/gates.jpg);background-position:50% 16%;background-size:190%"></div><div class=nm><div class=n>比尔·盖茨</div><div class=role>微软联合创始人、时任董事</div></div></div>
+<div class=ev>公司调查与员工关系期间<br>辞去董事；当时已非CEO</div><div class="tag r">辞去董事</div><div class=yr>2020</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/rubin.jpg);background-position:45% 25%;background-size:150%"></div><div class=nm><div class=n>安迪·鲁宾</div><div class=role>谷歌Android之父、高级副总裁</div></div></div>
+<div class=ev>因性不当行为指控离职，本人否认<br>2018年《纽约时报》曝光</div><div class="tag r">离职</div><div class=yr>2014</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/bezos.jpg);background-position:40% 14%;background-size:190%"></div><div class=nm><div class=n>杰夫·贝佐斯</div><div class=role>亚马逊创始人、时任CEO</div></div></div>
+<div class=ev>恋情曝光，仍任CEO，<br>2021年才交棒</div><div class="tag g">未因此辞职</div><div class=yr>2019</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/stonecipher.jpg);background-position:50% 13%;background-size:200%"></div><div class=nm><div class=n>哈里·斯通西弗</div><div class=role>波音总裁兼CEO</div></div></div>
+<div class=ev>与女高管关系，<br>违反行为准则</div><div class="tag r">辞职</div><div class=yr>2005</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/easterbrook.jpg);background-position:52% 33%;background-size:160%"></div><div class=nm><div class=n>史蒂夫·伊斯布鲁克</div><div class=role>麦当劳总裁兼CEO</div></div></div>
+<div class=ev>与员工不当关系</div><div class="tag r">被解雇</div><div class=yr>2019</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/zucker.jpg);background-position:56% 20%;background-size:220%"></div><div class=nm><div class=n>杰夫·扎克</div><div class=role>CNN全球总裁</div></div></div>
+<div class=ev>未申报与首席营销官<br>的恋情</div><div class="tag r">辞职</div><div class=yr>2022</div></div><div class=card><div class=hd><div class=av style="background-image:url(../photos/freixe.jpg);background-position:56% 28%;background-size:200%"></div><div class=nm><div class=n>洛朗·弗雷克斯</div><div class=role>雀巢CEO</div></div></div>
+<div class=ev>与直属下属交往<br>且未申报</div><div class="tag r">被解雇</div><div class=yr>2025</div></div></div>
+<div class=foot>来源：英伟达官网新闻稿 2026-11-12；其余为公开报道整理。制图 2026/11/12。本文整理公开报道，不构成任何投资建议。<br>照片：8位来自Wikimedia Commons（CC BY/BY-SA/公有领域）；斯通西弗、伊斯布鲁克为公司官方肖像，仅作身份识别。</div>
+</div></body></html>

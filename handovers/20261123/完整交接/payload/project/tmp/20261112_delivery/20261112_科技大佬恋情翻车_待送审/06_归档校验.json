@@ -1,0 +1,53 @@
+{
+  "title": "黄仁勋辞职了，这些大佬也因恋情翻车",
+  "topic": "黄仁勋辞职加更·科技大佬恋情与职务变故",
+  "date": "2026-11-12",
+  "account": "阿信学财经",
+  "status": "成稿待审·待 Fisher 手动发布·未发布",
+  "note_dir": "/workspace/xhs/notes/20261112-大号-科技大佬恋情翻车",
+  "data_period": "英伟达官网新闻稿 2026-11-12；其余为此前公开报道整理",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 2778516,
+      "sha256": "3c13fff58ee6f80efa425b607ccd81ae9bd970dfd6b6be13ef349e62154c7d04"
+    },
+    {
+      "name": "01_黄仁勋辞职始末.png",
+      "bytes": 2723972,
+      "sha256": "93ca641f6bde2c080e71bd448b7a4c284ebf39fda2732c08e967e2fc4f9591d2"
+    },
+    {
+      "name": "02_九个先例结局对照.png",
+      "bytes": 2360994,
+      "sha256": "82d152337500192acc0193ad502b2f37f1cb970c2856d0cd60437e950927aed5"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2037,
+      "sha256": "cb808983cce855dc1ef114f1587c7f5f653d9b7f22f9f05a243461746b3d1434"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 6114,
+      "sha256": "fdd347693d69079e5c0cb3fae6905ac426270f05c44642127530336c2a75b60e"
+    },
+    {
+      "name": "20261112_科技大佬恋情翻车_总览.png",
+      "bytes": 1706909,
+      "sha256": "32de02367ee1dc786cc5e7b5e75a3410676270b63fa0a6b678c4136a62786008"
+    }
+  ],
+  "sources": [
+    "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "https://www.boeing.com/content/dam/boeing/v2/company/history/pdf/boeing-founders-and-executives.pdf",
+    "https://www.sec.gov/Archives/edgar/data/63908/000120677419001299/mcd3477431-def14a.htm",
+    "https://commons.wikimedia.org/wiki/File:Jensen_Huang_Stanford_2026-04-30_010_(cropped).jpg"
+  ],
+  "checks": {
+    "visual_read": "PASS（parent 逐张 Read 封面与两张内页；10人均为真头像，字母头像已替换；杰夫·扎克为CNN Jeff Zucker，不是扎克伯格；黄仁勋只用「辞职」）",
+    "copy_qa": "文案与图口径一致；间谍与下属关系均带口径标签；无股价数字；页脚与正文均有风险提示",
+    "compliance_selfcheck": "10/10 通过（第10条不适用）",
+    "reviewer": "未送审查官，Fisher 已确认封面和两张内页没问题，待其手动发布"
+  }
+}

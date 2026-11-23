@@ -1,0 +1,59 @@
+{
+  "title": "黄仁勋离职，英伟达会怎样？",
+  "topic": "创始人离职影响",
+  "account": "阿信学财经",
+  "date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "status": "成稿待审·待 Fisher 手动发布·未发布",
+  "checked_at": "2026-11-13T15:46:00+08:00",
+  "source_dir": "/workspace/xhs/notes/20261113-大号-创始人离职影响",
+  "approved": {
+    "cover": "v6，t50u，SHA ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767",
+    "page01": "v4，t52u，SHA 5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+    "page02": "v5，t53u，SHA 251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+    "copy": "已同步为 t53 发出的润色定稿，03-文案.md / 04_发布文案.md / 04_发布文案.txt 文本一致，SHA f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d"
+  },
+  "note": "2026-11-13 15:45 文案一致性修正：用已发给用户的润色定稿替换旧03全文。三张配图未改。未通过旧图不在本包。",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 2086049,
+      "sha256": "ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767"
+    },
+    {
+      "name": "01_离职不等于退出.png",
+      "bytes": 1266344,
+      "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42"
+    },
+    {
+      "name": "02_黄仁勋这次关键看三点.png",
+      "bytes": 1602510,
+      "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d"
+    },
+    {
+      "name": "04_发布文案.md",
+      "bytes": 1763,
+      "sha256": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 1763,
+      "sha256": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d"
+    },
+    {
+      "name": "05_来源说明.md",
+      "bytes": 8416,
+      "sha256": "fd4e0141d3457a4c072e7ebfcd551d1dc38e2601487e274f21e47eef0f158df5"
+    },
+    {
+      "name": "06_合规自查.md",
+      "bytes": 3159,
+      "sha256": "0092fb038f1d31bc5db2c3cba14ff6214e510c74be82e28c9f2847aa5e881070"
+    }
+  ],
+  "checks": {
+    "images_locked": "三张图 SHA 与通过版一致，本轮未改",
+    "copy_sync": "源03、盒子归档04 md/txt、将同步至 Mac 的 md/txt 为同一文本",
+    "user_confirmation": "t53u 确认02v5并要求落盘；文案以实际发出的润色版为准"
+  }
+}

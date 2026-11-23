@@ -1,0 +1,30 @@
+{
+  "verified_Asia_Shanghai": "2026-11-23T20:29:22.655300+08:00",
+  "payload_files": 3042,
+  "payload_bytes": 2616998278,
+  "classes": {
+    "GIT_CANDIDATE": {
+      "files": 2907,
+      "bytes": 1229473864
+    },
+    "GIT_CANDIDATE_SANITIZED": {
+      "files": 3,
+      "bytes": 1055219
+    },
+    "LFS_RECOMMENDED": {
+      "files": 130,
+      "bytes": 1144733984
+    },
+    "LFS_REQUIRED_GT100MiB": {
+      "files": 2,
+      "bytes": 241735211
+    }
+  },
+  "sanitized_files": 3,
+  "unmodified_source_copies": 3039,
+  "sha256_mismatches": [],
+  "burry_final_sha_items_verified": 7,
+  "internal_markdown_broken_links": [],
+  "post_redaction_pat_jwt_hardcoded_secret_pattern_hits": [],
+  "scope": "Local copy/archive checks only; no remote write, user approval, rights clearance, full media inspection or clean-OS rerender."
+}
