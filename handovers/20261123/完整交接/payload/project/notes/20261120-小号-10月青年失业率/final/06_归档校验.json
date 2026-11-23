@@ -1,0 +1,76 @@
+{
+  "note": "20261120-小号-10月青年失业率",
+  "account": "阿信财经笔记（归档名曾用 阿信财读笔记）",
+  "created": "2026-11-20 Asia/Shanghai",
+  "images": 3,
+  "canvas": "2160x2880 (1080x1440 CSS @2x, 3:4)",
+  "style": "小号青绿 一图看懂（复用20261112个人养老金模板），非黑金",
+  "checks": {
+    "visual_qa_read_tool": "PASS 原图+400px缩略图已逐张查看；标题间距、数字与单位、无切字孤字",
+    "check.sh 越界/重叠/孤字/行首标点": "PASS 3/3（p3 首轮换行已改后复检）",
+    "compliance_precheck": "见 pipeline_log.md",
+    "05-合规.md": "10/10 通过"
+  },
+  "source_tier": {
+    "official_nbs": [
+      "全国城镇调查失业率5.1%",
+      "30—59岁3.9%连续4个月稳定",
+      "不含在校生口径与失业定义"
+    ],
+    "media_quoting_nbs": [
+      "16—24岁17.2%及7–9月序列",
+      "25—29岁7.3%及7–9月序列"
+    ],
+    "not_used": [
+      "4个月新低",
+      "约整体3.4倍",
+      "未经官网核对的上年同期"
+    ]
+  },
+  "official_db_gap": "data.stats.gov.cn 本环境403/未能取出分年龄组序列；统计局最新发布列表未见11-18独立新闻稿。详见 sources/核数记录.md。",
+  "files": {
+    "00_封面.png": {
+      "sha256": "1e8d72cb28ba1acb60b53e4078315d1acd70a0128dd7331a9a9d9fc8ed763299",
+      "bytes": 962114,
+      "size": [
+        2160,
+        2880
+      ]
+    },
+    "01_近4个月怎么走.png": {
+      "sha256": "1da62feb1cedca701a9c66b6d27a5cee88bf8e2558c43fca93e1fba07fed7f59",
+      "bytes": 966765,
+      "size": [
+        2160,
+        2880
+      ]
+    },
+    "02_这个口径在统计什么.png": {
+      "sha256": "e7553dfc99ee893d7800d130acb2a5e2df845908d092996402687b6188307e5b",
+      "bytes": 1317246,
+      "size": [
+        2160,
+        2880
+      ]
+    },
+    "04_发布文案.txt": {
+      "sha256": "1caf6a760879caab1616664ebbd3ba7c0f81eebeccd0904b331129cfd4950900",
+      "bytes": 1967
+    },
+    "05_来源说明.txt": {
+      "sha256": "6c62bfc9a09803081057bf0e7bf658d777460c0140a8dc5ceb72b8509c6e9868",
+      "bytes": 3474
+    },
+    "07_总览.png": {
+      "sha256": "ea75c450e761d97e5e1a4d786ecf7dd521acc2144c4aa293bdf9f7e118713f20",
+      "bytes": 567792,
+      "size": [
+        1724,
+        824
+      ]
+    }
+  },
+  "publish": "未发布；尚非可发布定稿。未传输 Mac。",
+  "definition_fix": "2026-11-20 按统计局《调查失业率的计算方法》修正正文与P3；P1/P2未改。",
+  "official_age_group_status": "BLOCKED：官网分年龄组原文仍未找到"
+}

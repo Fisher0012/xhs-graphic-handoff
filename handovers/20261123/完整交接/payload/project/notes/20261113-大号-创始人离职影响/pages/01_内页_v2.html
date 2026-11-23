@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 52px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:16px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:18px;font-family:NSM;font-size:30px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.body{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly}
+
+.diagram{flex:none}
+.hub{margin:0 auto;width:fit-content;text-align:center}
+.hub .box{display:inline-block;padding:20px 42px;border-radius:16px;background:linear-gradient(180deg,#182232,#101620);border:1px solid rgba(127,211,255,.4);box-shadow:0 0 28px rgba(70,160,255,.16),inset 0 0 24px rgba(127,211,255,.05)}
+.hub .k{font-family:NSB;font-size:34px;color:#fff;letter-spacing:2px;line-height:1.2;white-space:nowrap}
+.hub .s{margin-top:12px;font-size:22px;color:#9fb3c8;white-space:nowrap}
+
+.links{position:relative;height:70px;margin-top:4px}
+.links svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+
+.nodes{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.node{border-radius:16px;padding:36px 22px 38px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.node .tag{font-family:NSB;font-size:18px;letter-spacing:2px;color:#7fd3ff}
+.node:nth-child(2) .tag{color:#f3de9a}
+.node:nth-child(3) .tag{color:#ff6b78}
+.node h3{font-family:NSB;font-weight:normal;font-size:34px;color:#fff;margin-top:12px;line-height:1.15;white-space:nowrap}
+.node .role{margin-top:8px;font-family:NSB;font-size:24px;color:#7fd3ff;white-space:nowrap}
+.node p{margin-top:16px;font-size:24px;line-height:1.5;color:#dfe6ee}
+.node p span{display:block;white-space:nowrap}
+
+.flowbox{flex:none}
+.sec{display:flex;align-items:center;gap:14px;margin:0 0 16px;font-family:NSB;font-size:27px;color:#e9f3ff;letter-spacing:1px;white-space:nowrap}
+.sec span{font-family:NSM;font-size:20px;color:#8b97a6;letter-spacing:0}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.5),transparent)}
+
+.flow{display:flex;align-items:center;justify-content:space-between;padding:28px 18px;border-radius:16px;background:rgba(12,16,24,.78);border:1px solid rgba(159,179,200,.14)}
+.step{flex:none;text-align:center;min-width:132px}
+.step .nm{font-family:NSB;font-size:28px;color:#fff;line-height:1.2;white-space:nowrap}
+.step .sm{margin-top:6px;font-size:18px;color:#9fb3c8;white-space:nowrap}
+.arrow{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:70px;padding:0 4px}
+.arrow i{font-style:normal;font-family:NSB;font-size:18px;color:#7fd3ff;letter-spacing:1px;white-space:nowrap}
+.arrow .ln{margin-top:6px;width:100%;height:0;border-top:2px solid rgba(127,211,255,.55);position:relative}
+.arrow .ln:after{content:'';position:absolute;right:-1px;top:-6px;border:6px solid transparent;border-left:8px solid rgba(127,211,255,.75)}
+
+.note{margin-top:14px;font-size:22px;color:#f3de9a;text-align:center;letter-spacing:.2px;white-space:nowrap}
+
+.bar{flex:none;border-radius:14px;padding:20px 22px;font-size:26px;line-height:1.45;color:#dfe6ee;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(255,45,63,.52);box-shadow:0 0 0 1px rgba(255,45,63,.08);white-space:nowrap}
+.bar b{font-family:NSB;font-weight:normal;color:#ff6b78}
+.bar em{font-style:normal;font-family:NSB;color:#f3de9a}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684;white-space:nowrap}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>分清</span><span>三种关系｜不预测走向</span><span class=dt>2026.11.13</span></div>
+  <h1>离职不等于<em>退出</em></h1>
+  <h2>经营职务、董事会席位、股权，是三种不同关系</h2>
+
+  <div class=body>
+    <div class=diagram>
+      <div class=hub>
+        <div class=box><div class=k>创始人与公司</div></div>
+        <div class=s>三种关系可以同时拥有，也可以只留下一部分</div>
+      </div>
+      <div class=links>
+        <svg viewBox="0 0 1000 70" preserveAspectRatio="none">
+          <path d="M500 0 C500 32, 166.7 28, 166.7 70" fill="none" stroke="rgba(127,211,255,.5)" stroke-width="2"/>
+          <path d="M500 0 V70" fill="none" stroke="rgba(243,222,154,.5)" stroke-width="2"/>
+          <path d="M500 0 C500 32, 833.3 28, 833.3 70" fill="none" stroke="rgba(255,107,120,.45)" stroke-width="2"/>
+        </svg>
+      </div>
+      <div class=nodes>
+        <div class=node>
+          <div class=tag>关系一</div>
+          <h3>经营职务</h3>
+          <div class=role>CEO / 总裁</div>
+          <p><span>负责公司日常经营。</span><span>离开的是经营岗位。</span></p>
+        </div>
+        <div class=node>
+          <div class=tag>关系二</div>
+          <h3>董事会席位</h3>
+          <div class=role>董事</div>
+          <p><span>监督管理层的工作，</span><span>也可任免 CEO。</span></p>
+        </div>
+        <div class=node>
+          <div class=tag>关系三</div>
+          <h3>股权</h3>
+          <div class=role>股东</div>
+          <p><span>通过表决参与公司事务，</span><span>不是直接管理岗位。</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class=flowbox>
+      <div class=sec>三者如何连接<span>这是治理关系，不是职务名单</span></div>
+      <div class=flow>
+        <div class=step><div class=nm>股东</div><div class=sm>股权</div></div>
+        <div class=arrow><i>表决</i><div class=ln></div></div>
+        <div class=step><div class=nm>董事会</div><div class=sm>席位</div></div>
+        <div class=arrow><i>监督任免</i><div class=ln></div></div>
+        <div class=step><div class=nm>CEO</div><div class=sm>经营职务</div></div>
+        <div class=arrow><i>负责</i><div class=ln></div></div>
+        <div class=step><div class=nm>日常经营</div><div class=sm>公司事务</div></div>
+      </div>
+      <div class=note>持股只进入表决环节，到不了直接管理。</div>
+    </div>
+
+    <div class=bar><b>记住两句：</b>辞去职务，不等于退出全部关系；<em>持有股份，也不等于直接管理公司。</em></div>
+  </div>
+
+  <div class=foot>根据公司公告和权威报道整理，不构成投资建议。投资有风险，入市需谨慎。制图 2026/11/13。官方用词为辞职。</div>
+</div>
+</body>
+</html>

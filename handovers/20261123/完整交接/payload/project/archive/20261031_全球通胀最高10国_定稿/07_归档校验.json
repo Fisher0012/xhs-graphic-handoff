@@ -1,0 +1,45 @@
+{
+  "note": "全球通胀最高10国",
+  "archive_date": "2026-10-31",
+  "image_count": 5,
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 576,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "sha256": "fa23a92eb218be8e9d722dfdf8a53f8b2eaac38863eddb0feeb01d7611b92e5e",
+      "bytes": 1139571
+    },
+    {
+      "name": "01_通胀率怎么算.png",
+      "sha256": "53ce0933312516ba41fabdf92fc685e95b6e8e90d941cedc1eaf91faa145cc8e",
+      "bytes": 1215390
+    },
+    {
+      "name": "02_为什么涨这么快.png",
+      "sha256": "d44ee2291dea5919697335487573b3e93f2e770d582da021fee8d7bbd24f09da",
+      "bytes": 1283416
+    },
+    {
+      "name": "03_降下来不等于变便宜.png",
+      "sha256": "c55c42cc4f6cd93767f213f61c1f19bd8d5c0ff3418f741d5e78cb80d9a0360b",
+      "bytes": 1139340
+    },
+    {
+      "name": "04_放在全球看.png",
+      "sha256": "71375b286f877c0ef198506a733946f14949be5bff6dd4b18f47e08747b5aa85",
+      "bytes": 1144067
+    },
+    {
+      "name": "05_发布文案.txt",
+      "sha256": "e2a90726e4415283579653ada28ce84ec2f6dd014516a951c05db6bba9a9fd37",
+      "bytes": 1501
+    },
+    {
+      "name": "06_来源说明.txt",
+      "sha256": "28d8abcba9565a9a1f243559eab7abb2225f53cbfcee9fcc867310f1c9afe224",
+      "bytes": 1344
+    }
+  ],
+  "updated": "2026-10-31 21:45 (Asia/Shanghai) 审查有条件通过后修订"
+}

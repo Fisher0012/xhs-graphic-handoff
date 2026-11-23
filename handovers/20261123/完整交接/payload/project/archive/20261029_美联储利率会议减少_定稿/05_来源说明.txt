@@ -1,0 +1,37 @@
+美联储利率会要变少，一次看懂｜定稿来源说明（2026-10-30 归档）
+查阅日期：2026-10-29（北京时间）。美东 10-28 14:00 ＝ 北京时间 10-29 02:00。【自算】为本笔记根据公开数据推算。
+图文只讲机制，不预测利率走势，也不推荐任何产品。
+
+一、10-28 决议、票数、措辞（封面、P3，正文③）
+1. 美联储 2026-10-28 声明：维持联邦基金利率目标区间 3.75%～4%；投票 10比2；Cook、Hammack 两人反对，主张加息 25 个基点；措辞「expanding at a strong pace」「The accumulation of more information will help the Committee determine the policy stance」。
+https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm
+2. 美联储 2026-09-16 声明：加息 25 个基点到 3.75%～4%；投票 12比0；措辞「solid pace」「support a timelier return to the Committee's 2 percent goal」。
+https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm
+3. 美联储 2026-07-29 声明：投票 9比3，3 票反对都主张加息 25 个基点。
+https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm
+P3 表中措辞为意译（solid→稳健，strong→强劲）。
+
+二、会议安排变化（封面、P2，正文①）
+4. 沃什 2026-10-28 新闻发布会实录（PRELIMINARY）："starting next fall… eight meetings per year is the right number… in 2027, one meeting will focus exclusively on broad monetary policy strategy, with neither a vote on the federal funds rate nor a policy statement anticipated… I expect that in 2028, we'll have two meetings dedicated to discussions of strategy, and six for setting policy."
+https://www.federalreserve.gov/mediacenter/files/FOMCpresconf20261028.pdf
+【自算】2027「7次」利率会＝8次会－1次战略会。2028「6＋2」是沃什的预计（I expect），尚未定。
+5. FOMC 日程：2027 年官网仍列 8 次常规会议。
+https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+
+三、12 名投票委员（封面、P2，正文②）
+6. 美联储 FOMC 页面：7 名理事＋纽约联储主席（常任）＋其余 11 家地区联储中轮值的 4 位主席；不投票的主席也参会、参与讨论；2026 年委员名单含 Warsh（主席）、Powell（理事）。
+https://www.federalreserve.gov/monetarypolicy/fomc.htm
+
+四、传导（P4，正文④）
+7. 香港金管局 2026-09-17：基本利率 4.25%；公式＝美国联邦基金利率目标区间下限＋50 个基点，或隔夜及 1 个月 HIBOR 5 天移动平均的平均值，取较高者。
+https://www.hkma.gov.hk/chi/news-and-media/press-releases/2026/09/20260917-3/
+8. 香港金管局 2026-10-29 对美联储决议的回应。
+https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/10/20261029-3/
+9. 香港金管局联系汇率制度：7.75～7.85。
+https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/
+10. 人民币对美元中间价 2026-10-29：6.7147（中国外汇交易中心；外汇局中间价查询）。
+https://www.safe.gov.cn/AppStructured/hlw/RMBQuery.do
+股市、黄金两张卡只讲方向机制，不配数字。
+
+未用：BEA 三季度 GDP 3.4%（待核）；赞成票名单（声明未列出）；当日美股、金价涨跌；欧央行决议（按 Fisher 要求删除）。
+完整资料见 notes/20261029-FOMC/01-选题.md；合规见 05-合规.md。

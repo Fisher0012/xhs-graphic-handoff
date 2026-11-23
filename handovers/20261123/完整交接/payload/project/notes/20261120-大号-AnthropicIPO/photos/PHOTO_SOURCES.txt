@@ -1,0 +1,44 @@
+# 人物照片来源（2026-11-20 独立复核）
+
+七人头像均取自公司官网领导团队页，页面有明确对应的人像说明（Portrait of … at Anthropic）。
+页面：https://www.anthropic.com/company/leadership
+版权：公司官网人像，非自由许可（不是 CC/公共领域）。仅作身份识别，不声称已获得授权或可再分发。未使用 AI 生成，未使用未具名合影。
+
+原图（均为 640×800 JPEG，HTTP 200，image/jpeg）直接从官网所用资源域名下载，不含缩放参数：
+
+1. Dario Amodei
+   说明：Portrait of Dario Amodei, Co-Founder and Chief Executive Officer at Anthropic
+   原图：https://assets.claude.com/755f591386038c5c00102aee16ac2f9245ba5d1e.jpg
+   文件：dario_official_raw.jpg → dario_official.jpg（统一上沿方形裁切至 800×800）
+
+2. Daniela Amodei
+   说明：Portrait of Daniela Amodei, Co-Founder and President at Anthropic
+   原图：https://assets.claude.com/000c86f4aeb7d6ed39676616e25c923b231cc12c.jpg
+   文件：daniela_official_raw.jpg → daniela_official.jpg
+
+3. Tom Brown
+   说明：Portrait of Tom Brown, Co-Founder and Chief Compute Officer at Anthropic
+   原图：https://assets.claude.com/4a8a37b94414bf4e13a831adc7ed4908bc33e5f2.jpg
+   文件：tom_official_raw.jpg → tom_official.jpg
+
+4. Jack Clark
+   说明：Portrait of Jack Clark, Co-Founder and Head of Public Benefit at Anthropic
+   原图：https://assets.claude.com/1e7cd7dfa697a7ad9101fccb8d321dbcb513daac.jpg
+   文件：jack_official_raw.jpg → jack_official.jpg
+
+5. Jared Kaplan
+   说明：Portrait of Jared Kaplan, Co-Founder and Chief Science Officer at Anthropic
+   原图：https://assets.claude.com/6f24e967bd015d6ab5764a71585f7d0b09f07e91.jpg
+   文件：jared_official_raw.jpg → jared_official.jpg
+
+6. Sam McCandlish
+   说明：Portrait of Sam McCandlish, Co-Founder and Chief Architect at Anthropic
+   原图：https://assets.claude.com/99e69f466595bb64dc2704017695c5d9614ec957.jpg
+   文件：sam_official_raw.jpg → sam_official.jpg
+
+7. Christopher Olah（页面写作 Chris Olah）
+   说明：Portrait of Chris Olah, Co-Founder and Interpretability Research Lead
+   原图：https://assets.claude.com/fcc30d635acba82820bde8e6c8153c360a99bc26.jpg
+   文件：chris_official_raw.jpg → chris_official.jpg
+
+先前使用的 Wikimedia CC BY 2.0 近照（dario.jpg / jared.jpg）以及字母标识（*_mono.jpg）仍保留在目录中备查，封面已改用上述官网人像，不再使用字母标识。

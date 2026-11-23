@@ -1,0 +1,101 @@
+/* 阿信学财经·大号 黑金 —— 1080x1440 CSS，@2x 渲染为 2160x2880（贴近 refs/大号黑金） */
+:root{--gold:#e9b519;--gold-hi:#f7e6ae;--gold-dk:#8a6a12;--white:#fff;--sub:#9b9b9e;--note:#8a8a8e;--risk:#66666a;
+ --track:#1b1a1c;--sep:#232124;--card:#141315;--card-bd:#26232a;--desc:#bdb8ae}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden}
+body{font-family:"Noto Sans CJK SC","Noto Sans SC",sans-serif;color:var(--white);line-break:strict;
+ background:radial-gradient(ellipse 760px 620px at 88% 4%,rgba(214,160,30,.16),rgba(214,160,30,0) 72%),linear-gradient(175deg,#121012 0%,#0a090a 50%,#030304 100%);position:relative}
+.page{position:absolute;left:66px;right:66px;top:0;bottom:0}
+.label{position:absolute;top:92px;font-size:26px;font-weight:700;color:var(--gold);letter-spacing:1px;white-space:nowrap}
+.title{font-family:"Noto Sans SC";font-weight:900;white-space:nowrap;letter-spacing:2px;line-height:1.12}
+.w{background:linear-gradient(180deg,#ffffff 0%,#dcdcdc 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.g{background:linear-gradient(165deg,var(--gold-hi) 0%,#f2cd52 40%,#e2ab12 75%,#c98f0c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.cover2{position:absolute;top:138px;font-size:104px;line-height:1.25}
+.cover2 div{white-space:nowrap}
+.inner-title{position:absolute;top:146px;font-size:88px}
+.gline{position:absolute;width:124px;height:6px;border-radius:3px;background:linear-gradient(90deg,var(--gold-hi),var(--gold))}
+.subtitle{position:absolute;font-size:24px;color:var(--sub);white-space:nowrap}
+/* 榜单行 */
+.rows{position:absolute;left:0;right:0}
+.row{position:relative;display:flex;align-items:center}
+.row .idx{width:76px;font-family:"Noto Sans SC";font-weight:700;font-size:26px;color:#5b5b5f;flex:none}
+.row.first .idx{color:var(--gold)}
+.row .name{font-weight:900;font-size:38px;white-space:nowrap;flex:none}
+.row .note{font-size:21px;color:var(--note);white-space:nowrap;margin-left:28px;flex:1}
+.row .note em{font-style:normal;color:var(--gold)}
+.row .num{font-family:"Noto Sans SC";font-weight:900;font-size:46px;white-space:nowrap;text-align:right;line-height:1;flex:none}
+.row.first .num{font-size:58px}
+.row .num small{font-size:20px;font-weight:500;color:var(--sub);margin-left:6px}
+.row .bar{position:absolute;left:0;right:0;bottom:0;height:4px;background:var(--track);border-radius:2px}
+.row .bar i{display:block;height:100%;border-radius:2px;background:linear-gradient(90deg,#f5dc84 0%,var(--gold) 55%,#b8860f 100%)}
+.row.first .bar i{background:linear-gradient(90deg,#fff4cf 0%,#f5d873 30%,var(--gold) 100%)}
+/* 双栏小行 */
+.colL,.colR{position:absolute;width:444px}.colL{left:0}.colR{right:0}
+.row.s{flex-wrap:wrap;align-content:center}
+.row.s .idx{width:48px;font-size:22px}
+.row.s .name{font-size:32px}
+.row.s .note{font-size:19px;margin-left:14px}
+.row.s .num{font-size:38px}
+.row.s .num small{font-size:17px}
+.vline{position:absolute;left:473px;width:1px;background:var(--sep)}
+.hr{position:absolute;left:0;right:0;height:1px;background:var(--sep)}
+.summary{position:absolute;left:0;right:0;font-size:34px;line-height:1.55;color:#d6d3cc}
+.summary b{color:var(--gold);font-weight:700}
+.tag-sc{font-size:.62em;color:var(--note);font-weight:400;white-space:nowrap}
+.risk{position:absolute;left:0;right:0;top:1322px;text-align:center;font-size:20px;color:var(--risk);white-space:nowrap}
+/* 归集页：粗进度条 */
+.trow{position:relative;height:96px}
+.trow .top{display:flex;align-items:baseline;height:52px}
+.trow .name{font-weight:900;font-size:38px;white-space:nowrap}
+.trow .tag{font-size:22px;color:var(--note);white-space:nowrap;margin-left:22px}
+.trow .num{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:46px;white-space:nowrap}
+.trow .num small{font-size:20px;font-weight:500;color:var(--sub);margin-left:4px}
+.trow .track{position:absolute;left:0;right:0;top:60px;height:18px;border-radius:4px;background:var(--track)}
+.trow .track i{position:absolute;left:0;top:0;height:100%;border-radius:4px;background:linear-gradient(90deg,#f3d36a,var(--gold) 60%,#c9971a)}
+.trow.dim .track i{background:linear-gradient(90deg,#7a6020,#5e4a18)}
+.sech{position:absolute;left:0;right:0;font-size:30px;font-weight:700;color:var(--gold);white-space:nowrap}
+/* 左金边说明卡 */
+.callout{position:absolute;left:0;right:0;background:linear-gradient(90deg,#191612,#121113);border:1px solid var(--card-bd);border-radius:16px;padding:24px 30px 26px 34px;overflow:hidden}
+.callout:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--gold-hi),var(--gold))}
+.callout h3{font-size:34px;font-weight:900;color:var(--gold);margin-bottom:10px;white-space:nowrap}
+.callout p{font-size:28px;line-height:1.6;color:var(--desc)}
+.callout p b{color:#fff}
+.foot{position:absolute;left:0;right:0;font-size:22px;line-height:1.55;color:var(--sub)}
+/* 口径卡 */
+.card{position:absolute;left:0;right:0;background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:22px 30px 22px 34px;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--gold-hi),var(--gold))}
+.card .hd{display:flex;align-items:baseline;height:58px}
+.card .ct{font-size:46px;font-weight:900;color:#fff;white-space:nowrap}
+.card .cs{font-size:24px;color:var(--sub);margin-left:16px;white-space:nowrap}
+.card .key{position:absolute;right:30px;top:20px;text-align:right}
+.card .key .kl{font-size:20px;color:var(--gold);white-space:nowrap}
+.card .key .kv{font-family:"Noto Sans SC";font-weight:900;font-size:44px;color:#fff;white-space:nowrap;line-height:1.15}
+.card .cols{display:flex;gap:56px;margin-top:10px}
+.card .cols div{display:flex;flex-direction:column}
+.card .cols .l{font-size:20px;color:#8f877a;white-space:nowrap}
+.card .cols .v{font-size:28px;font-weight:700;color:#fff;white-space:nowrap;line-height:1.35}
+.card .d{font-size:26px;line-height:1.6;color:var(--desc);margin-top:10px}
+.card .d .tag-sc,.card .v .tag-sc{font-size:.7em}
+.src{position:absolute;left:0;right:0;font-size:22px;line-height:1.5;color:var(--sub)}
+.nw{white-space:nowrap}
+.row.s .nm{flex:1;display:flex;flex-direction:column;justify-content:center}
+.row.s .nm .note{margin-left:0;margin-top:1px;margin-bottom:6px}
+.row.s .name{line-height:1.15}
+.card{height:222px}
+.card .hd{height:56px}
+.card .cols{margin-top:14px;gap:52px}
+.card .d{margin-top:8px;white-space:nowrap}
+.card .key{top:14px}
+.card .key .kv{line-height:1.08}
+.card .cols{margin-top:18px}
+.card{height:226px}
+/* 封面一行式标题（2026-10-26 19:50 Fisher 改） */
+.cover1{position:absolute;left:0;letter-spacing:0;line-height:1.0}
+.cover1 .cover-title{display:inline-block;white-space:nowrap}
+.rows.c1 .row .idx{width:84px;font-size:30px}
+.rows.c1 .row .name{font-size:44px}
+.rows.c1 .row .note{font-size:23px;color:#99999d;margin-left:30px}
+.rows.c1 .row .num{font-size:54px}
+.rows.c1 .row.first .num{font-size:66px}
+.rows.c1 .row .num small{font-size:22px}
+.rows.c1 .row .bar{height:5px}

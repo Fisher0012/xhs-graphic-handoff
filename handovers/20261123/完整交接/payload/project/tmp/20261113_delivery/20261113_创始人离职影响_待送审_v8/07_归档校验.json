@@ -1,0 +1,62 @@
+{
+  "article": "创始人离职影响",
+  "account": "阿信学财经",
+  "updated_at": "2026-11-13T17:05:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "user_confirmation": {
+    "message_id": "t58u",
+    "quote": "没问题 立刻更新到本地",
+    "cover": "v8 中列恢复 v6 原文，t58u 通过",
+    "pages": {
+      "01": "v4，t52u 通过，本轮未改",
+      "02": "v5，t53u 通过，本轮未改"
+    }
+  },
+  "cover": {
+    "file": "00_封面.png",
+    "version": "v8",
+    "sha256": "3b2362d370bcc2f0fe95f28377d923021daf7bae00be9f22c2da393344cc77f9",
+    "replaces": "v7（历史 SHA 3366ed8e4c5394eb3532e465bd3cddc3473fe77cf7f0fc55b9c4b06f65a227a9，已备份至发布目录外 _历史备份/…_t58前，不留在本发布目录）"
+  },
+  "unchanged_this_round": {
+    "01_离职不等于退出.png": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+    "02_黄仁勋这次关键看三点.png": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+    "04_发布文案.md": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "04_发布文案.txt": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+    "05_来源说明.md": "63cd7ff3c53da18edf65b98e75aba54e6bb6db595f3359b2bf92c4ad1a32df7c",
+    "06_合规自查.md": "5767688557ba3a3a6cacd4a51b32766f6c2ac074ab452784030bf014cb425a7a",
+    "note": "正文、来源、合规自查正文及两张内页保持字节不变。合规仅在本回执中更新封面版本引用为 v8，不改 06 文件内容。"
+  },
+  "files": {
+    "00_封面.png": {
+      "sha256": "3b2362d370bcc2f0fe95f28377d923021daf7bae00be9f22c2da393344cc77f9",
+      "bytes": 2313694
+    },
+    "01_离职不等于退出.png": {
+      "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+      "bytes": 1266344
+    },
+    "02_黄仁勋这次关键看三点.png": {
+      "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+      "bytes": 1602510
+    },
+    "04_发布文案.md": {
+      "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+      "bytes": 2362
+    },
+    "04_发布文案.txt": {
+      "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+      "bytes": 2362
+    },
+    "05_来源说明.md": {
+      "sha256": "63cd7ff3c53da18edf65b98e75aba54e6bb6db595f3359b2bf92c4ad1a32df7c",
+      "bytes": 15147
+    },
+    "06_合规自查.md": {
+      "sha256": "5767688557ba3a3a6cacd4a51b32766f6c2ac074ab452784030bf014cb425a7a",
+      "bytes": 3936
+    }
+  },
+  "notes": "按 t58u 只替换封面并更新校验文件。不代为发布。",
+  "published": false
+}

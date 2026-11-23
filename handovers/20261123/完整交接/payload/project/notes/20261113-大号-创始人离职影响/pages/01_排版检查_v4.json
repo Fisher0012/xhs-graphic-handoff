@@ -1,0 +1,40 @@
+{
+  "page": "01_内页_v4",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 15:07:00 北京时间",
+  "title": {
+    "text": "离职不等于退出",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 602,
+    "fits_one_line": true,
+    "note": "沿用已确认可用的86px一行，未改小。"
+  },
+  "layout_rules": {
+    "cards_content_height": true,
+    "no_flex_grow_or_fixed_card_height": true,
+    "card_padding": "关系卡 28px 22px；对照条 26px 24px 26px 26px",
+    "body_font_px": 30,
+    "text_align": "顶部对齐，不垂直居中",
+    "leftover_to": "区块间距（标题下约72px，关系图到对照约80px，对照底部到页脚约90px），不撑卡内"
+  },
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v4.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v4_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "nodes_height_px": 290,
+    "row_heights_px": [100, 100, 141],
+    "content_bottom_px": 1312,
+    "footer_top_px": 1402,
+    "footer_gap_px": 90,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "none",
+    "tightest_lines": "关系卡正文『负责公司日常经营。』等 30px 宽 270，卡内宽 277，余 7px，无溢出",
+    "edge_text": "20px边缘无正文像素，仅网格/光晕"
+  },
+  "facts": "3.58%带代理声明时点2026-03-23，不写成实时持股；已辞去职务与董事依据8-K；一股一票依据代理声明。不把持股写成直接管理。",
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

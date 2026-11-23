@@ -1,0 +1,87 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响",
+  "task_id": "t50u-pages-copy",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T14:29:31.175708+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页.html",
+      "change": "add",
+      "after_sha256": "c58ad39b11a78a7896112c94c9703ea9726cb2dcc668800df66da33956fada99"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页.png",
+      "change": "add",
+      "after_sha256": "fa2e27b0828fe746b0233228b0900ca018b877363d8d2ce33508dccebd7e5168"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_400.png",
+      "change": "add",
+      "after_sha256": "69297ac1034a17abad433096b8051f115639884977a6d8465ab1a6c1f2e74225"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_排版检查.json",
+      "change": "add",
+      "after_sha256": "1162cced6476a3a0e044e620e4bc808e700ace7ee98c38a81f89977e36e4ccee"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页.html",
+      "change": "add",
+      "after_sha256": "2e534650970f7c85ebeb6a04c433eea4a58a092556dbe289a89de919edd48f7a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页.png",
+      "change": "add",
+      "after_sha256": "a4a5d26bfddea27ba4baf0f29f7b092d8c0cf34424163171bed3cc597bc71e30"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_400.png",
+      "change": "add",
+      "after_sha256": "2f419642e95155860d1db39f5aba91a3d9ec2e66030d348e0b46ecad17e3e2b9"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_排版检查.json",
+      "change": "add",
+      "after_sha256": "8b965f703131b32cc13b99b8577212cab91e965ae246f4258c191cbc61befe89"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/03-文案.md",
+      "change": "add",
+      "after_sha256": "d9e1ca53de42b599d6e572c92b83c40c98ded20686a884cfb4ac2eff5e5a5a80"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/04-合规自查.md",
+      "change": "add",
+      "after_sha256": "665ce34f3c7b510558f634831ea83d589c6a9248378e775896dc4d0f2f9f775a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/05-来源说明.md",
+      "change": "add",
+      "after_sha256": "af8100f7dbc004d84be2444b0a2e5f27b0f4b99668dc961ae781977c5350a553"
+    }
+  ],
+  "project_checks": [
+    {
+      "id": "layout",
+      "status": "PASS",
+      "evidence": "pages/0x_排版检查.json：标题108px两行，主副间距26px，正文26px，表格/卡片每格≤2行且主文字格=2行，无溢出，底部留白41/59px"
+    },
+    {
+      "id": "visual",
+      "status": "PASS",
+      "evidence": "已Read两张原图与400px缩略图"
+    },
+    {
+      "id": "compliance",
+      "status": "PASS",
+      "evidence": "04-合规自查.md第8条；详见05-来源说明.md"
+    }
+  ],
+  "overall_verdict": "PASS：代理声明持股表已直读SEC原文核实（3月23日、870,604,104股、3.58%）",
+  "source_verification_at": "2026-11-13 14:31:59 北京时间"
+}

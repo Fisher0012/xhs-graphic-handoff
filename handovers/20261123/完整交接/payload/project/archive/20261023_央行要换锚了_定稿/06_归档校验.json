@@ -1,0 +1,40 @@
+{
+  "note": "央行要换锚了，你的房贷存款会变吗",
+  "archive_date": "2026-10-23",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 236344,
+      "sha256": "db1087d4a8ea9f3348e05ef1ee72b22ccbc72b246e0ebef70a0c60da5f7d9e3a"
+    },
+    {
+      "name": "01_利率族谱.png",
+      "bytes": 430890,
+      "sha256": "a6be4183c8da006c2c3d8ed1b947a5531a2fed79c82e5a5459222fd69d2bb7cd"
+    },
+    {
+      "name": "02_这次换了什么.png",
+      "bytes": 453576,
+      "sha256": "4aaaed92016012dd92385b14f2f1150eb0539e1efdf300598ff9c2c74477d1b0"
+    },
+    {
+      "name": "03_对你的4笔钱.png",
+      "bytes": 452013,
+      "sha256": "0b1a7b8f3f982d88708d44b8b8f6be22a30962249c8bbc9f98e4590ea3ba1e17"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2184,
+      "sha256": "b698c3691ef09e4113d33977e3bd732b096ad71a99eaf2e6d6edbbc1a103dec7"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 1711,
+      "sha256": "028b0810e70e92062d8c047102b7195fa83b07c222d19d99148b6efa1b4e2abf"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）"
+}

@@ -1,0 +1,29 @@
+[
+ {
+  "id": "t1",
+  "title": "小号4期等 Fisher 确认封面后存 Mac 并交自动化发布调研",
+  "status": "waiting",
+  "dispatched": false,
+  "waiting_on": "Fisher",
+  "deadline": "",
+  "updated": "2026-11-01 12:49"
+ },
+ {
+  "id": "t2",
+  "title": "大号6期每天转公众号链接",
+  "status": "waiting",
+  "dispatched": false,
+  "waiting_on": "自动化发布调研",
+  "deadline": "2026-11-06",
+  "updated": "2026-11-01 12:49"
+ },
+ {
+  "id": "t3",
+  "title": "城市02那句「其余七城」是否删除",
+  "status": "waiting",
+  "dispatched": false,
+  "waiting_on": "Fisher",
+  "deadline": "",
+  "updated": "2026-11-01 12:49"
+ }
+]

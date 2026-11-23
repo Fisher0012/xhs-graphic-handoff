@@ -1,0 +1,80 @@
+{
+ "note": "20261112-小号-个人养老金",
+ "account": "阿信财经笔记（归档 阿信财读笔记）",
+ "created": "2026-11-12 Asia/Shanghai",
+ "images": 5,
+ "canvas": "2160x2880 (1080x1440 CSS @2x, 3:4)",
+ "style": "小号墨绿 一图看懂（xhlib.py），非黑金",
+ "checks": {
+  "visual_qa_read_tool": "PASS 5/5",
+  "check.sh 越界/重叠/孤字/行首标点": "PASS 5/5",
+  "compliance_precheck": "见 pipeline_log.md",
+  "05-合规.md": "10/10 通过"
+ },
+ "media_only_numbers": [
+  "账户数超过1.5亿（中国证券网2026-11-03）"
+ ],
+ "author_calc": [
+  "户均≈968元",
+  "净省表"
+ ],
+ "files": {
+  "00_封面.png": {
+   "sha256": "c0b62b4d8010ed958a275391d25b06d5e41890685a78601abbbcb3ca24ebd3dc",
+   "bytes": 1017628,
+   "size": [
+    2160,
+    2880
+   ]
+  },
+  "01_按税率档算账.png": {
+   "sha256": "409ea355192a74d8ee488359da4f78098d6db46de4f0bc6b97f05bae57216b23",
+   "bytes": 1155535,
+   "size": [
+    2160,
+    2880
+   ]
+  },
+  "02_今年最晚怎么存.png": {
+   "sha256": "93916b866840f7e48eda1fe1e8ffea9513313df6e84d68543831ec99d9b4824d",
+   "bytes": 1132003,
+   "size": [
+    2160,
+    2880
+   ]
+  },
+  "03_哪些人可能不划算.png": {
+   "sha256": "7f0a3589f13be318a8949a1066c416d145ee09adbf4426683112fde4fb6f5077",
+   "bytes": 917525,
+   "size": [
+    2160,
+    2880
+   ]
+  },
+  "04_口径说明.png": {
+   "sha256": "9fc0d038168bf032df73e46bc28359ad9efcd6a68ecb34022afa7c14778107fc",
+   "bytes": 1168799,
+   "size": [
+    2160,
+    2880
+   ]
+  },
+  "05_发布文案.txt": {
+   "sha256": "36ef124744cdd591a1c125aa2aaf3cad0260cc08e752433d8515a98ba2bef5b0",
+   "bytes": 2072
+  },
+  "06_来源说明.txt": {
+   "sha256": "c9dd0e0c2caa3342fbc4a870a05d50093329762d53e9d0fdfb73561630c87e09",
+   "bytes": 1977
+  },
+  "20261112_个人养老金_总览.png": {
+   "sha256": "aab4013343af476a8dac0d01875393c26f14cf17574aeda791852150ebac4599",
+   "bytes": 915703,
+   "size": [
+    2820,
+    760
+   ]
+  }
+ },
+ "publish": "未发布；Fisher 手动送审/发布"
+}

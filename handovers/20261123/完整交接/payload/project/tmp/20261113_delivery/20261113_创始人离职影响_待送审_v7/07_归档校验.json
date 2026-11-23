@@ -1,0 +1,59 @@
+{
+  "article": "创始人离职影响",
+  "account": "阿信学财经",
+  "updated_at": "2026-11-13T16:55:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "user_confirmation": {
+    "message_id": "t56u",
+    "quote": "这一版通过，另外把文案也调整一下，做适当的改动，然后覆盖到本地。",
+    "cover": "v7 市值倍数对照，t56u 通过",
+    "pages": {
+      "01": "v4，t52u 通过，本轮未改",
+      "02": "v5，t53u 通过，本轮未改"
+    }
+  },
+  "cover": {
+    "file": "00_封面.png",
+    "version": "v7",
+    "sha256": "3366ed8e4c5394eb3532e465bd3cddc3473fe77cf7f0fc55b9c4b06f65a227a9",
+    "replaces": "v6（历史 SHA ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767，不放入本发布目录）"
+  },
+  "files": {
+    "00_封面.png": {
+      "sha256": "3366ed8e4c5394eb3532e465bd3cddc3473fe77cf7f0fc55b9c4b06f65a227a9",
+      "bytes": 2238299
+    },
+    "01_离职不等于退出.png": {
+      "sha256": "5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42",
+      "bytes": 1266344
+    },
+    "02_黄仁勋这次关键看三点.png": {
+      "sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d",
+      "bytes": 1602510
+    },
+    "04_发布文案.md": {
+      "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+      "bytes": 2362
+    },
+    "04_发布文案.txt": {
+      "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276",
+      "bytes": 2362
+    },
+    "05_来源说明.md": {
+      "sha256": "63cd7ff3c53da18edf65b98e75aba54e6bb6db595f3359b2bf92c4ad1a32df7c",
+      "bytes": 15147
+    },
+    "06_合规自查.md": {
+      "sha256": "5767688557ba3a3a6cacd4a51b32766f6c2ac074ab452784030bf014cb425a7a",
+      "bytes": 3936
+    }
+  },
+  "copy": {
+    "source": "03-文案.md",
+    "backup": "03-文案_t56前.md",
+    "previous_sha256": "f3d30f571cbfcad8b86f05cdb2db7216d18daa485fab6c368205882b619ff63d",
+    "sha256": "b643f1c869c6dd5e17c14cf21e67e6a050f29f313a92a4f6541bfecae9708276"
+  },
+  "notes": "按 t56u 覆盖待送审目录。旧封面不留在发布目录。不代为发布。",
+  "published": false
+}

@@ -1,0 +1,33 @@
+{
+  "page": "01_内页_v3",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 14:59:31 北京时间",
+  "title": {
+    "text": "离职不等于退出",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 602,
+    "fits_one_line": true,
+    "note": "沿用v2已确认可用的86px一行，未改小。"
+  },
+  "removed": [
+    "三者如何连接流程（复述三张卡）",
+    "底部记住两句（重复标题）"
+  ],
+  "added": "对照黄仁勋这次三格状态条：经营职务（总裁、CEO）已辞去；董事会席位已辞去；股权仍持有，代理声明显示截至2026年3月23日持股3.58%，一股一票",
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v3.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/01_内页_v3_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "footer_gap_px": 54.5,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "none",
+    "edge_text": "20px边缘无正文像素，仅网格/光晕",
+    "spacing": "标题区到关系图约24px；关系图与对照条约24–32px；底栏距页脚约55px，不再出现底部大块空白，也不贴死页脚。"
+  },
+  "facts": "3.58%带代理声明时点2026-03-23，不写成实时持股；已辞去职务与董事依据8-K；一股一票依据代理声明。不把持股写成直接管理。",
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

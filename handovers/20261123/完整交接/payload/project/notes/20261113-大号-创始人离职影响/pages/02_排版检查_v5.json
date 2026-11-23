@@ -1,0 +1,48 @@
+{
+  "page": "02_内页_v5",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 15:19:43 北京时间",
+  "title": {
+    "text": "黄仁勋这次关键看三点",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 860,
+    "column_px": 1000,
+    "fits_one_line": true,
+    "hook": "关键看三点为红色",
+    "note": "完整原题一行放下，未缩小，也未改成短题「关键看三点」。主副标题间距 16px，与已通过的内页 01 v4 一致。"
+  },
+  "subtitle": {
+    "text": "对照前人交棒，只看已公开的事实",
+    "font_px": 32,
+    "gap_from_title_px": 16
+  },
+  "content": {
+    "source": "沿用原始第二张（pages/02_内页.html / 用户指定附图）完整三点：交班准备、影响力来源、结果没有统一公式；前人/这次对照。底部头像结论卡因空间足够而保留。未改回待公布清单。",
+    "point3_this_time": "分析原则，不是具体事件：不能简单归因于创始人离开，也不预测英伟达。"
+  },
+  "layout_rules": {
+    "cards_content_height": true,
+    "no_flex_grow_or_fixed_card_height": true,
+    "card_padding": "对照卡 26px 28px；结论卡 16px 22px",
+    "card_heights_px": [282, 282, 282, 118],
+    "body_font_px": 28,
+    "leftover_to": "标题改为单行后省出的高度用于 28px 正文和卡片内边距；结论卡底部到页脚 80px"
+  },
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v5.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v5_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "content_bottom_px": 1322,
+    "footer_top_px": 1402,
+    "footer_gap_px": 80,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "none",
+    "tightest_lines": "第2点这次第二行『代理声明显示截至2026年3月23日持股3.58%，英伟达一股一票。』28px 混合字重宽约 816，正文栏约 848，余约 32px；页脚 15px 宽 893，栏宽 1000",
+    "edge_text": "20px边缘无正文像素，仅网格/光晕"
+  },
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

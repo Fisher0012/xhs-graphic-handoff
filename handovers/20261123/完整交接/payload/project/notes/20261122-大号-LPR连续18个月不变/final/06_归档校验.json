@@ -1,0 +1,52 @@
+{
+  "title": "LPR连续18个月不变",
+  "status": "EXECUTOR_DRAFT_FOR_REVIEW（未发布）",
+  "dimensions": [
+    2160,
+    2880
+  ],
+  "images": 4,
+  "body_chars_excluding_newlines": 639,
+  "assets": [
+    {
+      "file": "00_封面.png",
+      "sha256": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb",
+      "bytes": 1341056
+    },
+    {
+      "file": "01_房贷利率怎么定.png",
+      "sha256": "fdca62d538a0fc1b2ede01d9a56f2dc0f4073d08b4719808e83c03d376a4ae68",
+      "bytes": 1004967
+    },
+    {
+      "file": "02_存量房贷看重定价日.png",
+      "sha256": "fa1e2dbc1ece5f4f31e300ddf2db3ce65708c2cdf2823c2bb1bedd5a61612bca",
+      "bytes": 1083560
+    },
+    {
+      "file": "03_新发放利率对照.png",
+      "sha256": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c",
+      "bytes": 1242562
+    },
+    {
+      "file": "04_发布文案.txt",
+      "sha256": "b7fb03036ca9d687fa04af11fbac3473b6c6f4faa54b0b3dc8909f31409ade53",
+      "bytes": 1892
+    },
+    {
+      "file": "05_来源说明.txt",
+      "sha256": "b1247f69efe47d017dbbf50d6de53903fa0c0013f4bb8c57581b8f3d7f76406b",
+      "bytes": 2013
+    },
+    {
+      "file": "07_总览.png",
+      "sha256": "858de201a27de47ceca2f83632178811325ca1da9b43453b23a7e20a047edef2",
+      "bytes": 565991
+    }
+  ],
+  "publication": "Fisher publishes by hand and I never publish for him.",
+  "sources": "05_来源说明.txt",
+  "evidence_dir": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence",
+  "typography_fix": "2026-11-22：01第②段改为单行「LPR变不变都不影响。」；02规则段改为「自2024年11月1日起，可与银行协商调整重定价周期。」末行「定价周期。」；01脚注仅列已核实的〔2024〕第11号",
+  "pstack": "本微修按项目PSTACK.md完成谓词验收，不以verify_receipt为新门"
+}

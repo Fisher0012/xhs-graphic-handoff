@@ -1,0 +1,44 @@
+{
+  "timestamp_Asia_Shanghai": "2026-11-23T20:23:18.831033+08:00",
+  "source_count": 3042,
+  "source_bytes": 2617001733,
+  "candidate_count": 3042,
+  "candidate_bytes": 2616998278,
+  "security_hold_files": [],
+  "excluded": [],
+  "missing": [],
+  "classes": {
+    "GIT_CANDIDATE": 2907,
+    "GIT_CANDIDATE_SANITIZED": 3,
+    "LFS_RECOMMENDED": 130,
+    "LFS_REQUIRED_GT100MiB": 2
+  },
+  "raw_files_withheld_and_sanitized": [
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/amzn_q2_pr.html",
+      "original_sha256": "6939828f2a87bd81c5ad31291683b7c14516672606a16eb3b41b47983665f9d3",
+      "upload_sha256": "2e661a36fadf44491cf124c782218f2f2843762dec873cd5317413016cc57395",
+      "redactions": 2,
+      "original_bytes": 649279,
+      "upload_bytes": 648522
+    },
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/goog_q2_call.html",
+      "original_sha256": "f5c4ed339c39d55ddeaa2f8ffb6faae64553de6d01d4ab5c3e8ddec057517101",
+      "upload_sha256": "f91f0854690b02e0646f17ae86de01407d6adccf62a3ce6bf3c8412882ef86c4",
+      "redactions": 1,
+      "original_bytes": 130461,
+      "upload_bytes": 128862
+    },
+    {
+      "path": "project/notes/20261024-Meta与AI投入/src/meta_pr.html",
+      "original_sha256": "c948bd65d8ac1686d2687ec00033580a065e168959007ab63321b13b16df6959",
+      "upload_sha256": "ab307f574bbdecb0f73a3b368bd70e838a56ff5129c9556132c565e4d5950393",
+      "redactions": 1,
+      "original_bytes": 278934,
+      "upload_bytes": 277835
+    }
+  ],
+  "finalized_Asia_Shanghai": "2026-11-23T20:29:22.654418+08:00",
+  "poteto_reference_markdown_files": 25
+}

@@ -1,0 +1,83 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响封面",
+  "task_id": "t49u-cover-v5",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T14:20:58.181186+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面.html",
+      "change": "modify",
+      "after_sha256": "f889cad48179f4327ee8cb52bf8920643b087e3ae7902ca8d724464bf913f4de"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面_v5.png",
+      "change": "add",
+      "after_sha256": "ee5baebcfec3d707aa900108fac062135dc9b164e046931d22b1dff3a1d28265"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面_v5_400.png",
+      "change": "add",
+      "after_sha256": "31c05c6dcfaaaae65cc9de2ffa5c529b212eb945817b3a5ba1dc3c6c487dcfe5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/v5-layout-check.json",
+      "change": "add",
+      "after_sha256": "7cb28a983cf6df0072d9e8048d27576258309a8a2de9327b53752056d9b1a90f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/template-02/README.md",
+      "change": "add",
+      "after_sha256": "7cd40893d9d93aa4dcc3f311beea633856ce0034960870b779d4754df1406c3a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/template-02/00_封面_v5_待验收.html",
+      "change": "add",
+      "after_sha256": "f889cad48179f4327ee8cb52bf8920643b087e3ae7902ca8d724464bf913f4de"
+    }
+  ],
+  "project_checks": [
+    {
+      "id": "actual-line-count",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/v5-layout-check.json",
+      "result": [
+        {
+          "person": "乔布斯",
+          "left_lines": 2,
+          "right_lines": 2
+        },
+        {
+          "person": "比尔·盖茨",
+          "left_lines": 2,
+          "right_lines": 2
+        },
+        {
+          "person": "贝索斯",
+          "left_lines": 2,
+          "right_lines": 2
+        },
+        {
+          "person": "佩奇、布林",
+          "left_lines": 2,
+          "right_lines": 2
+        },
+        {
+          "person": "马云",
+          "left_lines": 2,
+          "right_lines": 2
+        }
+      ]
+    },
+    {
+      "id": "visual",
+      "status": "CHECKED",
+      "evidence": "已Read原图与400px图，标题、主卡保持不变；表格无三行、无角色名切断；审美最终验收待用户。"
+    }
+  ],
+  "overall_verdict": "待用户验收"
+}

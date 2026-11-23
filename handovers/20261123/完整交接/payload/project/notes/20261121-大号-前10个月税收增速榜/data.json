@@ -1,0 +1,129 @@
+{
+  "period": "2026年1—10月",
+  "unit": "亿元人民币",
+  "growth": "累计同比",
+  "publication_date": "2026-11-20",
+  "items": [
+    {
+      "name": "国内增值税",
+      "amount": 61996,
+      "growth": 5.3,
+      "source": "mof"
+    },
+    {
+      "name": "国内消费税",
+      "amount": 13917,
+      "growth": -3.3,
+      "source": "mof"
+    },
+    {
+      "name": "企业所得税",
+      "amount": 41480,
+      "growth": 5.9,
+      "source": "mof"
+    },
+    {
+      "name": "个人所得税",
+      "amount": 16428,
+      "growth": 22.9,
+      "source": "mof"
+    },
+    {
+      "name": "进口环节税",
+      "amount": 16988,
+      "growth": 13.2,
+      "source": "mof"
+    },
+    {
+      "name": "关税",
+      "amount": 1916,
+      "growth": -1.9,
+      "source": "mof"
+    },
+    {
+      "name": "城市维护建设税",
+      "amount": 4518,
+      "growth": 3.2,
+      "source": "mof"
+    },
+    {
+      "name": "车辆购置税",
+      "amount": 1873,
+      "growth": 11.8,
+      "source": "mof"
+    },
+    {
+      "name": "印花税",
+      "amount": 4712,
+      "growth": 24.6,
+      "source": "mof"
+    },
+    {
+      "name": "资源税",
+      "amount": 2800,
+      "growth": 12,
+      "source": "mof"
+    },
+    {
+      "name": "契税",
+      "amount": 3102,
+      "growth": -14.9,
+      "source": "mof"
+    },
+    {
+      "name": "房产税",
+      "amount": 4652,
+      "growth": 6.4,
+      "source": "mof"
+    },
+    {
+      "name": "城镇土地使用税",
+      "amount": 2258,
+      "growth": 4.2,
+      "source": "mof"
+    },
+    {
+      "name": "土地增值税",
+      "amount": 2991,
+      "growth": -16.6,
+      "source": "mof"
+    },
+    {
+      "name": "耕地占用税",
+      "amount": 1109,
+      "growth": -8.1,
+      "source": "mof"
+    },
+    {
+      "name": "环境保护税",
+      "amount": 297,
+      "growth": 13.6,
+      "source": "mof"
+    },
+    {
+      "name": "其他税收合计",
+      "amount": 1148,
+      "growth": -0.8,
+      "source": "mof"
+    }
+  ],
+  "securities_stamp": {
+    "amount": 2511,
+    "growth": 54.1,
+    "parent": "印花税"
+  },
+  "export_refund": {
+    "amount": 19563,
+    "growth": 8.0
+  },
+  "totals": {
+    "revenue": 195671,
+    "revenue_growth": 4.9,
+    "tax": 162622,
+    "tax_growth": 6.0,
+    "nontax": 33049,
+    "nontax_growth": -0.2,
+    "expenditure": 228042,
+    "expenditure_growth": 1.0
+  }
+}

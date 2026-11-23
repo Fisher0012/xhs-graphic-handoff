@@ -1,0 +1,183 @@
+{
+  "lpr": [
+    {
+      "date": "2024-12-20",
+      "one_year": 3.1,
+      "five_year": 3.6,
+      "file": "lpr_2024-12-20.html"
+    },
+    {
+      "date": "2025-04-21",
+      "one_year": 3.1,
+      "five_year": 3.6,
+      "file": "lpr_2025-04-21.html"
+    },
+    {
+      "date": "2025-05-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-05-20.html"
+    },
+    {
+      "date": "2025-06-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-06-20.html"
+    },
+    {
+      "date": "2025-07-21",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-07-21.html"
+    },
+    {
+      "date": "2025-08-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-08-20.html"
+    },
+    {
+      "date": "2025-09-22",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-09-22.html"
+    },
+    {
+      "date": "2025-10-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-10-20.html"
+    },
+    {
+      "date": "2025-11-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-11-20.html"
+    },
+    {
+      "date": "2025-12-22",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2025-12-22.html"
+    },
+    {
+      "date": "2026-01-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-01-20.html"
+    },
+    {
+      "date": "2026-02-24",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-02-24.html"
+    },
+    {
+      "date": "2026-03-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-03-20.html"
+    },
+    {
+      "date": "2026-04-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-04-20.html"
+    },
+    {
+      "date": "2026-05-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-05-20.html"
+    },
+    {
+      "date": "2026-06-22",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-06-22.html"
+    },
+    {
+      "date": "2026-07-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-07-20.html"
+    },
+    {
+      "date": "2026-08-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-08-20.html"
+    },
+    {
+      "date": "2026-09-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-09-20.html"
+    },
+    {
+      "date": "2026-10-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-10-20.html"
+    },
+    {
+      "date": "2026-11-20",
+      "one_year": 3.0,
+      "five_year": 3.5,
+      "file": "lpr_2026-11-20.html"
+    }
+  ],
+  "unchanged_since": "2025-05-20",
+  "unchanged_count": 18,
+  "count_method": "2025年6月20日至2026年11月20日，央行逐月公告共18次报价，1年期均3.0%、5年期以上均3.5%，与2025-05-20调整后相同（作者按公告计数）",
+  "last_change": {
+    "date": "2025-05-20",
+    "before": {
+      "one_year": 3.1,
+      "five_year": 3.6,
+      "date": "2025-04-21"
+    },
+    "after": {
+      "one_year": 3.0,
+      "five_year": 3.5
+    },
+    "cut_bp": 10
+  },
+  "new_loan_rates_2026_09": {
+    "source": "中国人民银行《2026年第三季度中国货币政策执行报告》表4，2026-11-11",
+    "unit": "%",
+    "items": {
+      "新发放贷款加权平均利率": {
+        "sep": 3.03,
+        "vs_jun": -0.02,
+        "yoy": -0.22
+      },
+      "一般贷款加权平均利率": {
+        "sep": 3.53,
+        "vs_jun": 0.02,
+        "yoy": -0.13
+      },
+      "企业贷款加权平均利率": {
+        "sep": 2.96,
+        "vs_jun": -0.08,
+        "yoy": -0.19
+      },
+      "票据融资加权平均利率": {
+        "sep": 0.74,
+        "vs_jun": -0.2,
+        "yoy": -0.4
+      },
+      "个人住房贷款加权平均利率": {
+        "sep": 3.05,
+        "vs_jun": 0.0,
+        "yoy": -0.01
+      }
+    }
+  },
+  "oct_rates_excluded": "10月新发放贷款利率仅见媒体“从中国人民银行获悉/据悉”，央行10月金融统计数据报告原文未列，本篇不用",
+  "example_reprice": {
+    "note": "举例，非任何具体合同",
+    "dec2024": 3.6,
+    "dec2025": 3.5
+  }
+}

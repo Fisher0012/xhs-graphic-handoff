@@ -1,0 +1,337 @@
+{
+  "receipt_version": "0.2",
+  "project": "xhs 图文创作",
+  "task_id": "20261121-tax",
+  "risk_tier": "C",
+  "executed_at": "2026-11-21T15:15:23.549844+08:00",
+  "executor": "小红书图文执行子代理",
+  "verifier": "verify_receipt.py independent recomputation",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/01-选题.md",
+      "change": "add",
+      "after_sha256": "c6584e325a0f53c0d33a692c70a7be87c82eaaede041b2479bb2965c457d183a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/02-框架.md",
+      "change": "add",
+      "after_sha256": "9a9c6d89df6ff6750f4762fec9b6c58f0b7ec08a03679d349b13e6236de9dbcb"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/gen.py",
+      "change": "add",
+      "after_sha256": "f409e66a853abcbadcaa68d74e4427c47143450711140af1e6eadc5630b44bb6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/original_gen.py",
+      "change": "add",
+      "after_sha256": "8d69224a02b8b1020f43fbe75d5d12898aab1419e183f54f66fd9f39f8028d91"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p1.html",
+      "change": "add",
+      "after_sha256": "6c18271503cdea5c153d167aab88e0eeebd735281e98beaf7603830753553734"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p1.png",
+      "change": "add",
+      "after_sha256": "082fd3387b75821ece8f81f624febe79d8b4b50bfdf0fccf55559074c51f305b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p2.html",
+      "change": "add",
+      "after_sha256": "709ce5847e2c51b1ff2de213e75f9a79a3e7f879a433552af7c7bf40338c458c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p2.png",
+      "change": "add",
+      "after_sha256": "e3dbb40b3b15725f9d3f2f1c7849537f56f6d44e2f16775998c9626786050e7c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p3.html",
+      "change": "add",
+      "after_sha256": "ec955d65b8e26d038fb93d3f531c9f9318e99652bfaaddcbf2503a83d1048348"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p3.png",
+      "change": "add",
+      "after_sha256": "6a5886119a77b14aab15f94ff77546591f3414ffa3709c41e3c00773b7c7a8f0"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p4.html",
+      "change": "add",
+      "after_sha256": "688f177713b8aa246a927323ccd6dfedebfad98cf3ef53f4b7836753dadf10d6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/03-design/p4.png",
+      "change": "add",
+      "after_sha256": "0886010c0b7dcc0d66889056c9f7c5330ac871d7f66f386d9ec9a511b0e39109"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/04-文案.md",
+      "change": "add",
+      "after_sha256": "45893b1c74096703fd632ac787d96f31bc17a28aa88de7c1e20b14159c61d7c3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/05-合规.md",
+      "change": "add",
+      "after_sha256": "b3219bd2d517603c594d50b3481e91fa624b5058f45a0d1047fa7f0cfc4ce443"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/baseline_ref.txt",
+      "change": "add",
+      "after_sha256": "5bc5e1983482784940e015e09aed419779ea1f6df565cf4324785dd177e1cfec"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/data.json",
+      "change": "add",
+      "after_sha256": "198baac349eee2712984aabd02ecd31a1f8839372e6b5f6a209d03e45bb23211"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/data_check.json",
+      "change": "add",
+      "after_sha256": "8d0e9960afe8238b853c55050ef5ce2d03673d286092e36f149c7ec968b9b9c2"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/pipeline.log",
+      "change": "add",
+      "after_sha256": "2c338412d83b36847a9d2a33e291662983fe36fa0dc59e1dca244d01045fed86"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/source_reverse_check.json",
+      "change": "add",
+      "after_sha256": "3dfac798d1db0d94239ab29dceec420ec4f7b59e82f2a34471c0ad2a45040501"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/space.log",
+      "change": "add",
+      "after_sha256": "fa22e7472903f73c3de456621804404aab0b8f6203eaa8307545b5eb9e1ce576"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/titles.log",
+      "change": "add",
+      "after_sha256": "568940bd20639fd715eafed2997e4391582609cb499e5607e14a4585d24b2450"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/visual.md",
+      "change": "add",
+      "after_sha256": "10d7ace5c45a2b8631609c4f0a7830b945a15ae1ab4d93c162011aaa0ce022aa"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/00_封面.png",
+      "change": "add",
+      "after_sha256": "082fd3387b75821ece8f81f624febe79d8b4b50bfdf0fccf55559074c51f305b"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/01_个税增长怎么看.png",
+      "change": "add",
+      "after_sha256": "e3dbb40b3b15725f9d3f2f1c7849537f56f6d44e2f16775998c9626786050e7c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/02_后7项与地产税.png",
+      "change": "add",
+      "after_sha256": "6a5886119a77b14aab15f94ff77546591f3414ffa3709c41e3c00773b7c7a8f0"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/03_财政总账.png",
+      "change": "add",
+      "after_sha256": "0886010c0b7dcc0d66889056c9f7c5330ac871d7f66f386d9ec9a511b0e39109"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/04_发布文案.txt",
+      "change": "add",
+      "after_sha256": "593930867d28bfef1d4d51cf1551298882c3838c18d647c83b65b4239d59c445"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/05_来源说明.txt",
+      "change": "add",
+      "after_sha256": "8ef8b0934cb31ada9981b210a44b222d410dbef267cd5af92d285e5d7f29025f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/06_归档校验.json",
+      "change": "add",
+      "after_sha256": "9690fee3e540f116d639e77d8c8ab623bc1bc4c7d1cce224bfc86c52a927cab1"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/07_总览.png",
+      "change": "add",
+      "after_sha256": "9d909521d88d39806a872e7e752e95cb27abecf1a8ff5929351e29ee38c962ce"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/final/SHA256.txt",
+      "change": "add",
+      "after_sha256": "79f331060bd828f3a06f38dec12b657b7ada60ace4f3cce531098077972a69a8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/pipeline_log.md",
+      "change": "add",
+      "after_sha256": "a1088ecf7319fec66ae779a7282cb5b05c7333a35f7605d5acec2a1ed10598cb"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/sources/metadata.json",
+      "change": "add",
+      "after_sha256": "f358e86bf2e50ac4e133bac5ec9b3b221fb78c853c0cb73148c6ce095eed2ef7"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/sources/mof.html",
+      "change": "add",
+      "after_sha256": "c436fe9bd6a7e38fe042caef85de95497d1d30b528f4d7f9d20f2f53e0e62790"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/sources/mof.txt",
+      "change": "add",
+      "after_sha256": "01e8b65f33d2889a36809f849ea31f49a4058b8240465eb7a598375cd6e247b8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/sources/tax.txt",
+      "change": "add",
+      "after_sha256": "606a0f2a9e40debbc5b0d5453baa121b18643b302198cffa38986ecf2bc0c27c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/verify_content.py",
+      "change": "add",
+      "after_sha256": "5002272e0ccdd851d1adcccfe066da9a6ad7370a7b354833f48dc3786eb881c6"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/交付.md",
+      "change": "add",
+      "after_sha256": "e702db189f7d0d5217348f1c2cccd8dd3fe20806f852d83d0e61cce2e10cd6c9"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/框架.md",
+      "change": "add",
+      "after_sha256": "9a9c6d89df6ff6750f4762fec9b6c58f0b7ec08a03679d349b13e6236de9dbcb"
+    }
+  ],
+  "protected": [
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/gen.py",
+      "sha256": "8d69224a02b8b1020f43fbe75d5d12898aab1419e183f54f66fd9f39f8028d91"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p1.html",
+      "sha256": "3df6c2300fa1eafcfe7b20d4f3bfd80ffef710b9a051bbf89b9ac7fc44ea812a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p1.png",
+      "sha256": "b32c09d3b0cfdfec87745497588cb3fdcda8c40e8d0926b10f12b95505259795"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p2.html",
+      "sha256": "e46e0d40ee6f8a91dc217cb6a5b86e88a9808a6680c5384dc8d70412f94bc8bd"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p2.png",
+      "sha256": "a191c09c225224f826f7ac020153aaf78a064e1368a8b78e3efb36467b6431e5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p3.html",
+      "sha256": "7e312d5f65c4119a93ee031f729a618bc20e8ab6cce8cae3af3defd3d3195b5c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p3.png",
+      "sha256": "c52fbaf326017b2acbf042eb2cbf87204dda12d476194cea26381a5a796cefaa"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p4.html",
+      "sha256": "5766e99a01a864a3caef4229bc46a0c86e488715dc1b9863277d47645573008c"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261112-大号-税种增速榜/03-design/p4.png",
+      "sha256": "96357459c336a49774633daff61ba2ba32b7981e6056264dc6fad7d9b66eaa98"
+    },
+    {
+      "path": "/workspace/xhs/notes/cover_gen.py",
+      "sha256": "2c203a1a76113ed169a858db7751bf3a75f3b6d26274bb59d27e215bbeb14e6f"
+    },
+    {
+      "path": "/workspace/xhs/notes/heijin.py",
+      "sha256": "a0c880e62539d9224bc944a4da2e9e2c3555f1917ced6b25ca001d59dd915703"
+    },
+    {
+      "path": "/workspace/xhs/tools/check_titles.py",
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "path": "/workspace/xhs/tools/compliance_precheck.py",
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "path": "/workspace/xhs/tools/gate_archive.sh",
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "path": "/workspace/xhs/tools/measure_space.py",
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "path": "/workspace/xhs/tools/once_pipeline.sh",
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "path": "/workspace/xhs/tools/render_heijin.sh",
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    }
+  ],
+  "gates": {
+    "gate1_syntax_and_py_compile": "PASS",
+    "gate2_invariants_and_tests": {
+      "total_tests": 1,
+      "passed": 1,
+      "failed": 0,
+      "exit_code": 0,
+      "command": [
+        "python3",
+        "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/verify_content.py"
+      ],
+      "cwd": "/workspace/xhs",
+      "timeout_s": 120
+    },
+    "gate3_simulated_rollback": {
+      "restore_by_delete": true
+    },
+    "gate4_manifest_hash_check": "100%_MATCHED"
+  },
+  "gate4_evidence": {
+    "asset_register": "/workspace/review/xhs/20261121-tax/ASSET_REGISTER.json"
+  },
+  "project_checks": [
+    {
+      "id": "H1",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/titles.log"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/05-合规.md"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261121-大号-前10个月税收增速榜/evidence/data_check.json"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "evidence": "/workspace/review/xhs/20261121-tax/ASSET_REGISTER.json"
+    }
+  ],
+  "overall_verdict": "FAIL",
+  "unresolved": [
+    {
+      "code": "C06",
+      "reason": "isolated import availability check cannot resolve existing shared modules added through sys.path by approved templates",
+      "modules": [
+        "cover_gen",
+        "heijin",
+        "check_titles"
+      ],
+      "action": "No shared verifier/module changes; report to parent. Normal local generation and content checks passed."
+    }
+  ]
+}

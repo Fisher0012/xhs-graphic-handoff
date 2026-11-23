@@ -1,0 +1,58 @@
+{
+  "title": "中国出口增速榜",
+  "topic": "前10个月中国出口什么涨得最猛",
+  "date": "2026-11-11",
+  "account": "阿信学财经",
+  "status": "成稿待审·待 Fisher 手动发布·未发布",
+  "note_dir": "/workspace/xhs/notes/20261111-大号-出口增速榜",
+  "mac_path": "~/Desktop/新图文笔记/阿信学财经/20261111_前10月出口增速榜_待送审",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1222093,
+      "sha256": "7295e244985fecc9aa9c311eda7d6fdf3c8002a36a71ac843432669953397ae9"
+    },
+    {
+      "name": "01_机电产品占出口近2-3.png",
+      "bytes": 1329510,
+      "sha256": "8da2da27d96ecf6c7d1ad462970e4db73ebaa3b9ca2db432776f4d7505ec1836"
+    },
+    {
+      "name": "02_新三样是哪三样.png",
+      "bytes": 1266546,
+      "sha256": "ae58f4bf109fb0a8346251d35227fd113b8ca7f3cd6abd9021306461c8f78d29"
+    },
+    {
+      "name": "03_劳密产品为啥只涨2.4%.png",
+      "bytes": 1248047,
+      "sha256": "9ac2efb8265e07d57fd20c5dad8c31cd7ffb4447844941ef46dccba95e9e8dd9"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2226,
+      "sha256": "1da45ada6cc4f42528c773d7bdaec2f5abd2755a8e991ca272968419b5aca8f6"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 2553,
+      "sha256": "4a1e3d4cbb88b06b69afd0c596f8b1e9882b8f24c9db4648a9146ed93aee2b46"
+    }
+  ],
+  "sources": [
+    "http://english.customs.gov.cn/Statics/d02e13c1-18c8-460f-8754-e345940d8ae3.html",
+    "http://english.customs.gov.cn/Statics/669bf4da-5fc5-410a-8b65-82baa882195a.html",
+    "https://www.news.cn/20261110/89e2ac126b434da4ab7b8295c3ddeb4e/c.html",
+    "https://finance.sina.com.cn/jjxw/2026-11-10/doc-iniyfkme2820689.shtml",
+    "https://www.chinanews.com.cn/cj/2026/11-10/10729298.shtml",
+    "https://www.cnfin.com/hg-lb/detail/20261110/4493622_1.html",
+    "https://finance.eastmoney.com/a/202611103927599615.html"
+  ],
+  "checks": {
+    "check_titles_local": "PASS (封面112px 1行 占可用宽81.2%; 内页64px 1行渐变, 副26px #9b9b9e 1行)",
+    "measure_space_local": "PASS (最大空白≤3.2%, 内容底→页脚≤2.6%)",
+    "visual_read": "PASS（逐张 Read；修过 p2 孤字换行）",
+    "compliance_selfcheck": "10/10 通过（第10条不适用）",
+    "once_pipeline": "PASS（见 pipeline_log.md）",
+    "reviewer": "未送审查官（本轮不联系其他 bot），待 Fisher 看图"
+  }
+}

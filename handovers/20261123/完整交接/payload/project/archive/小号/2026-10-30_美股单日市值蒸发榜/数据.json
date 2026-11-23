@@ -1,0 +1,44 @@
+{
+  "as_of": "2026-10-29（美东时间收盘）",
+  "unit": "亿美元（名义美元，未调通胀）",
+  "rank_basis": "按收盘价×股本复核值排序；图上蒸发额用媒体公开数，谷歌10-29用自算数",
+  "top10": [
+    {"rank":1,"company":"英伟达","ticker":"NVDA","date":"2025-01-27","pct":-16.97,"media_yi":[["CNBC",5890],["Statista",5890],["Yahoo Finance",5930]],"show":"约5890","check_yi":5927,
+     "src":["https://www.cnbc.com/2025/01/27/nvidia-sheds-almost-600-billion-in-market-cap-biggest-drop-ever.html","https://www.statista.com/chart/26779/biggest-single-day-market-cap-losses/","https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"]},
+    {"rank":2,"company":"谷歌（Alphabet）","ticker":"GOOGL/GOOG","date":"2026-10-29","pct":-12.64,"pct_note":"A类股-12.64%，C类股-12.29%；合计市值-12.48%（自算）","media_yi":[["Yahoo Finance",4820],["NBC News",5000],["Report.az（盘中）",4770]],"show":"约4965（自算）","check_yi":4965.46,
+     "src":["https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html","https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322","https://report.az/en/ict/alphabet-loses-477-billion-in-market-value-after-earnings-report"]},
+    {"rank":3,"company":"SpaceX","ticker":"SPCX","date":"2026-06-22","pct":-16.43,"media_yi":[["Yahoo Finance",4000],["Quartz（转Yahoo）",4000]],"show":"约4000","check_yi":4007,
+     "note":"Quartz 另一篇（qz.com 10-29）称4000亿是多日累计；Yahoo 10-29 称6-22单日4000亿。按6-18收盘185.00、6-22收盘154.60×7-28股本131.8亿股复核约4007亿，支持单日口径",
+     "src":["https://finance.yahoo.com/markets/stocks/articles/spacex-stock-falls-below-ipo-121848370.html","https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"]},
+    {"rank":4,"company":"苹果","ticker":"AAPL","date":"2026-07-31","pct":-7.35,"media_yi":[["CNBC（「本周」超3500亿）",3500],["WSJ（搜索摘要约3580亿，原文未打开）",3580],["Benzinga（盘中约4750亿）",4750]],"show":"超3500","check_yi":3578,
+     "note":"没有打开的原文直接写收盘单日数；CNBC 原句是这一周跌掉超3500亿",
+     "src":["https://www.cnbc.com/2026/07/31/apple-aapl-amazon-amzn-stock-today.html","https://www.benzinga.com/markets/tech/26/07/60842658/pple-stock-worst-day-since-2020-memory-costs-tim-cook-100-year-flood"]},
+    {"rank":5,"company":"微软","ticker":"MSFT","date":"2026-01-29","pct":-9.99,"media_yi":[["CNBC",3570],["WSJ",3570],["Bloomberg",3570]],"show":"约3570","check_yi":3574,
+     "src":["https://www.cnbc.com/2026/01/29/microsoft-market-cap-earnings.html","https://www.bloomberg.com/news/articles/2026-01-29/microsoft-heads-for-worst-market-loss-since-deepseek-hit-nvidia"]},
+    {"rank":6,"company":"英伟达","ticker":"NVDA","date":"2026-06-05","pct":-6.20,"media_yi":[["Reuters（转Investing.com）超3000亿",3000],["MSN 标题3300亿（页面未加载）",3300]],"show":"超3000","check_yi":3282,
+     "src":["https://www.investing.com/news/stock-market-news/chip-selloff-erases-over-1-trillion-in-stock-market-value-4729116"]},
+    {"rank":7,"company":"苹果","ticker":"AAPL","date":"2025-04-03","pct":-9.25,"media_yi":[["Yahoo Finance",3110]],"show":"约3110","check_yi":3110,
+     "src":["https://finance.yahoo.com/news/apples-cook-kissed-trumps-ring-170405110.html"]},
+    {"rank":8,"company":"谷歌（Alphabet）","ticker":"GOOGL/GOOG","date":"2026-07-23","pct":-7.13,"pct_note":"A类股-7.13%，C类股-6.89%","media_yi":[["Forbes（转Yahoo）",2550],["Yahoo Finance",2750],["MarketWatch（转Yahoo）近",2940],["CNBC 约",3000]],"show":"2550–3000（各家不一）","check_yi":2938,
+     "note":"各家差异大；按7-15股本分三类复核约2938亿，接近 MarketWatch。若按 Yahoo 的2750亿，排名掉到第10",
+     "src":["https://ca.finance.yahoo.com/news/sergey-brin-falls-5th-richest-145108088.html","https://finance.yahoo.com/markets/stocks/articles/bank-america-says-alphabet-stock-194700970.html","https://www.cnbc.com/2026/07/23/tesla-tsla-alphabet-googl-stock-today.html"]},
+    {"rank":9,"company":"博通","ticker":"AVGO","date":"2026-06-04","pct":-12.59,"media_yi":[["Yahoo Finance",2800],["Gate News",2800],["MarketWatch",2860]],"show":"约2800","check_yi":2870,
+     "src":["https://finance.yahoo.com/markets/stocks/article/broadcoms-sell-off-just-entered-megacap-history-163942663.html","https://www.gate.com/news/detail/broadcom-tumbles-126-on-june-4-erasing-280b-in-market-cap-21649983","https://www.marketwatch.com/livecoverage/stock-market-today-sp500-nasdaq-fall-dow-flat-tech-earnings-disappoint-oil-dips-lebanon-ceasefire/card/broadcom-sheds-286-billion-in-market-value-in-historic-selloff-ZDbCKfymHWa2AkZqVBRT"]},
+    {"rank":10,"company":"英伟达","ticker":"NVDA","date":"2024-09-03","pct":-9.53,"media_yi":[["Investopedia",2790],["MarketWatch",2790],["Statista",2790]],"show":"约2790","check_yi":2789,
+     "src":["https://www.investopedia.com/how-does-nvidia-s-record-usd279b-market-cap-loss-stack-up-8706251"]}
+  ],
+  "next": [
+    {"company":"英伟达","date":"2025-02-27","pct":-8.48,"media_yi":2720,"check_yi":2716,"src":"https://www.cnbctv18.com/webstories/market/biggest-one-day-market-cap-losses-in-stock-market-history-record-22840.htm"},
+    {"company":"英伟达","date":"2025-03-03","pct":-8.69,"media_yi":2650,"check_yi":2650,"src":"同上"},
+    {"company":"SpaceX","date":"2026-06-17","pct":-9.26,"media_yi":null,"check_yi":"约2580（按7-28股本）"}
+  ],
+  "alphabet_selfcalc": {
+    "shares_mn":{"A":5888,"B":827,"C":5579,"as_of":"2026-10-21","source":"Alphabet 10-Q（2026-09-30季度，2026-10-29提交）封面 https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm"},
+    "close":{"GOOGL":{"2026-10-28":324.89,"2026-10-29":283.82},"GOOG":{"2026-10-28":321.89,"2026-10-29":282.32},
+             "source":"纳斯达克官网 api.nasdaq.com（10-28 历史行情；10-29 为收盘后 lastSalePrice，状态 Closed），与 Yahoo 行情一致"},
+    "method":"市值 =（A股+B股）×GOOGL收盘价 + C股×GOOG收盘价；B股不上市，可1:1转A股，按A股价计",
+    "cap_before_yi":39775,"cap_after_yi":34809,"loss_yi":4965.46,"loss_parts_yi":{"A+B":2757.9,"C":2207.6},"cap_pct":-12.48,
+    "sensitivity_yi":{"全部按GOOGL价":5049,"不含B股":4626}
+  },
+  "context":{"yahoo_200bn_days":{"2026（截至10-28）":18,"2025":13,"2022年以前":0,"src":"Yahoo Finance 2026-10-29（据Bloomberg数据）"}}
+}

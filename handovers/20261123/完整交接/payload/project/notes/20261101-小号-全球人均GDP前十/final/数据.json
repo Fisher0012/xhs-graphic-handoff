@@ -1,0 +1,247 @@
+{
+ "as_of": "2026年（IMF估计值；WEO 2026年10月版，PUBLICATION_DATE 2026-10-13）",
+ "unit": "美元/人（现价，NGDPDPC）",
+ "rank_basis": "作者对IMF WEO数据库191个经济体2026年值排序",
+ "top10": [
+  {
+   "rank": 1,
+   "name": "列支敦士登",
+   "value": 230417,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC LIE 2026: 230417.113; 2025: 218977.964",
+   "note": null,
+   "代码": "LIE",
+   "2025_美元": 218978,
+   "同比_作者算": "+5.2%"
+  },
+  {
+   "rank": 2,
+   "name": "卢森堡",
+   "value": 155733,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC LUX 2026: 155732.853; 2025: 148246.975",
+   "note": null,
+   "代码": "LUX",
+   "2025_美元": 148247,
+   "同比_作者算": "+5.0%"
+  },
+  {
+   "rank": 3,
+   "name": "爱尔兰",
+   "value": 127837,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC IRL 2026: 127837.362; 2025: 123788.874",
+   "note": null,
+   "代码": "IRL",
+   "2025_美元": 123789,
+   "同比_作者算": "+3.3%"
+  },
+  {
+   "rank": 4,
+   "name": "瑞士",
+   "value": 124478,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC CHE 2026: 124478.239; 2025: 117191.001",
+   "note": null,
+   "代码": "CHE",
+   "2025_美元": 117191,
+   "同比_作者算": "+6.2%"
+  },
+  {
+   "rank": 5,
+   "name": "挪威",
+   "value": 115188,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC NOR 2026: 115188.419; 2025: 94360.068",
+   "note": null,
+   "代码": "NOR",
+   "2025_美元": 94360,
+   "同比_作者算": "+22.1%"
+  },
+  {
+   "rank": 6,
+   "name": "新加坡",
+   "value": 109117,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC SGP 2026: 109116.828; 2025: 99365.285",
+   "note": null,
+   "代码": "SGP",
+   "2025_美元": 99365,
+   "同比_作者算": "+9.8%"
+  },
+  {
+   "rank": 7,
+   "name": "冰岛",
+   "value": 107464,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC ISL 2026: 107464.454; 2025: 98783.212",
+   "note": null,
+   "代码": "ISL",
+   "2025_美元": 98783,
+   "同比_作者算": "+8.8%"
+  },
+  {
+   "rank": 8,
+   "name": "美国",
+   "value": 95212,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC USA 2026: 95212.135; 2025: 90266.752",
+   "note": null,
+   "代码": "USA",
+   "2025_美元": 90267,
+   "同比_作者算": "+5.5%"
+  },
+  {
+   "rank": 9,
+   "name": "丹麦",
+   "value": 82714,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC DNK 2026: 82713.541; 2025: 78586.545",
+   "note": null,
+   "代码": "DNK",
+   "2025_美元": 78587,
+   "同比_作者算": "+5.3%"
+  },
+  {
+   "rank": 10,
+   "name": "荷兰",
+   "value": 78535,
+   "src": [
+    "https://data.imf.org/-/media/iData/External-Storage/Documents/0FA3DC49A04D446E9D69DBEB29979E1C/en/WEOOct2026all.xlsx",
+    "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+    "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+   ],
+   "quote": "NGDPDPC NLD 2026: 78535.007; 2025: 73264.389",
+   "note": null,
+   "代码": "NLD",
+   "2025_美元": 73264,
+   "同比_作者算": "+7.2%"
+  }
+ ],
+ "others": [
+  {
+   "项": "中国 2026 15371美元（2025 13970），在191个经济体排第77",
+   "来源": "https://www.imf.org/external/datamapper/api/v1/NGDPDPC/CHN",
+   "摘录": "CHN 2026: 15371.258"
+  },
+  {
+   "项": "数据版本：SDMX数据流IMF.RES:WEO(9.0.0)，各国COUNTRY_UPDATE_DATE为2026-09-10至09-30，与10月WEO一致",
+   "来源": "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A",
+   "摘录": "LUX COUNTRY_UPDATE_DATE '9/14/2026'；USA '9/30/2026'；CHN '9/29/2026'"
+  },
+  {
+   "第11-15": [
+    {
+     "排名": 11,
+     "代码": "MAC",
+     "国家/地区": "中国澳门",
+     "2026_美元": 77049,
+     "2025_美元": 74465,
+     "同比_作者算": "+3.5%",
+     "来源": [
+      "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+      "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+     ],
+     "摘录": "NGDPDPC MAC 2026: 77049.245; 2025: 74465.49"
+    },
+    {
+     "排名": 12,
+     "代码": "AUS",
+     "国家/地区": "澳大利亚",
+     "2026_美元": 75172,
+     "2025_美元": 66379,
+     "同比_作者算": "+13.2%",
+     "来源": [
+      "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+      "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+     ],
+     "摘录": "NGDPDPC AUS 2026: 75172.489; 2025: 66379.226"
+    },
+    {
+     "排名": 13,
+     "代码": "ISR",
+     "国家/地区": "以色列",
+     "2026_美元": 72441,
+     "2025_美元": 60899,
+     "同比_作者算": "+19.0%",
+     "来源": [
+      "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+      "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+     ],
+     "摘录": "NGDPDPC ISR 2026: 72440.768; 2025: 60899.474"
+    },
+    {
+     "排名": 14,
+     "代码": "SMR",
+     "国家/地区": "圣马力诺",
+     "2026_美元": 70662,
+     "2025_美元": 65621,
+     "同比_作者算": "+7.7%",
+     "来源": [
+      "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+      "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+     ],
+     "摘录": "NGDPDPC SMR 2026: 70662.339; 2025: 65621.389"
+    },
+    {
+     "排名": 15,
+     "代码": "SWE",
+     "国家/地区": "瑞典",
+     "2026_美元": 69244,
+     "2025_美元": 63368,
+     "同比_作者算": "+9.3%",
+     "来源": [
+      "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+      "https://api.imf.org/external/sdmx/3.0/data/dataflow/IMF.RES/WEO/+/LIE+LUX+IRL+CHE+NOR+SGP+ISL+USA+DNK+NLD+CHN+MAC.NGDPDPC.A"
+     ],
+     "摘录": "NGDPDPC SWE 2026: 69244.46; 2025: 63368.199"
+    }
+   ]
+  }
+ ],
+ "recheck_20261101": [
+  "已下载IMF官方 WEOOct2026all.xlsx（数据集IMF.RES:WEO(9.0.0)，PUBLICATION_DATE 2026-10-13），前15名及中国第77/191与API取值逐个一致",
+  "data.imf.org/datasets/WEO 页面标注“October 2026 World Economic Outlook”，IMF官网同名报告2026-10-13发布",
+  "新增人口（LP，百万人，2026）：美国342.838、荷兰18.13、瑞士9.124、新加坡6.121、丹麦6.037、挪威5.658、爱尔兰5.554、卢森堡0.696、冰岛0.398、列支敦士登0.042（同一数据文件）"
+ ],
+ "doubts": [
+  "2026年为估计值，以后会修订",
+  "列支敦士登最新实际数据只到2023年、冰岛到2024年"
+ ]
+}

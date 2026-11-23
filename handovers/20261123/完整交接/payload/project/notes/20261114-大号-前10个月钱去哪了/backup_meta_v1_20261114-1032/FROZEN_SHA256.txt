@@ -1,0 +1,16 @@
+frozen_at: 2026-11-14 10:33:52 CST
+8b2f3198888766be0457cd6ba3c7121d754dd5c121610e2ff1173967b9120ffa  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/00_封面.png
+c2311a59359e96e51cc828bb7c99ca04ade7d4329b234688091e64a97d229da5  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/01_存款加在哪几块.png
+891e49a6263f6a04ae231927e75ca6a979bf8c0b07aebe8bc1aa129aadd3929f  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/02_贷款谁增谁在减.png
+b75bf2c4b804606405e1cf969f872301fd568817f84eba96ee870b0eab100813  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/03_当月和统计口径.png
+ae5f0120d62899def0ebd6e66972ec7a2fa51e8f3cb54daf6deb036e4c1cba80  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/04_发布文案.txt
+8b2f3198888766be0457cd6ba3c7121d754dd5c121610e2ff1173967b9120ffa  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p1.png
+c2311a59359e96e51cc828bb7c99ca04ade7d4329b234688091e64a97d229da5  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p2.png
+891e49a6263f6a04ae231927e75ca6a979bf8c0b07aebe8bc1aa129aadd3929f  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p3.png
+b75bf2c4b804606405e1cf969f872301fd568817f84eba96ee870b0eab100813  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p4.png
+4874b9f0982253652869aad1beadd43d20173e1c35d7918cee4ce796e77affd6  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p1.html
+11173440b401b54e1366fd445b9687e11119483ee9a9751d90cd3f3c2b63b004  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p2.html
+4d636ee4403fd08351a297ff27607507620b6ab27e57144e0635563af6c776cd  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p3.html
+8a1dca706d15afaa2a0639466cf5bc70217538a340c46afe2a8434caa3128987  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/03-design/p4.html
+6d898720e8229b2f6e428a6a1fa5a9adc6008782e5ce63bdb5a17bd75c66e613  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/receipt.json
+e823288981cd054b2b806b48788b71c4c39e314be2a4f57c2ad577c3b11cb97f  /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/receipt_verification.txt

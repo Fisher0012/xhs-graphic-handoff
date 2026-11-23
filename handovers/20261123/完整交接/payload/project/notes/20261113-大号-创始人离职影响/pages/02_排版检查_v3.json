@@ -1,0 +1,34 @@
+{
+  "page": "02_内页_v3",
+  "status": "SELF_CHECK_PASS_PENDING_USER",
+  "checked_at": "2026-11-13 14:59:31 北京时间",
+  "title": {
+    "text": "交班后看什么",
+    "font_px": 86,
+    "lines": 1,
+    "nowrap": true,
+    "width_px": 516,
+    "fits_one_line": true
+  },
+  "removed": [
+    "底部这是观察清单",
+    "图例里的不是对走向的判断",
+    "第二层临时CEO加董事长的过渡安排（重复）",
+    "第三层业务与行业（已知项是观点不是事实）"
+  ],
+  "structure": "两层：01接班安排 02正式继任；已知/待观察改为通栏，待观察条为内容高度，避免空卡",
+  "visual": {
+    "read_full": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v3.png",
+    "read_thumb": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v3_400.png",
+    "canvas": "1080x1440 design, 2x 2160x2880",
+    "margins_px": 40,
+    "footer_gap_px": 77.5,
+    "overflow": "none",
+    "cut_chars": "none",
+    "orphan_or_split_words": "none",
+    "edge_text": "20px边缘无正文像素",
+    "spacing": "两层通栏清单，待观察为紧凑条；底栏距页脚约78px，不空不挤。"
+  },
+  "facts": "已知只采用8-K/新闻稿：11月11日接受辞职即刻生效；克雷斯任临时CEO并续任CFO、同时兼任两职；哈维·琼斯任董事长；董事会正在寻找正式继任者；目前尚未宣布长期正式CEO。待观察只写官方尚未宣布/说明的具体事项（正式CEO人选和生效时间；到任后临时CEO与CFO是否仍由同一人兼任），不写套话，不作预测。不写3.58%（留给第1张对照条）。",
+  "verdict": "自查可交审，待用户验收，不能当作已通过标准"
+}

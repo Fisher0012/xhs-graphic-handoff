@@ -1,0 +1,48 @@
+{
+  "note": "20261113_英伟达持股",
+  "account": "阿信学财经",
+  "created": "2026-11-13",
+  "preferred_title": "黄仁勋辞职了，股份还在不在",
+  "pages": 3,
+  "caption_chars_no_ws": 600,
+  "files": {
+    "00_封面.png": {
+      "sha256": "238848c005b700bb4b7da9f2ab16946934c140cf5b28bfe22d3b4c5507880de1",
+      "bytes": 1156782,
+      "size": "2160x2880"
+    },
+    "01_同一时点持股.png": {
+      "sha256": "8cbc41cf5c433ea0735aed34a4bb3b1f1fa0cacffc84a54fe5afdc4769c77501",
+      "bytes": 1259964,
+      "size": "2160x2880"
+    },
+    "02_辞职与股份.png": {
+      "sha256": "7ffd2fd7034d71e2b6ab38e69247c44b0ffe835195fd54a9d807dfbd31c6cb0f",
+      "bytes": 1314313,
+      "size": "2160x2880"
+    },
+    "05_发布文案.txt": {
+      "sha256": "2d9245f40dfd0b14acbf38f892999cefe2c9b8fefaf6561d7887166e93d923e1",
+      "bytes": 1824
+    },
+    "06_来源说明.txt": {
+      "sha256": "348cf427305b4d52ad6be8bf1401b4af999cc77d6aff558671d449e8520f0be0",
+      "bytes": 2109
+    }
+  },
+  "qa": {
+    "cover_title_width_pct": 82.8,
+    "cover_title_fs": "90px",
+    "inner_title_fs": "64px",
+    "max_blank_pct": {
+      "p1": 7.5,
+      "p2": 5.4,
+      "p3": 6.4
+    },
+    "content_to_foot_pct": {
+      "p1": 1.7,
+      "p2": 1.8,
+      "p3": 0.7
+    }
+  }
+}

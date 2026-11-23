@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "method": "raw-byte-split",
+  "note": "Concatenate pieces in order. No compression and no archive wrapper. Git pack compression may still apply in transit.",
+  "threshold_bytes_exclusive": 52428800,
+  "max_piece_bytes": 46137344,
+  "max_piece_limit_bytes": 47185920,
+  "snapshot_dir": "完整交接",
+  "sha256sums_file_sha256": "e15c342f97ce480aef0c5ad69144752ca0cd4ac13a9db99bf4dc0ee15fda38a6",
+  "expected_files_after_rebuild": 3072,
+  "expected_bytes_after_rebuild": 2618814122,
+  "expected_sha256sum_lines": 3071,
+  "files": [
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/rec/raw_A.mp4",
+      "size": 108047615,
+      "sha256": "a18a5220c498796323dd07f85d7ca34f442d3198d00062dcdcc7000223179668",
+      "pieces": [
+        {
+          "path": "storage/shards/p01-00.bin",
+          "size": 46137344,
+          "sha256": "64436ecb64cf1b9881519989bd154951788eab6f8cca954aad2add578ce00768"
+        },
+        {
+          "path": "storage/shards/p01-01.bin",
+          "size": 46137344,
+          "sha256": "3443d1f030b60436bfac1668396ebfe3aba7d5f179dcd5d4b1e7403f81745f28"
+        },
+        {
+          "path": "storage/shards/p01-02.bin",
+          "size": 15772927,
+          "sha256": "48283171797b1de96698d6d548ee9c475fabaaa8193f4474463221bc1d4aec9a"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/rec/raw_B_gen.mp4",
+      "size": 84892405,
+      "sha256": "e60aa71d43ae7c1896295af895f0893050cf467ce0f94e6991de2f800d046e30",
+      "pieces": [
+        {
+          "path": "storage/shards/p02-00.bin",
+          "size": 46137344,
+          "sha256": "96227ce24a406453ee89388d619f97a0b6ad5f7f07a40ed4d7263e8fe340313b"
+        },
+        {
+          "path": "storage/shards/p02-01.bin",
+          "size": 38755061,
+          "sha256": "9fb35980a8391477a7b776c1efefff9c884794ab5111d5edc35ba5ce33e8e0ec"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/refs2/beida.mp4",
+      "size": 69434643,
+      "sha256": "d3c4325128d5b062886e1a0505075df94016e6fc53c72c7172a1d802833c2eb4",
+      "pieces": [
+        {
+          "path": "storage/shards/p03-00.bin",
+          "size": 46137344,
+          "sha256": "22bf47884f7da359e6146c98e0c6f7c71e3d10ca8f3830cff4aa77849ce24f19"
+        },
+        {
+          "path": "storage/shards/p03-01.bin",
+          "size": 23297299,
+          "sha256": "ceb09a3ac7ad32334c8bf2fc7c4a0a9c4b12d5d950c0a6e3a78855a119b9a50c"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/refs2/meidui.mp4",
+      "size": 101001322,
+      "sha256": "aadbef4714b4295e1c7b592a835761d6e54d17f3d786038a47651cfcbcc4a4c4",
+      "pieces": [
+        {
+          "path": "storage/shards/p04-00.bin",
+          "size": 46137344,
+          "sha256": "99502ba88b761edd0846776c27e6f8a489b1c69803bab4dbbe4d27d68c9d8735"
+        },
+        {
+          "path": "storage/shards/p04-01.bin",
+          "size": 46137344,
+          "sha256": "2f5aef73bfa76e3d64145a7bea0c0b3007e886763ee72746d5624d5741bf4c8e"
+        },
+        {
+          "path": "storage/shards/p04-02.bin",
+          "size": 8726634,
+          "sha256": "cf8c785e72b2ee6ee3de58c4816bed5453e0c77b6af6f5a84fb7d0f5023a08cb"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/refs2/wb.mp4",
+      "size": 81329684,
+      "sha256": "5eaa2899b83bad22f3148927e3b7ac26de8bd7080fdc38302140ea12bf1474e9",
+      "pieces": [
+        {
+          "path": "storage/shards/p05-00.bin",
+          "size": 46137344,
+          "sha256": "a2c0c08d60b058ae07e18be2d5e4177727c87931d588a59d585b8a5bdbe97910"
+        },
+        {
+          "path": "storage/shards/p05-01.bin",
+          "size": 35192340,
+          "sha256": "844f2860a3ee3e0b3b86b04e61ff5962429e0cbf0c3a35b9802597837b51cdcd"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/refs2/wbsys.mp4",
+      "size": 75706936,
+      "sha256": "4a0d7e0a7381c0af3f644ebaa61b22c0a12cc898b53f21dee9eeaacb7087347c",
+      "pieces": [
+        {
+          "path": "storage/shards/p06-00.bin",
+          "size": 46137344,
+          "sha256": "9b3a0fa9a2eb58c07c79b26b8ce6ce1747c727f63e3741cd11a8e4d199753d93"
+        },
+        {
+          "path": "storage/shards/p06-01.bin",
+          "size": 29569592,
+          "sha256": "b4a86e84f2b7c435b0b15518ec44b6647a0e85a363628b95f0cb3da4c4b67627"
+        }
+      ]
+    },
+    {
+      "relative_path": "payload/project/商单/20261110-Sphere/refs2/yuri.mp4",
+      "size": 133687596,
+      "sha256": "4ae3aca2ac61508b94be171a9102a76c8a08fb8d167e94dec40e1366caf5c302",
+      "pieces": [
+        {
+          "path": "storage/shards/p07-00.bin",
+          "size": 46137344,
+          "sha256": "ca8bdf0cc9782bb52ff00b02cd9597b38ee12fec7bed2dd2fd2fa37fe90580af"
+        },
+        {
+          "path": "storage/shards/p07-01.bin",
+          "size": 46137344,
+          "sha256": "c69db317f91db1b5bea43b1cf50dde9c92df925b9b15da31eb7224a8ef3df0b3"
+        },
+        {
+          "path": "storage/shards/p07-02.bin",
+          "size": 41412908,
+          "sha256": "d0763c8c55b68470eaaf5425f5a7567c61eda097f92808fa2be748b88ed1f4c1"
+        }
+      ]
+    }
+  ]
+}

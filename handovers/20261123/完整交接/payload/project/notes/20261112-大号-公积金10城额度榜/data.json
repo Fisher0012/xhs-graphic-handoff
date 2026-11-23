@@ -1,0 +1,53 @@
+{
+  "title": "公积金贷款额度榜",
+  "topic": "公积金最多能贷多少：10城最高额度榜",
+  "date": "2026-11-12",
+  "account": "阿信学财经（大号）",
+  "access_date": "2026-11-12 (Asia/Shanghai)",
+  "sort_key": "首套、一人缴存（单人）的基础最高贷款额度，万元，降序；同额并列（上海/广州/重庆并列第4，济南/青岛并列第7）",
+  "cities": [
+    {"city":"苏州","base_single":150,"base_family":200,"stacked":"官方未写合计上限：现房+50%；二星及以上绿建+20%、改善型+50%（取高）；两类可叠加","period":"2026-06-01起，有效2年",
+     "source":"苏州市住房公积金管理中心 苏房金〔2026〕24号（苏州市政府网 2026-05-27发布，成文2026-05-09）","url":"http://www.suzhou.gov.cn/szsrmzf/bmwj/202605/058f970c689644a5bb1fdb9182db2234.shtml","level":"官方原文",
+     "extra_url":"https://gjj.suzhou.gov.cn/szgjj/dksq/202001/c206b12a91f2417583f7c376cc42aeaa.shtml"},
+    {"city":"北京","base_single":120,"base_family":240,"stacked_single":180,"stacked_family":340,"stacked_note":"官方：叠加上浮单人最高+60万、夫妻最高+100万；合计为作者计算","period":"2026-08-08起（印发次日）",
+     "source":"北京市住建委、规自委、北京住房公积金管理中心通知 2026-08-07","url":"https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433464/436433467/744089355/index.html","level":"官方原文",
+     "other":"每缴存1年可贷20万（夫妻40万）；实际额度依据还款能力确定"},
+    {"city":"扬州","base_single":108,"base_family":180,"stacked":"官方未写合计上限：绿建+20/30/40%、改善型+30%、以旧换新+30%、人才放宽最高160万，与多子女政策可叠加","period":"阶段性：2026-04-30至2026-12-31",
+     "source":"扬州市住房公积金管理中心 扬金管委【2026】2号 2026-04-30","url":"https://gjjzx.yangzhou.gov.cn/zfxxgk/fdzdgk/bmwj/ybxwj/art/2026/art_3b4ea232184b4728bda6b21924151c7f.html","level":"官方原文"},
+    {"city":"上海","base_single":100,"base_family":200,"stacked":"官方未写合计上限：补充公积金单人+20万/家庭+40万；多子女+20%、二星及以上新建绿建+15%，可叠加至+35%","period":"2026-02-26起",
+     "source":"上海市住建委 关于优化本市住房公积金个人住房贷款政策的通知 2026-02-25","url":"https://zjw.sh.gov.cn/gzdt/20260225/92840e7cb47f453096c9b27b83a4808b.html","level":"官方原文"},
+    {"city":"广州","base_single":100,"base_family":200,"stacked":"官方未写合计上限：一孩+10%/二孩+40%/三孩+50%；绿建/装配式+10~20%、好房子+30%（房屋类取最高）；两类可叠加","period":"2026-04-30起，有效5年",
+     "source":"广州住房公积金管理中心 穗公积金中心规字〔2026〕1号 2026-04-30","url":"https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzzfgjjglzx/content/post_10796725.html","level":"官方原文"},
+    {"city":"重庆","base_single":100,"base_family":200,"stacked_single":120,"stacked_family":240,"stacked_note":"多子女家庭","period":"阶段性：2026年9月至2027年8月",
+     "source":"重庆市人民政府办公厅 《重庆市进一步推动经济稳中向好若干政策举措》 2026-08-30","url":"https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/xzgfxwj/szfbgt/202608/t20260830_16002477_app.html","level":"官方原文",
+     "cross_check":"https://cqrb.cn/jingji/zixun/2026-08-30/2763095_pc.html"},
+    {"city":"济南","base_single":90,"base_family":130,"stacked_single":170,"stacked_family":240,"period":"2026-04-20(含)后网签，有效期两年",
+     "source":"济南住房公积金中心 关于优化调整住房公积金政策的通知 + 政策解读（信贷方面）","url":"http://gjj.jinan.gov.cn/col/col65559/art/2026/art_ae7dd0400dc646d599f5fa7e258e7102.html","level":"官方原文",
+     "extra_url":"http://gjj.jinan.gov.cn/col/col65560/art/2026/art_eea50b3e9cbd4be287c235c027279265.html","note":"官方页面抓取文本未显示发布日期；施行口径以2026-04-20网签为准（省政府网4-21报道4-20出台）"},
+    {"city":"青岛","base_single":90,"base_family":130,"stacked_single":160,"stacked_family":240,"period":"2026-04-20起",
+     "source":"山东省人民政府网（转大众日报）2026-04-21；青岛西海岸新区政务网 2026-05-09（市公积金中心人员解读）","url":"http://www.shandong.gov.cn/art/2026/4/21/art_97560_723571.html","level":"政府网站（转官方信息）；青岛市政府网/公积金中心原文本次打开超时",
+     "extra_url":"https://www.xihaian.gov.cn/zwgk/gknr/xwzbj/202605/t20260509_10588529.shtml","other":"余额倍数20倍，余额不足1万按1万算"},
+    {"city":"成都","base_single":80,"base_family":120,"stacked_single":96,"stacked_family":144,"stacked_note":"现房或征收拆迁购房+20%","period":"2026-03-25起",
+     "source":"新华社 2026-03-24（成都公积金中心新闻通气会）；中房网（中国房地产业协会）转载成公积金委〔2026〕2号全文","url":"https://www.news.cn/20260324/e4548eb47b1741c5a8d4aedff49136a5/c.html","level":"权威媒体+协会转载原文；成都公积金中心官网对抓取返回412，未能打开",
+     "extra_url":"http://www.fangchan.com/policy/33/2026-03-25/7442378159070450104.html"},
+    {"city":"深圳","base_single":70,"base_family":130,"stacked_single":189,"stacked_family":351,"stacked_note":"首套+60%、初婚初育+50%或两孩及以上+70%（二选一）、保障房+40%，累加最高+170%","period":"2026-04-30起",
+     "source":"深圳市住房和建设局：深建字〔2026〕86号（2026-04-29）；公积金贷款计算器页；答问 2026-05-21","url":"https://zjj.sz.gov.cn/ztfw/zfgjj/ygcal/","level":"官方原文（189/351原句出自官方计算器页）",
+     "extra_url":["https://zjj.sz.gov.cn/hdjl/ywzs/gjj/content/post_12798776.html","https://zjj.sz.gov.cn/xxgk/tzgg/content/post_12759895.html（WebSearch抓到全文；直接打开返回500）"],
+     "other":"可贷额度=账户余额×16倍；月供≤缴存基数之和50%"}
+  ],
+  "rates": {
+    "gjj_first":"5年以上2.6%，5年及以下2.1%","gjj_second":"5年以上3.075%，5年及以下2.525%",
+    "gjj_source":["https://www.zzz.gov.cn/html/cjwt/cjwt/19263.html (中央国家机关住房资金管理中心 2026-06-12)","https://zfgjj.fuzhou.gov.cn/zwgk/gzdt/zyxw/202601/t20260115_5271484.htm (福州公积金中心 2026-01-15)","苏州公积金中心明白卡 2026-06-01 同口径"],
+    "commercial":"9月新发放个人住房贷款利率约为3.1%（表4：个人住房贷款加权平均利率3.05%）；9月5年期以上LPR 3.5%",
+    "commercial_source":"中国人民银行货币政策分析小组《2026年第三季度中国货币政策执行报告》2026-11-11，PDF原文（中新网托管）https://www.chinanews.com.cn/fileftp/2026/11/2026-11-05/U1120P4T47D56415F24534DT20261111183959.pdf ；新浪全文转载 https://finance.sina.com.cn/money/bank/bank_hydt/2026-11-11/doc-iniykehc2389482.shtml ；pbc.gov.cn 本次 curl 返回空，未能直接打开"
+  },
+  "author_calc": {
+    "method":"等额本息 M=P·r(1+r)^n/((1+r)^n−1)，P=100万，n=360，r=年利率/12",
+    "gjj_2.6":{"monthly":4003.40,"total_interest":441223,"total":1441223},
+    "comm_3.1":{"monthly":4270.16,"total_interest":537259,"total":1537259},
+    "diff":{"monthly":266.77,"30y":96036},
+    "beijing_stacked":"120+60=180；240+100=340",
+    "beijing_3yr":"3年×20万=60万",
+    "matches_brief":true
+  }
+}

@@ -1,0 +1,46 @@
+<html><head><meta charset="utf-8"><style>@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:radial-gradient(ellipse 760px 620px at 88% 4%,rgba(214,160,30,.16),rgba(214,160,30,0) 72%),linear-gradient(175deg,#121012 0%,#0a090a 50%,#030304 100%);color:#fff;font-family:NSM;position:relative;padding:76px 66px 0;line-break:strict}
+.tag{color:#e9b519;font-family:NSB;font-size:28px;letter-spacing:1px}
+h1{font-family:NSB;font-size:64px;letter-spacing:2px;line-height:1.2;margin-top:20px;white-space:nowrap;display:inline-block;background:linear-gradient(165deg,#f7e6ae 0%,#f2cd52 40%,#e2ab12 75%,#c98f0c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hsub{color:#9b9b9e;font-family:NSM;font-size:26px;line-height:1.4;white-space:nowrap;margin-bottom:6px}
+.g{background:linear-gradient(165deg,#f7e6ae 0%,#f2cd52 40%,#e2ab12 75%,#c98f0c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.gc{color:#e9b519}
+.ul{width:124px;height:6px;border-radius:3px;background:linear-gradient(90deg,#f7e6ae,#e9b519);margin:24px 0 18px}
+.sub{color:#9b9b9e;font-size:25px;line-height:1.55}
+.foot{position:absolute;left:0;right:0;bottom:36px;text-align:center;color:#66666a;font-size:20px}
+.pn{position:absolute;right:56px;top:76px;color:#66666a;font-size:24px}
+.card{position:relative;background:linear-gradient(90deg,#191612,#121113);border:1px solid #26232a;border-radius:16px;padding:26px 32px 28px 38px;margin-top:24px;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,#f7e6ae,#e9b519)}
+.it{margin-top:40px}
+.it h3{font-family:NSB;font-size:38px;line-height:1.3;color:#fff}
+.it h3 .k{color:#e9b519}
+.it p{font-size:27px;line-height:1.8;color:#bdb8ae;margin-top:10px}
+.lab{color:#e9b519;font-family:NSB;font-size:24px;letter-spacing:1px}
+.big{font-family:NSB;color:#e9b519}
+.src{color:#7d7a80;font-size:20px;line-height:1.55;margin-top:20px}
+table{width:100%;border-collapse:collapse}
+td{padding:14px 0;font-family:NSB;font-size:32px;border-bottom:1px solid #232124}
+td+td{text-align:right}
+tr.h td{font-family:NSM;font-size:22px;color:#9b9b9e;border-bottom:2px solid #e9b519;padding:10px 0}
+</style></head><body><div class=tag>阿信学财经｜居民医保缴费读本</div><h1>截止日期别看错</h1><div class=ul style="margin:18px 0 14px"></div><div class=hsub>集中参保缴费期 · 以下均为各地官方已公布日期</div><div class=card><div class=lab style="font-size:30px">西安</div><div class=g style="font-family:NSB;font-size:76px;line-height:1.2;margin-top:8px">12月25日<span style="font-size:30px;margin-left:12px">2026年</span></div><p style="font-size:29px;color:#bdb8ae;line-height:1.65;margin-top:10px">按陕西省集中缴费安排；以当地登记与缴费结果为准。</p></div><div class=card><div class=lab style="font-size:30px">天津、佛山、江门、哈尔滨、伊春</div><div class=g style="font-family:NSB;font-size:76px;line-height:1.2;margin-top:8px">12月31日<span style="font-size:30px;margin-left:12px">2026年</span></div><p style="font-size:29px;color:#bdb8ae;line-height:1.65;margin-top:10px">佛山：申报12月21日截止，缴费12月31日截止。</p></div><div class=card><div class=lab style="font-size:30px">海口、长沙</div><div class=g style="font-family:NSB;font-size:76px;line-height:1.2;margin-top:8px">1月31日<span style="font-size:30px;margin-left:12px">2027年</span></div><p style="font-size:29px;color:#bdb8ae;line-height:1.65;margin-top:10px">海口按海南省安排，长沙按湖南省安排；不要套用别处截止日。</p></div><div class=src>来源：天津/佛山税务局、江门市政府、黑龙江省政府/医保局、西安市医保局、海口社保中心、湖南省医保局。访问：2026-11-13。</div><div class=pn>5/5</div><div class="foot">风险提示：本文信息仅供参考，不构成投资或保险建议；具体以当地医保部门为准。</div><script>document.fonts.ready.then(function(){
+var b=document.body,f=document.querySelector('.foot'),limit=1440-36-f.offsetHeight-56;
+/* 来源行与风险提示页脚至少留 40px（审查 2026-10-31）：内容超出时先压缩块间距/字号 */
+var kids=[].slice.call(b.children).filter(function(e){return !e.matches('.foot,.pn,style,script')&&getComputedStyle(e).position!='absolute'});
+var hs=kids.findIndex(function(e){return e.matches('.hsub')});var blocks=kids.slice(hs+1);
+function bottom(){var m=0;kids.forEach(function(e){var r=e.getBoundingClientRect();if(r.height)m=Math.max(m,r.bottom)});return m}
+var free=limit-bottom();
+if(free<0){var sh=[].slice.call(document.querySelectorAll('.it,.card,.src,table'));for(var t=0;t<30&&limit-bottom()<0;t++){sh.forEach(function(e){var m=parseFloat(getComputedStyle(e).marginTop);if(m>10)e.style.marginTop=(m-2)+'px'});[].slice.call(document.querySelectorAll('.it p,.card p,.src,td')).forEach(function(e){var cs=getComputedStyle(e);if(e.matches('td')){var pt=parseFloat(cs.paddingTop);if(pt>6){e.style.paddingTop=(pt-1)+'px';e.style.paddingBottom=(parseFloat(cs.paddingBottom)-1)+'px'}}else{var lh=parseFloat(cs.lineHeight)/parseFloat(cs.fontSize);if(lh>1.5)e.style.lineHeight=lh-0.02}})}}
+for(var t2=0;t2<6&&limit-bottom()<0;t2++){[].slice.call(document.querySelectorAll('.it p,.it h3,.card p,.src,td,.sub')).forEach(function(e){e.style.fontSize=(parseFloat(getComputedStyle(e).fontSize)-1)+'px'})}
+free=limit-bottom();if(free<=8)return;
+var rows=[].slice.call(document.querySelectorAll('tr:not(.h) td'));var trs=document.querySelectorAll('tr:not(.h)').length;
+if(trs){var add=Math.min(free*0.45/trs,14)/2;rows.forEach(function(td){var cs=getComputedStyle(td);td.style.paddingTop=(parseFloat(cs.paddingTop)+add)+'px';td.style.paddingBottom=(parseFloat(cs.paddingBottom)+add)+'px'})}
+var tx=[].slice.call(document.querySelectorAll('.it h3, .it p, .card p, .card .lab, .card h3'));var base=tx.map(function(e){return parseFloat(getComputedStyle(e).fontSize)});
+if(limit-bottom()>120){for(var k=1.02;k<=1.161;k+=0.02){tx.forEach(function(e,i){e.style.fontSize=(base[i]*k)+'px'});if(bottom()>limit-60){tx.forEach(function(e,i){e.style.fontSize=(base[i]*(k-0.02))+'px'});break}}}
+var items=[].slice.call(document.querySelectorAll('.it p, .card p'));
+free=limit-bottom();if(free>8&&items.length){items.forEach(function(p){var cs=getComputedStyle(p);var lh=parseFloat(cs.lineHeight)/parseFloat(cs.fontSize);if(lh<1.85)p.style.lineHeight=Math.min(1.85,lh+0.15)})}
+free=limit-bottom();var gs=blocks.filter(function(e){return e.getBoundingClientRect().height>0&&!e.matches('style')});
+if(free>8&&gs.length){var g=Math.min(free/gs.length,90);gs.forEach(function(e){var cs=getComputedStyle(e);e.style.marginTop=(parseFloat(cs.marginTop)+g)+'px'})}
+/* 收尾保护：撑满后若越过 limit，回收行高/字号直到来源行离页脚≥56px */
+for(var t3=0;t3<80&&limit-bottom()<0;t3++){[].slice.call(document.querySelectorAll('td')).forEach(function(e){var cs=getComputedStyle(e);var pt=parseFloat(cs.paddingTop);if(pt>6){e.style.paddingTop=(pt-1)+'px';e.style.paddingBottom=(parseFloat(cs.paddingBottom)-1)+'px'}});[].slice.call(document.querySelectorAll('.it p,.card p')).forEach(function(p){var cs=getComputedStyle(p);var lh=parseFloat(cs.lineHeight)/parseFloat(cs.fontSize);if(lh>1.5)p.style.lineHeight=lh-0.03;else p.style.fontSize=(parseFloat(cs.fontSize)-0.5)+'px'});blocks.forEach(function(e){var m=parseFloat(getComputedStyle(e).marginTop);if(m>14)e.style.marginTop=(m-2)+'px'})}
+})</script><script>document.fonts.ready.then(function(){setTimeout(function(){var f=document.querySelector('.foot');var m=0;[].slice.call(document.body.children).forEach(function(e){if(e.matches('.foot,.pn,style,script'))return;var r=e.getBoundingClientRect();if(r.height)m=Math.max(m,r.bottom)});document.body.setAttribute('data-gap',Math.round(f.getBoundingClientRect().top-m))},50)})</script></body></html>

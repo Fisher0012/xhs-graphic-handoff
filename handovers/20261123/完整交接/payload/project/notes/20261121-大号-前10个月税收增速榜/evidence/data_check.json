@@ -1,0 +1,181 @@
+{
+  "items": [
+    {
+      "name": "印花税",
+      "amount": 4712,
+      "growth": 24.6,
+      "source": "mof",
+      "rank": 1,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "个人所得税",
+      "amount": 16428,
+      "growth": 22.9,
+      "source": "mof",
+      "rank": 2,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "环境保护税",
+      "amount": 297,
+      "growth": 13.6,
+      "source": "mof",
+      "rank": 3,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "进口环节税",
+      "amount": 16988,
+      "growth": 13.2,
+      "source": "mof",
+      "rank": 4,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "资源税",
+      "amount": 2800,
+      "growth": 12,
+      "source": "mof",
+      "rank": 5,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "车辆购置税",
+      "amount": 1873,
+      "growth": 11.8,
+      "source": "mof",
+      "rank": 6,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "房产税",
+      "amount": 4652,
+      "growth": 6.4,
+      "source": "mof",
+      "rank": 7,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "企业所得税",
+      "amount": 41480,
+      "growth": 5.9,
+      "source": "mof",
+      "rank": 8,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "国内增值税",
+      "amount": 61996,
+      "growth": 5.3,
+      "source": "mof",
+      "rank": 9,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "城镇土地使用税",
+      "amount": 2258,
+      "growth": 4.2,
+      "source": "mof",
+      "rank": 10,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "城市维护建设税",
+      "amount": 4518,
+      "growth": 3.2,
+      "source": "mof",
+      "rank": 11,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "其他税收合计",
+      "amount": 1148,
+      "growth": -0.8,
+      "source": "mof",
+      "rank": 12,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "关税",
+      "amount": 1916,
+      "growth": -1.9,
+      "source": "mof",
+      "rank": 13,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "国内消费税",
+      "amount": 13917,
+      "growth": -3.3,
+      "source": "mof",
+      "rank": 14,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "耕地占用税",
+      "amount": 1109,
+      "growth": -8.1,
+      "source": "mof",
+      "rank": 15,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "契税",
+      "amount": 3102,
+      "growth": -14.9,
+      "source": "mof",
+      "rank": 16,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    },
+    {
+      "name": "土地增值税",
+      "amount": 2991,
+      "growth": -16.6,
+      "source": "mof",
+      "rank": 17,
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+      "publication_date": "2026-11-20",
+      "result": "PASS"
+    }
+  ],
+  "gross_items": 182185,
+  "minus_refund": 19563,
+  "net": 162622,
+  "revenue_identity": "162622+33049=195671",
+  "child_excluded": true,
+  "order": "descending by official cumulative yoy",
+  "result": "PASS"
+}

@@ -1,0 +1,276 @@
+{
+  "title": "花旗获批，外资独资券商到了7家",
+  "cover_title": "7家外资独资券商",
+  "account": "阿信财读笔记（小号）",
+  "series": "一图看懂｜金融开放",
+  "archived": "2026-10-25（北京时间）",
+  "data_as_of": "2026-10-25",
+  "self_computed_rule": "凡加总、相除得到的数标 self_computed=true",
+  "firms": [
+    {
+      "no": 1,
+      "short": "摩根大通",
+      "name": "摩根大通证券（中国）有限公司",
+      "parent_country": "美国",
+      "path": "合资转独资",
+      "approval": "2021-08（证监会准予备案，摩根大通 2021-08-06 宣布）",
+      "approval_on_image": "2021年8月",
+      "registered_capital_yi": 19.99,
+      "registered_capital_raw": "1,998,665,400 元",
+      "capital_source": "公司 2025 年报公开披露信息第2页",
+      "stake_history": [
+        [
+          "2019",
+          "51%"
+        ],
+        [
+          "2021",
+          "100%"
+        ]
+      ],
+      "business": {
+        "经纪": "●",
+        "咨询": "●",
+        "承销": "●",
+        "自营": "●",
+        "资管": "○",
+        "两融": "○",
+        "代销": "○"
+      },
+      "business_basis": "许可证（2025 年报）",
+      "status": "已展业"
+    },
+    {
+      "no": 2,
+      "short": "高盛",
+      "name": "高盛（中国）证券有限责任公司",
+      "parent_country": "美国",
+      "path": "合资转独资",
+      "approval": "2021-10-18（证监会准予备案）",
+      "approval_on_image": "2021年10月",
+      "registered_capital_yi": 33.86,
+      "registered_capital_raw": "338,600 万元",
+      "capital_source": "公司简介 PDF（未标日期）",
+      "stake_history": [
+        [
+          "2004",
+          "33%"
+        ],
+        [
+          "2020",
+          "51%"
+        ],
+        [
+          "2021",
+          "100%"
+        ]
+      ],
+      "business": {
+        "经纪": "●",
+        "咨询": "●",
+        "承销": "●",
+        "自营": "●",
+        "资管": "○",
+        "两融": "○",
+        "代销": "●"
+      },
+      "business_basis": "公司披露",
+      "status": "已展业"
+    },
+    {
+      "no": 3,
+      "short": "渣打",
+      "name": "渣打证券（中国）有限公司",
+      "parent_country": "英国",
+      "path": "新设（首家新设）",
+      "approval": "2023-01-19 核准设立，证监许可〔2023〕152号",
+      "approval_on_image": "2023年1月",
+      "registered_capital_yi": 10.5,
+      "registered_capital_raw": "10.5 亿元",
+      "capital_source": "证监会设立批复（未查到公司年报原文）",
+      "business": {
+        "经纪": "●",
+        "咨询": "○",
+        "承销": "◐ 只承销不保荐",
+        "自营": "●",
+        "资管": "◐ 限资产证券化",
+        "两融": "○",
+        "代销": "○"
+      },
+      "business_basis": "许可证＝批复（新华网 2023-12-13）",
+      "status": "已展业"
+    },
+    {
+      "no": 4,
+      "short": "法巴",
+      "name": "法巴证券（中国）有限公司",
+      "parent_country": "法国",
+      "path": "新设",
+      "approval": "2024-04-12 核准设立，证监许可〔2024〕586号",
+      "approval_on_image": "2024年4月",
+      "registered_capital_yi": 11,
+      "registered_capital_raw": "1,100,000,000.00 元",
+      "capital_source": "证监会批复；公司 2025 年报第4页确认",
+      "business": {
+        "经纪": "●",
+        "咨询": "●",
+        "承销": "○",
+        "自营": "●",
+        "资管": "●",
+        "两融": "○",
+        "代销": "○"
+      },
+      "business_basis": "许可证（2025 年报）",
+      "status": "已展业"
+    },
+    {
+      "no": 5,
+      "short": "瑞银",
+      "name": "瑞银证券有限责任公司",
+      "parent_country": "瑞士",
+      "path": "合资转独资",
+      "approval": "2025-03-28（证监会准予备案）",
+      "approval_on_image": "2025年3月",
+      "registered_capital_yi": 22.1,
+      "registered_capital_raw": "22.1 亿元（2025-12 由 14.9 亿增至 22.1 亿）",
+      "capital_source": "瑞银证券公司简介",
+      "stake_history": [
+        [
+          "2018",
+          "51%"
+        ],
+        [
+          "2022",
+          "67%"
+        ],
+        [
+          "2025",
+          "100%"
+        ]
+      ],
+      "business": {
+        "经纪": "●",
+        "咨询": "●",
+        "承销": "●",
+        "自营": "●",
+        "资管": "●",
+        "两融": "●",
+        "代销": "●"
+      },
+      "business_basis": "公司披露",
+      "status": "已展业"
+    },
+    {
+      "no": 6,
+      "short": "瑞穗",
+      "name": "瑞穗证券（中国）有限公司",
+      "parent_country": "日本",
+      "path": "新设",
+      "approval": "2025-09-30 核准设立，证监许可〔2025〕2190号",
+      "approval_on_image": "2025年9月",
+      "registered_capital_yi": 23,
+      "registered_capital_raw": "23 亿元",
+      "capital_source": "证监会设立批复",
+      "business": {
+        "经纪": "○",
+        "咨询": "○",
+        "承销": "◐ 只承销不保荐",
+        "自营": "●",
+        "资管": "◐ 限资产证券化",
+        "两融": "○",
+        "代销": "○"
+      },
+      "business_basis": "批复（许可证范围未公布）",
+      "status": "媒体报道已获许可，尚未宣布开业"
+    },
+    {
+      "no": 7,
+      "short": "花旗",
+      "name": "花旗证券（中国）有限公司",
+      "parent_country": "美国",
+      "path": "新设",
+      "approval": "2026-10-23 核准设立，证监许可〔2026〕2949号",
+      "approval_on_image": "2026年10月",
+      "registered_capital_yi": 12,
+      "registered_capital_raw": "12 亿元",
+      "capital_source": "证监会设立批复",
+      "business": {
+        "经纪": "●",
+        "咨询": "●",
+        "承销": "●",
+        "自营": "●",
+        "资管": "○",
+        "两融": "○",
+        "代销": "○"
+      },
+      "business_basis": "批复（未取得业务许可证）",
+      "status": "获批设立，未展业"
+    }
+  ],
+  "totals": {
+    "registered_capital_total_yi": {
+      "value": 132.45,
+      "formula": "19.99+33.86+10.5+11+22.1+23+12",
+      "self_computed": true,
+      "on_image": "132.45亿元（自算）",
+      "cross_check": "国际金融报 2026-10-24（21经济网转载）「7家合计注册资本约132亿元」 https://www.21jingji.com/article/20261024/herald/c8160a465f0d5d7cf3707556c2d10fc6.html"
+    },
+    "us_three_capital_yi": {
+      "value": 65.85,
+      "formula": "19.99+33.86+12",
+      "self_computed": true
+    },
+    "us_share_pct": {
+      "value": 49.7,
+      "formula": "65.85÷132.45",
+      "self_computed": true,
+      "on_image": "约占一半"
+    },
+    "parent_countries": {
+      "value": 5,
+      "detail": "美国3、英国1、法国1、瑞士1、日本1"
+    },
+    "bar_rule": "进度条 = 注册资本 ÷ 高盛 33.86（自算）"
+  },
+  "policy": {
+    "date": "2020-04-01",
+    "event": "全国取消证券公司外资股比限制",
+    "source": "证监会 2020-03-13 公告"
+  },
+  "not_counted": {
+    "name": "大和证券（中国）有限责任公司",
+    "reason": "在办股权变更（彭博 10-20 引知情人士称监管已批准，大和不予置评；未找到证监会公开文件），未计入"
+  },
+  "not_found": [
+    "渣打证券（中国）官方年报原文（注册资本按 2023 年批复 10.5 亿）",
+    "瑞穗证券（中国）业务许可证上的业务范围（P3 按批复）",
+    "摩根大通证券（中国）2019 年设立批复原文（文号、日期见公司 2021 年报）",
+    "中证协「证券公司信息公示」（网站拦截访问，未能核对）"
+  ],
+  "methodology": {
+    "approval_time": "新设看证监会核准设立日；合资转独资看证监会准予备案日",
+    "registered_capital": "最新公开数，不代表经营规模",
+    "business": "按许可证或公司披露；花旗、瑞穗按批复",
+    "seventh": "「第7家」是媒体统计，证监会批复里没有序号"
+  },
+  "sources": [
+    "证监会《关于核准设立花旗证券（中国）有限公司的批复》证监许可〔2026〕2949号（2026-10-23）：https://www.csrc.gov.cn/csrc/c101841/c7666345/content.shtml",
+    "证监会《关于核准设立瑞穗证券（中国）有限公司的批复》证监许可〔2025〕2190号（2025-09-30）：https://www.csrc.gov.cn/csrc/c101841/c7586956/content.shtml",
+    "证监会《关于核准设立法巴证券（中国）有限公司的批复》证监许可〔2024〕586号（2024-04-12）：http://www.csrc.gov.cn/csrc/c101841/c7473903/content.shtml",
+    "证监会《关于核准设立渣打证券（中国）有限公司的批复》证监许可〔2023〕152号（2023-01-19）：http://www.csrc.gov.cn/csrc/c101841/c7007758/content.shtml",
+    "证监会 2020-03-13：自 2020-04-01 起全国取消证券公司外资股比限制：http://www.csrc.gov.cn/csrc/c100028/c1000819/content.shtml",
+    "摩根大通证券（中国）2025 年年度报告公开披露信息（注册资本 1,998,665,400 元、唯一股东、业务资格）：https://www.jpmorganchina.com/content/dam/jpm/fenix/documents/disclosure-report-2025.pdf",
+    "摩根大通证券（中国）2021 年年度报告公开披露信息（证监许可[2019]513号、2019 设立 51%、许可证）：https://www.jpmorganchina.com/content/dam/jpm/fenix/documents/disclosure-report.pdf",
+    "摩根大通中国公告（2021-08 准予备案）：https://www.jpmorganchina.com/CN/zh/news-announcements/jpmorgan-receives-approval-from-the-china-securities-regulatory-commission",
+    "高盛（中国）证券公司简介（注册资本 338,600 万元、业务范围）：https://www.goldmansachs.cn/about-us/GSCN_Basic_Disclosure%20V32%20-%20HQ%20info-v2.pdf",
+    "中证网 2023-06-29（高盛持股 2004 年 33%、2020 年 51%、2021 年 100%）：https://www.cs.com.cn/qs/202306/t20230629_6352821.html",
+    "瑞银新闻稿 2025-03-28（准予备案）：https://www.ubs.com/global/sc/media/display-page-ndp/sc-20250328-full-ownership.html",
+    "瑞银证券公司简介（注册资本 22.1 亿、持股变化、经营范围）：https://www.ubs.com/cn/sc/ubs-securities/about-us/company-information.html",
+    "法巴证券（中国）信息披露 / 2025 年报（注册资本 11 亿、许可证范围）：https://www.bnpparibas-sec.cn/xxpl",
+    "新华网 2023-12-13（渣打取得业务许可证，4 类业务）：http://www.news.cn/fortune/2023-12/13/c_1130023697.htm",
+    "新华财经 2026-10-23（花旗获批，第7家）：https://www.cnfin.com/gs-lb/detail/20261023/4485625_1.html",
+    "上海证券报 2026-10-24：https://paper.cnstock.com/html/2026-10/24/content_2280888.htm"
+  ],
+  "risk_notice_image": "风险提示：本文信息仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。",
+  "disclaimer_text": "以上仅为公开信息整理，不构成投资建议。"
+}

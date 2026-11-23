@@ -1,0 +1,41 @@
+[PASS] C01 回执是合法 JSON 对象
+[PASS] C02 必填字段与类型齐全
+[PASS] C15 targets/protected 全部位于项目根目录 /workspace 之内
+[WARN] C14 target[0] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/00_封面.png
+[WARN] C14 target[1] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/01_存款加在哪几块.png
+[WARN] C14 target[2] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/02_贷款谁增谁在减.png
+[WARN] C14 target[3] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/03_当月和统计口径.png
+[WARN] C14 target[4] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/04_发布文案.txt
+[WARN] C14 target[5] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/05_来源说明.txt
+[WARN] C14 target[6] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/06_归档校验.json
+[WARN] C14 target[7] 新增文件不在基线里（派活时没登记要新增的路径）：/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/07_总览.png
+[PASS] C14 target[8] before_sha256 与总协调基线一致
+[FAIL] C14 基线中非目标文件 18 个，变化或缺失 1 个：['/workspace/xhs/notes/20261114-大号-前10个月钱去哪了（基线不存在，现在多出来了）']
+[PASS] C03 executed_at 带时区且不在未来（2026-11-14T10:06:13+08:00）
+[PASS] C04 target[0] 重算 SHA-256 与自报一致（1247923 字节）
+[PASS] C05 target[0] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[1] 重算 SHA-256 与自报一致（1466966 字节）
+[PASS] C05 target[1] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[2] 重算 SHA-256 与自报一致（1487777 字节）
+[PASS] C05 target[2] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[3] 重算 SHA-256 与自报一致（1430663 字节）
+[PASS] C05 target[3] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[4] 重算 SHA-256 与自报一致（1792 字节）
+[PASS] C05 target[4] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[5] 重算 SHA-256 与自报一致（2880 字节）
+[PASS] C05 target[5] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[6] 重算 SHA-256 与自报一致（2622 字节）
+[PASS] C05 target[6] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[7] 重算 SHA-256 与自报一致（835065 字节）
+[PASS] C05 target[7] 内容类新增成品，不要求文本 diff（产物门由 gate2.command 重跑）
+[PASS] C04 target[8] 重算 SHA-256 与自报一致（83468 字节）
+[PASS] C05 target[8] diff 存在且为统一 diff 格式
+[PASS] C09 target[8] 临时目录反向应用 diff 复算回滚：反向应用后哈希与 before_sha256 逐字节一致，耗时 0.0052s
+[PASS] C07 自报 5/5 通过、failed 0、exit 0，数量守恒
+[PASS] C08 重跑退出码 0 与自报一致，耗时 3.23s
+[PASS] C10 内容类回滚方式已声明（删除新增成品或附回滚方案）；发布须另按 T4 交回执
+[PASS] C11 所有 target 已在资产登记且哈希一致
+[PASS] C12 17 个未授权文件哈希不变
+[PASS] C13 无 .py 目标，gate1 自报 N/A 合理（哈希类检查仍由 C04/C05 完成）
+回执 sha256=6d898720e8229b2f6e428a6a1fa5a9adc6008782e5ce63bdb5a17bd75c66e613 校验时刻 2026-11-14T10:06:16+08:00
+VERDICT: FAIL

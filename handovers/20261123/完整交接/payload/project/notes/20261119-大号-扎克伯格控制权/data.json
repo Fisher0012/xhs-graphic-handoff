@@ -1,0 +1,83 @@
+{
+  "title": "扎克伯格为啥能掌权",
+  "account": "阿信学财经",
+  "as_of": "2026-10-01",
+  "record_date": "2026-10-20",
+  "filings": {
+    "pre14c": {
+      "form": "PRE 14C",
+      "filed": "2026-10-21",
+      "accession": "0001628280-26-066710",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066710/0001628280-26-066710.txt",
+      "company": "Meta Platforms, Inc."
+    },
+    "eightk": {
+      "form": "8-K",
+      "filed": "2026-10-21",
+      "date_of_report": "2026-10-19",
+      "accession": "0001628280-26-066700",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm"
+    }
+  },
+  "outstanding_2026_10_01": {
+    "class_a": 2214455318,
+    "class_b": 341786026,
+    "source": "PRE 14C: Applicable percentage ownership is based on … outstanding as of October 1, 2026."
+  },
+  "outstanding_record_date": {
+    "class_a": 2214472367,
+    "class_b": 341768886,
+    "source": "PRE 14C: As of the close of business on the Record Date (October 20, 2026).",
+    "use": "Do not use to recompute 13.4% or 60.6%."
+  },
+  "zuckerberg_beneficial_2026_10_01": {
+    "class_a": 1220703,
+    "class_b": 341215148,
+    "voting_power_official": "approximately 60.6%",
+    "economic_interests_official": "approximately 13.4%",
+    "class_b_of_class_official": "99.8",
+    "class_a_of_class_official": "*",
+    "class_a_of_class_footnote": "Less than 1%.",
+    "source": "PRE 14C beneficial ownership narrative and table, as of October 1, 2026."
+  },
+  "author_checks": {
+    "economic_pct_exact": 13.396068872908426,
+    "voting_pct_exact": 60.60335461906179,
+    "class_b_of_class_exact": 99.83297210635523,
+    "class_a_of_class_exact": 0.05512430032241454,
+    "rounding": "one decimal, half-up comparison to official approximately figures",
+    "economic_numerator": 342435851,
+    "economic_denominator": 2556241344,
+    "voting_numerator": 3413372183,
+    "voting_denominator": 5632315578
+  },
+  "votes_per_share": {
+    "class_a": 1,
+    "class_b": 10,
+    "class_c": "generally no voting rights, except as provided in the Restated Charter or as required by law",
+    "source": "PRE 14C capital stock description"
+  },
+  "class_c_plan_2026": {
+    "board_approved": "2026-10-19",
+    "shareholder_written_consent": "2026-10-20",
+    "charter_effective": "2027-01-19",
+    "dividend": "one-time 1:1 Class C dividend, contingent on Restated Charter effectiveness",
+    "zuck_class_c_official": "approximately 342,435,851",
+    "zuck_class_c_basis": "based on his ownership and total A/B outstanding as of the Record Date; do not present as already issued",
+    "stapling_official": "20% of Class C from the Dividend freely saleable; 80% stapled (Founder Alignment Agreement)",
+    "not_used": "2016 withdrawn Class C plan; media claims of issuance suspension not confirmed in official 8-K as of 2026-11-19"
+  },
+  "footnote2_biohub": {
+    "class_a_all_held_by": "Chan Zuckerberg Biohub, Inc.",
+    "deemed_power": "sole voting and investment power",
+    "pecuniary_interest": "has no pecuniary interest in these shares",
+    "official_13_4_includes_these": true
+  },
+  "official_control_language": "Mr. Zuckerberg currently has the ability to elect all of our directors and to determine the outcome of most matters submitted for a vote of our shareholders.",
+  "photo": {
+    "path": "photos/zuckerberg.jpg",
+    "commons": "https://commons.wikimedia.org/wiki/File:Mark_Zuckerberg_(2020)_(cropped).jpg",
+    "license": "CC BY 4.0",
+    "credit": "© European Union, 2020 / EC, Photo: Xavier Lejeune"
+  }
+}

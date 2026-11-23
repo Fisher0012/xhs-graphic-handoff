@@ -1,0 +1,69 @@
+{
+  "topic": "10月新能源车品牌零售TOP10",
+  "account": "阿信学财经（大号）",
+  "period": "2026年10月",
+  "publisher": "乘联分会（中国汽车流通协会乘用车市场信息联席分会），2026-11-09 发布《2026年10月份全国乘用车市场分析》",
+  "checked_at": "2026-11-10 Asia/Shanghai",
+  "official_site_status": "cpcaauto.com 本次访问失败（http 500 / https 403 / fetch 超时），未读到乘联分会官网原文；以下均为 ≥2 家媒体逐字一致的转载",
+  "sources": {
+    "S1": {"name": "IT之家（2026-11-09 13:35）", "url": "https://www.ithome.com/1/024/211.htm"},
+    "S2": {"name": "凤凰网科技（2026-11-09 14:56）", "url": "https://original.ifeng.com/c/8xucWxHNjMB"},
+    "S3": {"name": "凤凰网大风号（2026-11-09 13:54）", "url": "https://feng.ifeng.com/c/8xuYwpFc4SU"},
+    "S4": {"name": "中国新闻网（2026-11-09 15:35）", "url": "https://www.chinanews.com.cn/cj/2026/11-09/10728822.shtml"},
+    "S5": {"name": "安兔兔资讯（2026-11-09 14:51）", "url": "https://www.antutu.com/doc/138353"},
+    "S6": {"name": "钛媒体（注明来源乘联分会官微，2026-11-09 13:32；搜索摘要核对）", "url": "https://www.tmtpost.com/nictation/8198220.html"},
+    "S7": {"name": "新浪财经 / 同花顺（品牌名单第二转载，搜索摘要核对）", "url": "https://finance.sina.com.cn/stock/t/2026-11-09/doc-iniycfna6617009.shtml"}
+  },
+  "top10_nev_retail_brand": {
+    "caliber": "国内新能源乘用车零售（不含出口），企业品牌口径；乘联分会公布的「零售突破2万辆的企业品牌」名单前10，按数值排序",
+    "unit": "辆",
+    "rows": [
+      ["比亚迪汽车", 250301, "传统车企"],
+      ["吉利汽车", 131708, "传统车企"],
+      ["零跑汽车", 83573, "新势力"],
+      ["长安汽车", 68925, "传统车企"],
+      ["上汽通用五菱", 67696, "传统车企"],
+      ["小米汽车", 50123, "新势力"],
+      ["奇瑞汽车", 44747, "传统车企"],
+      ["上汽乘用车", 38881, "传统车企"],
+      ["长城汽车", 37469, "传统车企"],
+      ["小鹏汽车", 36911, "新势力"]
+    ],
+    "rank_11_14": [["蔚来汽车", 34030], ["鸿蒙智行", 33538], ["广汽埃安", 30011], ["理想汽车", 27018]],
+    "src": ["S2", "S3", "S7"],
+    "camp_label_note": "传统车企/新势力分类为作者整理，非乘联分会分类"
+  },
+  "market": {
+    "pv_retail_oct": {"v": 164.3, "unit": "万辆", "yoy": "-27.1%", "mom": "+1.5%", "caliber": "国内零售", "src": ["S1", "S4", "S6"]},
+    "pv_retail_jan_oct": {"v": 1497.8, "unit": "万辆", "yoy": "-22.3%", "src": ["S1", "S4"]},
+    "nev_retail_oct": {"v": 110.9, "unit": "万辆", "yoy": "-13.7%", "mom": "+2.3%", "caliber": "国内零售", "src": ["S1", "S5", "S6"]},
+    "nev_retail_jan_oct": {"v": 886.9, "unit": "万辆", "yoy": "-12.9%", "src": ["S1", "S6"]},
+    "ice_retail_oct": {"v": 53, "unit": "万辆", "yoy": "-45%", "mom": "-0.1%", "caliber": "常规燃油乘用车（含普通混动，国内零售）", "src": ["S1", "S5"]},
+    "ice_pure_yoy": {"v": "-51%", "src": ["S1", "S2", "S5"]},
+    "hev_yoy": {"v": "+28%", "src": ["S1", "S2", "S5"]},
+    "ice_by_camp_yoy": {"自主": "-46%", "主流合资": "-46%", "豪华": "-37%", "src": ["S1", "S2"]},
+    "nev_retail_penetration": {"v": "67.5%", "yoy_pp": "+10.5", "mom_pp": "+0.5", "src": ["S1", "S4", "S6"]},
+    "nev_wholesale_penetration": {"v": "67.3%", "src": ["S4", "S5"]},
+    "wholesale_oct": {"v": 263.3, "unit": "万辆", "yoy": "-10.2%", "caliber": "厂商批发，含出口", "src": ["S5"]},
+    "export_oct": {"v": 92.8, "unit": "万辆", "yoy": "+68.5%", "caliber": "含整车与CKD", "share_of_maker_sales": "35%（去年同期19%）", "src": ["S4", "S5"]},
+    "nev_retail_by_camp_yoy": {"自主": "-15%", "主流合资": "+69%", "豪华": "-45%", "src": ["S2"]},
+    "newforce_share": {"v": "23.9%", "yoy_pp": "+1.2", "src": ["S3"], "note": "原文未写明分母；作者交叉核算：零跑+小米+小鹏+蔚来+鸿蒙智行+理想=265193辆≈110.9万×23.9%，推断为新能源零售内份额"},
+    "newforce_bev_ratio": {"v": "66.9%", "last_year": "74.3%", "src": ["S3"]},
+    "trad_indep_nev_brand_share": {"v": "15.3%", "yoy_pp": "+0.8", "src": ["S3"]}
+  },
+  "author_calc": {
+    "top10_sum": {"v": 810334, "unit": "辆", "formula": "TOP10逐行相加"},
+    "top10_share_of_nev_retail": {"v": "约73%", "formula": "810334 ÷ 1109000 = 73.07%（110.9万为四舍五入值）"},
+    "byd_vs_geely": {"v": "约1.9倍", "formula": "250301 ÷ 131708 = 1.90"},
+    "byd_share_of_nev_retail": {"v": "约22.6%", "formula": "250301 ÷ 1109000"},
+    "top10_trad7_sum": {"v": 639727, "unit": "辆"},
+    "top10_newforce3_sum": {"v": 170607, "unit": "辆", "formula": "83573+50123+36911"},
+    "penetration_last_year": {"v": "约57.0%", "formula": "67.5 − 10.5"},
+    "ice_share": {"v": "约32.5%", "formula": "100 − 67.5（含四舍五入误差）"}
+  },
+  "not_used": [
+    "乘联分会官网原文（访问失败）",
+    "特斯拉中国国内零售量（未进入零售≥2万辆名单，原文未给数，不上图）",
+    "各品牌零售同比/环比（转载未给，不上图）"
+  ]
+}

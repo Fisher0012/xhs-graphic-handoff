@@ -1,0 +1,140 @@
+<!doctype html><html><head><meta charset=utf-8><style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 50px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+
+h1{font-family:NSB;font-size:74px;line-height:1.05;margin-top:12px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+.h2box{margin-top:8px;flex:none}
+h2{font-family:NSB;font-size:34px;color:#e9f3ff;letter-spacing:.3px;line-height:1.25;white-space:nowrap}
+.sub{margin-top:4px;font-size:24px;color:#9fb3c8;line-height:1.35;white-space:nowrap}
+
+.hero{margin-top:14px;height:164px;display:flex;flex:none;border-radius:18px;overflow:hidden;background:linear-gradient(100deg,#141b26,#0e121a);border:1px solid rgba(255,45,63,.52);box-shadow:0 0 0 1px rgba(255,45,63,.12),0 14px 40px rgba(0,0,0,.5),inset 0 0 50px rgba(255,45,63,.05);position:relative}
+.hero:before{content:'';position:absolute;left:0;top:16px;bottom:16px;width:4px;background:linear-gradient(180deg,#ff6b78,#c80f28);box-shadow:0 0 12px rgba(255,45,63,.6);border-radius:0 2px 2px 0;z-index:2}
+.hp{width:164px;flex:none;background:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/huang.jpg) 50% 18%/cover no-repeat;position:relative;filter:contrast(1.05) saturate(.9)}
+.hp:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent 42%,#141b26 100%)}
+.ht{padding:14px 22px 14px 12px;flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center}
+.htag{font-family:NSB;font-size:18px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:3px 10px;border-radius:6px;letter-spacing:1px;box-shadow:0 0 16px rgba(255,45,63,.45);display:inline-block;width:fit-content}
+.hn{font-family:NSB;font-size:34px;color:#fff;margin-top:8px;line-height:1.15;white-space:nowrap}
+.hn em{font-style:normal;color:#ff6b78}
+.hd{margin-top:6px;font-size:22px;color:#c5d0db;line-height:1.45}
+.hd b{font-family:NSB;color:#7fd3ff;font-weight:normal}
+
+.sec{display:flex;align-items:center;gap:12px;margin:14px 0 10px;font-family:NSB;font-size:28px;color:#e9f3ff;letter-spacing:2px;white-space:nowrap;flex:none}
+.sec i{font-style:normal;font-family:NSM;font-size:20px;color:#8b97a6;letter-spacing:0}
+.sec:after{content:'';flex:1;height:1px;background:linear-gradient(90deg,rgba(127,211,255,.5),transparent)}
+
+.shell{border:1px solid rgba(159,179,200,.14);border-radius:14px;overflow:hidden;background:rgba(10,14,20,.6);flex:1;min-height:0;display:flex;flex-direction:column}
+table{width:100%;height:100%;border-collapse:separate;border-spacing:0;font-size:23px}
+thead{height:42px}
+thead th{font-family:NSB;font-size:21px;color:#7fd3ff;letter-spacing:1px;text-align:left;padding:0 10px;font-weight:normal;border-bottom:1px solid rgba(127,211,255,.28);height:42px;vertical-align:middle;background:rgba(12,16,24,.8)}
+thead th.p{width:300px}
+thead th.y{width:182px}
+tbody tr td{padding:0 10px;border-bottom:1px solid rgba(159,179,200,.10);vertical-align:middle;background:rgba(14,18,26,.55)}
+tbody tr:nth-child(odd) td{background:rgba(18,24,35,.72)}
+tbody tr td:first-child{padding-left:12px}
+tbody tr td:last-child{padding-right:12px}
+tbody tr:last-child td{border-bottom:0}
+.person{display:flex;align-items:center;gap:12px}
+.av{width:76px;height:76px;border-radius:50%;background-size:cover;background-position:50% 18%;border:2px solid rgba(127,211,255,.45);box-shadow:0 0 12px rgba(0,0,0,.4);flex:none}
+.avs{display:flex;align-items:center;flex:none}
+.avs .av{margin-left:-24px}
+.avs .av:first-child{margin-left:0;z-index:2;border-color:rgba(127,211,255,.6)}
+.avs .av:last-child{z-index:1;border-color:rgba(232,195,106,.45)}
+.nm{font-family:NSB;font-size:30px;color:#fff;line-height:1.15;white-space:nowrap}
+.co{font-family:NSB;font-size:22px;color:#7fd3ff;white-space:nowrap;margin-top:3px}
+.yr{font-size:23px;color:#c5d0db;line-height:1.4;white-space:nowrap}
+.yr b{font-family:NSB;color:#e9f3ff;font-weight:normal}
+.info{font-size:23px;line-height:1.4;color:#dfe6ee}
+.info b{font-family:NSB;color:#fff;font-weight:normal}
+.info em{font-style:normal;font-family:NSB;color:#f3de9a;text-shadow:0 0 12px rgba(232,195,106,.35)}
+.info i{font-style:normal;font-family:NSB;color:#ff6b78}
+.nw{white-space:nowrap}
+
+.note{margin-top:12px;flex:none;border-radius:12px;padding:14px 18px;background:rgba(18,24,35,.85);border:1px solid rgba(159,179,200,.14);font-size:23px;line-height:1.5;color:#c5d0db}
+.note b{font-family:NSB;color:#fff;font-weight:normal}
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684;white-space:nowrap}
+
+/* v4: two-line headline, breathing room, content-sized two-column comparison. */
+.wrap{padding:26px 40px 56px;display:block}
+.top{height:34px}
+h1{font-size:108px;line-height:1.04;margin-top:12px;letter-spacing:0;white-space:normal}
+h1 span{display:block;white-space:nowrap}
+.h2box{margin-top:26px}
+h2{font-size:34px;line-height:1.15;font-family:NSM;letter-spacing:0;color:#bdcddd}
+.hero{margin-top:20px;height:166px}
+.ht{padding-top:12px;padding-bottom:12px}
+.hn{font-size:32px;margin-top:7px}
+.hd{font-size:22px;line-height:1.4;margin-top:7px}
+.sec{margin:18px 0 10px;font-size:27px;line-height:32px;letter-spacing:0;gap:14px}
+.sec span{font-size:20px;color:#8b97a6;font-family:NSM}
+.shell{display:block;flex:none;min-height:0;border-radius:12px}
+table{height:auto;table-layout:fixed;font-size:26px}
+thead{height:38px}
+thead th{height:38px;font-size:22px;padding:0 18px}
+thead th.p{width:352px}
+tbody tr{height:124px}
+tbody tr td{padding:9px 18px}
+tbody tr td:first-child{padding-left:14px;padding-right:10px}
+tbody tr td:last-child{padding-left:18px;padding-right:14px}
+.person{gap:12px}
+.av{width:80px;height:80px}
+.avs .av{margin-left:-52px}
+.nm{font-size:28px;line-height:1.2}
+.co{font-size:22px;margin-top:4px;line-height:1.2}
+.yr{font-size:21px;color:#9baabb;line-height:1.2;margin-top:4px;font-family:NSM}
+.info{font-size:26px;line-height:1.34;letter-spacing:0}
+.note{margin-top:12px;padding:12px 16px;display:flex;gap:20px;font-size:23px;line-height:1.4}
+.note b{font-size:23px;white-space:nowrap;color:#7fd3ff}
+.note span{display:block}
+.foot{font-size:15px;bottom:16px}
+
+/* v5: only refine comparison typography; all text wraps by actual column width. */
+thead th.p{width:340px}
+tbody tr{height:auto}
+tbody tr td{padding-top:18px;padding-bottom:18px}
+.person{gap:10px}
+.av{width:84px;height:84px}
+.avs .av{margin-left:-58px}
+.co{font-family:NSM;font-size:22px;line-height:1.3;margin-top:7px;white-space:nowrap}
+.co span{color:#aebdcd}
+.info{font-size:26px;line-height:1.44}
+</style></head><body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>对照</span><span>公开交棒案例｜不预测走向</span><span class=dt>2026.11.13</span></div>
+  <h1><span>黄仁勋离职</span><span>英伟达<em>会怎样？</em></span></h1>
+  <div class=h2box><h2>顶级创始人交棒后，公司发生了什么</h2></div>
+
+  <div class=hero>
+    <div class=hp></div>
+    <div class=ht>
+      <div class=htag>已辞职（官方）</div>
+      <div class=hn>即刻生效，已离开董事会，<em>股份还在</em></div>
+      <div class=hd>临时 CEO 科莱特·克雷斯 · 董事长 哈维·琼斯 · 按代理声明仍持股 <b>3.58%</b><br><b>官方 8-K 没有要求卖出股份。</b></div>
+    </div>
+  </div>
+
+  <div class=sec>创始人交棒对照<span>看公司变化，不把涨跌直接归因</span></div>
+  <div class=shell><table><thead><tr><th class=p>人物 / 交棒年份</th><th>公司变化 / 关键影响</th></tr></thead><tbody><tr><td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/jobs.jpg)"></div><div><div class=nm>乔布斯</div><div class=co>苹果 · <span>1985/2011</span></div></div></div></td><td><div class=info>1985年离开后，苹果后来陷入<em>经营困境</em>；<em class=nw>1997年回归</em>，2011年交棒库克后继续发展。</div></td></tr>
+<tr><td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/gates.jpg)"></div><div><div class=nm>比尔·盖茨</div><div class=co>微软 · <span>2000</span></div></div></div></td><td><div class=info>鲍尔默接任CEO，盖茨<b>留任董事长</b>及<b class=nw>首席软件架构师</b>，经营与产品权力分工。</div></td></tr>
+<tr><td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/bezos.jpg)"></div><div><div class=nm>贝索斯</div><div class=co>亚马逊 · <span>2021</span></div></div></div></td><td><div class=info><span class=nw>提前约五个月宣布，贾西接任CEO；</span><br><span class=nw>贝索斯<b>改任执行董事长</b>，与日常经营分工。</span></div></td></tr>
+<tr><td><div class=person><div class=avs><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/page.jpg)"></div><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/brin.jpg)"></div></div><div><div class=nm>佩奇、布林</div><div class=co>Alphabet · <span>2019</span></div></div></div></td><td><div class=info>交出经营职务，两人<b>留任董事并持有高投票权</b>，<span class=nw>经营权与控制权分离。</span></div></td></tr>
+<tr><td><div class=person><div class=av style="background-image:url(file:///workspace/xhs/notes/20261113-大号-创始人离职影响/photos/ma.jpg)"></div><div><div class=nm>马云</div><div class=co>阿里巴巴 · <span>2019</span></div></div></div></td><td><div class=info><span class=nw>提前一年宣布卸任董事局主席，张勇接任；</span><br><i class=nw>变化由多种因素叠加，不能简单归因于卸任。</i></div></td></tr>
+</tbody></table></div>
+  <div class=note><b>戴尔也有回归先例</b><span>2004 年交出 CEO、留任董事长，2007 年重新出任。<br>有过回归先例，但不是规律。</span></div>
+  <div class=foot>根据公开报道和公司公告整理，不构成投资建议。投资有风险，入市需谨慎。制图 2026/11/13。官方用词为辞职。头像仅作身份识别。</div>
+</div>
+</body></html>

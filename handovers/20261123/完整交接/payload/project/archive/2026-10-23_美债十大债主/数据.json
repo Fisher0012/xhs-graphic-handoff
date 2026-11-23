@@ -1,0 +1,608 @@
+{
+  "title": "美债十大债主",
+  "account": "阿信财读笔记（小号）",
+  "archived": "2026-10-23（北京时间）",
+  "data_date": "2026-08-31（TIC 2026年8月末；Debt to the Penny record_date 2026-08-31）",
+  "release": {
+    "tic_release": "2026-10-16 16:00 华盛顿时间（北京时间 2026-10-17 凌晨，自算换算）",
+    "next_release": "2026-11-18 16:00 华盛顿时间，报告2026年9月数据（北京时间 2026-11-19 凌晨，自算换算）",
+    "revision": "2025年数据于2026-10-16同期修订（T5 文件尾「2025 revised October 16, 2026」）",
+    "lag": "数据截至日到发布日约1.5个月"
+  },
+  "units": "上图单位：亿美元（TIC 原表为十亿美元，×10 取整；单位换算不算自算）；万亿=万亿美元",
+  "self_computed_rule": "凡相减、相除、加总得到的数标 self_computed=true",
+  "top20": [
+    {
+      "rank": 1,
+      "name": "日本",
+      "tic_name": "Japan",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 10683,
+      "raw_2026_08_bn_usd": 1068.3,
+      "raw_2026_07_bn_usd": 1103.9,
+      "raw_2025_08_bn_usd": 1183.9,
+      "mom_change_yi_usd": -356,
+      "yoy_change_yi_usd": -1156,
+      "yoy_change_pct": -9.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "连续4个月减少，比上月少356亿"
+    },
+    {
+      "rank": 2,
+      "name": "英国",
+      "tic_name": "United Kingdom",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 10095,
+      "raw_2026_08_bn_usd": 1009.5,
+      "raw_2026_07_bn_usd": 998.3,
+      "raw_2025_08_bn_usd": 901.3,
+      "mom_change_yi_usd": 112,
+      "yoy_change_yi_usd": 1082,
+      "yoy_change_pct": 12.0,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "首次超过1万亿，2000年有数据以来最高"
+    },
+    {
+      "rank": 3,
+      "name": "中国大陆",
+      "tic_name": "China, Mainland",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 5907,
+      "raw_2026_08_bn_usd": 590.7,
+      "raw_2026_07_bn_usd": 618.0,
+      "raw_2025_08_bn_usd": 699.7,
+      "mom_change_yi_usd": -273,
+      "yoy_change_yi_usd": -1090,
+      "yoy_change_pct": -15.6,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "2008年8月以来最低，比上月少273亿"
+    },
+    {
+      "rank": 4,
+      "name": "比利时",
+      "tic_name": "Belgium",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 4905,
+      "raw_2026_08_bn_usd": 490.5,
+      "raw_2026_07_bn_usd": 470.7,
+      "raw_2025_08_bn_usd": 451.1,
+      "mom_change_yi_usd": 198,
+      "yoy_change_yi_usd": 394,
+      "yoy_change_pct": 8.7,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多198亿"
+    },
+    {
+      "rank": 5,
+      "name": "加拿大",
+      "tic_name": "Canada",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 4646,
+      "raw_2026_08_bn_usd": 464.6,
+      "raw_2026_07_bn_usd": 426.3,
+      "raw_2025_08_bn_usd": 444.0,
+      "mom_change_yi_usd": 383,
+      "yoy_change_yi_usd": 206,
+      "yoy_change_pct": 4.6,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多383亿，前20名里增得最多"
+    },
+    {
+      "rank": 6,
+      "name": "开曼群岛",
+      "tic_name": "Cayman Islands",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 4630,
+      "raw_2026_08_bn_usd": 463.0,
+      "raw_2026_07_bn_usd": 460.1,
+      "raw_2025_08_bn_usd": 410.5,
+      "mom_change_yi_usd": 29,
+      "yoy_change_yi_usd": 525,
+      "yoy_change_pct": 12.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多525亿，增12.8%"
+    },
+    {
+      "rank": 7,
+      "name": "卢森堡",
+      "tic_name": "Luxembourg",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 4482,
+      "raw_2026_08_bn_usd": 448.2,
+      "raw_2026_07_bn_usd": 442.1,
+      "raw_2025_08_bn_usd": 410.8,
+      "mom_change_yi_usd": 61,
+      "yoy_change_yi_usd": 374,
+      "yoy_change_pct": 9.1,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多374亿"
+    },
+    {
+      "rank": 8,
+      "name": "法国",
+      "tic_name": "France",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 3634,
+      "raw_2026_08_bn_usd": 363.4,
+      "raw_2026_07_bn_usd": 348.4,
+      "raw_2025_08_bn_usd": 389.1,
+      "mom_change_yi_usd": 150,
+      "yoy_change_yi_usd": -257,
+      "yoy_change_pct": -6.6,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多150亿，但比一年前少257亿"
+    },
+    {
+      "rank": 9,
+      "name": "爱尔兰",
+      "tic_name": "Ireland",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 3521,
+      "raw_2026_08_bn_usd": 352.1,
+      "raw_2026_07_bn_usd": 350.2,
+      "raw_2025_08_bn_usd": 340.0,
+      "mom_change_yi_usd": 19,
+      "yoy_change_yi_usd": 121,
+      "yoy_change_pct": 3.6,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多121亿"
+    },
+    {
+      "rank": 10,
+      "name": "中国台湾",
+      "tic_name": "Taiwan",
+      "page": "P1",
+      "holding_2026_08_yi_usd": 2984,
+      "raw_2026_08_bn_usd": 298.4,
+      "raw_2026_07_bn_usd": 296.1,
+      "raw_2025_08_bn_usd": 313.4,
+      "mom_change_yi_usd": 23,
+      "yoy_change_yi_usd": -150,
+      "yoy_change_pct": -4.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年少150亿"
+    },
+    {
+      "rank": 11,
+      "name": "瑞士",
+      "tic_name": "Switzerland",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 2858,
+      "raw_2026_08_bn_usd": 285.8,
+      "raw_2026_07_bn_usd": 284.8,
+      "raw_2025_08_bn_usd": 303.0,
+      "mom_change_yi_usd": 10,
+      "yoy_change_yi_usd": -172,
+      "yoy_change_pct": -5.7,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年少172亿"
+    },
+    {
+      "rank": 12,
+      "name": "新加坡",
+      "tic_name": "Singapore",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 2779,
+      "raw_2026_08_bn_usd": 277.9,
+      "raw_2026_07_bn_usd": 277.7,
+      "raw_2025_08_bn_usd": 261.0,
+      "mom_change_yi_usd": 2,
+      "yoy_change_yi_usd": 169,
+      "yoy_change_pct": 6.5,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多169亿"
+    },
+    {
+      "rank": 13,
+      "name": "中国香港",
+      "tic_name": "Hong Kong",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 2615,
+      "raw_2026_08_bn_usd": 261.5,
+      "raw_2026_07_bn_usd": 258.3,
+      "raw_2025_08_bn_usd": 251.9,
+      "mom_change_yi_usd": 32,
+      "yoy_change_yi_usd": 96,
+      "yoy_change_pct": 3.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多96亿"
+    },
+    {
+      "rank": 14,
+      "name": "印度",
+      "tic_name": "India",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 2197,
+      "raw_2026_08_bn_usd": 219.7,
+      "raw_2026_07_bn_usd": 202.6,
+      "raw_2025_08_bn_usd": 219.4,
+      "mom_change_yi_usd": 171,
+      "yoy_change_yi_usd": 3,
+      "yoy_change_pct": 0.1,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多171亿"
+    },
+    {
+      "rank": 15,
+      "name": "挪威",
+      "tic_name": "Norway",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 2140,
+      "raw_2026_08_bn_usd": 214.0,
+      "raw_2026_07_bn_usd": 206.9,
+      "raw_2025_08_bn_usd": 214.9,
+      "mom_change_yi_usd": 71,
+      "yoy_change_yi_usd": -9,
+      "yoy_change_pct": -0.4,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多71亿"
+    },
+    {
+      "rank": 16,
+      "name": "巴西",
+      "tic_name": "Brazil",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 1684,
+      "raw_2026_08_bn_usd": 168.4,
+      "raw_2026_07_bn_usd": 168.0,
+      "raw_2025_08_bn_usd": 184.6,
+      "mom_change_yi_usd": 4,
+      "yoy_change_yi_usd": -162,
+      "yoy_change_pct": -8.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年少162亿，降8.8%"
+    },
+    {
+      "rank": 17,
+      "name": "沙特",
+      "tic_name": "Saudi Arabia",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 1412,
+      "raw_2026_08_bn_usd": 141.2,
+      "raw_2026_07_bn_usd": 142.4,
+      "raw_2025_08_bn_usd": 133.0,
+      "mom_change_yi_usd": -12,
+      "yoy_change_yi_usd": 82,
+      "yoy_change_pct": 6.2,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多82亿"
+    },
+    {
+      "rank": 18,
+      "name": "韩国",
+      "tic_name": "Korea, South",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 1342,
+      "raw_2026_08_bn_usd": 134.2,
+      "raw_2026_07_bn_usd": 131.5,
+      "raw_2025_08_bn_usd": 135.8,
+      "mom_change_yi_usd": 27,
+      "yoy_change_yi_usd": -16,
+      "yoy_change_pct": -1.2,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多27亿"
+    },
+    {
+      "rank": 19,
+      "name": "阿联酋",
+      "tic_name": "United Arab Emirates",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 1161,
+      "raw_2026_08_bn_usd": 116.1,
+      "raw_2026_07_bn_usd": 110.1,
+      "raw_2025_08_bn_usd": 108.7,
+      "mom_change_yi_usd": 60,
+      "yoy_change_yi_usd": 74,
+      "yoy_change_pct": 6.8,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "比上月多60亿"
+    },
+    {
+      "rank": 20,
+      "name": "百慕大",
+      "tic_name": "Bermuda",
+      "page": "P2",
+      "holding_2026_08_yi_usd": 1118,
+      "raw_2026_08_bn_usd": 111.8,
+      "raw_2026_07_bn_usd": 109.1,
+      "raw_2025_08_bn_usd": 98.9,
+      "mom_change_yi_usd": 27,
+      "yoy_change_yi_usd": 129,
+      "yoy_change_pct": 13.0,
+      "self_computed": [
+        "mom_change_yi_usd",
+        "yoy_change_yi_usd",
+        "yoy_change_pct"
+      ],
+      "note_on_image": "一年多129亿，增13.0%"
+    }
+  ],
+  "one_year_change_P3": {
+    "period": "2026-08 对比 2025-08",
+    "unit": "亿美元",
+    "items": [
+      {
+        "name": "日本",
+        "change_yi_usd": -1156,
+        "direction": "减少",
+        "self_computed": true
+      },
+      {
+        "name": "中国大陆",
+        "change_yi_usd": -1090,
+        "direction": "减少",
+        "self_computed": true
+      },
+      {
+        "name": "英国",
+        "change_yi_usd": 1082,
+        "direction": "增加",
+        "self_computed": true
+      },
+      {
+        "name": "开曼群岛",
+        "change_yi_usd": 525,
+        "direction": "增加",
+        "self_computed": true
+      },
+      {
+        "name": "比利时",
+        "change_yi_usd": 394,
+        "direction": "增加",
+        "self_computed": true
+      },
+      {
+        "name": "卢森堡",
+        "change_yi_usd": 374,
+        "direction": "增加",
+        "self_computed": true
+      },
+      {
+        "name": "法国",
+        "change_yi_usd": -257,
+        "direction": "减少",
+        "self_computed": true
+      },
+      {
+        "name": "加拿大",
+        "change_yi_usd": 206,
+        "direction": "增加",
+        "self_computed": true
+      },
+      {
+        "name": "瑞士",
+        "change_yi_usd": -172,
+        "direction": "减少",
+        "self_computed": true
+      },
+      {
+        "name": "新加坡",
+        "change_yi_usd": 169,
+        "direction": "增加",
+        "self_computed": true
+      }
+    ],
+    "note": "增减含价格变动，不全是主动增减"
+  },
+  "totals": [
+    {
+      "item": "前十合计",
+      "value": "5.55万亿美元",
+      "raw_bn_usd": 5548.7,
+      "page": "P1",
+      "self_computed": true
+    },
+    {
+      "item": "前十占外国持有总额",
+      "value": "59.5%",
+      "page": "P1",
+      "self_computed": true
+    },
+    {
+      "item": "外国合计持有",
+      "value": "9.33万亿美元",
+      "raw_bn_usd": 9331.7,
+      "page": "P2",
+      "self_computed": false
+    },
+    {
+      "item": "外国合计一年变化",
+      "value": "+826亿美元（+0.9%）",
+      "page": "P2/P3",
+      "self_computed": true
+    },
+    {
+      "item": "外国官方机构持有",
+      "value": "3.76万亿美元",
+      "raw_bn_usd": 3755.6,
+      "page": "P2",
+      "self_computed": false
+    },
+    {
+      "item": "官方占外国合计",
+      "value": "40.2%",
+      "page": "P2",
+      "self_computed": true
+    },
+    {
+      "item": "官方一年变化",
+      "value": "−1,642亿美元",
+      "page": "P2",
+      "self_computed": true
+    },
+    {
+      "item": "美国国债总额（未偿公共债务总额）",
+      "value": "40.18万亿美元",
+      "raw_usd": 40175641071634.14,
+      "date": "2026-08-31",
+      "page": "P2/P4",
+      "self_computed": false
+    },
+    {
+      "item": "公众持有",
+      "value": "32.41万亿美元",
+      "raw_usd": 32414988847175.22,
+      "date": "2026-08-31",
+      "page": "P4",
+      "self_computed": false
+    },
+    {
+      "item": "政府内部持有",
+      "value": "7.76万亿美元",
+      "raw_usd": 7760652224458.92,
+      "date": "2026-08-31",
+      "page": "P4",
+      "self_computed": false
+    },
+    {
+      "item": "外国持有占公众持有",
+      "value": "约28.8%",
+      "page": "P2/P4",
+      "self_computed": true,
+      "note": "TIC 和 Debt to the Penny 统计口径不同，只看量级"
+    },
+    {
+      "item": "托管四地合计（开曼+卢森堡+比利时+爱尔兰）",
+      "value": "17,538亿美元，占外国合计18.8%",
+      "page": "P4",
+      "self_computed": true
+    },
+    {
+      "item": "中国大陆峰值",
+      "value": "13,167亿美元（2013年11月）",
+      "raw_bn_usd": 1316.7,
+      "page": "P3",
+      "self_computed": false,
+      "note": "峰值由历史表比较得出"
+    },
+    {
+      "item": "中国大陆比峰值",
+      "value": "少7,260亿，降55.1%",
+      "page": "P3",
+      "self_computed": true
+    },
+    {
+      "item": "中国大陆2008年8月",
+      "value": "5,737亿美元",
+      "raw_bn_usd": 573.7,
+      "page": "P3",
+      "self_computed": false
+    }
+  ],
+  "methodology": {
+    "custodial": "TIC 按托管地统计；存放在第三国托管账户的美债，数据反映不出真正的主人（财政部说明）",
+    "valuation": "中长期国债按市值，短期国库券按面值；持有额为月末估算，含价格变动",
+    "debt_total": "40.18万亿 = Debt to the Penny「Total Public Debt Outstanding」，2026-08-31",
+    "mom_yoy_rule": "比上月 = 2026-08 − 2026-07；一年 = 2026-08 − 2025-08（均用 T5 修订后数字）"
+  },
+  "sources": [
+    {
+      "id": "T5",
+      "name": "美国财政部 TIC 表5「Major Foreign Holders of Treasury Securities」",
+      "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.txt"
+    },
+    {
+      "id": "H",
+      "name": "TIC 同表历史版（2000-03 起）",
+      "url": "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/mfhhis01.txt"
+    },
+    {
+      "id": "PR",
+      "name": "财政部新闻稿「Treasury International Capital Data for August 2026」（2026-10-16）",
+      "url": "https://home.treasury.gov/news/press-releases/sb0662"
+    },
+    {
+      "id": "SCH",
+      "name": "财政部「Release Dates of TIC Data」",
+      "url": "https://home.treasury.gov/data/treasury-international-capital-tic-system/release-dates-of-tic-data"
+    },
+    {
+      "id": "EST",
+      "name": "财政部「Estimating Holdings of Treasury Securities」",
+      "url": "https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page/help-files/estimating-holdings-of-treasury-securities"
+    },
+    {
+      "id": "DTP",
+      "name": "财政部 Fiscal Data「Debt to the Penny」",
+      "url": "https://fiscaldata.treasury.gov/datasets/debt-to-the-penny/debt-to-the-penny",
+      "api": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?filter=record_date:eq:2026-08-31"
+    }
+  ],
+  "risk_notice_image": "风险提示：本文信息仅供参考，不构成任何投资建议。投资有风险，入市需谨慎。"
+}

@@ -1,0 +1,84 @@
+{
+  "note": "前10个月钱去哪了",
+  "checked_at": "2026-11-14T10:33:00+08:00",
+  "access_date": "2026-11-14 Asia/Shanghai",
+  "source_urls": [
+    "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026111317040354319/index.html",
+    "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026101417073743604/index.html"
+  ],
+  "cover_revision": {
+    "version": "v2",
+    "title": "前10月存/贷款数据公布",
+    "title_css": "90px / letter-spacing 2px, one line",
+    "title_metrics": "right=1018, canvas remain=62px, width ratio=97.8%",
+    "shown_to_fisher": true,
+    "fisher_design_approved": false,
+    "pct_annotations": [
+      {
+        "label": "余额同比 +7.7%",
+        "caliber": "10月末人民币存款余额同比，不是21.97万亿元增量增速"
+      },
+      {
+        "label": "余额同比 +4.7%",
+        "caliber": "10月末人民币贷款余额同比，不是11.42万亿元增量增速"
+      }
+    ],
+    "four_deposit_components_pct": "未加；报告未公布同比或占比，未自行计算"
+  },
+  "checks": {
+    "check_titles": "FAIL",
+    "check_titles_detail": "封面标题一行、90px、渐变通过；占可用宽97.8%，超出惯例75–85%带宽。属指定12字标题在90px下限下仍偏宽，不是裁切（「布」字完整，right=1018）。内页p2–p4仍通过。不得记成PASS。",
+    "measure_space": "PASS",
+    "measure_space_detail": "封面最大空白6.0% @y 564，内容底→页脚1.5%（阈值：最大空白≤8%，页脚间隙≤6%）",
+    "visual": "已Read v2原图、540×720缩略图、标题特写和v1/v2对照；标题完整未裁切，余额同比口径清晰，四项细分和页脚未改。07总览已按现行00–03以2×2 BICUBIC重建。",
+    "compliance_precheck": "PASS",
+    "once_pipeline": "未在封面修订后重跑全流程",
+    "gate_archive": "未在封面修订后重跑",
+    "verify_receipt": "FAIL（维持原回执与原始基线，未改receipt、未重做基线）。C14为开工基线将新期目录记为ABSENT、与按文件登记的add目标不匹配，与本期图文内容无关。不报全门禁通过。",
+    "sha256": "每项可独立重算；见本文件 files 与 final/SHA256.txt"
+  },
+  "fisher_design_approved": false,
+  "note_status": "待审成稿。封面已按Fisher指定标题修订并展示，尚未收到设计通过；不得标成Fisher已通过。原receipt保持FAIL。",
+  "files": [
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/00_封面.png",
+      "bytes": 1273260,
+      "sha256": "8b2f3198888766be0457cd6ba3c7121d754dd5c121610e2ff1173967b9120ffa"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/01_存款加在哪几块.png",
+      "bytes": 1466966,
+      "sha256": "c2311a59359e96e51cc828bb7c99ca04ade7d4329b234688091e64a97d229da5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/02_贷款谁增谁在减.png",
+      "bytes": 1487777,
+      "sha256": "891e49a6263f6a04ae231927e75ca6a979bf8c0b07aebe8bc1aa129aadd3929f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/03_当月和统计口径.png",
+      "bytes": 1430663,
+      "sha256": "b75bf2c4b804606405e1cf969f872301fd568817f84eba96ee870b0eab100813"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/04_发布文案.txt",
+      "bytes": 1792,
+      "sha256": "ae5f0120d62899def0ebd6e66972ec7a2fa51e8f3cb54daf6deb036e4c1cba80"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/05_来源说明.txt",
+      "bytes": 3777,
+      "sha256": "c5ca5c3e87a2550e9c45bacc56fbd390a1b38cff40123ffa5ff39e80b463af4f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/07_总览.png",
+      "bytes": 842636,
+      "sha256": "7b88319a59aafe120af77fd7065b9b28f0d8d8113da20f2af4cdb994fc667158"
+    }
+  ],
+  "archive_self": {
+    "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/06_归档校验.json",
+    "sha256_of_json_excluding_archive_self": "b801bc481d82d739b29f6f9ae9c012ecc4fb42aaaf529fd364134cefe330f069",
+    "note": "此项是不含 archive_self 键的JSON哈希；完整文件哈希以 SHA256.txt 中 06_归档校验.json 为准。"
+  }
+}

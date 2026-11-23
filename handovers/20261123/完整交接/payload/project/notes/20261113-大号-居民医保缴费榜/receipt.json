@@ -1,0 +1,115 @@
+{
+  "receipt_version": "0.2",
+  "project": "小红书图文",
+  "task_id": "20261113-居民医保缴费榜",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T11:44:50.105858+08:00",
+  "executor": "居民医保执行者",
+  "verifier": "总协调 verify_receipt.py",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/00_封面.png",
+      "change": "add",
+      "after_sha256": "7e4495a14c291690a4d21de1124d6d2d19191668e9d2a9654423eeca65a659a3"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/01_个人缴费与财政补助.png",
+      "change": "add",
+      "after_sha256": "d20ae91eaba4411524d8b81331e5c4398eb53da69d88690db6cac5c7220c969a"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/02_断保待遇等待期.png",
+      "change": "add",
+      "after_sha256": "d4d99d14dc34e1cf7ffe58bd75deb5c307d21f68e9beddcd5ee2eb4ac698b645"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/03_连续参保激励.png",
+      "change": "add",
+      "after_sha256": "13cb4926fa7a1662cf451a449da461b9d5518ced5ea19ee9b8d5778931513d86"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/04_各地集中缴费截止日.png",
+      "change": "add",
+      "after_sha256": "cfd2f23be9fff7f7ab9d5eab9a53c3b5d01bd392ce691abef68bdcb53d96c553"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/05_发布文案.txt",
+      "change": "add",
+      "after_sha256": "dfb7c60ef383e933e4e4176f58303ca892fb89eb02db80a7207fd81c6978e858"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/06_来源说明.txt",
+      "change": "add",
+      "after_sha256": "cc0090f52e34939bd2201dfa1f36def306f9482d82b3fbf0fe2f530fa5b1939e"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/07_归档校验.json",
+      "change": "add",
+      "after_sha256": "059d325bc116b0cb3ff9f864b146413c1cbcd6c803285ce0cd980681c309f8f5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/final/08_全套总览.png",
+      "change": "add",
+      "after_sha256": "adada62e868b9debe4c955cdf26ed4568d6d76a78f5eeb40d1fbc9053dac6ece"
+    }
+  ],
+  "gates": {
+    "gate1_syntax_and_py_compile": "N/A",
+    "gate2_invariants_and_tests": {
+      "total_tests": 6,
+      "passed": 6,
+      "failed": 0,
+      "exit_code": 0,
+      "command": [
+        "bash",
+        "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/tools_local/gate_content.sh"
+      ],
+      "cwd": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜",
+      "timeout_s": 180
+    },
+    "gate3_simulated_rollback": {
+      "restore_by_delete": true
+    },
+    "gate4_manifest_hash_check": "100%_MATCHED"
+  },
+  "gate4_evidence": {
+    "asset_register": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/ASSET_REGISTER.json",
+    "manifest_path": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/MANIFEST.sha256"
+  },
+  "project_checks": [
+    {
+      "id": "H1",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/交付.md"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/交付.md"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/交付.md"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-居民医保缴费榜/交付.md"
+    }
+  ],
+  "overall_verdict": "PASS",
+  "notes": "仅新增本期内容，不发布。未接到总协调派活前基线，内容新增回执不附伪造基线。",
+  "user_confirmation": {
+    "message_id": "t54u",
+    "time_zone": "Asia/Shanghai",
+    "confirmed_at": "2026-11-13T15:58:33+08:00",
+    "summary": "Fisher 确认早上两篇笔记落实到本地：汽车出口封面通过，其余内容没问题。不重做汽车月度对照图。",
+    "approved_basis": "final/00_封面.png SHA 7e4495a14c291690a4d21de1124d6d2d19191668e9d2a9654423eeca65a659a3（与 03-design/p1.png 相同）。t54u 确认其余内容没问题，封面同为现行 final 定稿。内页四张及文案、来源以 final/ 与 receipt.json、07_归档校验.json 为准。",
+    "status": "USER_APPROVED，待手动发布，不代发"
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "title_font": "108px",
+  "title_lines": [
+    {
+      "text": "创始人走后",
+      "width": 1000,
+      "box": 1000
+    },
+    {
+      "text": "留下了什么？",
+      "width": 1000,
+      "box": 1000
+    }
+  ],
+  "subtitle_gap": 26,
+  "min_body_font_excl_labels_footer": 20,
+  "cells": [
+    {
+      "cls": "H2",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 362,
+      "text": [
+        {
+          "text": "顶级创始人交棒：谁接班，谁还留在董事会",
+          "right": 686
+        }
+      ]
+    },
+    {
+      "cls": "sec",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 416,
+      "text": [
+        {
+          "text": "同样是交棒，留下的不一样只写公开事实",
+          "right": 498
+        }
+      ]
+    },
+    {
+      "cls": "person",
+      "lines": 2,
+      "box_right": 371,
+      "bottom": 567,
+      "text": [
+        {
+          "text": "乔布斯",
+          "right": 233
+        },
+        {
+          "text": "苹果·1985/2011",
+          "right": 334
+        }
+      ]
+    },
+    {
+      "cls": "info",
+      "lines": 2,
+      "box_right": 1025,
+      "bottom": 562,
+      "text": [
+        {
+          "text": "1985年离开后，苹果陷入经营困境；",
+          "right": 822
+        },
+        {
+          "text": "1997年回归，2011年交棒库克并改任董事长。",
+          "right": 934
+        }
+      ]
+    },
+    {
+      "cls": "person",
+      "lines": 2,
+      "box_right": 371,
+      "bottom": 688,
+      "text": [
+        {
+          "text": "比尔·盖茨",
+          "right": 289
+        },
+        {
+          "text": "微软·2000",
+          "right": 275
+        }
+      ]
+    },
+    {
+      "cls": "info",
+      "lines": 2,
+      "box_right": 1025,
+      "bottom": 683,
+      "text": [
+        {
+          "text": "交棒内部高管鲍尔默，盖茨留任董事长；",
+          "right": 867
+        },
+        {
+          "text": "兼任首席软件架构师，2014年纳德拉接任。",
+          "right": 900
+        }
+      ]
+    },
+    {
+      "cls": "person",
+      "lines": 2,
+      "box_right": 371,
+      "bottom": 809,
+      "text": [
+        {
+          "text": "贝索斯",
+          "right": 233
+        },
+        {
+          "text": "亚马逊·2021",
+          "right": 297
+        }
+      ]
+    },
+    {
+      "cls": "info",
+      "lines": 2,
+      "box_right": 1025,
+      "bottom": 804,
+      "text": [
+        {
+          "text": "提前约五个月宣布，长期执掌AWS的贾西接任；",
+          "right": 948
+        },
+        {
+          "text": "贝索斯改任执行董事长，离开日常经营。",
+          "right": 867
+        }
+      ]
+    },
+    {
+      "cls": "person",
+      "lines": 2,
+      "box_right": 371,
+      "bottom": 930,
+      "text": [
+        {
+          "text": "佩奇、布林",
+          "right": 315
+        },
+        {
+          "text": "Alphabet·2019",
+          "right": 352
+        }
+      ]
+    },
+    {
+      "cls": "info",
+      "lines": 2,
+      "box_right": 1025,
+      "bottom": 925,
+      "text": [
+        {
+          "text": "交出CEO和总裁，由皮查伊兼任；",
+          "right": 789
+        },
+        {
+          "text": "两人留任董事，并持有高投票权B股。",
+          "right": 833
+        }
+      ]
+    },
+    {
+      "cls": "person",
+      "lines": 2,
+      "box_right": 371,
+      "bottom": 1051,
+      "text": [
+        {
+          "text": "马云",
+          "right": 205
+        },
+        {
+          "text": "阿里巴巴·2019",
+          "right": 319
+        }
+      ]
+    },
+    {
+      "cls": "info",
+      "lines": 2,
+      "box_right": 1025,
+      "bottom": 1046,
+      "text": [
+        {
+          "text": "2013年已交CEO，提前一年宣布卸任主席；",
+          "right": 900
+        },
+        {
+          "text": "张勇接任，马云留任董事至2020年股东大会。",
+          "right": 926
+        }
+      ]
+    },
+    {
+      "cls": "sec",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 1124,
+      "text": [
+        {
+          "text": "三个概念别混职务、席位、投票权是三件事",
+          "right": 476
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 345,
+      "bottom": 1184,
+      "text": [
+        {
+          "text": "CEO/总裁",
+          "right": 197
+        }
+      ]
+    },
+    {
+      "cls": "P",
+      "lines": 2,
+      "box_right": 345,
+      "bottom": 1267,
+      "text": [
+        {
+          "text": "负责公司日常经营；",
+          "right": 293
+        },
+        {
+          "text": "辞职不等于卖股份。",
+          "right": 293
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 683,
+      "bottom": 1184,
+      "text": [
+        {
+          "text": "董事会席位",
+          "right": 537
+        }
+      ]
+    },
+    {
+      "cls": "P",
+      "lines": 2,
+      "box_right": 683,
+      "bottom": 1267,
+      "text": [
+        {
+          "text": "监督管理层的工作，",
+          "right": 631
+        },
+        {
+          "text": "也有权任免CEO。",
+          "right": 605
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 1021,
+      "bottom": 1184,
+      "text": [
+        {
+          "text": "高投票权股",
+          "right": 875
+        }
+      ]
+    },
+    {
+      "cls": "P",
+      "lines": 2,
+      "box_right": 1021,
+      "bottom": 1267,
+      "text": [
+        {
+          "text": "一股可以投多票；",
+          "right": 943
+        },
+        {
+          "text": "职务走了控制可留。",
+          "right": 969
+        }
+      ]
+    },
+    {
+      "cls": "bar",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 1362,
+      "text": [
+        {
+          "text": "对照黄仁勋：辞了CEO、总裁和董事席位，股份还在，一股一票。",
+          "right": 815
+        }
+      ]
+    }
+  ],
+  "content_bottom": 1362,
+  "footer_top": 1402,
+  "bottom_gap": 41,
+  "overflows": [],
+  "png_size": [
+    2160,
+    2880
+  ],
+  "issues": [],
+  "pass": true
+}

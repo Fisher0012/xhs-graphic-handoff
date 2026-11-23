@@ -1,0 +1,68 @@
+{
+  "note": "美联储利率会要变少，一文看懂",
+  "archive_date": "2026-10-30",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_chars": 14,
+  "body_char_count_no_whitespace": 704,
+  "tags": [
+    "#财经",
+    "#美联储",
+    "#财经知识",
+    "#理财知识",
+    "#美联储议息",
+    "#FOMC",
+    "#看懂财经新闻"
+  ],
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 323642,
+      "sha256": "4c080d21f1352e69a01d64cc515f0e89b2ef725f6352d850cdbfb5b5ec357e47",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_12个人投票.png",
+      "bytes": 308020,
+      "sha256": "0e952f879e3efb2cefb57965b848b28b1d9cca2bd881d7267aeb76cccafef34a",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_声明要对比着读.png",
+      "bytes": 316670,
+      "sha256": "5502abac8d437e7e281f9489e0bb436e9289d61ce51e96361d85493697927a69",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_利率怎么传到你身上.png",
+      "bytes": 326246,
+      "sha256": "e1d4db534d9d9f1c8ef230ee5da14d3ab96268a2eca13fe57d6db51e91f31e6e",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2135,
+      "sha256": "2695d905d0451bf3081ec1b144fd15f97843300b4d8c050941ddd5fda710e79d"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 3418,
+      "sha256": "a3f95789eb5d3a45fa8e8ce5810d96cf9e1508abf36e85eecb9e102ddaa91844"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）；P4卡片「美股」→「股市」（境外市场泛化），已重渲染；详见 notes/20261029-FOMC/05-合规.md",
+  "published": false,
+  "publish_by": "Fisher 本人手动发布",
+  "cover_title": "美联储／利率会议减少（两行，108px，行距1.25，「利率会议」红色）",
+  "revisions": [
+    {
+      "date": "2026-10-30",
+      "by_request": "Fisher",
+      "change": "封面大标题「美联储利率会变少」→「美联储利率会议减少」，两行排版；下方元素整体下移，其余内容不变；仅替换00_封面.png。04_发布文案.txt标题暂未改。"
+    }
+  ],
+  "修订记录": [
+    "2026-10-30 17:30 发布标题改为「美联储利率会要变少，一文看懂」（Fisher 指定）"
+  ]
+}

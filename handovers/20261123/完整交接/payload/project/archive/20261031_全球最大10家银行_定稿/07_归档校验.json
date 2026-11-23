@@ -1,0 +1,45 @@
+{
+  "note": "全球最大10家银行",
+  "archive_date": "2026-10-31",
+  "image_count": 5,
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 720,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "sha256": "9f094ee099153b60804583103e8885cee287ba211bddb5f13d0191ef6203e67a",
+      "bytes": 1171808
+    },
+    {
+      "name": "01_为什么这么大.png",
+      "sha256": "c1706bcff47457c0283e4c3c246e875f70855ba1fa97a4c70f04ef0f4b7ba1d2",
+      "bytes": 1234458
+    },
+    {
+      "name": "02_资产对比GDP.png",
+      "sha256": "5908aa5d9f89b19e30cd29fd771ab122c556920374c2a9e15a7ff6e37c067c9d",
+      "bytes": 1177919
+    },
+    {
+      "name": "03_规模与盈利.png",
+      "sha256": "0d01ec11a647b326f6f7d4a581f87348ee65002a498f55aead574d05c9c2aeff",
+      "bytes": 1204853
+    },
+    {
+      "name": "04_总结口径.png",
+      "sha256": "0107cdfa87be69f3338732ed0015396c6dfdc85890de31753e1b8a5d675ebc96",
+      "bytes": 1189384
+    },
+    {
+      "name": "05_发布文案.txt",
+      "sha256": "d810f0ad83be53416256c687ac574d0235822d18950139fd7466ce539180671a",
+      "bytes": 1845
+    },
+    {
+      "name": "06_来源说明.txt",
+      "sha256": "1e53b7a8fd51599ff82e5e7b1a207c41543a919f20d10f5c8f9bed8c03f03932",
+      "bytes": 2816
+    }
+  ],
+  "updated": "2026-10-31 21:45 (Asia/Shanghai) 审查有条件通过后修订"
+}

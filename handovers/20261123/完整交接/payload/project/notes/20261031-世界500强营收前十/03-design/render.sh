@@ -1,0 +1,7 @@
+#!/bin/bash
+# 用法: ./render.sh [p1 p2 ...]  默认渲染全部；1080x1440 CSS @2x => 2160x2880
+cd "$(dirname "$0")"
+pages=${@:-p1 p2 p3 p4 p5 p6}
+for h in $pages; do
+google-chrome --headless=new --no-sandbox --disable-gpu --allow-file-access-from-files --hide-scrollbars --force-device-scale-factor=2 --window-size=1080,1440 --virtual-time-budget=3000 --screenshot=$PWD/$h.png file://$PWD/$h.html 2>/dev/null
+done

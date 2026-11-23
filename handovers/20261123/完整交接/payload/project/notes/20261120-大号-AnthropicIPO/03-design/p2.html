@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>上市首日值1.20万亿</title>
+<style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 88%,rgba(232,195,106,.08),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:26px 40px 72px;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;height:34px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+h1{font-family:NSB;font-size:86px;line-height:1.08;margin-top:14px;letter-spacing:0;white-space:nowrap;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 4px 0 rgba(0,0,0,.55);flex:none}
+h1 em{font-style:normal;color:#ff2d3f;text-shadow:0 0 28px rgba(255,45,63,.5),0 4px 0 rgba(0,0,0,.55)}
+h2{margin-top:60px;font-family:NSM;font-size:32px;line-height:1.2;color:#bdcddd;letter-spacing:0;white-space:nowrap;flex:none}
+
+.hero{flex:none;margin-top:56px;border-radius:20px;padding:40px 36px 36px;background:linear-gradient(105deg,#161d28,#0e121a 55%,#14110c);border:1px solid rgba(243,222,154,.35);box-shadow:0 0 0 1px rgba(243,222,154,.08),0 14px 40px rgba(0,0,0,.45),inset 0 0 60px rgba(243,222,154,.04);position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;left:0;top:22px;bottom:22px;width:4px;border-radius:0 2px 2px 0;background:linear-gradient(180deg,#f3de9a,#c4a45a);box-shadow:0 0 12px rgba(243,222,154,.5)}
+.hlab{font-family:NSB;font-size:20px;letter-spacing:2px;color:#f3de9a}
+.hline{display:flex;align-items:flex-end;gap:16px;margin-top:4px}
+.big{font-family:NSB;font-size:168px;line-height:.92;color:#fff;text-shadow:0 0 40px rgba(243,222,154,.28),0 4px 0 rgba(0,0,0,.55);letter-spacing:-2px}
+.unit{padding-bottom:18px}
+.unit .u1{font-family:NSB;font-size:44px;color:#f3de9a;line-height:1.1;white-space:nowrap}
+.unit .u2{margin-top:8px;font-size:22px;color:#9fb3c8;line-height:1.4;white-space:nowrap}
+
+.track{flex:none;margin-top:36px;display:grid;grid-template-columns:1fr 220px 1fr;align-items:stretch;gap:0}
+.node{border-radius:16px;padding:30px 26px 28px;background:rgba(14,18,26,.82);border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.node.hi{border:1px solid rgba(243,222,154,.4);background:linear-gradient(180deg,#1a1810,#12100c);box-shadow:0 0 28px rgba(243,222,154,.08),0 10px 28px rgba(0,0,0,.28)}
+.node .k{font-family:NSB;font-size:18px;letter-spacing:2px;color:#7fd3ff}
+.node.hi .k{color:#f3de9a}
+.node .d{margin-top:6px;font-size:22px;color:#9fb3c8}
+.node .v{margin-top:10px;font-family:NSB;font-size:64px;color:#fff;line-height:1;white-space:nowrap}
+.node.hi .v{color:#f3de9a;text-shadow:0 0 24px rgba(243,222,154,.25)}
+.mid{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 8px}
+.mid .chg{font-family:NSB;font-size:36px;color:#ff2d3f;text-shadow:0 0 18px rgba(255,45,63,.35);white-space:nowrap}
+.mid .arr{width:100%;height:18px;margin-top:10px;position:relative}
+.mid .arr:before{content:"";position:absolute;left:8px;right:22px;top:7px;height:3px;border-radius:2px;background:linear-gradient(90deg,#7fd3ff,#f3de9a 55%,#ff2d3f)}
+.mid .arr:after{content:"";position:absolute;right:8px;top:1px;border:8px solid transparent;border-left:14px solid #ff2d3f}
+.mid .sub{margin-top:8px;font-size:20px;color:#9fb3c8;white-space:nowrap}
+
+.band{flex:none;margin-top:36px;display:grid;grid-template-columns:1.15fr .9fr 1.15fr;border-radius:16px;overflow:hidden;border:1px solid rgba(159,179,200,.16);box-shadow:0 10px 28px rgba(0,0,0,.28)}
+.m{padding:28px 22px 26px;background:rgba(14,18,26,.88);position:relative}
+.m + .m{border-left:1px solid rgba(159,179,200,.14)}
+.m.em{background:linear-gradient(180deg,#182232,#101620)}
+.m .k{font-family:NSB;font-size:18px;letter-spacing:1px;color:#9fb3c8}
+.m .v{margin-top:8px;font-family:NSB;font-size:44px;color:#fff;line-height:1.05;white-space:nowrap}
+.m .u{margin-top:4px;font-family:NSB;font-size:22px;color:#f3de9a}
+.m.em .v{color:#7fd3ff}
+.m .s{margin-top:10px;font-size:20px;line-height:1.4;color:#9fb3c8}
+
+.form{flex:none;margin-top:32px;border-radius:14px;padding:20px 22px;background:rgba(18,24,35,.85);border:1px solid rgba(159,179,200,.14);font-size:22px;line-height:1.5;color:#c5d0db}
+.form b{font-family:NSB;font-size:22px;color:#7fd3ff;font-weight:normal}
+
+.foot{position:absolute;left:40px;right:40px;bottom:16px;font-size:15px;line-height:1.45;color:#6c7684}
+</style>
+</head>
+<body>
+<div class=bg></div><div class=grid></div>
+<div class=wrap>
+  <div class=top><span class=brk>上市</span><span>先看首日收了多少，再看这 1.20 万亿怎么来的</span><span class=dt>2026.11.19</span></div>
+  <h1>上市首日值<em>1.20万亿</em></h1>
+  <h2>发行价 83 美元，收盘 97.17 美元，涨 17.07%</h2>
+
+  <div class=hero>
+    <div class=hlab>作者按首日收盘价测算的市值</div>
+    <div class=hline>
+      <div class=big>1.20</div>
+      <div class=unit>
+        <div class=u1>万亿美元</div>
+        <div class=u2>不是招股书原句，也不是媒体常用的 1.5 / 1.8 万亿口径</div>
+      </div>
+    </div>
+  </div>
+
+  <div class=track>
+    <div class=node>
+      <div class=k>定价</div>
+      <div class=d>2026-11-18　代码 ANT</div>
+      <div class=v>$83.00</div>
+    </div>
+    <div class=mid>
+      <div class=chg>+17.07%</div>
+      <div class=arr></div>
+      <div class=sub>首个交易日</div>
+    </div>
+    <div class="node hi">
+      <div class=k>收盘</div>
+      <div class=d>2026-11-19　纳斯达克</div>
+      <div class=v>$97.17</div>
+    </div>
+  </div>
+
+  <div class=band>
+    <div class=m>
+      <div class=k>公开发行</div>
+      <div class=v>813.4</div><div class=u>亿美元</div>
+      <div class=s>FWP Size，980,000,000 股 × 83，含老股 23,648,646 股</div>
+    </div>
+    <div class=m>
+      <div class=k>同步定向增发</div>
+      <div class=v>约 260</div><div class=u>亿美元</div>
+      <div class=s>313,253,007 股 N 类 × 83，约 260 亿美元</div>
+    </div>
+    <div class="m em">
+      <div class=k>公司净募集</div>
+      <div class=v>约 1,048</div><div class=u>亿美元</div>
+      <div class=s>424B4 口径，不含绿鞋；满额行使约 1,170 亿美元</div>
+    </div>
+  </div>
+
+  <div class=form><b>怎么算　</b>1.20 万亿 ＝ 97.17 × 发行后 A 类与 N 类合计 12,372,801,314 股。公开 813.4 亿含老股款项，公司拿不到这一部分。</div>
+
+<div class=foot>
+  发行价与募资：SEC FWP Size、Anthropic 424B4（accession 0001628280-26-074944）Use of Proceeds 与资本化表。收盘价：CNBC、Yahoo Finance，交易日 2026-11-19。<br>
+  市值与「约 260 亿」为作者按收盘价或发行价测算／四舍五入。以上仅为知识分享，不构成投资建议。制图 2026/11/20。
+</div>
+</div>
+</body>
+</html>

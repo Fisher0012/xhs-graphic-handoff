@@ -1,0 +1,67 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响",
+  "task_id": "t52u-pages-v5",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T15:19:43+08:00",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "note": "仅重做内页02为v5，待用户验收。按t52u沿用原始「黄仁勋这次关键看三点」完整内容，格式按新版内页调整。内页01 v4与封面v6已通过并锁定。未改03文案，未拷贝Mac，未发布。v2–v4第二张文件全部保留。",
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v5.html",
+      "change": "add",
+      "after_sha256": "9f72ce3dedcd5d7eb44caa0dbd20c2d06720d41f7c7fc97eb4e2f48b79befced"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v5.png",
+      "change": "add",
+      "after_sha256": "251057c9fcd5d7ad815172213f540316cd5acc40683a61cab4399e847c763f0d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/pages/02_内页_v5_400.png",
+      "change": "add",
+      "after_sha256": "5d2bd9ee47910b70a82e2c912445f49899592f1126372af9f7f0a4bc4e74f4c9"
+    }
+  ],
+  "project_checks": [
+    {
+      "id": "layout",
+      "status": "SELF_CHECK",
+      "evidence": "pages/02_排版检查_v5.json：86px一行完整原题宽860/1000；三张对照卡内容高度、无flex撑卡；已Read原图与400px，无溢出无拆词；待用户验收"
+    },
+    {
+      "id": "visual",
+      "status": "SELF_CHECK",
+      "evidence": "已Read 02_内页_v5.png 与 02_内页_v5_400.png"
+    },
+    {
+      "id": "compliance",
+      "status": "SELF_CHECK",
+      "evidence": "04-合规自查.md已按v5三点正文重查；第3点这次保持分析原则，不预测；待用户验收"
+    },
+    {
+      "id": "page01_locked",
+      "status": "PASS",
+      "evidence": "pages/01_内页_v4.html SHA仍为 4dd5bf44265870ae2486ce0032aff8a92345bef764d88806ddf87ba205cf0487；01_内页_v4.png SHA仍为 5cd5c631a9e9a08f795f30f3b80d7e13a8d3d3bc882671c3a034e6b5a67baf42；01_内页_v4_400.png SHA仍为 7a4a20c71f0fb273b5084710fbc500c3c0fea86f26fb9fce117aa98f4dc986b3"
+    },
+    {
+      "id": "cover_untouched",
+      "status": "PASS",
+      "evidence": "cover/00_封面_approved.png SHA仍为 ae78c5694a77114f73c97edb1550542f245193648c454645ae773d4fddf29767"
+    },
+    {
+      "id": "copy_untouched",
+      "status": "PASS",
+      "evidence": "03-文案.md SHA仍为 d9e1ca53de42b599d6e572c92b83c40c98ded20686a884cfb4ac2eff5e5a5a80"
+    },
+    {
+      "id": "v4_page02_retained",
+      "status": "PASS",
+      "evidence": "02_内页_v4.png 仍在 pages/ 目录，未覆盖"
+    }
+  ],
+  "overall_verdict": "HOLD_FOR_USER：封面v6与内页01 v4已通过并锁定；内页02 v5已自查可交审，尚未经用户验收。未发布、未拷贝Mac。"
+}

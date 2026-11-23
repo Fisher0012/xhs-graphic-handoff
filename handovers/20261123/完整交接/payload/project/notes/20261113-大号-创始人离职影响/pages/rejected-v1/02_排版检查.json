@@ -1,0 +1,201 @@
+{
+  "title_font": "108px",
+  "title_lines": [
+    {
+      "text": "黄仁勋这次",
+      "width": 1000,
+      "box": 1000
+    },
+    {
+      "text": "关键看三点",
+      "width": 1000,
+      "box": 1000
+    }
+  ],
+  "subtitle_gap": 26,
+  "min_body_font_excl_labels_footer": 20,
+  "cells": [
+    {
+      "cls": "H2",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 362,
+      "text": [
+        {
+          "text": "对照前人交棒，只看已公开的事实",
+          "right": 550
+        }
+      ]
+    },
+    {
+      "cls": "sec",
+      "lines": 1,
+      "box_right": 1040,
+      "bottom": 416,
+      "text": [
+        {
+          "text": "三点对照前人做法｜黄仁勋已知事实",
+          "right": 402
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 641,
+      "bottom": 493,
+      "text": [
+        {
+          "text": "交班准备：提前安排，还是即刻生效",
+          "right": 641
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 825,
+      "bottom": 578,
+      "text": [
+        {
+          "text": "库克原是COO，贾西长期执掌AWS，马云提前一年宣布；",
+          "right": 805
+        },
+        {
+          "text": "这些交棒大多提前安排，接班人多来自公司内部核心岗位。",
+          "right": 825
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 831,
+      "bottom": 662,
+      "text": [
+        {
+          "text": "董事会11月11日接受辞职，即刻生效；CFO科莱特·克雷斯",
+          "right": 831
+        },
+        {
+          "text": "出任临时CEO并续任CFO，董事会正在寻找正式继任者。",
+          "right": 800
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 673,
+      "bottom": 758,
+      "text": [
+        {
+          "text": "影响力来源：职务、董事席位、投票权",
+          "right": 673
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 869,
+      "bottom": 843,
+      "text": [
+        {
+          "text": "贝索斯改任执行董事长，盖茨留任董事长兼首席软件架构师；",
+          "right": 851
+        },
+        {
+          "text": "佩奇、布林留任董事并持高投票权B股，经营权与控制权分离。",
+          "right": 869
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 907,
+      "bottom": 928,
+      "text": [
+        {
+          "text": "总裁、CEO和董事三项全部辞去，已离开英伟达董事会；",
+          "right": 799
+        },
+        {
+          "text": "代理声明显示截至2026年3月23日持股3.58%，英伟达一股一票。",
+          "right": 907
+        }
+      ]
+    },
+    {
+      "cls": "H3",
+      "lines": 1,
+      "box_right": 417,
+      "bottom": 1024,
+      "text": [
+        {
+          "text": "结果：没有统一公式",
+          "right": 417
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 788,
+      "bottom": 1109,
+      "text": [
+        {
+          "text": "乔布斯1985年离开后苹果陷入经营困境，2011年交棒后",
+          "right": 788
+        },
+        {
+          "text": "苹果继续发展；戴尔创始人2007年又重新出任CEO。",
+          "right": 754
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 773,
+      "bottom": 1194,
+      "text": [
+        {
+          "text": "公司后来的变化，往往叠加行业、监管和接班人本身；",
+          "right": 773
+        },
+        {
+          "text": "不能简单归因于创始人离开，本文也不预测英伟达。",
+          "right": 747
+        }
+      ]
+    },
+    {
+      "cls": "tx",
+      "lines": 2,
+      "box_right": 787,
+      "bottom": 1323,
+      "text": [
+        {
+          "text": "辞了职务和董事，股份还在；现由临时CEO接班。",
+          "right": 737
+        },
+        {
+          "text": "以上只是公开事实，不预测走向。你怎么看这次交棒？",
+          "right": 787
+        }
+      ]
+    }
+  ],
+  "content_bottom": 1343,
+  "footer_top": 1402,
+  "bottom_gap": 59,
+  "overflows": [],
+  "png_size": [
+    2160,
+    2880
+  ],
+  "issues": [],
+  "pass": true
+}

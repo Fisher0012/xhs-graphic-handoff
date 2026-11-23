@@ -1,0 +1,47 @@
+{
+  "receipt_version": "0.2",
+  "project": "创始人离职影响封面",
+  "task_id": "t48u-cover-v4",
+  "risk_tier": "C",
+  "executed_at": "2026-11-13T14:16:33.115697+08:00",
+  "executor": "图文制作",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面.html",
+      "change": "modify",
+      "after_sha256": "0bd74c6a9d84aa89451444fef199d578143e5d66f3f92439137ab037ed4fd63d"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面_v4.png",
+      "change": "add",
+      "after_sha256": "20991ff6946d1108063d3353853e67ce24cdb39a54a014bdf991166c9bb54a78"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/00_封面_v4_400.png",
+      "change": "add",
+      "after_sha256": "558603bc68b08ebaa6dde52b2980a63f612e28077e63b0fa8cf9e4941422a299"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/v4-layout-check.json",
+      "change": "add",
+      "after_sha256": "7f67de3318f252ce6c42d0bd17bf78759e2733b888992c428a178a77a851a2d5"
+    }
+  ],
+  "project_checks": [
+    {
+      "id": "layout",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261113-大号-创始人离职影响/cover/v4-layout-check.json"
+    },
+    {
+      "id": "visual-full-and-400px",
+      "status": "PASS",
+      "evidence": "Read 已目视检查原图及400px缩略图：标题可辨，无重叠、切字、溢出，五行人物表格紧凑，乔布斯仅一行。"
+    }
+  ],
+  "overall_verdict": "PASS"
+}

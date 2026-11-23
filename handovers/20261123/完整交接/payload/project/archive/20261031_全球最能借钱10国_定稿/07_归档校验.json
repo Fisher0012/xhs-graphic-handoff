@@ -1,0 +1,45 @@
+{
+  "note": "全球最能借钱10国",
+  "archive_date": "2026-10-31",
+  "image_count": 5,
+  "title_and_body_utf8_readable": true,
+  "text_character_count": 729,
+  "files": [
+    {
+      "name": "00_封面.png",
+      "sha256": "37f1c566e9b89ec62118d1cf2cce327c32fcc8479b29b4b4c4ab3c083731be8c",
+      "bytes": 1142345
+    },
+    {
+      "name": "01_三个关键词.png",
+      "sha256": "49b854aedb0afa6c6d346ad749e03d712fc7c0bac15d5996122bd16021bcfe8f",
+      "bytes": 1321782
+    },
+    {
+      "name": "02_美国债务怎么来的.png",
+      "sha256": "a637e647cc188009761f911a10c4d7e7941eff982c221011f0efa7652591a6f8",
+      "bytes": 1230872
+    },
+    {
+      "name": "03_日本为什么扛得住.png",
+      "sha256": "3890ecd590cc1502fe1985a83ed2ca98532f82d547ff5887c2218972437b691d",
+      "bytes": 1145682
+    },
+    {
+      "name": "04_总债务vs净债务.png",
+      "sha256": "a388300eded2114f4377b1b403f17a2957a642780b63934c370fde975409f52b",
+      "bytes": 1107985
+    },
+    {
+      "name": "05_发布文案.txt",
+      "sha256": "08c558bcfbace7635568a343572369e8733a7a057fa1c888f9dbe400f7a8a47d",
+      "bytes": 1786
+    },
+    {
+      "name": "06_来源说明.txt",
+      "sha256": "7a846425be4b0ff622afd37634eb2b25c72ddf6059bf8ec89ffe4931912c3571",
+      "bytes": 1701
+    }
+  ],
+  "updated": "2026-10-31 21:45 (Asia/Shanghai) 审查有条件通过后修订"
+}

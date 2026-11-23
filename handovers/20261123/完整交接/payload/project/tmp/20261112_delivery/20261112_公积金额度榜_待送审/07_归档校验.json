@@ -1,0 +1,69 @@
+{
+  "title": "公积金贷款额度榜",
+  "topic": "公积金最多能贷多少：10城最高额度榜",
+  "date": "2026-11-12",
+  "account": "阿信学财经",
+  "status": "成稿待审·待 Fisher 手动发布·未发布·未同步Mac",
+  "note_dir": "/workspace/xhs/notes/20261112-大号-公积金10城额度榜",
+  "numbering_note": "内页占满01–04，文案/来源/校验按 gate_archive 兼容规则编号为05/06/07",
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 1250096,
+      "sha256": "f007e8566614244af8a2d2f5eace4c4cdfa8576a22465f4842c5d758e294cd78"
+    },
+    {
+      "name": "01_叠满上浮最高能贷多少.png",
+      "bytes": 1174358,
+      "sha256": "cbd5213d5812dc915e61b7be23fd1a2556a7b326fbfbca644c2ea68a76a399dd"
+    },
+    {
+      "name": "02_另外4城怎么往上加.png",
+      "bytes": 1537345,
+      "sha256": "728600f65f6057d12d4ae5bf5673a2973434edefa88fc66843d02c9f4b0baadd"
+    },
+    {
+      "name": "03_同样贷100万差多少.png",
+      "bytes": 1295812,
+      "sha256": "e0836f1ab8c31bc655ca3652f8c81a7ccfbcdcf9223c0a4e0f8a683221f23196"
+    },
+    {
+      "name": "04_能贷多少还看这三条.png",
+      "bytes": 1381613,
+      "sha256": "e100b50402942eb38e8f23fd5044b59c713feb15074ee690835e75bc4565d79f"
+    },
+    {
+      "name": "05_发布文案.txt",
+      "bytes": 1989,
+      "sha256": "5957e4c7d2ebb90ab741dee75592d4f8915e1dee83a5a42927cfe1220ea4c251"
+    },
+    {
+      "name": "06_来源说明.txt",
+      "bytes": 4268,
+      "sha256": "f5d5acd887e34d4fbb4dd25d57fe0f230200a9323fa32e8028dd6b08da8c3440"
+    }
+  ],
+  "sources": [
+    "http://www.suzhou.gov.cn/szsrmzf/bmwj/202605/058f970c689644a5bb1fdb9182db2234.shtml",
+    "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433464/436433467/744089355/index.html",
+    "https://gjjzx.yangzhou.gov.cn/zfxxgk/fdzdgk/bmwj/ybxwj/art/2026/art_3b4ea232184b4728bda6b21924151c7f.html",
+    "https://zjw.sh.gov.cn/gzdt/20260225/92840e7cb47f453096c9b27b83a4808b.html",
+    "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzzfgjjglzx/content/post_10796725.html",
+    "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/xzgfxwj/szfbgt/202608/t20260830_16002477_app.html",
+    "http://gjj.jinan.gov.cn/col/col65559/art/2026/art_ae7dd0400dc646d599f5fa7e258e7102.html",
+    "http://www.shandong.gov.cn/art/2026/4/21/art_97560_723571.html",
+    "https://www.news.cn/20260324/e4548eb47b1741c5a8d4aedff49136a5/c.html",
+    "https://zjj.sz.gov.cn/ztfw/zfgjj/ygcal/"
+  ],
+  "checks": {
+    "check_titles_shared": "共享 /workspace/xhs/tools/check_titles.py 写死扫描 20261031-* 目录，不读参数，对本期无效（exit 0，输出的是旧期）",
+    "check_titles_local": "PASS（封面100px 1行 占可用宽83.2% 渐变；内页4张均64px 1行渐变，副标题26px #9b9b9e 1行）",
+    "measure_space_shared": "共享脚本写死 2026103* glob，对本期无效",
+    "measure_space_local": "PASS（最大空白≤5.0%，内容底→页脚≤2.9%）",
+    "visual_read": "PASS（逐张 Read；修过孤字/数字单位断行、来源标注）",
+    "compliance_precheck": "PASS（8个文件，命中0）",
+    "compliance_selfcheck": "9/9通过，第4、10条不适用",
+    "once_pipeline": "PASS（含 render、合规初筛、gate_archive PASS，见 pipeline_log.md）",
+    "reviewer": "未送审查官（本轮不联系其他 bot）"
+  }
+}

@@ -1,0 +1,21 @@
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf);}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf);}
+@font-face{font-family:NSBold;src:local("Noto Sans CJK SC Bold");}
+@font-face{font-family:NSR;src:local("Noto Sans CJK SC");}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1440px;overflow:hidden}
+body{background:#F3EEE6;font-family:NSR;color:#1A1A1A;position:relative;-webkit-font-smoothing:antialiased;font-kerning:normal}
+.wrap{position:absolute;left:76px;right:76px;top:0;bottom:0}
+.hdr{position:absolute;top:78px;display:flex;align-items:center;font-size:25px;line-height:1}
+.dot{width:10px;height:10px;border-radius:50%;background:#C8102E;margin-right:18px}
+.brand{font-family:NSB;font-weight:900;color:#1A1A1A;letter-spacing:.5px}
+.div{width:2px;height:26px;background:#BDB6AC;margin:0 16px}
+.cat{color:#7A746C;font-family:NSR}
+.pill{position:absolute;top:175px;height:68px;padding:0 34px;border:2.5px solid #C8102E;border-radius:34px;display:flex;align-items:center;color:#C8102E;font-family:NSBold;font-weight:700;font-size:26px;letter-spacing:1px}
+.pill i{display:inline-block;width:9px;height:9px;border-radius:50%;background:#C8102E;margin:0 14px}
+.pill i.first{margin-left:0;margin-right:18px}
+.red{color:#C8102E}
+.navy{color:#1F3A5F}
+.foot{position:absolute;bottom:62px;left:0;right:0}
+.foot .ln{width:90px;height:4px;background:#C8102E;margin-bottom:24px}
+.foot p{font-size:18.5px;line-height:1.6;color:#8A847B}

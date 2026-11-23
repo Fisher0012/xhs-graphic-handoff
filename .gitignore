@@ -1,0 +1,9 @@
+# Files larger than 50 MiB are stored as lossless shards and restored here.
+# python3 handovers/20261123/reconstruct_media.py
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/rec/raw_A.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/rec/raw_B_gen.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/refs2/beida.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/refs2/meidui.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/refs2/wb.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/refs2/wbsys.mp4
+handovers/20261123/完整交接/payload/project/商单/20261110-Sphere/refs2/yuri.mp4

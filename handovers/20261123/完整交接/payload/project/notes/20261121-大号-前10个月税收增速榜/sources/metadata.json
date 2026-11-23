@@ -1,0 +1,20 @@
+[
+  {
+    "id": "mof",
+    "url": "https://gks.mof.gov.cn/tongjishuju/202611/t20261119_4004986.htm",
+    "publication_date": "2026-11-20",
+    "period": "2026年1—10月",
+    "accessed_at": "2026-11-21T15:11:20.006816+08:00",
+    "via": "WebFetch readable text",
+    "raw_html_saved": false
+  },
+  {
+    "id": "tax",
+    "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5250324/content.html",
+    "publication_date": "2026-06-10",
+    "period": "2026年1—5月",
+    "accessed_at": "2026-11-21T15:11:20.006875+08:00",
+    "via": "WebFetch readable text",
+    "raw_html_saved": false
+  }
+]

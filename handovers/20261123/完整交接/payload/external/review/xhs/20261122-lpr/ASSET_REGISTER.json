@@ -1,0 +1,349 @@
+{
+  "assets": [
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/01-选题.md",
+      "sha256": "45b9c8ad3c87eba7ff6660eb7b653dee24af010c4260b4a80b6947f9407adc4f",
+      "bytes": 840
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/02-框架.md",
+      "sha256": "473bfb859c7d932bab9e3640b9e4ec81d6986351129fe3c77522f6aa23835206",
+      "bytes": 904
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/gen.py",
+      "sha256": "24402ba118593f6469b964ec292dd86d9f0027a25856e0234ae32a0c566a4554",
+      "bytes": 20534
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p1.html",
+      "sha256": "b84b7fa415f71f484952fadd3aed3095683c7fff7c82844ef852d77c9f1c8678",
+      "bytes": 9851
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p1.png",
+      "sha256": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb",
+      "bytes": 1341056
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p2.html",
+      "sha256": "1b9611e9bc6a787eca501ea10303e2c8ee2aab65836cd577b04f8ae2305b1ecb",
+      "bytes": 5565
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p2.png",
+      "sha256": "aa0bb2cbc87cee234cda19258f96ae2b09e3c179984dae59af5ab8950a805a0c",
+      "bytes": 1015789
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p3.html",
+      "sha256": "cb2a205332d2c47ee222254831ec1fb6de56f1720d7f1468cfb1fca1544e15c8",
+      "bytes": 6159
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p3.png",
+      "sha256": "726b50c92cd3008613fb72fb666c9db2539ec38fbfdb7b23e88acc5589d00f7d",
+      "bytes": 1079572
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p4.html",
+      "sha256": "f3f77f1e2f2630b99a1aea172a2cfceb10ac8497acc548270ac1098453d2fa5b",
+      "bytes": 6521
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/03-design/p4.png",
+      "sha256": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c",
+      "bytes": 1242562
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/04-文案.md",
+      "sha256": "f4c8f61364d612ede9158dc64151b354b0dcdc0ffab87e2a0be365fb1f9132a7",
+      "bytes": 2015
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/05-合规.md",
+      "sha256": "43424edfcbfdcd4b4c3fc872e60a486ecd37fe2ce7ac8014bc207b38643ac600",
+      "bytes": 958
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/baseline_ref.txt",
+      "sha256": "d90cba8d4794058716fe803e5cc87f2ad6c919457cf678eb7564c10f20b8cb16",
+      "bytes": 79
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/data.json",
+      "sha256": "718c2b257bf92d5aa7ff9bd8ef0cc7e0d505133a68999cd1c53839b6c4dbe1cd",
+      "bytes": 4162
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/compliance.log",
+      "sha256": "f21a9de40d4331d282229dc651367d27575ff8c5e68f665e948f9ccc8301b11b",
+      "bytes": 123
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/data_check.json",
+      "sha256": "db3a4d86e8a58e2c39bf839116bf6bd07bedd045c50211351d606cc0058bc909",
+      "bytes": 4793
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/pipeline.log",
+      "sha256": "0140d49f438d9ae68e60545fa8b333ad845f2f97c6ba896a9bced21966073e78",
+      "bytes": 1413
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/source_reverse_check.json",
+      "sha256": "1ac7bfe161250937e509aa40f9ded1d6adb570b95990b431058b6066f7cf73e4",
+      "bytes": 3849
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/space.log",
+      "sha256": "17198de95a8bdf72d937f4f77421fbe39edc8f1e576d476c53f013391b1b8d75",
+      "bytes": 345
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/titles.log",
+      "sha256": "42740d4057490c2f64aee06aca2fb4176c73f7a833096e458a4bea08f846f96a",
+      "bytes": 6021
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/evidence/visual.md",
+      "sha256": "4589e6314863ba3f7bd3bb56602992a75a6a1ba68acf3bd91542743ed28cc341",
+      "bytes": 1150
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/00_封面.png",
+      "sha256": "00bec3054eba216138c66ec0ae9e5e3fc456275272f16c9f95bc24d41b39dbbb",
+      "bytes": 1341056
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/01_房贷利率怎么定.png",
+      "sha256": "aa0bb2cbc87cee234cda19258f96ae2b09e3c179984dae59af5ab8950a805a0c",
+      "bytes": 1015789
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/02_存量房贷看重定价日.png",
+      "sha256": "726b50c92cd3008613fb72fb666c9db2539ec38fbfdb7b23e88acc5589d00f7d",
+      "bytes": 1079572
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/03_新发放利率对照.png",
+      "sha256": "4827f9cb28ef284ef9cfa11104dc84fbcfba01c85c409fd64964c53dd6a89c1c",
+      "bytes": 1242562
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/04_发布文案.txt",
+      "sha256": "f40dd76123aa18fc711d2b689c518af8a042c5e0894e9ddf04f7f9e6a316c2a9",
+      "bytes": 1895
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/05_来源说明.txt",
+      "sha256": "b1a237563e4ed511900d4a0797086372925b4e476760fab4d15f32a815f7666a",
+      "bytes": 1743
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/06_归档校验.json",
+      "sha256": "0524752a9d89abb8043990fed850f2a94422060febc2453cb729e689ed2c7978",
+      "bytes": 1525
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/07_总览.png",
+      "sha256": "ca83f611f354464794e659c1310b64d815bed3c6e4c469ffe9a4fef43e9441ba",
+      "bytes": 457572
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/final/SHA256.txt",
+      "sha256": "c17506a9823a397f47e5935f6686cfc79ac88d4d6fb86d6ea9d1e2fa6ec2f6d0",
+      "bytes": 710
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/pipeline_log.md",
+      "sha256": "78e766b9ca3405e57341778e7b48c980f017b3e5234f77116c5007f8a4ff42a2",
+      "bytes": 751
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/README.md",
+      "sha256": "9dba1a48567ae88ceaf141e17f80c078a6498a0c32afb4d04d06733eddc69b43",
+      "bytes": 302
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/finstat_202610.html",
+      "sha256": "48461c69ab2b86e9cc69ae6f691263b472bdc5ee95c9f81f99df2cf88a604341",
+      "bytes": 41478
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2024-12-20.html",
+      "sha256": "df69115f5ddcbc54d38f1774dd9a1f144a59011de73ea6fedd0f733eaf5beec6",
+      "bytes": 27040
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-04-21.html",
+      "sha256": "776a0426e7fec8c1f8f611737efc32ea3c01aec87d2525ac1a4cded8ee7348a3",
+      "bytes": 27026
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-05-20.html",
+      "sha256": "5189bbfafb87bd5a1c17855ec6e2842010fea33c1df74b5d83ab7f6fb3f3f2aa",
+      "bytes": 27026
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-06-20.html",
+      "sha256": "360b9f9ffa6cadc9c13814d57b38437c2de97e06ca74d66044d20227058103b8",
+      "bytes": 27026
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-07-21.html",
+      "sha256": "bebecd5ae557e85daab9bb9b235e4d2e7eda88263edc80d2734153e4d4a17235",
+      "bytes": 27052
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-08-20.html",
+      "sha256": "449ef6bb8068328d78ed2eb9782ba3a1024ebfae66d2bd8be60329e3bbb3e21f",
+      "bytes": 27035
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-09-22.html",
+      "sha256": "b2c7e09eb9bd4fd77e561620852aff20863a31d8b9207deb2e83f0635eb70589",
+      "bytes": 27047
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-10-20.html",
+      "sha256": "3cff7c149b25fb4c251de69178fe023772c9bd308d8e2a3b26a77c31fc392ed5",
+      "bytes": 27052
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-11-20.html",
+      "sha256": "22f4fe1297b91a497c3fb52e77fc1bb2237e4e468148c8cb44982887fad02cd5",
+      "bytes": 27107
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2025-12-22.html",
+      "sha256": "b2c26ddad8e526fef1229a252a4e3355538dbce36b70ba79c2426d28e08c1d66",
+      "bytes": 27405
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-01-20.html",
+      "sha256": "fcff6dfedcf1d4638c13ee1147ae32f5fdca3be2066f25fe1953a925ed065f76",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-02-24.html",
+      "sha256": "fb8535b394d3a05c5600d856d519d0b887b565db33ed5f7bc39cd3419387b166",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-03-20.html",
+      "sha256": "22c9bb42f13cbcca95b17ffd5217539129d429e02408fd9b805bd83e340b9736",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-04-20.html",
+      "sha256": "d2b541ddadc124bb10c694c6fea10a1c0f47d76836103683991a0c6b8d426d79",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-05-20.html",
+      "sha256": "3ff008fe1dbcf74105c0b42b17c82cc13b86560f9b055b94eb050d1faa931ce1",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-06-22.html",
+      "sha256": "e7d55c20b77a779d72c0ff6cbbdf46d2930ccc961138f24ea54a6f8d0295816e",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-07-20.html",
+      "sha256": "e230289da3557ccf53b802d63a10131e22ba1586eaabdb8a2f01faf914c99154",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-08-20.html",
+      "sha256": "016da42c5dd988845284c3a02bf35bfa3865ea56f627b538c1f7d47daa8081ed",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-09-20.html",
+      "sha256": "b0714a9dc9aac77674b0cbe89b85651713c715837443924dd2409e4a6c796c51",
+      "bytes": 27398
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-10-20.html",
+      "sha256": "e831acf7fb6797f486a831f2205ef1472a1647ae6d27c0ba153e6af7f2ac2386",
+      "bytes": 27405
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_2026-11-20.html",
+      "sha256": "41ba16013188a98788ab0a7419285e7b69badcf2bfab910d594aecfc1790ef4d",
+      "bytes": 27405
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/lpr_list.html",
+      "sha256": "9e1487745ae25e351b0dff01061b88d712b166be8edc8942bc26432263154395",
+      "bytes": 42383
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/metadata.json",
+      "sha256": "d61f60db04a67ff354b16a4df5859b08c32c5ff122b78501dd8a9c155e332dc4",
+      "bytes": 11632
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3.pdf",
+      "sha256": "ef9dfdf0ec7fb32164bd171343a7f32cb23f6e610b5edd64c7767ebfa260327b",
+      "bytes": 4426332
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3.txt",
+      "sha256": "3eee97c6efd36c22bbb0a2639e5bf38dea93378b56250ee20b523274f75925cc",
+      "bytes": 113295
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/mpr_2026q3_page.html",
+      "sha256": "4de46f86e888efee1c12f966041ec33ffd5e0de11fd0866950044b7309a3c42d",
+      "bytes": 33865
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_16.html",
+      "sha256": "a955d8e158ae3956ec89ff51cdc7a8ba8ea0cfbb278d7b8c509c1800419d3a59",
+      "bytes": 25647
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_30.html",
+      "sha256": "b2ce69063d0f3b3fd3caf3b46d46fed79f4903ef3d77deac2c9859301043d02a",
+      "bytes": 25841
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2019_30_qa.html",
+      "sha256": "c7c6441782e432e3425c000c57381da74f64d7d7b0f00be5d27a905dc9ed1323",
+      "bytes": 26800
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2024_11.html",
+      "sha256": "bbd2a85a42ef8b86c787fa28c132d762ef1911f6047a7251715432ccfa1b33b8",
+      "bytes": 30385
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/sources/pboc_2024_11_qa.html",
+      "sha256": "8d08845ad937d3d1e6119513bbadeb7d52defc12989b122ee2c20c66eeab79b5",
+      "bytes": 27827
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/verify_content.py",
+      "sha256": "fafb634809342d6230b09407f705b1542c624bf75b016a41318af8890021d341",
+      "bytes": 7098
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/交付.md",
+      "sha256": "1f0ac959902897ead053e513683760944365efcdeafe0b7de7ff165482b5ecb3",
+      "bytes": 1658
+    },
+    {
+      "path": "/workspace/xhs/notes/20261122-大号-LPR连续18个月不变/框架.md",
+      "sha256": "473bfb859c7d932bab9e3640b9e4ec81d6986351129fe3c77522f6aa23835206",
+      "bytes": 904
+    },
+    {
+      "path": "/workspace/xhs/选题库.md",
+      "sha256": "dac43d1d2ea354e95b869d0fea41cf491112933b416eaadf1f04a1d5cda4bd4f",
+      "bytes": 97382
+    }
+  ]
+}

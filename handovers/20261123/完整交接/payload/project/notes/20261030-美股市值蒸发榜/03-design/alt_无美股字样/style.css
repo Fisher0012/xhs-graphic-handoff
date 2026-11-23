@@ -1,0 +1,55 @@
+@import url("base.css");
+/* 美股单日市值蒸发榜（小号·统计类）追加样式 */
+.cover2{position:absolute;top:128px;font-size:104px;line-height:1.25}
+.cover2 div{white-space:nowrap}
+.inner-title{position:absolute;top:140px;font-size:84px}
+.row.hl:before{content:"";position:absolute;left:-18px;right:-18px;top:0;bottom:0;border-radius:10px;background:rgba(34,199,169,.11);border:1px solid rgba(34,199,169,.38)}
+.row.hl .idx,.row.hl .num{color:var(--teal)}
+.row.hl .name{color:#fff}
+.row .name small{font-size:24px;font-weight:400;color:var(--note);margin-left:10px}
+.row .num small{font-size:26px;font-weight:500;color:var(--sub);margin-right:4px}
+.row>*{position:relative}
+.row .bar{position:absolute}
+.calc{font-size:22px;color:var(--note);font-weight:400;white-space:nowrap}
+.foot{position:absolute;left:0;right:0;font-size:24px;line-height:1.6;color:var(--note);white-space:nowrap}
+.foot b{color:#e8ecee;font-weight:700}
+.foot em{font-style:normal;color:var(--teal);font-weight:700}
+/* P2 算式卡 */
+.fcard{position:absolute;left:0;right:0;background:var(--card);border:1px solid var(--card-bd);border-radius:16px;padding:14px 32px 14px 38px;overflow:hidden}
+.fcard:before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--teal)}
+.fr{display:flex;align-items:baseline;height:84px;border-bottom:1px solid #1f2a2c}
+.fr:last-child{border-bottom:none}
+.fr .fl{width:200px;flex:none;font-size:38px;font-weight:700;white-space:nowrap}
+.fr .fx{font-size:28px;color:#b9c0c4;white-space:nowrap}
+.fr .fv{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:48px;white-space:nowrap}
+.fr .fv small{font-size:24px;font-weight:500;color:var(--sub);margin-left:4px}
+.fr.tot{height:96px}
+.fr.tot .fl{color:var(--teal)}
+.fr.tot .fv{font-size:64px;color:var(--teal)}
+.sech{display:flex;align-items:center;height:56px;position:absolute;left:0;right:0}
+.sech .no2{width:46px;height:46px;border-radius:50%;background:var(--teal);color:#041010;font-family:"Noto Sans SC";font-weight:900;font-size:30px;line-height:46px;text-align:center;margin-right:18px;flex:none}
+.sech .ht{font-size:46px;font-weight:700;color:#fff;white-space:nowrap}
+.cap{position:absolute;left:0;right:0;display:flex;align-items:center;justify-content:space-between}
+.cap .cb{width:400px;background:var(--card);border:1px solid var(--card-bd);border-radius:14px;padding:18px 0;text-align:center}
+.cap .cd{font-size:24px;color:var(--note);white-space:nowrap}
+.cap .cv{font-family:"Noto Sans SC";font-weight:900;font-size:56px;line-height:1.25;white-space:nowrap}
+.cap .cv small{font-size:26px;font-weight:500;color:var(--sub);margin-left:4px}
+.cap .cb.af .cv{color:var(--negnum)}
+.cap .ar{font-size:28px;color:var(--teal);text-align:center;white-space:nowrap;font-weight:700}
+.mrow{position:absolute;left:0;right:0;height:70px}
+.mrow .top{display:flex;align-items:baseline;height:42px}
+.mrow .name{font-weight:700;font-size:32px;white-space:nowrap;width:250px}
+.mrow .tag{font-size:22px;color:var(--note);white-space:nowrap}
+.mrow .num{margin-left:auto;font-family:"Noto Sans SC";font-weight:900;font-size:42px;line-height:1;white-space:nowrap}
+.mrow .num small{font-size:22px;font-weight:500;color:var(--sub);margin-left:4px}
+.mrow .bar{position:absolute;left:0;right:0;top:50px;height:12px;border-radius:3px;background:var(--track)}
+.mrow .bar i{display:block;height:100%;border-radius:3px;background:var(--teal-dk)}
+.mrow.me .name,.mrow.me .num{color:var(--teal)}
+.mrow.me .bar i{background:linear-gradient(90deg,#8ff2dd,var(--teal))}
+.fn{position:absolute;left:0;right:0;font-size:22px;line-height:1.6;color:var(--note)}
+/* P3/P4 条目 */
+.p4sep .sep{margin:24px 0 22px}
+.item2 li em{font-style:normal;color:var(--teal);font-weight:700}
+.minic{position:absolute;right:0;display:flex;align-items:flex-end;gap:34px}
+.minic .col{width:118px}
+.minic .col .v{font-size:30px}

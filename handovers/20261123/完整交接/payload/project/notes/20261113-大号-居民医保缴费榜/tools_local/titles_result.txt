@@ -1,0 +1,6 @@
+p1 封面 h1=各地医保交多少 fs=110px lines=1 占可用宽=79.8% 渐变=True | sub fs=26px color=rgb(155, 155, 158) -> PASS
+p2 内页 h1=你交的不是全部 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p3 内页 h1=断保后要等多久 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p4 内页 h1=连续参保有什么 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+p5 内页 h1=截止日期别看错 fs=64px lines=1 right=528 渐变=True | sub fs=26px color=rgb(155, 155, 158) lines=1 -> PASS
+check_titles: PASS

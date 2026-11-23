@@ -1,0 +1,178 @@
+{
+  "receipt_version": "0.2",
+  "project": "xhs 图文创作",
+  "task_id": "20261114-money",
+  "risk_tier": "C",
+  "executed_at": "2026-11-14T10:06:13+08:00",
+  "executor": "图文执行子代理",
+  "verifier": "总协调(verify_receipt.py)",
+  "environment": {
+    "host": "box",
+    "tz": "Asia/Shanghai"
+  },
+  "targets": [
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/00_封面.png",
+      "change": "add",
+      "after_sha256": "696331824dd22cd5e2aaaa082d6ee9e86cc63f91d882776d83e15816dab81cef"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/01_存款加在哪几块.png",
+      "change": "add",
+      "after_sha256": "c2311a59359e96e51cc828bb7c99ca04ade7d4329b234688091e64a97d229da5"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/02_贷款谁增谁在减.png",
+      "change": "add",
+      "after_sha256": "891e49a6263f6a04ae231927e75ca6a979bf8c0b07aebe8bc1aa129aadd3929f"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/03_当月和统计口径.png",
+      "change": "add",
+      "after_sha256": "b75bf2c4b804606405e1cf969f872301fd568817f84eba96ee870b0eab100813"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/04_发布文案.txt",
+      "change": "add",
+      "after_sha256": "ae5f0120d62899def0ebd6e66972ec7a2fa51e8f3cb54daf6deb036e4c1cba80"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/05_来源说明.txt",
+      "change": "add",
+      "after_sha256": "9edc102473499cbc091a277d6a9668debdf3d986467121ec008c0ea01df1ea28"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/06_归档校验.json",
+      "change": "add",
+      "after_sha256": "aa5ee89460bd39247354d1642ad06cfb9828fa04c9f9a5b658b09ee6af43f1b8"
+    },
+    {
+      "path": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/07_总览.png",
+      "change": "add",
+      "after_sha256": "2b05f5313b102c9c5071465caf94ca434c47358c5efd0c6b793576acf236d536"
+    },
+    {
+      "path": "/workspace/xhs/选题库.md",
+      "change": "modify",
+      "before_sha256": "3c7859264f3669bcc3d30e1bc906e2da59fc4f3629d9f3cbaf30909d4e7ec6f0",
+      "after_sha256": "06fff8adfc5723efd6326ec7f7324196a76039245e52ee3418996a16a734100a",
+      "diff_path": "/workspace/review/xhs-tuwen/20261114-money/选题库.md.diff"
+    }
+  ],
+  "gates": {
+    "gate1_syntax_and_py_compile": "N/A",
+    "gate2_invariants_and_tests": {
+      "total_tests": 5,
+      "passed": 5,
+      "failed": 0,
+      "exit_code": 0,
+      "command": [
+        "bash",
+        "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/tools_local/verify_all.sh"
+      ],
+      "cwd": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了",
+      "timeout_s": 180
+    },
+    "gate3_simulated_rollback": {
+      "restore_by_delete": true
+    },
+    "gate4_manifest_hash_check": "100%_MATCHED"
+  },
+  "gate4_evidence": {
+    "asset_register": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/ASSET_REGISTER.json"
+  },
+  "project_checks": [
+    {
+      "id": "H1",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/tools_local/check_titles_result.txt ; /workspace/xhs/notes/20261114-大号-前10个月钱去哪了/tools_local/measure_space_result.txt"
+    },
+    {
+      "id": "H2",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/tools_local/compliance_precheck_result.txt"
+    },
+    {
+      "id": "H3",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/交付.md 出处表；/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/final/05_来源说明.txt"
+    },
+    {
+      "id": "H4",
+      "status": "PASS",
+      "evidence": "/workspace/xhs/notes/20261114-大号-前10个月钱去哪了/ASSET_REGISTER.json；回执无发布动作"
+    }
+  ],
+  "overall_verdict": "PASS",
+  "design_approval": "用户只选定选题，未批准设计；本回执不是 Fisher 已通过",
+  "protected": [
+    {
+      "path": "/workspace/ops/eng_gate/PROJECT_CHECKS.md",
+      "sha256": "f7da52144f24b4f732c17ef85abe1ae6ea13b9acaa55faf2747b6e1c059b99bb"
+    },
+    {
+      "path": "/workspace/ops/eng_gate/templates/receipt_template_code.json",
+      "sha256": "522c4363f0e0458b190865f2b549220b86b5db8c8a11524c4d247ec5752d4a0b"
+    },
+    {
+      "path": "/workspace/ops/eng_gate/templates/receipt_template_content.json",
+      "sha256": "1d9e6fa5d1b7798758eb87ce3e1c18a53552e6d43cdbe3b2ba301392a6065ee0"
+    },
+    {
+      "path": "/workspace/ops/eng_gate/templates/回执说明.md",
+      "sha256": "5de9f0a21a54e3bd89324450104e1781319155f1741e87613c67027423c8edab"
+    },
+    {
+      "path": "/workspace/ops/eng_gate/verify_receipt.py",
+      "sha256": "df26062f3c5defa02461968e6173347386192bccbd3d70c2212c65562173d1c9"
+    },
+    {
+      "path": "/workspace/ops/xhs-tuwen/STATE.md",
+      "sha256": "d534a17bec56cc3b7b33ca6fdc3f2a4c23b45090bb6e299cd252fc19f9be7f29"
+    },
+    {
+      "path": "/workspace/review/xhs-tuwen/20261114-money/plan.md",
+      "sha256": "a4fb9d1e25ab355b120f97ea2423987da710a4b75bb0d17436b72e84b4e336bb"
+    },
+    {
+      "path": "/workspace/xhs/tools/check_titles.py",
+      "sha256": "a5452fe8445bd1e6447e11d803ce0b59e5a32ddcacd566e52aca43c8b022f323"
+    },
+    {
+      "path": "/workspace/xhs/tools/compliance_precheck.py",
+      "sha256": "9202684e305c570e00e934c8da0caffd01a8dae1443d6333631e579bcae3b39c"
+    },
+    {
+      "path": "/workspace/xhs/tools/dedup_topics.py",
+      "sha256": "35ce96c2dcc06344801ff1dbc4fdcc9efc6936b9462121f5e1358237136b24eb"
+    },
+    {
+      "path": "/workspace/xhs/tools/foot_gap.sh",
+      "sha256": "f1b57588a5d20dde71822baefc8de6376716ea82bb5351fa84831d8280ce3c7a"
+    },
+    {
+      "path": "/workspace/xhs/tools/gate_archive.sh",
+      "sha256": "28e8c3e39c986ac8539d79953bdf72a480d8facf47a985c0bff6ab2e561a80c5"
+    },
+    {
+      "path": "/workspace/xhs/tools/measure_space.py",
+      "sha256": "e4936829a5fa11696f377a8f8885338ffffb625aed6ed7749b3bab4babb213da"
+    },
+    {
+      "path": "/workspace/xhs/tools/once_pipeline.sh",
+      "sha256": "e1ef12c49537221e2f725ad67c02bfbca54f2c6931de741c0a4c2d8972637c0c"
+    },
+    {
+      "path": "/workspace/xhs/tools/render_heijin.sh",
+      "sha256": "5ca8e6c8d511195f5e9844349185e67d99dc3b5b55b7e1802b6b360de840f33d"
+    },
+    {
+      "path": "/workspace/xhs/tools/topic_candidates.py",
+      "sha256": "adf12ec0113ecd181b77c86fc9d50e2eee0dadd22f6bd5cb7bef3ffaf83ff3df"
+    },
+    {
+      "path": "/workspace/xhs/tools/xhlib.py",
+      "sha256": "f9e57c442bea2eb79b4e088a41172775bbe066326b0e7cd31eff782792338d17"
+    }
+  ]
+}

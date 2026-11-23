@@ -1,0 +1,75 @@
+{
+  "note": "20261120-大号-AnthropicIPO",
+  "title": "Anthropic上市　7位创始人身价盘点",
+  "account": "阿信学财经",
+  "created": "2026-11-20T07:44:00+08:00",
+  "version": "v2-t84u-dario-olah-tags",
+  "fisher_topic_selected": true,
+  "fisher_title_approved": true,
+  "fisher_design_approved": false,
+  "cover_feedback_t79u": "整体没有问题；标题两行间距拉开；底部空余收紧。配图改为 3 张：上市→财务→投票权。",
+  "published": false,
+  "placed_on_mac": false,
+  "title_used": "Anthropic上市 / 7位创始人身价盘点",
+  "subtitle_used": "按首日收盘价计算，人均超230亿美元",
+  "close_price": 97.17,
+  "pages": 4,
+  "rejected": {
+    "v2_cover_before_spacing_tweak": "/workspace/review/xhs-tuwen/20261120-anthropic/rejected-v2-cover",
+    "v1_inners": "/workspace/review/xhs-tuwen/20261120-anthropic/rejected-v1-inner"
+  },
+  "cover_spacing": {
+    "before_title_line_box_gap_px": 0,
+    "after_title_line_box_gap_px": 22,
+    "before_title_ink_gap": "两行墨迹未分开（阈值 200 仍连成一带）",
+    "after_title_ink_gap_css_px": 18.0,
+    "title_to_sub_css_px": 68,
+    "sub_to_first_css_px": 56,
+    "before_last_to_footer_px": 146,
+    "after_last_to_footer_px": 70
+  },
+  "files": [
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/00_封面.png",
+      "sha256": "114e959f5998b811ac8d282e0290ee68c73efc63532487b3a3af2bdecf788c48",
+      "bytes": 2551157
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/01_上市首日值1.20万亿.png",
+      "sha256": "e9fa3ab05fda26b941707819e09843c12c8f0e7d879a19de4859f8ec881a8120",
+      "bytes": 1836655
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/02_上市时营收增长12倍.png",
+      "sha256": "a78bb5acffe930e6481d064381181ad7cf9751349955138aa462d2bc564431ca",
+      "bytes": 1458025
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/03_上市后谁说了算.png",
+      "sha256": "e4f66d72b8ae1131f16ab4e7df905227762f59cce4e94166165f0c4ee455b32c",
+      "bytes": 1562788
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/04_发布文案.md",
+      "sha256": "386cb415de6d8fc85b175ba1a5cd51726c3da37bacb404fcece01d7609b74731",
+      "bytes": 3297
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/04_发布文案.txt",
+      "sha256": "386cb415de6d8fc85b175ba1a5cd51726c3da37bacb404fcece01d7609b74731",
+      "bytes": 3297
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/05_来源说明.txt",
+      "sha256": "863b25dfb5a1fa6efd2e5efe39ca4d656af855ede7f35a4050a1d3601622b1bc",
+      "bytes": 2215
+    },
+    {
+      "path": "/workspace/xhs/notes/20261120-大号-AnthropicIPO/final/07_总览.png",
+      "sha256": "4533117db5022c06ad550b83007c57991e7b540063510fe531db27fd4249cc38",
+      "bytes": 2960315
+    }
+  ],
+  "title_fix": "02 标题由「上市时营收增十倍」改为「上市时营收增长12倍」（同比+1,206%即增长约12倍）。",
+  "cover_tweak_t81u_t82u": "参照英伟达封面补副题高亮色块、Dario红色角标与大号身价数字、六人身份标签；按 t82u 不加奖牌和排序色，序号统一低调灰色，不用「身价最高」。"
+}

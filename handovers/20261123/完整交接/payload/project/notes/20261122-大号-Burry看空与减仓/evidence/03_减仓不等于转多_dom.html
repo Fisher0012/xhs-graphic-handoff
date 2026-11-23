@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:NSB;src:url(file:///home/box/.fonts/NotoSansSC-Black.otf)}
+@font-face{font-family:NSM;src:url(file:///home/box/.fonts/NotoSansSC-Medium.otf)}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1440px;overflow:hidden;background:#07090d;font-family:NSM,'Noto Sans CJK SC',sans-serif;color:#e8edf3;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(900px 500px at 88% 6%,rgba(70,160,255,.22),transparent 58%),
+  radial-gradient(640px 460px at 4% 42%,rgba(255,40,60,.11),transparent 60%),
+  radial-gradient(500px 380px at 70% 78%,rgba(232,195,106,.06),transparent 65%),
+  linear-gradient(180deg,#0b0f16 0%,#07090d 55%,#050608 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(140,190,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(140,190,255,.045) 1px,transparent 1px);background-size:40px 40px;mask-image:linear-gradient(180deg,#000 0%,transparent 46%)}
+.wrap{position:absolute;inset:0;padding:28px 44px 0;display:flex;flex-direction:column}
+.top{display:flex;align-items:center;gap:14px;font-size:22px;color:#9fb3c8;letter-spacing:1px;flex:none}
+.brk{font-family:NSB;background:#ff2d3f;color:#fff;padding:3px 14px;border-radius:6px;font-size:22px;letter-spacing:3px;box-shadow:0 0 24px rgba(255,45,63,.6)}
+.top .dt{margin-left:auto;font-family:NSB;color:#7fd3ff;letter-spacing:2px}
+h1{font-family:NSB;font-size:94px;line-height:.95;margin-top:14px;letter-spacing:0;color:#fff;text-shadow:0 0 40px rgba(120,200,255,.35),0 6px 0 rgba(0,0,0,.6);flex:none;white-space:nowrap}
+h1 em{font-style:normal;background:none;-webkit-background-clip:initial;color:#ff2d3f;-webkit-text-fill-color:#ff2d3f;filter:drop-shadow(0 0 16px rgba(255,45,63,.45));text-shadow:0 4px 0 rgba(0,0,0,.45)}
+h2{font-family:NSM;font-size:30px;margin:12px 0 16px;color:#9fb3c8;letter-spacing:.4px;flex:none;white-space:nowrap}
+.foot{flex:none;padding:12px 0 22px;font-size:16px;line-height:1.5;color:#6c7684}
+
+h1{font-size:94px}
+.mid{flex:1;display:flex;flex-direction:column;min-height:0;gap:14px}
+.banner{flex:none;border-radius:18px;padding:30px 32px;background:linear-gradient(100deg,rgba(255,45,63,.16),rgba(12,16,23,.95) 55%);border:1px solid rgba(255,45,63,.55);box-shadow:0 0 36px rgba(255,45,63,.18),inset 0 0 50px rgba(255,45,63,.04);display:flex;align-items:center;gap:28px}
+.banner .lab{font-family:NSB;font-size:20px;color:#fff;background:linear-gradient(180deg,#ff3b4e,#d3122b);padding:5px 12px;border-radius:6px;letter-spacing:2px;flex:none}
+.banner .tx{font-family:NSB;font-size:50px;line-height:1.2;color:#fff;letter-spacing:.5px}
+.banner .tx em{font-style:normal;color:#ff6b78}
+.banner .sub{margin-top:6px;font-size:22px;color:#c5d0db;font-family:NSM}
+.tiles{flex:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.tile{background:linear-gradient(160deg,rgba(18,24,35,.92),rgba(12,16,23,.92));border:1px solid rgba(159,179,200,.12);border-radius:16px;padding:22px 22px 24px;position:relative;overflow:hidden;display:flex;flex-direction:column;justify-content:center;min-height:164px}
+.tile:before{content:'';position:absolute;left:0;top:16px;bottom:16px;width:3px;background:rgba(127,211,255,.5);border-radius:0 2px 2px 0}
+.tile .k{font-size:20px;color:#8b97a6;letter-spacing:1px;margin-bottom:8px}
+.tile .t{font-family:NSB;font-size:33px;color:#fff;line-height:1.3}
+.tile .t em{font-style:normal;color:#7fd3ff}
+.tile.red{border-color:rgba(255,45,63,.4)}
+.tile.red:before{background:linear-gradient(180deg,#ff6b78,#c80f28)}
+.tile.red .t em{color:#ff6b78}
+.two{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:14px;min-height:0}
+.panel{background:linear-gradient(160deg,rgba(18,24,35,.94),rgba(12,16,23,.94));border:1px solid rgba(159,179,200,.12);border-radius:18px;padding:26px 26px 24px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.panel.red{border-color:rgba(255,45,63,.45);background:linear-gradient(160deg,rgba(255,45,63,.10),rgba(12,16,23,.96) 50%);box-shadow:0 0 28px rgba(255,45,63,.12)}
+.panel .k{font-family:NSB;font-size:24px;color:#9fb3c8;letter-spacing:2px}
+.panel .big{font-family:NSB;font-size:68px;line-height:.95;color:#fff;margin:16px 0 8px;letter-spacing:-2px}
+.panel .big em{font-style:normal;font-size:32px;color:#7fd3ff;letter-spacing:0;margin-left:4px}
+.panel.red .big em{color:#ff6b78}
+.panel .unit{font-size:24px;color:#9fb3c8;margin-bottom:16px}
+.panel .unit b{font-family:NSB;color:#fff;font-weight:normal}
+.li{display:flex;gap:12px;align-items:flex-start;margin-top:0;font-size:26px;line-height:1.55;color:#dfe6ee}
+.lis{display:flex;flex-direction:column;gap:18px;flex:1;justify-content:space-evenly;margin:6px 0 4px}
+.li .dot{flex:none;width:10px;height:10px;border-radius:50%;background:#7fd3ff;margin-top:12px;box-shadow:0 0 8px rgba(127,211,255,.6)}
+.panel.red .li .dot{background:#ff6b78;box-shadow:0 0 8px rgba(255,45,63,.6)}
+.nw{white-space:nowrap}.li b{font-family:NSB;color:#fff;font-weight:normal}
+.li em{font-style:normal;color:#7fd3ff;font-family:NSB}
+.panel.red .li em{color:#ff8a95}
+.warn{margin-top:16px;padding-top:16px;font-family:NSB;font-size:26px;line-height:1.5;color:#f3de9a;border-top:1px solid rgba(232,195,106,.28)}
+.photo{position:absolute;right:-8px;bottom:-8px;width:168px;height:200px;border-radius:16px 0 18px 0;background:url(file:///workspace/xhs/notes/20261112-大号-科技大佬恋情翻车/photos/huang.jpg) 50% 18%/cover no-repeat;opacity:.95;mask-image:linear-gradient(90deg,transparent 0%,#000 28%);filter:contrast(1.05) saturate(.9)}
+
+.wrap{height:1440px}h1{font-size:94px;line-height:1.1;margin-top:22px}h2{margin:22px 0 26px;font-size:29px;line-height:1.35}
+.content{height:1090px;display:flex;flex-direction:column;gap:18px;flex:none}
+.foot{position:absolute;left:44px;right:44px;bottom:21px;padding:0;font-size:16px;line-height:1.65}
+.blue{color:#7fd3ff}.gold{color:#f3de9a}.redtext{color:#ff6b78}.bold{font-family:NSB}
+.lead{font-family:NSB;font-size:42px;line-height:1.4;color:#fff}
+.band{background:linear-gradient(160deg,rgba(18,24,35,.94),rgba(12,16,23,.94));border:1px solid rgba(127,211,255,.22);border-radius:18px;padding:24px 30px;position:relative}
+.band:before{content:'';position:absolute;left:0;top:22px;bottom:22px;width:3px;background:rgba(127,211,255,.55)}
+.bhead{display:flex;align-items:center;gap:18px;margin-bottom:14px}
+.chip{font-family:NSB;font-size:23px;background:#163047;color:#7fd3ff;border:1px solid #34546b;border-radius:6px;padding:4px 12px;white-space:nowrap}
+.btitle{font-family:NSB;font-size:36px;line-height:1.35;color:#fff;white-space:nowrap}
+.para{font-size:30px;line-height:1.6;color:#c5d0db}
+.flow{font-family:NSB;font-size:32px;line-height:1.6;color:#7fd3ff;margin-bottom:6px;white-space:nowrap}
+.caveat{border-top:1px solid rgba(232,195,106,.3);padding-top:20px;font-size:28px;line-height:1.6;color:#c5d0db}
+.caveat strong{font-family:NSB;font-weight:normal;color:#f3de9a}
+.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.stat{border:1px solid rgba(127,211,255,.25);border-radius:18px;background:linear-gradient(160deg,rgba(18,24,35,.94),rgba(12,16,23,.94));padding:28px 30px}
+.stat .k{font-size:29px;color:#9fb3c8}.stat .value{font-family:NSB;font-size:110px;line-height:1.1;letter-spacing:-3px;margin-top:18px;color:#fff;white-space:nowrap}.stat .value small{font-size:30px;color:#7fd3ff;letter-spacing:0;margin-left:6px}
+.stat .yoy{margin-top:14px;font-size:28px;color:#c5d0db}.stat .yoy b{font-family:NSB;font-size:46px;color:#7fd3ff;margin-left:12px}
+.period{font-size:23px;color:#8b97a6;line-height:1.6}
+.comparison{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.cpanel{padding:26px 30px;border-top:3px solid #7fd3ff;background:linear-gradient(180deg,rgba(127,211,255,.07),transparent)}
+.cpanel.risk{border-top-color:#ff6b78;background:linear-gradient(180deg,rgba(255,45,63,.07),transparent)}
+.cpanel h3{font-family:NSB;font-size:37px;color:#fff;margin-bottom:20px}.cpanel p{font-size:29px;color:#c5d0db;line-height:1.65;margin-bottom:18px}
+.news{border:1px solid rgba(255,45,63,.38);background:linear-gradient(100deg,rgba(255,45,63,.10),rgba(12,16,23,.95));padding:24px 30px;border-radius:16px}
+.news h3{font-family:NSB;font-size:33px;color:#ff6b78;margin-bottom:12px}.news p{font-size:28px;color:#c5d0db;line-height:1.6}
+.close{font-family:NSB;font-size:37px;line-height:1.5;color:#f3de9a}
+.trades{border:1px solid rgba(127,211,255,.25);border-radius:18px;overflow:hidden;background:linear-gradient(160deg,rgba(18,24,35,.94),rgba(12,16,23,.94))}
+.tablehead{padding:20px 28px;display:flex;justify-content:space-between;border-bottom:1px solid rgba(127,211,255,.2);font-size:24px;color:#9fb3c8}
+.trade{display:flex;align-items:center;justify-content:space-between;padding:20px 28px;min-height:150px;border-bottom:1px solid rgba(127,211,255,.15)}.trade:last-child{border:0}
+.trade .name{font-family:NSB;font-size:36px;color:#fff;line-height:1.3}.trade .detail{font-size:25px;line-height:1.55;color:#9fb3c8;margin-top:9px}
+.trade .change{font-family:NSB;font-size:69px;color:#7fd3ff;line-height:1.1;text-align:right;white-space:nowrap}.trade .change small{font-size:29px;margin-left:3px}.trade .caption{font-size:22px;text-align:right;color:#9fb3c8;margin-top:7px}
+.explain{padding:8px 4px}.explain h3{font-family:NSB;font-size:42px;line-height:1.4;color:#fff;margin-bottom:17px}.explain p{font-size:31px;line-height:1.6;color:#c5d0db}
+.limit{border-top:1px solid rgba(232,195,106,.3);padding-top:20px;font-size:27px;line-height:1.6;color:#9fb3c8}
+</style></head><body><div class="bg"></div><div class="grid"></div><div class="wrap"><div class="top"><span class="brk">调仓</span><span>伯里做空英伟达｜理由、事实与调仓</span><span class="dt">2026.11.22</span></div><h1>减仓为何<em>不等于转多</em></h1><h2>卖出部分原有看跌期权，不是反手买入股票</h2><div class="content">
+<div class="lead blue" style="font-size:32px">据媒体报道｜11月21日报道的头寸更新</div>
+<div class="trades"><div class="tablehead"><span>标的与工具</span><span>据报道的变化</span></div><div class="trade"><div><div class="name">英伟达 NVDA</div><div class="detail">原有看跌期权</div></div><div><div class="change">50<small>%</small></div><div class="caption">卖出一半，保留另一半</div></div></div><div class="trade"><div><div class="name">半导体ETF SMH</div><div class="detail">原有看跌期权</div></div><div><div class="change">50<small>%</small></div><div class="caption">卖出一半，保留另一半</div></div></div><div class="trade"><div><div class="name">纳斯达克100</div><div class="detail">2027年4月到期看跌期权</div></div><div><div class="change" style="font-size:59px">保留</div><div class="caption">据报道未减</div></div></div></div>
+<div class="explain"><h3>看空理由，与当前仓位是两件事</h3><p>减少部分敞口，可以与保留看跌头寸并存。<br>这是对动作的解读，不是完整动机的已核原话。</p></div>
+<div class="limit">媒体转述其部分卖出获利，但成本、成交价与净利润未知。<br>一次盈亏，不能证明整套研究全对或全错。</div>
+<div class="close">减仓，不等于看多；获利，也不等于全对。</div></div><div class="foot">来源：Stocktwits（Yahoo分发）、Benzinga、Newsquawk（2026-11-21，北京时间）；原始交易正文付费未读。<br>仅为知识分享，不构成投资建议。</div></div><script>document.fonts.ready.then(()=>{let out={};for(const s of ['h1','h2','.content','.foot']){let e=document.querySelector(s),r=e.getBoundingClientRect();out[s]={x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom,scrollWidth:e.scrollWidth,clientWidth:e.clientWidth};}let last=document.querySelector('.content').lastElementChild.getBoundingClientRect();out.lastBlock={y:last.y,bottom:last.bottom};out.footerGap=out['.foot'].y-last.bottom;out.overflows=[...document.querySelectorAll('.content *')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>({class:e.className,text:e.innerText}));out.lineIssues=[];for(const e of document.querySelectorAll('.para,.cpanel p,.news p,.explain p,.limit,.caveat')){let lines={};let w=document.createTreeWalker(e,NodeFilter.SHOW_TEXT);while(w.nextNode()){const n=w.currentNode;for(let i=0;i<n.textContent.length;i++){let r=document.createRange();r.setStart(n,i);r.setEnd(n,i+1);let z=r.getBoundingClientRect();if(z.width>0){let k=Math.round(z.y);lines[k]=(lines[k]||'')+n.textContent[i];}}}let a=Object.values(lines).map(x=>x.trim()).filter(Boolean);if(a.some(x=>x.length<=2||/^[，。；：！？、）]/.test(x)))out.lineIssues.push({text:e.innerText,lines:a});}let t=document.createElement('script');t.type='application/json';t.id='layout-check';t.textContent=JSON.stringify(out);document.body.appendChild(t);});</script><script type="application/json" id="layout-check">{"h1":{"x":44,"y":88,"width":992,"height":103.390625,"right":1036,"bottom":191.390625,"scrollWidth":992,"clientWidth":992},"h2":{"x":44,"y":213.390625,"width":992,"height":39.140625,"right":1036,"bottom":252.53125,"scrollWidth":992,"clientWidth":992},".content":{"x":44,"y":278.53125,"width":992,"height":1090,"right":1036,"bottom":1368.53125,"scrollWidth":992,"clientWidth":992},".foot":{"x":44,"y":1366.21875,"width":992,"height":52.78125,"right":1036,"bottom":1419,"scrollWidth":992,"clientWidth":992},"lastBlock":{"y":1233.46875,"bottom":1288.96875},"footerGap":77.25,"overflows":[],"lineIssues":[]}</script></body></html>

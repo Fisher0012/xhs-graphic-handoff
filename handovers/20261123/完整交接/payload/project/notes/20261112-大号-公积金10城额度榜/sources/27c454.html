@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>住房公积金贷款计算器</title>
+    
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="SiteName" content="深圳市住房和建设局网站">
+		<meta name="SiteDomain" content="zjj.sz.gov.cn">
+		<meta name="SiteIDCode" content="4403000005">
+		<meta name="ColumnName" content="首月还款额计算">
+		<meta name="ColumnDescription" content="计算住房公积金贷款可贷金额，住房公积金和商业贷款每月还款额、首月还款额以">
+		<meta name="ColumnKeywords" content="月供计算 公积金贷款月供">
+		<meta name="ColumnType" content="政策指南">
+		<!--[if lt IE 9]>
+				<script type="text/javascript" src="/main-js/jquery1.js"></script>
+		<![endif]-->       
+		<script>window.NFCMS_SITE_ID=755029;window.NFCMS_PUB_TYPE="cat";window.NFCMS_CAT_ID="187599";</script><script src="//statistics.gd.gov.cn/scripts/s.js?t=1782811834" async></script>
+		<meta name="Keywords" content="月供计算 公积金贷款月供"/>
+		<meta name="description" content="计算住房公积金贷款可贷金额，住房公积金和商业贷款每月还款额、首月还款额以"/>
+    <link href="/main-css/2019_public.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/main-css/extendcss_44713.css">
+    <script src="/main-js/2017_jquery.js"></script>
+    <script type="text/javascript">
+        var whref = window.location.href;
+        if(whref.indexOf('pc=1') != -1){
+        }else{
+            if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+                try{
+                    window.location.href="mindex.html";
+                }catch(e){}
+
+            }
+        }
+    </script>
+    <link href="css/easycal-pc.css" rel="stylesheet" type="text/css">
+    <style>
+        .result-meta-item strong{
+            font-size: 16px;
+                white-space: nowrap;
+        }
+        .unit-note {
+            font-size: 13px;
+            color: #94a3b8;
+            margin-left: 12px;
+            font-weight: normal;
+        }
+.result-meta-row {
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+}
+/* 让整段规则文本不在标点处断开 */
+.rule-box li {
+    word-break: keep-all;
+}
+        </style>
+</head>
+<body>
+    <script defer async type="text/javascript" src="/szslh/dist/aria.js?appid=6a069bc9894990758b23c16863375531" charset="utf-8"></script>
+    <!-- 顶部导航 -->
+    <nav class="site-header">
+        <div class="site-header-inner">
+            <div class="site-logo">深圳市住房和建设局</div>
+            <ul class="site-nav">
+                <li><a href="/">首页</a></li>
+                <li><a href="/index.html?f=1">信息公开</a></li>
+                <li><a href="/index.html?f=2">政务服务</a></li>
+                <li><a href="/index.html?f=3">互动交流</a></li>
+            </ul>
+            <div class="site-actions">
+                <span class="action-btn" onclick="aria.start();" clickhide="true" title="无障碍阅读">无障碍</span>
+                <span class="action-btn" onclick="aria.oldFixedStart()"  clickhide="false" openText="进入关怀版" closeText="退出关怀版">长者版</span>
+                <span class="action-btn" onclick="translatePage();" id="translateButtonId" title="点击进行繁体与简体切换">繁体版</span>
+                <a class="action-btn action-icon"  href="/search/?txt=贷款">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                </a>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="打开菜单">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <line x1="3" y1="12" x2="21" y2="12"/>
+                    <line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 移动端侧边菜单 -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <div class="side-menu" id="sideMenu">
+        <div class="side-menu-header">
+            <span class="side-menu-title">菜单</span>
+            <button class="side-menu-close" id="menuClose" aria-label="关闭菜单">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <ul class="side-menu-nav">
+                <li><a href="/">首页</a></li>
+                <li><a href="/index.html?f=1">信息公开</a></li>
+                <li><a href="/index.html?f=2">政务服务</a></li>
+                <li><a href="/index.html?f=3">互动交流</a></li>
+        </ul>
+        <div class="side-menu-actions">
+            <span class="action-btn">长者版</span>
+            <span class="action-btn">繁体版</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <div class="header-text">
+                <div class="header-watermark">Loan Calculator</div>
+                <div class="header-main">
+                    <h1>住房公积金贷款计算器</h1>
+                </div>
+                <div class="header-sub">
+                    测算结果仅供参考，不作为贷款申请依据。具体住房公积金贷款可贷金额，住房公积金和商业贷款每月还款额、首月还款额以正式审批结果为准。
+                </div>
+            </div>
+            <div class="header-img">
+                <img src="images/bg-img.png" alt="计算器插图">
+            </div>
+        </div>
+
+        <!-- 浮动在右侧的详细计算入口 -->
+        <div class="title line1" style="display:flex;align-items:center;justify-content:space-between;margin-bottom: 20px;">
+         <h1 style="display:inline-flex;align-items:center;gap:8px;font-size: 20px;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#7c3aed;">
+              <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+              <line x1="8" y1="6" x2="16" y2="6"></line>
+              <line x1="8" y1="10" x2="16" y2="10"></line>
+              <line x1="8" y1="14" x2="12" y2="14"></line>
+            </svg>
+            首月还款额计算
+            <span class="unit-note">计量单位：人民币</span>
+          </h1>
+         <a href="https://zjj.sz.gov.cn/ztfw/zfgjj/dkjsq/index.html" target="_blank" title="贷款额度试算" style="display:inline-flex;align-items:center;gap:6px;font-size:18px;color:#7c3aed;text-decoration:none;padding:6px 14px;border-radius:14px;background:#f3f0ff;border:1px solid #ddd6fe;transition:all 0.2s;white-space:nowrap;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+              <line x1="8" y1="6" x2="16" y2="6"></line>
+              <line x1="8" y1="10" x2="16" y2="10"></line>
+              <line x1="8" y1="14" x2="12" y2="14"></line>
+            </svg>
+            贷款额度试算
+         </a>
+      </div>
+
+        <!-- 主内容 -->
+        <div class="main-wrap">
+            <!-- 左侧：贷款详情 -->
+            <div class="left-card">
+                <div class="left-header">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2"/>
+                        <line x1="8" y1="8" x2="16" y2="8"/>
+                        <line x1="8" y1="12" x2="16" y2="12"/>
+                        <line x1="8" y1="16" x2="12" y2="16"/>
+                    </svg>
+                    <h2>贷款详情</h2>
+                    
+                    <div class="left-header-img">
+                        <img src="images/cal_icon.png" alt="计算器图标">
+                    </div>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-item">
+                        <label class="form-label">贷款总额</label>
+                        <div class="form-input-wrap">
+                            <input type="number" id="totalLoan" placeholder="请输入贷款总额" step="0.01" min="0">
+                            <span class="input-unit">万元</span>
+                        </div>
+                        <div class="error-msg" id="err-totalLoan"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">住房公积金贷款金额</label>
+                        <div class="form-input-wrap">
+                            <input type="number" id="gjjLoan" placeholder="请输入住房公积金可贷金额" step="0.01" min="0">
+                            <span class="input-unit">万元</span>
+                        </div>
+                        <div class="error-msg" id="err-gjjLoan"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">家庭房产套数</label>
+                        <div class="form-input-wrap">
+                            <select id="houseCount">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                            </select>
+                        </div>
+                        <div class="error-msg" id="err-houseCount"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">贷款期数</label>
+                        <div class="form-input-wrap">
+                            <select id="loanTerm">
+                                <option value="12">1年（12期）</option>
+                                <option value="24">2年（24期）</option>
+                                <option value="36">3年（36期）</option>
+                                <option value="48">4年（48期）</option>
+                                <option value="60">5年（60期）</option>
+                                <option value="72">6年（72期）</option>
+                                <option value="84">7年（84期）</option>
+                                <option value="96">8年（96期）</option>
+                                <option value="108">9年（108期）</option>
+                                <option value="120">10年（120期）</option>
+                                <option value="132">11年（132期）</option>
+                                <option value="144">12年（144期）</option>
+                                <option value="156">13年（156期）</option>
+                                <option value="168">14年（168期）</option>
+                                <option value="180">15年（180期）</option>
+                                <option value="192">16年（192期）</option>
+                                <option value="204">17年（204期）</option>
+                                <option value="216">18年（216期）</option>
+                                <option value="228">19年（228期）</option>
+                                <option value="240">20年（240期）</option>
+                                <option value="252">21年（252期）</option>
+                                <option value="264">22年（264期）</option>
+                                <option value="276">23年（276期）</option>
+                                <option value="288">24年（288期）</option>
+                                <option value="300">25年（300期）</option>
+                                <option value="312">26年（312期）</option>
+                                <option value="324">27年（324期）</option>
+                                <option value="336">28年（336期）</option>
+                                <option value="348">29年（348期）</option>
+                                <option value="360" selected>30年（360期）</option>
+                            </select>
+                        </div>
+                        <div class="error-msg" id="err-loanTerm"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">住房公积金贷款利率</label>
+                        <div class="form-input-wrap">
+                            <input type="text" id="gjjRate" readonly>
+                            <span class="input-unit">%</span>
+                        </div>
+                        <div class="error-msg" id="err-gjjRate"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">商业贷款利率</label>
+                        <div class="form-input-wrap">
+                            <input type="number" id="syRate" placeholder="请输入申请商业贷款利率" step="0.001" min="0" value="3.05">
+                            <span class="input-unit">%</span>
+                        </div>
+                        <div class="error-msg" id="err-syRate"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">还款方式</label>
+                        <div class="form-input-wrap">
+                            <select id="repayMethod">
+                                <option value="benxi">等额本息</option>
+                                <option value="benjin">等额本金</option>
+                            </select>
+                        </div>
+                        <div class="error-msg" id="err-repayMethod"></div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label">商业贷款金额</label>
+                        <div class="form-input-wrap">
+                            <input type="text" id="syLoan" readonly placeholder="0">
+                            <span class="input-unit">万元</span>
+                        </div>
+                        <div class="error-msg" id="err-syLoan"></div>
+                    </div>
+                </div>
+
+                <div class="calc-btn-wrap">
+                    <button class="calc-btn" id="calcBtn">
+                        <img src="images/start.png" alt="">
+                        开始计算
+                    </button>
+                </div>
+            </div>
+
+            <!-- 右侧列：计算结果 + 备注 -->
+            <div class="right-column">
+                <div class="right-card">
+                    <div class="right-header">
+                        <h2>计算结果</h2>
+                        <svg class="calc-deco" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#8c4d7f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="4" y="2" width="16" height="20" rx="2"/>
+                            <line x1="8" y1="6" x2="16" y2="6"/>
+                            <line x1="8" y1="10" x2="10" y2="10"/>
+                            <line x1="14" y1="10" x2="16" y2="10"/>
+                            <line x1="8" y1="14" x2="10" y2="14"/>
+                            <line x1="14" y1="14" x2="16" y2="14"/>
+                            <line x1="8" y1="18" x2="10" y2="18"/>
+                            <line x1="14" y1="18" x2="16" y2="18"/>
+                        </svg>
+                    </div>
+
+                    <div class="result-main">
+                        <div class="result-main-label">首月还款额</div>
+                        <div class="result-main-amount empty" id="firstMonthPay">—<span>元</span></div>
+                        <div class="result-detail" id="resultDetail"></div>
+                        <div class="result-meta" id="resultMeta"></div>
+                    </div>
+
+                    
+                </div>
+
+                <!-- 备注 -->
+                <div class="note-card">
+                    <div class="note-header">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+                        </svg>
+                        <h2>贷款额度及上浮规则</h2>
+                    </div>
+                    <div class="note-content" style="    width: 380px;">
+                        <p style="    text-indent: 2em;">职工单独申请的，最高（基础）额度为70万元，两人及以上申请的，最高（基础）额度为130万元。符合下列情形之一的，最高额度可以上浮一定比例；同时符合两种及以上情形的，上浮比例可以累加计算：</p>
+                       
+                            <p style="    text-indent: 2em;">（1）购买深圳市首套住房，可上浮60%；</p>
+                            <p style="    text-indent: 2em;">（2）初婚初育家庭、有两个及以上子女家庭可分别上浮50%、70%；</p>
+                            <p style="    text-indent: 2em;">（3）购买深圳市保障性住房，可上浮40%。</p>
+                        <p style="margin-top:10px;color:#6b3a60;font-weight:500; text-indent: 2em;">职工住房公积金贷款额度最高可上浮170%，即单独申请最高可贷189万元，两人及以上申请最高可贷351万元。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 	底部信息 -->
+	<div class="footbox" tabindex="1" aria-region="true" aria-regiontype="4" aria-label="当前为网页底部服务区，有网站地图、网站主办信息、网站备案信息等内容" aria-autolabel="true">
+	<div class="footboxtop">
+		<div class="width1200 clearfix">
+		<span><b>主办单位：</b>深圳市住房和建设局</span>  <i>|</i>  
+		<!-- <span><b>承办单位：</b>深圳市住房建设信息中心</span><i>|</i> -->
+		<span><b>备案号：</b><a href="http://beian.miit.gov.cn" rel="noopener noreferrer" target="_blank" title="粤ICP备2023053213号" style="color:#666;">粤ICP备2023053213号</a></span>  <i>|</i>  
+		<span><b>网站标识码：</b>4403000005</span>
+		 <br> 
+		<!-- <span><b>咨询电话：</b>0755-83785555</span>  <i>|</i>   -->
+		<span><b>咨询电话：</b>0755-12345</span>  <i>|</i>
+		<span><b>信访投诉电话、执法投诉电话：</b>0755-83788218</span><i>|</i>
+		<!-- <span><b>信访投诉邮箱：</b>xf@zjj.sz.gov.cn</span><i>|</i><span><b>执法投诉邮箱：</b>zcfgc@zjj.sz.gov.cn</span> -->
+		<span><b>执法投诉邮箱：</b>zcfgc@zjj.sz.gov.cn</span>
+		<br>
+		<span class="spanallline"><b>工作时间：</b>9:00-12:00，14:00-18:00（工作日）</span><i>|</i>    
+		<span class="spanallline"><b>通讯地址：</b>深圳市福田区振兴路1号住建科研楼附楼一楼</span><i>|</i>  
+		<span class="jbAdd spanallline"><b>信访投诉举报箱位置：</b>深圳市福田区振兴路1号住建科研楼附楼一楼信访室</span> 
+		</div>
+	</div> 
+	<div class="footboxbottom">
+		<div class="width1170"> 
+			<span class="f-fl"><a href="/fzlm/bqbh/">版权保护</a>  -   <a href="/fzlm/yssm/">隐私声明</a>  -   <a href="/fzlm/wzdt/">网站地图</a>  -   <a href="/fzlm/wzbz/">网站帮助</a>  -   <a href="/fzlm/czzy/">网站操作指引</a>  <a href="/fzlm/link" class="pcdisplay"> - 友情链接</a>
+			</span>
+			<span class="f-fr"><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44030402002800" rel="noopener noreferrer" target="_blank"><img src="/main-images/beian.png" width="20" height="20"><span class="mobilenoshow">粤公网安备 44030402002800号</span></a><a href="http://bszs.conac.cn/sitename?method=show&amp;id=080586B9F87F789DE053022819AC8A45" rel="noopener noreferrer" target="_blank"><img src="/main-images/2018_P020160927403532608069.png" width="29" height="34"></a><script>unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/20/310/0000/60932976/CA203100000609329760001.js' type='text/javascript'%3E%3C/script%3E")</script>
+			<span><script id="_jiucuo_" sitecode="4403000005" src="/main-js/jiucuo.js"></script><span><img src="/main-images/mhwz_xxwza_icon.png" style="width: 60px;background: #fff;    margin-left: 5px;    vertical-align: middle;" alt="无障碍标志"></span></span>
+			</span>
+		</div>
+	</div>
+</div>
+<script src="/main-js/footer_52000.js?v=20200628091027"></script>
+ <script src="/main-js/fanjian_2024.js"></script>
+<script src="/main-js/jquery.cookie.js"></script>
+<script src="/main-js/znpush.js"></script>
+<style>
+	@media screen and (min-width: 300px) and (max-width: 1024px){
+		.footboxtop span.spanallline{
+			width:100%;
+		}
+	}
+
+</style>
+    <script>
+          (function() {
+        var params = new URLSearchParams(window.location.search);
+        if (params.get('t') === 'search') {
+            $(".site-header").hide();
+            $(".footbox").hide();
+            $(".title.line1").hide();
+        }
+    })();
+        $(function() {
+            // ---------- 移动端菜单 ----------
+            $('#menuToggle').on('click', function() {
+                $('#sideMenu').addClass('active');
+                $('#menuOverlay').addClass('active');
+                $('body').css('overflow', 'hidden');
+            });
+
+            function closeMenu() {
+                $('#sideMenu').removeClass('active');
+                $('#menuOverlay').removeClass('active');
+                $('body').css('overflow', '');
+            }
+
+            $('#menuClose, #menuOverlay').on('click', closeMenu);
+
+            // ---------- 工具函数 ----------
+            function showError(id, msg) {
+                $('#' + id).addClass('error');
+                $('#err-' + id).text(msg);
+            }
+
+            function clearError(id) {
+                $('#' + id).removeClass('error');
+                $('#err-' + id).text('');
+            }
+
+            function clearAllErrors() {
+                $('input, select').removeClass('error');
+                $('.error-msg').text('');
+            }
+
+            function getVal(id) {
+                return parseFloat($('#' + id).val());
+            }
+
+            // ---------- 业务逻辑 ----------
+                        function getGjjRate(houseCount, term) {
+                const isFirst = parseInt(houseCount) === 1;
+                const isShort = parseInt(term) <= 60;
+                if (isFirst) {
+                    return isShort ? parseFloat("2.1") : parseFloat("2.6");
+                } else {
+                    return isShort ? parseFloat("2.525") : parseFloat("3.075");
+                }
+            }
+            
+            function updateGjjRate() {
+                const houseCount = $('#houseCount').val() || 1;
+                const term = $('#loanTerm').val() || 360;
+                const rate = getGjjRate(houseCount, term);
+                //$('#gjjRate').val(rate.toFixed(3));
+                $('#gjjRate').val(rate);
+            }
+
+            function updateSyLoan() {
+                const total = parseFloat($('#totalLoan').val()) || 0;
+                const gjj = parseFloat($('#gjjLoan').val()) || 0;
+                const sy = total - gjj;
+                $('#syLoan').val(sy >= 0 ? sy.toFixed(2) : '0.00');
+            }
+
+            // ---------- 校验 ----------
+            function validate() {
+                clearAllErrors();
+                let isValid = true;
+
+                const totalLoan = getVal('totalLoan');
+                if (isNaN(totalLoan) || $('#totalLoan').val().trim() === '') {
+                    showError('totalLoan', '请输入贷款总额');
+                    isValid = false;
+                } else if (totalLoan < 0) {
+                    showError('totalLoan', '贷款总额不能为负数');
+                    isValid = false;
+                }
+
+                const gjjLoan = getVal('gjjLoan');
+                if (isNaN(gjjLoan) || $('#gjjLoan').val().trim() === '') {
+                    showError('gjjLoan', '请输入公积金贷款金额');
+                    isValid = false;
+                } else if (gjjLoan <= 0) {
+                    showError('gjjLoan', '公积金贷款金额必须大于0');
+                    isValid = false;
+                } else if (gjjLoan > 351) {
+                    showError('gjjLoan', '公积金贷款额最高351万');
+                    isValid = false;
+                } else if (!isNaN(totalLoan) && gjjLoan > totalLoan) {
+                    showError('gjjLoan', '公积金贷款金额不能超过贷款总额');
+                    isValid = false;
+                }
+
+                const houseCount = getVal('houseCount');
+                if (isNaN(houseCount) || $('#houseCount').val().trim() === '') {
+                    showError('houseCount', '请选择家庭房产套数');
+                    isValid = false;
+                }
+
+                const loanTerm = getVal('loanTerm');
+                if (isNaN(loanTerm) || $('#loanTerm').val().trim() === '') {
+                    showError('loanTerm', '请选择贷款期数');
+                    isValid = false;
+                }
+
+                const syRate = getVal('syRate');
+                if (isNaN(syRate) || $('#syRate').val().trim() === '') {
+                    showError('syRate', '请输入商业贷款利率');
+                    isValid = false;
+                } else if (syRate < 0) {
+                    showError('syRate', '商业贷款利率不能为负数');
+                    isValid = false;
+                }
+
+                return isValid;
+            }
+
+            // ---------- 计算 ----------
+            function calcEqualInterest(principal, monthlyRate, months) {
+                if (monthlyRate === 0) return principal / months;
+                return principal * monthlyRate * Math.pow(1 + monthlyRate, months) /
+                    (Math.pow(1 + monthlyRate, months) - 1);
+            }
+
+            function calcEqualPrincipalFirstMonth(principal, monthlyRate, months) {
+                return principal / months + principal * monthlyRate;
+            }
+
+            // 由贷款额度反推月供（等额本息），annualRate为年利率（如0.026）
+            function calcMonthlyPaymentFromLoan(loanAmount, annualRate, months) {
+                const monthlyRate = annualRate / 12;
+                if (monthlyRate === 0) return loanAmount / months;
+                return loanAmount * monthlyRate * Math.pow(1 + monthlyRate, months) /
+                       (Math.pow(1 + monthlyRate, months) - 1);
+            }
+
+            function calculate() {
+                if (!validate()) {
+                    $('#firstMonthPay').html('—<span>元</span>').addClass('empty');
+                    $('#resultDetail').html('');
+                    $('#baseSum').text('—').addClass('empty');
+                    $('#balanceSum').text('—').addClass('empty');
+                    return;
+                }
+
+                const totalLoan = getVal('totalLoan');
+                const gjjLoan = getVal('gjjLoan');
+                const syLoanVal = parseFloat($('#syLoan').val()) || 0;
+                const gjjRate = parseFloat($('#gjjRate').val()) || 0;
+                const syRate = getVal('syRate');
+                const term = parseInt($('#loanTerm').val()) || 0;
+                const method = $('#repayMethod').val();
+
+                const gjjPrincipal = gjjLoan * 10000;
+                const syPrincipal = syLoanVal * 10000;
+
+                const gjjMonthlyRate = gjjRate / 100 / 12;
+                const syMonthlyRate = syRate / 100 / 12;
+
+                let firstMonth = 0;
+                let gjjPay = 0;
+                let syPay = 0;
+
+                if (method === 'benxi') {
+                    gjjPay = Math.round(calcEqualInterest(gjjPrincipal, gjjMonthlyRate, term) * 100) / 100;
+                    syPay = Math.round(calcEqualInterest(syPrincipal, syMonthlyRate, term) * 100) / 100;
+                    firstMonth = Math.round((gjjPay + syPay) * 100) / 100;
+                } else {
+                    gjjPay = Math.round(calcEqualPrincipalFirstMonth(gjjPrincipal, gjjMonthlyRate, term) * 100) / 100;
+                    syPay = Math.round(calcEqualPrincipalFirstMonth(syPrincipal, syMonthlyRate, term) * 100) / 100;
+                    firstMonth = Math.round((gjjPay + syPay) * 100) / 100;
+                }
+
+                // 缴存基数之和：只基于公积金贷款部分的月供 × 2（用等额本息公式反推）
+                const gjjMonthlyPayment = calcMonthlyPaymentFromLoan(gjjPrincipal, gjjRate / 100, term);
+                const baseThreshold = gjjMonthlyPayment * 2;
+                const balanceThreshold = gjjPrincipal / 16;
+
+                $('#firstMonthPay').html(firstMonth.toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + '<span>元</span>').removeClass('empty');
+
+                // 显示纯公积金标注或分项还款额
+                if (syLoanVal === 0) {
+                    $('#resultDetail').html('<span class="result-detail-tag">纯公积金</span>');
+                } else {
+                    $('#resultDetail').html(
+                        '<div class="result-detail-prefix">其中：</div>' +
+                        '<div class="result-detail-row">' +
+                            '<div class="result-detail-item">' +
+                                '<span class="result-detail-label">公积金</span>' +
+                                '<span class="result-detail-value">' + gjjPay.toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' 元</span>' +
+                            '</div>' +
+                            '<div class="result-detail-item">' +
+                                '<span class="result-detail-label">商业贷款</span>' +
+                                '<span class="result-detail-value">' + syPay.toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + ' 元</span>' +
+                            '</div>' +
+                        '</div>'
+                    );
+                }
+
+                $('#resultMeta').html(
+                    '<div class="result-meta-row">' +
+                        '<div class="result-meta-item">申请人和参与额度计算的共同申请人住房公积金缴存基数之和需大于<strong>' + Math.ceil(baseThreshold).toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + '</strong>元，住房公积金账户余额之和需大于<strong>' + Math.ceil(balanceThreshold).toLocaleString('zh-CN', {minimumFractionDigits: 2, maximumFractionDigits: 2}) + '</strong>元。</div>' +
+                    '</div>'
+                );
+            }
+
+            // ---------- 事件绑定 ----------
+            let hasCalculated = false;
+
+            $('input[type="number"]').on('input', function() {
+                const val = $(this).val();
+                const num = parseFloat(val);
+                const id = $(this).attr('id');
+
+                if (val.indexOf('-') !== -1 || num < 0) {
+                    $(this).val(Math.abs(num || 0));
+                    showError(id, '不能输入负数');
+                } else {
+                    if ($('#err-' + id).text() === '不能输入负数') {
+                        clearError(id);
+                    }
+                }
+            });
+
+            $('#totalLoan, #gjjLoan').on('input', function() {
+                const total = getVal('totalLoan');
+                const gjj = getVal('gjjLoan');
+                updateSyLoan();
+                if (!isNaN(total) && !isNaN(gjj) && gjj <= total && total >= 0 && gjj >= 0) {
+                    clearError('gjjLoan');
+                    clearError('totalLoan');
+                }
+            });
+
+            $('#houseCount, #loanTerm').on('input change', function() {
+                const id = $(this).attr('id');
+                const val = getVal(id);
+
+                if (id === 'loanTerm' && !isNaN(val)) {
+                    if (val > 360) {
+                        showError('loanTerm', '贷款期数最高不超过360个月');
+                    } else if (val >= 1) {
+                        clearError('loanTerm');
+                    }
+                }
+                updateGjjRate();
+            });
+
+            $('#calcBtn').on('click', function() {
+                hasCalculated = true;
+                calculate();
+            });
+
+            $('input, select').on('keypress', function(e) {
+                if (e.which === 13) {
+                    hasCalculated = true;
+                    calculate();
+                }
+            });
+
+            // 已计算后，修改输入自动重新计算
+            function autoCalculate() {
+                if (!hasCalculated) return;
+
+                const totalLoan = getVal('totalLoan');
+                const gjjLoan = getVal('gjjLoan');
+                const houseCount = $('#houseCount').val();
+                const loanTerm = $('#loanTerm').val();
+                const syRate = getVal('syRate');
+
+                const allFilled = !isNaN(totalLoan) && totalLoan > 0 &&
+                                  !isNaN(gjjLoan) && gjjLoan > 0 && gjjLoan <= 351 &&
+                                  houseCount && loanTerm &&
+                                  !isNaN(syRate) && syRate >= 0;
+
+                if (allFilled) {
+                    calculate();
+                } else {
+                    $('#firstMonthPay').html('—<span>元</span>').addClass('empty');
+                    $('#resultDetail').html('');
+                    $('#resultMeta').html('');
+                }
+            }
+
+            $('#totalLoan, #gjjLoan, #syRate').on('input', function() {
+                autoCalculate();
+            });
+
+            $('#houseCount, #loanTerm, #repayMethod').on('change', function() {
+                autoCalculate();
+            });
+
+            // 初始化
+            updateGjjRate();
+            updateSyLoan();
+        });
+    </script>
+</body>
+</html>

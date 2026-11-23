@@ -1,0 +1,57 @@
+{
+  "note": "内存9个月翻两番，电脑手机为啥跟着贵",
+  "archive_date": "2026-10-29",
+  "account": "阿信学财经",
+  "image_count": 4,
+  "image_size": "2160x2880",
+  "title_chars": 18,
+  "body_char_count_no_whitespace": 798,
+  "tags": [
+    "#财经",
+    "#涨价",
+    "#财经知识",
+    "#AI",
+    "#消费电子",
+    "#内存涨价",
+    "#电脑手机涨价"
+  ],
+  "files": [
+    {
+      "name": "00_封面.png",
+      "bytes": 347495,
+      "sha256": "82bfadb12009fd9ba64bfe028cd7490200ccdee441e8cc2794a1d503c060b25d",
+      "size": "2160x2880"
+    },
+    {
+      "name": "01_涨幅变小不等于降价.png",
+      "bytes": 439851,
+      "sha256": "7381638282ab04406068684ad31041ab9e4c0b5eca4ea64d2177ec18bab626c4",
+      "size": "2160x2880"
+    },
+    {
+      "name": "02_AI抢产能怎么传到你手上.png",
+      "bytes": 414392,
+      "sha256": "dc2dcd71c1ede9331328f465d0b8d9925a44b5d18c41207b7ff13a19ec4a918f",
+      "size": "2160x2880"
+    },
+    {
+      "name": "03_换设备前知道这4点.png",
+      "bytes": 361217,
+      "sha256": "16cfc175f166ee3a6363ce2d75a6ae599031eb651896c201bb2864fb697b3826",
+      "size": "2160x2880"
+    },
+    {
+      "name": "04_发布文案.txt",
+      "bytes": 2243,
+      "sha256": "0fb771d517b2bdfc728b0a03268a8854d185e9b19cbe09eccfb92f2f91dfd528"
+    },
+    {
+      "name": "05_来源说明.txt",
+      "bytes": 3820,
+      "sha256": "cc75a072cb69daf622ae9c28d1f18e24279eb5fec2effb804ecd995e53c121dd"
+    }
+  ],
+  "compliance": "10项自查通过（商单项不适用）；P3来源行「美光CEO」→「存储原厂」，已重渲染；详见 05-合规.md",
+  "published": false,
+  "publish_by": "Fisher 本人手动发布"
+}
